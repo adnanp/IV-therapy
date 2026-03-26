@@ -26,7 +26,7 @@ export interface Review {
   text: string;
   time: number;
   relativeTimeDescription: string;
-  source: "google";
+  source: "google" | "trustpilot";
   placeId: string;
 }
 

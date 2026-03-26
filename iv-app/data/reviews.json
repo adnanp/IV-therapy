@@ -1,1 +1,46 @@
-{}
+{
+  "invigor-medical-pasco": [
+    {
+      "authorName": "Victor R.",
+      "authorPhotoUrl": null,
+      "rating": 5,
+      "text": "Enzo from customer service was really helpful in helping me with all my questions. Thank you Enzo! Great job keep up the good work.",
+      "time": 1730073600,
+      "relativeTimeDescription": "17 months ago",
+      "source": "trustpilot",
+      "placeId": "invigor-medical-pasco"
+    },
+    {
+      "authorName": "Coreen L.",
+      "authorPhotoUrl": null,
+      "rating": 5,
+      "text": "The service was great. Very quick and efficient. Delivery was quick too. And Enzo was a huge help! Thanks!",
+      "time": 1729555200,
+      "relativeTimeDescription": "17 months ago",
+      "source": "trustpilot",
+      "placeId": "invigor-medical-pasco"
+    },
+    {
+      "authorName": "Praveen G.",
+      "authorPhotoUrl": null,
+      "rating": 1,
+      "text": "I ordered medication and kept it in the freezer like their doctors suggested me to do. The vial started developing some deposits after a while. The vial was never even opened and I did not get to use the medication even once. When I contacted customer service, they said they will not replace it.",
+      "time": 1717718400,
+      "relativeTimeDescription": "21 months ago",
+      "source": "trustpilot",
+      "placeId": "invigor-medical-pasco"
+    }
+  ],
+  "northwest-weight-wellness-center-everett": [
+    {
+      "authorName": "Anna B.",
+      "authorPhotoUrl": null,
+      "rating": 5,
+      "text": "Dr. Michaelson saved our family's life. We had four family members with successful surgeries performed by him and no issues. The staff is caring and provide great care. Do not hesitate. He is definitely the best!",
+      "time": 1704067200,
+      "relativeTimeDescription": "over a year ago",
+      "source": "google",
+      "placeId": "northwest-weight-wellness-center-everett"
+    }
+  ]
+}
