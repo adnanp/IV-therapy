@@ -1,0 +1,59 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Clinic {
+  id            String    @id @default(cuid())
+  slug          String    @unique
+  name          String
+  streetAddress String
+  city          String
+  state         String
+  zip           String
+  phone         String?
+  website       String?
+  hours         String?
+  rating        Float?
+  reviewCount   Int?
+  categories    String?
+  description   String?
+  priceRange    String?
+  createdAt     DateTime  @default(now())
+  services      Service[]
+  images        Image[]
+  reviews       Review[]
+}
+
+model Service {
+  id          String  @id @default(cuid())
+  clinicId    String
+  name        String
+  description String?
+  ingredients String?
+  duration    String?
+  price       String?
+  clinic      Clinic  @relation(fields: [clinicId], references: [id])
+}
+
+model Image {
+  id       String  @id @default(cuid())
+  clinicId String
+  url      String
+  altText  String?
+  clinic   Clinic  @relation(fields: [clinicId], references: [id])
+}
+
+model Review {
+  id         String    @id @default(cuid())
+  clinicId   String
+  reviewer   String?
+  rating     Int
+  text       String?
+  date       DateTime?
+  clinic     Clinic    @relation(fields: [clinicId], references: [id])
+}
