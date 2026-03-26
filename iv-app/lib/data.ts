@@ -1,4 +1,5 @@
 import clinicsData from "@/data/clinics.json";
+import reviewsData from "@/data/reviews.json";
 
 export interface Clinic {
   id: number;
@@ -18,7 +19,23 @@ export interface Clinic {
   description: string | null;
 }
 
+export interface Review {
+  authorName: string;
+  authorPhotoUrl: string | null;
+  rating: number;
+  text: string;
+  time: number;
+  relativeTimeDescription: string;
+  source: "google";
+  placeId: string;
+}
+
 const clinics: Clinic[] = clinicsData as Clinic[];
+const reviews = reviewsData as Record<string, Review[]>;
+
+export function getReviews(slug: string): Review[] {
+  return reviews[slug] ?? [];
+}
 
 export function getAllClinics(): Clinic[] {
   return clinics;

@@ -1,4 +1,5 @@
-import { getClinic, getAllSlugs } from "@/lib/data";
+import { getClinic, getAllSlugs, getReviews } from "@/lib/data";
+import { ReviewCard } from "@/components/ReviewCard";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -49,6 +50,7 @@ export default async function ClinicDetailPage({ params }: PageProps) {
   const hoursDisplay = getHoursDisplay(clinic.hours);
   const phone = formatPhone(clinic.phone);
   const services = IV_SERVICES.slice(0, 4);
+  const reviews = getReviews(slug);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -173,6 +175,21 @@ export default async function ClinicDetailPage({ params }: PageProps) {
                 ))}
               </div>
             </section>
+
+            {/* Patient Reviews */}
+            {reviews.length > 0 && (
+              <section>
+                <h2 className="text-xl font-bold text-gray-900 mb-4">Patient Reviews</h2>
+                <div className="space-y-4">
+                  {reviews.slice(0, 5).map((review, i) => (
+                    <ReviewCard key={`${review.placeId}-${i}`} review={review} />
+                  ))}
+                </div>
+                <p className="text-xs text-gray-400 mt-3">
+                  Reviews sourced from Google. Displayed ratings may differ from the aggregate score above.
+                </p>
+              </section>
+            )}
 
             {/* What to Expect */}
             <section>

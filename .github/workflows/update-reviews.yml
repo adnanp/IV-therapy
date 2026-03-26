@@ -1,0 +1,57 @@
+name: Update Clinic Reviews
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'   # 1st of every month at 06:00 UTC
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Fetch mode'
+        required: false
+        default: 'top10'
+        type: choice
+        options:
+          - top10    # only the top 10 clinics (fast, ~20 API calls)
+          - all      # all 317 clinics (full refresh, ~634 API calls)
+          - force    # all clinics, re-fetch even if they already have reviews
+
+jobs:
+  update-reviews:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run fetch-reviews script
+        working-directory: iv-app
+        env:
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+        run: |
+          MODE="${{ github.event.inputs.mode || 'top10' }}"
+          if [ "$MODE" = "all" ]; then
+            node scripts/fetch-reviews.mjs --all
+          elif [ "$MODE" = "force" ]; then
+            node scripts/fetch-reviews.mjs --all --force
+          else
+            node scripts/fetch-reviews.mjs
+          fi
+
+      - name: Commit and push if reviews changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add iv-app/data/reviews.json
+          if git diff --staged --quiet; then
+            echo "No changes to reviews.json — skipping commit"
+          else
+            git commit -m "chore: refresh clinic reviews $(date -u +%Y-%m-%d)"
+            git push
+          fi
