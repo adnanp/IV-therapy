@@ -1,4 +1,4 @@
-import { prisma } from "@/lib/prisma";
+import { getClinic, getAllSlugs } from "@/lib/data";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -18,7 +18,7 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const clinic = await prisma.clinic.findUnique({ where: { slug } });
+  const clinic = getClinic(slug);
   if (!clinic) return {};
   return {
     title: `${clinic.name} – IV Therapy in ${clinic.city}, ${clinic.state}`,
@@ -26,9 +26,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export async function generateStaticParams() {
-  const clinics = await prisma.clinic.findMany({ select: { slug: true } });
-  return clinics.map((c) => ({ slug: c.slug }));
+export function generateStaticParams() {
+  return getAllSlugs();
 }
 
 const IV_SERVICES = [
@@ -42,17 +41,14 @@ const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
 
 export default async function ClinicDetailPage({ params }: PageProps) {
   const { slug } = await params;
-  const clinic = await prisma.clinic.findUnique({
-    where: { slug },
-    include: { services: true },
-  });
+  const clinic = getClinic(slug);
 
   if (!clinic) notFound();
 
   const openStatus = isOpenNow(clinic.hours);
   const hoursDisplay = getHoursDisplay(clinic.hours);
   const phone = formatPhone(clinic.phone);
-  const services = clinic.services.length > 0 ? clinic.services : IV_SERVICES.slice(0, 4);
+  const services = IV_SERVICES.slice(0, 4);
 
   const jsonLd = {
     "@context": "https://schema.org",

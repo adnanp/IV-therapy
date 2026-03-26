@@ -1,4 +1,4 @@
-import { prisma } from "@/lib/prisma";
+import { searchClinics } from "@/lib/data";
 import { ClinicCard } from "@/components/ClinicCard";
 import { SearchBar } from "@/components/SearchBar";
 import { SearchFilters } from "@/components/SearchFilters";
@@ -23,60 +23,9 @@ export async function generateMetadata({ searchParams }: SearchPageProps): Promi
   };
 }
 
-async function searchClinics(params: {
-  q?: string;
-  zip?: string;
-  rating?: string;
-  open?: string;
-  sort?: string;
-}) {
-  const { q, zip, rating, sort } = params;
-
-  const minRating = rating ? parseFloat(rating) : undefined;
-
-  let where: Record<string, unknown> = {};
-
-  if (zip) {
-    where = { zip: { contains: zip.trim() } };
-  } else if (q) {
-    const term = q.trim();
-    // Check if it looks like "City, ST" or just a city name
-    const parts = term.split(",").map((s) => s.trim());
-    if (parts.length >= 2) {
-      where = {
-        AND: [
-          { city: { contains: parts[0], mode: "insensitive" } },
-          { state: { contains: parts[1], mode: "insensitive" } },
-        ],
-      };
-    } else {
-      where = {
-        OR: [
-          { city: { contains: term, mode: "insensitive" } },
-          { state: { contains: term, mode: "insensitive" } },
-          { name: { contains: term, mode: "insensitive" } },
-        ],
-      };
-    }
-  }
-
-  if (minRating) {
-    where = { ...where, rating: { gte: minRating } };
-  }
-
-  const orderBy =
-    sort === "reviews"
-      ? [{ reviewCount: "desc" as const }]
-      : sort === "name"
-      ? [{ name: "asc" as const }]
-      : [{ rating: "desc" as const }, { reviewCount: "desc" as const }];
-
-  return prisma.clinic.findMany({ where, orderBy, take: 100 });
-}
-
 export default async function SearchPage({ searchParams }: SearchPageProps) {
   const params = await searchParams;
-  const clinics = await searchClinics(params);
+  const clinics = searchClinics(params);
   const query = params.q || params.zip || "";
   const hasSearch = !!query;
 

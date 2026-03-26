@@ -1,16 +1,12 @@
 import { MetadataRoute } from "next";
-import { prisma } from "@/lib/prisma";
+import { getAllSlugs } from "@/lib/data";
 
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://ivdirectory.com";
 
-  const clinics = await prisma.clinic.findMany({
-    select: { slug: true, createdAt: true },
-  });
-
-  const clinicUrls: MetadataRoute.Sitemap = clinics.map((clinic) => ({
-    url: `${baseUrl}/clinic/${clinic.slug}`,
-    lastModified: clinic.createdAt,
+  const clinicUrls: MetadataRoute.Sitemap = getAllSlugs().map(({ slug }) => ({
+    url: `${baseUrl}/clinic/${slug}`,
+    lastModified: new Date(),
     changeFrequency: "monthly",
     priority: 0.8,
   }));

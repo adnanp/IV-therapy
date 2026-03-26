@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { StarRating } from "@/components/StarRating"
 import { isOpenNow, formatPhone } from "@/lib/utils"
-import type { Clinic } from "@/app/generated/prisma/client"
+import type { Clinic } from "@/lib/data"
 
 interface ClinicCardProps {
   clinic: Clinic
