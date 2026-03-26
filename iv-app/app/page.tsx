@@ -1,30 +1,13 @@
 import Link from "next/link";
-import { prisma } from "@/lib/prisma";
 import { SearchBar } from "@/components/SearchBar";
 import { ClinicCard } from "@/components/ClinicCard";
+import { getTopClinics, getFeaturedCities } from "@/lib/data";
 import { MapPin, Star, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-async function getTopClinics() {
-  return prisma.clinic.findMany({
-    where: { rating: { gte: 4.5 }, reviewCount: { gte: 50 } },
-    orderBy: [{ rating: "desc" }, { reviewCount: "desc" }],
-    take: 6,
-  });
-}
-
-async function getFeaturedCities() {
-  const cities = await prisma.clinic.groupBy({
-    by: ["city", "state"],
-    _count: { id: true },
-    orderBy: { _count: { id: "desc" } },
-    take: 8,
-  });
-  return cities;
-}
-
-export default async function HomePage() {
-  const [topClinics, featuredCities] = await Promise.all([getTopClinics(), getFeaturedCities()]);
+export default function HomePage() {
+  const topClinics = getTopClinics(6);
+  const featuredCities = getFeaturedCities(8);
 
   return (
     <div>
@@ -76,7 +59,7 @@ export default async function HomePage() {
                 className="flex items-center justify-between px-4 py-3 rounded-xl border border-gray-200 bg-white hover:border-teal-400 hover:shadow-sm transition-all group"
               >
                 <span className="font-medium text-gray-800 group-hover:text-teal-700 text-sm">{c.city}, {c.state}</span>
-                <span className="text-xs text-gray-400">{c._count.id}</span>
+                <span className="text-xs text-gray-400">{c.count}</span>
               </Link>
             ))}
           </div>

@@ -1,4 +1,4 @@
-import { prisma } from "@/lib/prisma";
+import { searchClinics } from "@/lib/data";
 import { ClinicCard } from "@/components/ClinicCard";
 import { SearchBar } from "@/components/SearchBar";
 import { SearchFilters } from "@/components/SearchFilters";
@@ -9,7 +9,6 @@ interface SearchPageProps {
     q?: string;
     zip?: string;
     rating?: string;
-    open?: string;
     sort?: string;
   }>;
 }
@@ -23,77 +22,23 @@ export async function generateMetadata({ searchParams }: SearchPageProps): Promi
   };
 }
 
-async function searchClinics(params: {
-  q?: string;
-  zip?: string;
-  rating?: string;
-  open?: string;
-  sort?: string;
-}) {
-  const { q, zip, rating, sort } = params;
-
-  const minRating = rating ? parseFloat(rating) : undefined;
-
-  let where: Record<string, unknown> = {};
-
-  if (zip) {
-    where = { zip: { contains: zip.trim() } };
-  } else if (q) {
-    const term = q.trim();
-    // Check if it looks like "City, ST" or just a city name
-    const parts = term.split(",").map((s) => s.trim());
-    if (parts.length >= 2) {
-      where = {
-        AND: [
-          { city: { contains: parts[0], mode: "insensitive" } },
-          { state: { contains: parts[1], mode: "insensitive" } },
-        ],
-      };
-    } else {
-      where = {
-        OR: [
-          { city: { contains: term, mode: "insensitive" } },
-          { state: { contains: term, mode: "insensitive" } },
-          { name: { contains: term, mode: "insensitive" } },
-        ],
-      };
-    }
-  }
-
-  if (minRating) {
-    where = { ...where, rating: { gte: minRating } };
-  }
-
-  const orderBy =
-    sort === "reviews"
-      ? [{ reviewCount: "desc" as const }]
-      : sort === "name"
-      ? [{ name: "asc" as const }]
-      : [{ rating: "desc" as const }, { reviewCount: "desc" as const }];
-
-  return prisma.clinic.findMany({ where, orderBy, take: 100 });
-}
-
 export default async function SearchPage({ searchParams }: SearchPageProps) {
   const params = await searchParams;
-  const clinics = await searchClinics(params);
+  const clinics = searchClinics(params);
   const query = params.q || params.zip || "";
   const hasSearch = !!query;
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      {/* Search bar */}
       <div className="mb-8 max-w-xl">
         <SearchBar defaultValue={query} />
       </div>
 
       <div className="flex gap-8">
-        {/* Filters sidebar */}
         <aside className="hidden lg:block w-56 shrink-0">
           <SearchFilters currentSort={params.sort} currentRating={params.rating} query={query} />
         </aside>
 
-        {/* Results */}
         <div className="flex-1 min-w-0">
           <div className="flex items-center justify-between mb-5">
             <div>
