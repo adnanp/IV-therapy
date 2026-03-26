@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "slug": "lifted-beauty-wellness-seattle",
     "name": "Lifted Beauty & Wellness",
     "streetAddress": "3300 E Union St",
@@ -17,7 +17,7 @@
     "description": null
   },
   {
-    "id": "2",
+    "id": 2,
     "slug": "intravene-mobile-iv-therapy-seattle",
     "name": "Intravene Mobile IV Therapy",
     "streetAddress": "600 1st Ave 1st Floor",
@@ -34,7 +34,7 @@
     "description": null
   },
   {
-    "id": "3",
+    "id": 3,
     "slug": "prime-iv-hydration-wellness-south-lake-union-seattle-seattle",
     "name": "Prime IV Hydration & Wellness - South Lake Union Seattle",
     "streetAddress": "2121 Terry Ave Ste 100",
@@ -51,7 +51,7 @@
     "description": null
   },
   {
-    "id": "4",
+    "id": 4,
     "slug": "prime-iv-hydration-wellness-appleton-appleton",
     "name": "Prime IV Hydration & Wellness - Appleton",
     "streetAddress": "2100 S Kensington Dr",
@@ -68,7 +68,7 @@
     "description": null
   },
   {
-    "id": "5",
+    "id": 5,
     "slug": "revive-low-t-clinic-kirkland",
     "name": "Revive Low T Clinic",
     "streetAddress": "11911 NE 132nd St Suite 103",
@@ -85,8 +85,8 @@
     "description": null
   },
   {
-    "id": "6",
-    "slug": "best-you-healthcare-solutions-iv-therapy-trt-weight-loss-dot-certifications-sandy",
+    "id": 6,
+    "slug": "best-you-healthcare-solutions-iv-therapy-trt-weight-loss-dot-certifications-sand",
     "name": "Best You Healthcare Solutions - IV Therapy, TRT, Weight Loss, DOT Certifications",
     "streetAddress": "39084 Proctor Blvd",
     "city": "Sandy",
@@ -102,7 +102,7 @@
     "description": null
   },
   {
-    "id": "7",
+    "id": 7,
     "slug": "fresh-iv-drips-fresh-meadows",
     "name": "Fresh IV Drips",
     "streetAddress": "73-38 178th St",
@@ -119,7 +119,7 @@
     "description": null
   },
   {
-    "id": "8",
+    "id": 8,
     "slug": "island-health-anacortes",
     "name": "Island Health",
     "streetAddress": "1211 24th St",
@@ -136,7 +136,7 @@
     "description": null
   },
   {
-    "id": "9",
+    "id": 9,
     "slug": "revive-low-t-clinic-federal-way",
     "name": "Revive Low T Clinic",
     "streetAddress": "720 S 320th St Suite A",
@@ -153,7 +153,7 @@
     "description": null
   },
   {
-    "id": "10",
+    "id": 10,
     "slug": "flow-motion-ferndale",
     "name": "Flow Motion",
     "streetAddress": "1920 Main St #19",
@@ -170,7 +170,7 @@
     "description": null
   },
   {
-    "id": "11",
+    "id": 11,
     "slug": "medivee-live-well-aesthetics-ferndale",
     "name": "Medivee & Live Well Aesthetics",
     "streetAddress": "747 W Nine Mile Rd",
@@ -187,7 +187,7 @@
     "description": null
   },
   {
-    "id": "12",
+    "id": 12,
     "slug": "alpine-integrated-medicine-redmond",
     "name": "Alpine Integrated Medicine",
     "streetAddress": "22635 NE Marketplace Dr Suite 130",
@@ -204,7 +204,7 @@
     "description": null
   },
   {
-    "id": "13",
+    "id": 13,
     "slug": "zyra-clinic-redmond",
     "name": "Zyra Clinic",
     "streetAddress": "17645 NE 69th Ct Suite 120",
@@ -221,7 +221,7 @@
     "description": null
   },
   {
-    "id": "14",
+    "id": 14,
     "slug": "the-dripbar-fairfield-iv-therapy-fairfield",
     "name": "The DRIPBaR Fairfield - IV Therapy",
     "streetAddress": "2246 Black Rock Tpke",
@@ -238,7 +238,7 @@
     "description": null
   },
   {
-    "id": "15",
+    "id": 15,
     "slug": "ethereal-aesthetics-vancouver",
     "name": "Ethereal Aesthetics",
     "streetAddress": "2501 NE 134th St Ste 203",
@@ -255,7 +255,7 @@
     "description": null
   },
   {
-    "id": "16",
+    "id": 16,
     "slug": "root-infusions-and-wellness-south-easton",
     "name": "root infusions and wellness",
     "streetAddress": "25 Robert Dr suite c5",
@@ -272,7 +272,7 @@
     "description": null
   },
   {
-    "id": "17",
+    "id": 17,
     "slug": "inshapemd-clinic-redmond",
     "name": "InShapeMD Clinic",
     "streetAddress": "16150 NE 85th St #108",
@@ -289,7 +289,7 @@
     "description": null
   },
   {
-    "id": "18",
+    "id": 18,
     "slug": "vio-med-spa-redmond",
     "name": "VIO Med Spa",
     "streetAddress": "7430 164th Ave NE Suite B101",
@@ -306,7 +306,7 @@
     "description": null
   },
   {
-    "id": "19",
+    "id": 19,
     "slug": "tri-cities-ketamine-infusion-and-wellness-clinic-kennewick-wa-kennewick",
     "name": "Tri-Cities Ketamine Infusion and Wellness Clinic - Kennewick, WA",
     "streetAddress": "5373 W Canal Dr Suite 120",
@@ -323,7 +323,7 @@
     "description": null
   },
   {
-    "id": "20",
+    "id": 20,
     "slug": "prime-iv-hydration-wellness-spokane-spokane",
     "name": "Prime IV Hydration & Wellness - Spokane",
     "streetAddress": "2630 E 29th Ave",
@@ -340,7 +340,7 @@
     "description": null
   },
   {
-    "id": "21",
+    "id": 21,
     "slug": "optimized-health-iv-bar-kennewick",
     "name": "Optimized Health IV Bar",
     "streetAddress": "513 N Edison St Suite A Room 1",
@@ -357,7 +357,7 @@
     "description": null
   },
   {
-    "id": "22",
+    "id": 22,
     "slug": "pure-infusion-suites-of-tacoma-tacoma",
     "name": "Pure Infusion Suites of Tacoma",
     "streetAddress": "1818 S Union Ave ste 2b",
@@ -374,7 +374,7 @@
     "description": null
   },
   {
-    "id": "23",
+    "id": 23,
     "slug": "drip-wellness-pllc-mill-creek",
     "name": "Drip Wellness, PLLC",
     "streetAddress": "4008 133rd St. SE. Mill Creek, Washington 98012, Bothell, Suite 115",
@@ -391,7 +391,7 @@
     "description": null
   },
   {
-    "id": "24",
+    "id": 24,
     "slug": "prime-iv-hydration-wellness-north-spokane-spokane",
     "name": "Prime IV Hydration & Wellness - North Spokane",
     "streetAddress": "9992 N Newport Hwy suite 003",
@@ -408,7 +408,7 @@
     "description": null
   },
   {
-    "id": "25",
+    "id": 25,
     "slug": "intravene-mobile-iv-therapy-spokane-spokane",
     "name": "Intravene Mobile IV Therapy - Spokane",
     "streetAddress": "808 E Sprague Ave",
@@ -425,7 +425,7 @@
     "description": null
   },
   {
-    "id": "26",
+    "id": 26,
     "slug": "prime-iv-hydration-wellness-mill-creek-gateway-mill-creek",
     "name": "Prime IV Hydration & Wellness - Mill Creek - Gateway",
     "streetAddress": "13416 Bothell Everett Hwy Suite 205",
@@ -442,7 +442,7 @@
     "description": null
   },
   {
-    "id": "27",
+    "id": 27,
     "slug": "prime-iv-hydration-wellness-kennewick-kennewick",
     "name": "Prime IV Hydration & Wellness - Kennewick",
     "streetAddress": "1360 N Louisiana St suite b",
@@ -459,7 +459,7 @@
     "description": null
   },
   {
-    "id": "28",
+    "id": 28,
     "slug": "blue-iv-hydration-and-spa-richland",
     "name": "Blue IV Hydration and Spa",
     "streetAddress": "1446 Spaulding Ave Suite 103",
@@ -476,7 +476,7 @@
     "description": null
   },
   {
-    "id": "29",
+    "id": 29,
     "slug": "iv-bars-edgewater",
     "name": "iV Bars",
     "streetAddress": "115 River Rd",
@@ -493,7 +493,7 @@
     "description": null
   },
   {
-    "id": "30",
+    "id": 30,
     "slug": "olympic-valley-clinic-pllc-elma",
     "name": "Olympic Valley Clinic, PLLC",
     "streetAddress": "11 Schouweiler Rd",
@@ -510,7 +510,7 @@
     "description": null
   },
   {
-    "id": "31",
+    "id": 31,
     "slug": "walla-walla-drip-iv-walla-walla",
     "name": "Walla Walla Drip IV",
     "streetAddress": "1220 W Poplar St",
@@ -527,7 +527,7 @@
     "description": null
   },
   {
-    "id": "32",
+    "id": 32,
     "slug": "boost-iv-port-washington",
     "name": "Boost IV",
     "streetAddress": "18 Haven Ave",
@@ -544,7 +544,7 @@
     "description": null
   },
   {
-    "id": "33",
+    "id": 33,
     "slug": "northwest-vein-aesthetic-center-of-gig-harbor-gig-harbor",
     "name": "Northwest Vein & Aesthetic Center of Gig Harbor",
     "streetAddress": "4700 Point Fosdick Dr # 307",
@@ -561,7 +561,7 @@
     "description": null
   },
   {
-    "id": "34",
+    "id": 34,
     "slug": "lifestance-therapists-psychiatrists-gig-harbor-gig-harbor",
     "name": "LifeStance Therapists & Psychiatrists Gig Harbor",
     "streetAddress": "5201 Olympic Dr #210",
@@ -578,7 +578,7 @@
     "description": null
   },
   {
-    "id": "35",
+    "id": 35,
     "slug": "peninsula-natural-health-center-gig-harbor",
     "name": "Peninsula Natural Health Center",
     "streetAddress": "5603 38th Ave NW",
@@ -595,7 +595,7 @@
     "description": null
   },
   {
-    "id": "36",
+    "id": 36,
     "slug": "rejuvenate-wellness-aesthetics-iv-hormones-aesthetics-massage-olympia",
     "name": "Rejuvenate Wellness & Aesthetics | IV • Hormones • Aesthetics • Massage",
     "streetAddress": "205 Lilly Rd NE Bldg B, Ste B",
@@ -612,7 +612,7 @@
     "description": null
   },
   {
-    "id": "37",
+    "id": 37,
     "slug": "gig-harbor-medical-spa-and-concierge-medicine-gig-harbor",
     "name": "Gig Harbor Medical Spa and Concierge Medicine",
     "streetAddress": "11515 Burnham Dr Suite 105",
@@ -629,7 +629,7 @@
     "description": null
   },
   {
-    "id": "38",
+    "id": 38,
     "slug": "apollo-health-gig-harbor",
     "name": "Apollo Health",
     "streetAddress": "5401 32nd Ave #106",
@@ -646,7 +646,7 @@
     "description": null
   },
   {
-    "id": "39",
+    "id": 39,
     "slug": "gig-harbor-aesthetics-wellness-gig-harbor",
     "name": "Gig Harbor Aesthetics & Wellness",
     "streetAddress": "3226 Rosedale St NW Suite 100",
@@ -663,7 +663,7 @@
     "description": null
   },
   {
-    "id": "40",
+    "id": 40,
     "slug": "haven-permanent-cosmetics-aesthetics-gig-harbor",
     "name": "Haven Permanent Cosmetics & Aesthetics",
     "streetAddress": "5160 Point Fosdick Dr C-100",
@@ -680,7 +680,7 @@
     "description": null
   },
   {
-    "id": "41",
+    "id": 41,
     "slug": "northwest-integrated-health-tacoma",
     "name": "Northwest Integrated Health",
     "streetAddress": "3727 S Tacoma Way",
@@ -697,7 +697,7 @@
     "description": null
   },
   {
-    "id": "42",
+    "id": 42,
     "slug": "revive-drip-gig-harbor",
     "name": "Revive Drip",
     "streetAddress": "5800 Soundview Dr Building B Suite 201",
@@ -714,7 +714,7 @@
     "description": null
   },
   {
-    "id": "43",
+    "id": 43,
     "slug": "nouveau-medspas-gig-harbor",
     "name": "Nouveau MedSpas",
     "streetAddress": "5125 Olympic Dr #108",
@@ -731,7 +731,7 @@
     "description": null
   },
   {
-    "id": "44",
+    "id": 44,
     "slug": "empowered-med-spa-tacoma",
     "name": "Empowered Med Spa",
     "streetAddress": "1310 S Union Ave a202",
@@ -748,7 +748,7 @@
     "description": null
   },
   {
-    "id": "45",
+    "id": 45,
     "slug": "pinnacle-health-and-spa-tacoma",
     "name": "Pinnacle Health and Spa",
     "streetAddress": "5973 6th Ave",
@@ -765,7 +765,7 @@
     "description": null
   },
   {
-    "id": "46",
+    "id": 46,
     "slug": "i-iv-hydration-wellness-bentonville",
     "name": "I IV Hydration & Wellness",
     "streetAddress": "1101 S Walton Blvd Suite 5",
@@ -782,8 +782,8 @@
     "description": null
   },
   {
-    "id": "47",
-    "slug": "northwest-integrated-health-tacoma-46",
+    "id": 47,
+    "slug": "northwest-integrated-health-tacoma-2",
     "name": "Northwest Integrated Health",
     "streetAddress": "5929 Westgate Blvd Ste A",
     "city": "Tacoma",
@@ -799,7 +799,7 @@
     "description": null
   },
   {
-    "id": "48",
+    "id": 48,
     "slug": "outbound-wellness-hood-river",
     "name": "Outbound Wellness",
     "streetAddress": "420 Industrial St",
@@ -816,7 +816,7 @@
     "description": null
   },
   {
-    "id": "49",
+    "id": 49,
     "slug": "prime-iv-hydration-wellness-east-vancouver-camas-camas",
     "name": "Prime IV Hydration & Wellness (East Vancouver-Camas)",
     "streetAddress": "1821 SE 192nd Ave suite 100",
@@ -833,7 +833,7 @@
     "description": null
   },
   {
-    "id": "50",
+    "id": 50,
     "slug": "elevate-wellness-chelan",
     "name": "Elevate Wellness",
     "streetAddress": "502 E Woodin Ave B",
@@ -850,7 +850,7 @@
     "description": null
   },
   {
-    "id": "51",
+    "id": 51,
     "slug": "iv-elements-hoboken",
     "name": "IV Elements",
     "streetAddress": "36 Newark St. Suite 402",
@@ -867,7 +867,7 @@
     "description": null
   },
   {
-    "id": "52",
+    "id": 52,
     "slug": "integrated-wellness-psychiatry-tacoma",
     "name": "Integrated Wellness & Psychiatry",
     "streetAddress": "7808 Pacific Ave #4",
@@ -884,7 +884,7 @@
     "description": null
   },
   {
-    "id": "53",
+    "id": 53,
     "slug": "okojie-wellness-iv-infusion-therapy-vancouver-washington-vancouver",
     "name": "Okojie Wellness - IV Infusion Therapy Vancouver Washington",
     "streetAddress": "4610 NE 77th Ave Suite 137",
@@ -901,7 +901,7 @@
     "description": null
   },
   {
-    "id": "54",
+    "id": 54,
     "slug": "thrive-wellbeing-battle-ground",
     "name": "Thrive Wellbeing",
     "streetAddress": "408 E Main St",
@@ -918,7 +918,7 @@
     "description": null
   },
   {
-    "id": "55",
+    "id": 55,
     "slug": "nadashaa-heeni-vancouver",
     "name": "Nadashaa Heeni",
     "streetAddress": "628 NE 81st St Suite 10",
@@ -935,7 +935,7 @@
     "description": null
   },
   {
-    "id": "56",
+    "id": 56,
     "slug": "three-points-healing-olympia",
     "name": "Three Points Healing",
     "streetAddress": "3435 Martin Way E Suite C",
@@ -952,7 +952,7 @@
     "description": null
   },
   {
-    "id": "57",
+    "id": 57,
     "slug": "rehydrate-iv-infusion-shelton",
     "name": "Rehydrate IV Infusion",
     "streetAddress": "2 Trap Falls Rd Suite 411",
@@ -969,7 +969,7 @@
     "description": null
   },
   {
-    "id": "58",
+    "id": 58,
     "slug": "level-up-wellness-liberty-lake",
     "name": "Level Up Wellness",
     "streetAddress": "1334 N Whitman Ln STE. 180",
@@ -986,7 +986,7 @@
     "description": null
   },
   {
-    "id": "59",
+    "id": 59,
     "slug": "twin-rivers-iv-wellness-lounge-clayton-nc-clayton",
     "name": "Twin Rivers IV & Wellness Lounge - Clayton NC",
     "streetAddress": "4879 NC 42 Suite G",
@@ -1003,7 +1003,7 @@
     "description": null
   },
   {
-    "id": "60",
+    "id": 60,
     "slug": "northwest-ketamine-clinics-tacoma-tacoma",
     "name": "Northwest Ketamine Clinics- Tacoma",
     "streetAddress": "1901 S Union Ave Building B Suite 4001",
@@ -1020,7 +1020,7 @@
     "description": null
   },
   {
-    "id": "61",
+    "id": 61,
     "slug": "pure-infusion-suites-of-olympia-olympia",
     "name": "Pure Infusion Suites of Olympia",
     "streetAddress": "360 Lilly Rd NE STE B",
@@ -1037,7 +1037,7 @@
     "description": null
   },
   {
-    "id": "62",
+    "id": 62,
     "slug": "elevating-wellness-nw-llc-lacey",
     "name": "Elevating Wellness NW LLC",
     "streetAddress": "4520 Intelco Loop SE Bldg 3E",
@@ -1054,7 +1054,7 @@
     "description": null
   },
   {
-    "id": "63",
+    "id": 63,
     "slug": "temple-natural-health-lacey",
     "name": "Temple Natural Health",
     "streetAddress": "4520 Intelco Loop SE #3a",
@@ -1071,7 +1071,7 @@
     "description": null
   },
   {
-    "id": "64",
+    "id": 64,
     "slug": "peacehealth-infusion-center-at-medical-center-physicians-building-vancouver",
     "name": "PeaceHealth Infusion Center at Medical Center Physicians Building",
     "streetAddress": "505 NE 87th Ave #350",
@@ -1088,7 +1088,7 @@
     "description": null
   },
   {
-    "id": "65",
+    "id": 65,
     "slug": "paradigm-wellness-center-vancouver",
     "name": "Paradigm Wellness Center",
     "streetAddress": "316 E 4th Plain Blvd Suite C",
@@ -1105,7 +1105,7 @@
     "description": null
   },
   {
-    "id": "66",
+    "id": 66,
     "slug": "body-balance-health-and-aesthetics-medicine-camas",
     "name": "Body Balance Health and Aesthetics Medicine",
     "streetAddress": "1905 SE 192nd Ave STE 201 STE 201",
@@ -1122,7 +1122,7 @@
     "description": null
   },
   {
-    "id": "67",
+    "id": 67,
     "slug": "holistique-iv-lounge-bellevue",
     "name": "Holistique IV Lounge",
     "streetAddress": "1200 116th Ave NE Ste D",
@@ -1139,7 +1139,7 @@
     "description": null
   },
   {
-    "id": "68",
+    "id": 68,
     "slug": "holistique-medical-center-iv-lounge-bellevue",
     "name": "Holistique Medical Center & IV Lounge",
     "streetAddress": "1200 116th Ave NE C",
@@ -1156,7 +1156,7 @@
     "description": null
   },
   {
-    "id": "69",
+    "id": 69,
     "slug": "faces-in-bloom-vancouver",
     "name": "Faces in Bloom",
     "streetAddress": "9120 NE Vancouver Mall Loop #210",
@@ -1173,7 +1173,7 @@
     "description": null
   },
   {
-    "id": "70",
+    "id": 70,
     "slug": "emerge-natural-health-care-pllc-vancouver",
     "name": "Emerge Natural Health Care, PLLC",
     "streetAddress": "8513 NE Hazel Dell Ave #201",
@@ -1190,7 +1190,7 @@
     "description": null
   },
   {
-    "id": "71",
+    "id": 71,
     "slug": "evolve-aesthetics-and-wellness-vancouver",
     "name": "Evolve Aesthetics and Wellness",
     "streetAddress": "330 E Mill Plain Blvd Ste 401",
@@ -1207,7 +1207,7 @@
     "description": null
   },
   {
-    "id": "72",
+    "id": 72,
     "slug": "vigor-natural-health-clinic-vancouver",
     "name": "Vigor Natural Health Clinic",
     "streetAddress": "3200 SE 164th Ave #101",
@@ -1224,7 +1224,7 @@
     "description": null
   },
   {
-    "id": "73",
+    "id": 73,
     "slug": "pure-infusion-suites-of-vancouver-vancouver",
     "name": "Pure Infusion Suites of Vancouver",
     "streetAddress": "8308 E Mill Plain Blvd Ste 102",
@@ -1241,8 +1241,8 @@
     "description": null
   },
   {
-    "id": "74",
-    "slug": "okojie-wellness-testosterone-and-hormone-replacement-therapy-in-vancouver-washington-vancouver",
+    "id": 74,
+    "slug": "okojie-wellness-testosterone-and-hormone-replacement-therapy-in-vancouver-washin",
     "name": "Okojie Wellness- Testosterone and Hormone Replacement Therapy in Vancouver, Washington",
     "streetAddress": "4610 NE 77th Ave Suite 138",
     "city": "Vancouver",
@@ -1258,7 +1258,7 @@
     "description": null
   },
   {
-    "id": "75",
+    "id": 75,
     "slug": "365-iv-drips-edgewater",
     "name": "365 IV Drips",
     "streetAddress": "725 River Rd Suite #213",
@@ -1275,7 +1275,7 @@
     "description": null
   },
   {
-    "id": "76",
+    "id": 76,
     "slug": "swifthealth-mobile-iv-therapy-and-housecalls-englewood",
     "name": "SwiftHealth--Mobile IV Therapy and Housecalls",
     "streetAddress": "78 Franklin St",
@@ -1292,7 +1292,7 @@
     "description": null
   },
   {
-    "id": "77",
+    "id": 77,
     "slug": "healthy-living-liberty-lake-liberty-lake",
     "name": "Healthy Living Liberty Lake",
     "streetAddress": "1431 N Liberty Lake Rd STE B",
@@ -1309,7 +1309,7 @@
     "description": null
   },
   {
-    "id": "78",
+    "id": 78,
     "slug": "vancouver-ketamine-infusions-vancouver",
     "name": "Vancouver Ketamine Infusions",
     "streetAddress": "1499 SE Tech Center Pl #380",
@@ -1326,8 +1326,8 @@
     "description": null
   },
   {
-    "id": "79",
-    "slug": "new-u-women-s-clinic-aesthetics-kennewick",
+    "id": 79,
+    "slug": "new-u-womens-clinic-aesthetics-kennewick",
     "name": "New U Women's Clinic & Aesthetics",
     "streetAddress": "10973 W 10th Ave",
     "city": "Kennewick",
@@ -1343,7 +1343,7 @@
     "description": null
   },
   {
-    "id": "80",
+    "id": 80,
     "slug": "willman-wellness-kingston",
     "name": "Willman Wellness",
     "streetAddress": "26076 Iowa Ave NE C",
@@ -1360,7 +1360,7 @@
     "description": null
   },
   {
-    "id": "81",
+    "id": 81,
     "slug": "humble-beauty-llc-medical-aesthetics-kingston",
     "name": "Humble Beauty LLC, Medical Aesthetics",
     "streetAddress": "10978 WA-104 Ste 125",
@@ -1377,7 +1377,7 @@
     "description": null
   },
   {
-    "id": "82",
+    "id": 82,
     "slug": "restore-hyper-wellness-issaquah",
     "name": "Restore Hyper Wellness",
     "streetAddress": "1520 Highlands Dr NE Ste 100",
@@ -1394,7 +1394,7 @@
     "description": null
   },
   {
-    "id": "83",
+    "id": 83,
     "slug": "ivx-health-infusion-center-clifton",
     "name": "IVX Health Infusion Center",
     "streetAddress": "225 Allwood Rd Unit 8",
@@ -1411,7 +1411,7 @@
     "description": null
   },
   {
-    "id": "84",
+    "id": 84,
     "slug": "access-iv-vitamin-lounge-boonton",
     "name": "Access IV Vitamin Lounge",
     "streetAddress": "215 Myrtle Ave 2nd Floor",
@@ -1428,7 +1428,7 @@
     "description": null
   },
   {
-    "id": "85",
+    "id": 85,
     "slug": "manhattan-iv-therapy-new-york",
     "name": "Manhattan IV Therapy",
     "streetAddress": "492 6th Ave",
@@ -1445,7 +1445,7 @@
     "description": null
   },
   {
-    "id": "86",
+    "id": 86,
     "slug": "mobile-iv-drip-new-york",
     "name": "Mobile IV Drip",
     "streetAddress": "15w W 47th St",
@@ -1462,8 +1462,8 @@
     "description": null
   },
   {
-    "id": "87",
-    "slug": "lifedrips-iv-jersey-city",
+    "id": 87,
+    "slug": "lifedripsiv-jersey-city",
     "name": "LIFEDRIPS.IV",
     "streetAddress": "60 Christopher Columbus Dr",
     "city": "Jersey City",
@@ -1479,7 +1479,7 @@
     "description": null
   },
   {
-    "id": "88",
+    "id": 88,
     "slug": "revive-wellness-kennewick",
     "name": "Revive Wellness",
     "streetAddress": "8656 W Gage Blvd Suite B203",
@@ -1496,7 +1496,7 @@
     "description": null
   },
   {
-    "id": "89",
+    "id": 89,
     "slug": "honey-glow-health-bonney-lake",
     "name": "Honey Glow Health",
     "streetAddress": "19651 WA-410",
@@ -1513,7 +1513,7 @@
     "description": null
   },
   {
-    "id": "90",
+    "id": 90,
     "slug": "lavie-skinthetics-wellness-spa-federal-way",
     "name": "LaVie Skinthetics Wellness Spa",
     "streetAddress": "2158 S 314th St",
@@ -1530,7 +1530,7 @@
     "description": null
   },
   {
-    "id": "91",
+    "id": 91,
     "slug": "bella-md-health-and-wellness-shoreline",
     "name": "Bella MD Health and Wellness",
     "streetAddress": "1507 NE 150th St Suite B",
@@ -1547,7 +1547,7 @@
     "description": null
   },
   {
-    "id": "92",
+    "id": 92,
     "slug": "hello-nurse-llc-bothell",
     "name": "Hello Nurse, LLC",
     "streetAddress": "22833 Bothell Everett Hwy #204",
@@ -1564,7 +1564,7 @@
     "description": null
   },
   {
-    "id": "93",
+    "id": 93,
     "slug": "ivitality-bellevue-bellevue",
     "name": "IVitality Bellevue",
     "streetAddress": "1020 108th Ave NE #130",
@@ -1581,7 +1581,7 @@
     "description": null
   },
   {
-    "id": "94",
+    "id": 94,
     "slug": "ivfusionmd-bellevue",
     "name": "IVFusionMD",
     "streetAddress": "14450 NE 29th Pl #230",
@@ -1598,7 +1598,7 @@
     "description": null
   },
   {
-    "id": "95",
+    "id": 95,
     "slug": "apex-health-wellness-bellevue",
     "name": "Apex Health & Wellness",
     "streetAddress": "1800 116th Ave NE #104",
@@ -1615,7 +1615,7 @@
     "description": null
   },
   {
-    "id": "96",
+    "id": 96,
     "slug": "source-of-life-iv-and-wellness-union",
     "name": "Source of Life IV and Wellness",
     "streetAddress": "1460 Morris Ave #3B",
@@ -1632,7 +1632,7 @@
     "description": null
   },
   {
-    "id": "97",
+    "id": 97,
     "slug": "pnw-hydration-wellness-puyallup",
     "name": "PNW Hydration & Wellness",
     "streetAddress": "615 Pioneer Wy E #114",
@@ -1649,7 +1649,7 @@
     "description": null
   },
   {
-    "id": "98",
+    "id": 98,
     "slug": "true-heal-wellness-morristown",
     "name": "True Heal Wellness",
     "streetAddress": "261 James St Ste 1D",
@@ -1666,7 +1666,7 @@
     "description": null
   },
   {
-    "id": "99",
+    "id": 99,
     "slug": "liquid-life-iv-south-hill",
     "name": "Liquid Life IV",
     "streetAddress": "815 N Mecklenburg Ave",
@@ -1683,7 +1683,7 @@
     "description": null
   },
   {
-    "id": "100",
+    "id": 100,
     "slug": "vital-care-of-tacoma-kent",
     "name": "Vital Care of Tacoma",
     "streetAddress": "19226 66th Ave S L-107-108",
@@ -1700,7 +1700,7 @@
     "description": null
   },
   {
-    "id": "101",
+    "id": 101,
     "slug": "island-revive-chester",
     "name": "Island RevIVe",
     "streetAddress": "1812 Main St Suite C",
@@ -1717,7 +1717,7 @@
     "description": null
   },
   {
-    "id": "102",
+    "id": 102,
     "slug": "new-wave-functional-aesthetic-medicine-renton",
     "name": "New Wave Functional & Aesthetic Medicine",
     "streetAddress": "123 Wells Ave S",
@@ -1734,7 +1734,7 @@
     "description": null
   },
   {
-    "id": "103",
+    "id": 103,
     "slug": "arctic-elevation-renton",
     "name": "Arctic Elevation",
     "streetAddress": "1133 Lake Washington Blvd N #80",
@@ -1751,7 +1751,7 @@
     "description": null
   },
   {
-    "id": "104",
+    "id": 104,
     "slug": "iv-league-hydration-and-wellness-llc-camp-hill",
     "name": "IV League Hydration and Wellness LLC",
     "streetAddress": "3803 Cedar Ave",
@@ -1768,7 +1768,7 @@
     "description": null
   },
   {
-    "id": "105",
+    "id": 105,
     "slug": "elevate-wellness-nw-woodland",
     "name": "Elevate Wellness NW",
     "streetAddress": "1494 Dike Access Rd Suite B",
@@ -1785,7 +1785,7 @@
     "description": null
   },
   {
-    "id": "106",
+    "id": 106,
     "slug": "lighthouse-infusions-seattle-ketamine-kenmore",
     "name": "Lighthouse Infusions & Seattle Ketamine",
     "streetAddress": "5701 NE Bothell Way # 4",
@@ -1802,7 +1802,7 @@
     "description": null
   },
   {
-    "id": "107",
+    "id": 107,
     "slug": "bothell-integrated-health-llc-bothell",
     "name": "Bothell Integrated Health, LLC",
     "streetAddress": "18920 Bothell Way NE # 204",
@@ -1819,7 +1819,7 @@
     "description": null
   },
   {
-    "id": "108",
+    "id": 108,
     "slug": "sculpt-wellness-pasco",
     "name": "Sculpt Wellness",
     "streetAddress": "5224 Outlet Dr",
@@ -1836,7 +1836,7 @@
     "description": null
   },
   {
-    "id": "109",
+    "id": 109,
     "slug": "nextdoor-wellness-pasco",
     "name": "Nextdoor Wellness",
     "streetAddress": "5908 Bedford St Suite A1",
@@ -1853,7 +1853,7 @@
     "description": null
   },
   {
-    "id": "110",
+    "id": 110,
     "slug": "moses-lake-aesthetics-and-wellness-moses-lake",
     "name": "Moses Lake Aesthetics and Wellness",
     "streetAddress": "2900 W Broadway Ave",
@@ -1870,7 +1870,7 @@
     "description": null
   },
   {
-    "id": "111",
+    "id": 111,
     "slug": "vancouver-wellness-studio-waterfront-spa-vancouver",
     "name": "Vancouver Wellness Studio: Waterfront Spa",
     "streetAddress": "301 W Columbia Way",
@@ -1887,7 +1887,7 @@
     "description": null
   },
   {
-    "id": "112",
+    "id": 112,
     "slug": "driptherapy-flagler-beach",
     "name": "DripTherapy",
     "streetAddress": "Inside East Coast Acupuncture and Alternative Medicine, 99 ኦልድ ኪንግስ ሮድ ሳውዝ #4",
@@ -1904,8 +1904,8 @@
     "description": null
   },
   {
-    "id": "113",
-    "slug": "illuminate-me-silverdale",
+    "id": 113,
+    "slug": "illuminateme-silverdale",
     "name": "Illuminate.Me",
     "streetAddress": "3888 NW Randall Way Suite 203",
     "city": "Silverdale",
@@ -1921,7 +1921,7 @@
     "description": null
   },
   {
-    "id": "114",
+    "id": 114,
     "slug": "remedy-health-and-wellness-richland",
     "name": "Remedy Health and Wellness",
     "streetAddress": "112 Columbia Point Dr STE 102",
@@ -1938,7 +1938,7 @@
     "description": null
   },
   {
-    "id": "115",
+    "id": 115,
     "slug": "columbia-shores-regenerative-health-richland",
     "name": "Columbia Shores Regenerative Health",
     "streetAddress": "Tuscan Park Plaza, 138 Keene Rd",
@@ -1955,7 +1955,7 @@
     "description": null
   },
   {
-    "id": "116",
+    "id": 116,
     "slug": "revel-medspa-richland",
     "name": "Revel Medspa",
     "streetAddress": "400 Bradley Blvd Suite 300 (top floor penthouse",
@@ -1972,7 +1972,7 @@
     "description": null
   },
   {
-    "id": "117",
+    "id": 117,
     "slug": "pure-skiin-spokane-valley",
     "name": "PURE SKIIN",
     "streetAddress": "325 S Sullivan Rd Suite B",
@@ -1989,7 +1989,7 @@
     "description": null
   },
   {
-    "id": "118",
+    "id": 118,
     "slug": "the-lab-aesthetics-wellness-spokane-valley",
     "name": "The LAB Aesthetics & Wellness",
     "streetAddress": "9317 E Trent Ave",
@@ -2006,7 +2006,7 @@
     "description": null
   },
   {
-    "id": "119",
+    "id": 119,
     "slug": "cor-institute-spokane",
     "name": "COR Institute",
     "streetAddress": "501 S Bernard St",
@@ -2023,7 +2023,7 @@
     "description": null
   },
   {
-    "id": "120",
+    "id": 120,
     "slug": "clinic-5c-functional-medicine-spokane",
     "name": "Clinic 5C | Functional Medicine",
     "streetAddress": "511 S Pine St # D",
@@ -2040,7 +2040,7 @@
     "description": null
   },
   {
-    "id": "121",
+    "id": 121,
     "slug": "option-care-health-spokane-valley",
     "name": "Option Care Health",
     "streetAddress": "3310 N Pines Rd",
@@ -2057,7 +2057,7 @@
     "description": null
   },
   {
-    "id": "122",
+    "id": 122,
     "slug": "the-metabolic-institute-spokane",
     "name": "The Metabolic Institute",
     "streetAddress": "2204 E 29th Ave suite 202",
@@ -2074,7 +2074,7 @@
     "description": null
   },
   {
-    "id": "123",
+    "id": 123,
     "slug": "evo-med-spa-spokane",
     "name": "Evo Med Spa",
     "streetAddress": "1337 S Grand Blvd",
@@ -2091,7 +2091,7 @@
     "description": null
   },
   {
-    "id": "124",
+    "id": 124,
     "slug": "luminess-lounge-spokane-valley",
     "name": "Luminess Lounge",
     "streetAddress": "325 S Sullivan Rd Suite B",
@@ -2108,7 +2108,7 @@
     "description": null
   },
   {
-    "id": "125",
+    "id": 125,
     "slug": "the-regenerative-institute-spokane",
     "name": "The Regenerative Institute",
     "streetAddress": "1303 W Summit Pkwy Lower Level 1",
@@ -2125,7 +2125,7 @@
     "description": null
   },
   {
-    "id": "126",
+    "id": 126,
     "slug": "pure-infusion-suites-of-spokane-spokane-valley",
     "name": "Pure Infusion Suites of Spokane",
     "streetAddress": "16201 E Indiana Ave Ste 3100",
@@ -2142,7 +2142,7 @@
     "description": null
   },
   {
-    "id": "127",
+    "id": 127,
     "slug": "wholebody-wellness-aesthetics-spokane-valley",
     "name": "WholeBody Wellness Aesthetics",
     "streetAddress": "626 N Mullan Rd suite 2",
@@ -2159,7 +2159,7 @@
     "description": null
   },
   {
-    "id": "128",
+    "id": 128,
     "slug": "all-heart-infusion-spokane",
     "name": "All Heart Infusion",
     "streetAddress": "601 S Division St suite b",
@@ -2176,7 +2176,7 @@
     "description": null
   },
   {
-    "id": "129",
+    "id": 129,
     "slug": "ketamine-clinic-of-spokane-spokane",
     "name": "Ketamine Clinic of Spokane",
     "streetAddress": "3707 S Grand Blvd #101d",
@@ -2193,7 +2193,7 @@
     "description": null
   },
   {
-    "id": "130",
+    "id": 130,
     "slug": "r-r-beauty-med-spa-kent",
     "name": "R & R Beauty Med Spa",
     "streetAddress": "20038 68th Ave S Suite 104",
@@ -2210,7 +2210,7 @@
     "description": null
   },
   {
-    "id": "131",
+    "id": 131,
     "slug": "option-care-health-tukwila",
     "name": "Option Care Health",
     "streetAddress": "13035 Gateway Dr S Suite 131",
@@ -2227,7 +2227,7 @@
     "description": null
   },
   {
-    "id": "132",
+    "id": 132,
     "slug": "the-iv-method-spokane",
     "name": "The IV Method",
     "streetAddress": "501 S Bernard St Suite 201",
@@ -2244,7 +2244,7 @@
     "description": null
   },
   {
-    "id": "133",
+    "id": 133,
     "slug": "restore-hyper-wellness-kirkland",
     "name": "Restore Hyper Wellness",
     "streetAddress": "400 Urban Plz Suite 125",
@@ -2261,7 +2261,7 @@
     "description": null
   },
   {
-    "id": "134",
+    "id": 134,
     "slug": "divine-aesthetic-lounge-mill-creek",
     "name": "Divine Aesthetic Lounge",
     "streetAddress": "Inside Sola Salon Spa, 13416 Bothell Everett Hwy Suite 201",
@@ -2278,7 +2278,7 @@
     "description": null
   },
   {
-    "id": "135",
+    "id": 135,
     "slug": "skin-addiction-medspa-health-clinic-mill-creek",
     "name": "Skin Addiction Medspa & Health Clinic",
     "streetAddress": "16030 Bothell Everett Hwy #295",
@@ -2295,7 +2295,7 @@
     "description": null
   },
   {
-    "id": "136",
+    "id": 136,
     "slug": "radiance-aesthetics-wellness-bonners-ferry",
     "name": "Radiance Aesthetics & Wellness",
     "streetAddress": "7196 Main St",
@@ -2312,7 +2312,7 @@
     "description": null
   },
   {
-    "id": "137",
+    "id": 137,
     "slug": "option-care-health-lakewood",
     "name": "Option Care Health",
     "streetAddress": "6111 Lakewood Towne Center Blvd SW Suite L",
@@ -2329,7 +2329,7 @@
     "description": null
   },
   {
-    "id": "138",
+    "id": 138,
     "slug": "well-iv-hydration-stafford-township",
     "name": "well iv hydration",
     "streetAddress": "853 Mill Creek Rd",
@@ -2346,7 +2346,7 @@
     "description": null
   },
   {
-    "id": "139",
+    "id": 139,
     "slug": "iv-nutrition-nashville",
     "name": "IV Nutrition",
     "streetAddress": "315 Deaderick St Suite 190",
@@ -2363,7 +2363,7 @@
     "description": null
   },
   {
-    "id": "140",
+    "id": 140,
     "slug": "ivitality-issaquah-issaquah",
     "name": "IVitality Issaquah",
     "streetAddress": "1315 NW Mall St #5",
@@ -2380,7 +2380,7 @@
     "description": null
   },
   {
-    "id": "141",
+    "id": 141,
     "slug": "iv-drip-booth-burlington",
     "name": "IV Drip Booth",
     "streetAddress": "9660 Old Hwy 99 North Rd Suite A",
@@ -2397,7 +2397,7 @@
     "description": null
   },
   {
-    "id": "142",
+    "id": 142,
     "slug": "peak-by-md-jersey-city",
     "name": "Peak By MD",
     "streetAddress": "95 Coles St 1st Floor",
@@ -2414,7 +2414,7 @@
     "description": null
   },
   {
-    "id": "143",
+    "id": 143,
     "slug": "wellness-for-life-anacortes",
     "name": "Wellness for Life",
     "streetAddress": "708 Commercial Ave",
@@ -2431,7 +2431,7 @@
     "description": null
   },
   {
-    "id": "144",
+    "id": 144,
     "slug": "forever-young-aesthetics-seattle",
     "name": "Forever Young Aesthetics",
     "streetAddress": "3813A California Ave SW",
@@ -2448,7 +2448,7 @@
     "description": null
   },
   {
-    "id": "145",
+    "id": 145,
     "slug": "invigor-medical-pasco",
     "name": "Invigor Medical",
     "streetAddress": "5226 Outlet Dr",
@@ -2465,7 +2465,7 @@
     "description": null
   },
   {
-    "id": "146",
+    "id": 146,
     "slug": "ivtology-staten-island",
     "name": "IVTOLOGY",
     "streetAddress": "78 Todt Hill Rd # 206",
@@ -2482,7 +2482,7 @@
     "description": null
   },
   {
-    "id": "147",
+    "id": 147,
     "slug": "whidbeyhealth-walk-in-care-clinton",
     "name": "WhidbeyHealth Walk-In Care",
     "streetAddress": "11245 WA-525",
@@ -2499,7 +2499,7 @@
     "description": null
   },
   {
-    "id": "148",
+    "id": 148,
     "slug": "vitality-wenatchee-wenatchee",
     "name": "Vitality Wenatchee",
     "streetAddress": "14 Kittitas St",
@@ -2516,7 +2516,7 @@
     "description": null
   },
   {
-    "id": "149",
+    "id": 149,
     "slug": "rebel-med-nw-seattle",
     "name": "Rebel Med NW",
     "streetAddress": "5401 Leary Ave NW Suite 202",
@@ -2533,7 +2533,7 @@
     "description": null
   },
   {
-    "id": "150",
+    "id": 150,
     "slug": "village-medicine-seattle-seattle",
     "name": "Village Medicine Seattle",
     "streetAddress": "5600 14th Ave NW Ste 1",
@@ -2550,7 +2550,7 @@
     "description": null
   },
   {
-    "id": "151",
+    "id": 151,
     "slug": "providence-infusion-and-pharmacy-services-spokane-valley",
     "name": "Providence Infusion and Pharmacy Services",
     "streetAddress": "15918 E Euclid Ave",
@@ -2567,7 +2567,7 @@
     "description": null
   },
   {
-    "id": "152",
+    "id": 152,
     "slug": "illume-wellbeing-ketamine-clinic-spokane-valley",
     "name": "Illume Wellbeing-Ketamine Clinic",
     "streetAddress": "16114 E Indiana Ave #115",
@@ -2584,7 +2584,7 @@
     "description": null
   },
   {
-    "id": "153",
+    "id": 153,
     "slug": "exhala-wellness-wenatchee",
     "name": "Exhala Wellness",
     "streetAddress": "611 N Wenatchee Ave",
@@ -2601,7 +2601,7 @@
     "description": null
   },
   {
-    "id": "154",
+    "id": 154,
     "slug": "pacific-northwest-wellness-center-pllc-east-wenatchee",
     "name": "Pacific Northwest Wellness Center, PLLC",
     "streetAddress": "230 Grant Rd # B2",
@@ -2618,7 +2618,7 @@
     "description": null
   },
   {
-    "id": "155",
+    "id": 155,
     "slug": "funk-regenerative-med-clinic-wenatchee",
     "name": "Funk Regenerative Med Clinic",
     "streetAddress": "5 S Wenatchee Ave #206",
@@ -2635,7 +2635,7 @@
     "description": null
   },
   {
-    "id": "156",
+    "id": 156,
     "slug": "elite-med-spa-wenatchee",
     "name": "Elite Med Spa",
     "streetAddress": "412 N Mission St Ste A",
@@ -2652,7 +2652,7 @@
     "description": null
   },
   {
-    "id": "157",
+    "id": 157,
     "slug": "valley-laser-skin-wenatchee-wenatchee",
     "name": "Valley Laser & Skin Wenatchee",
     "streetAddress": "620 N Emerson Ave STE 101",
@@ -2669,7 +2669,7 @@
     "description": null
   },
   {
-    "id": "158",
+    "id": 158,
     "slug": "skinwell-co-spokane",
     "name": "SkinWell + Co.",
     "streetAddress": "823 W 7th Ave Ste 200",
@@ -2686,7 +2686,7 @@
     "description": null
   },
   {
-    "id": "159",
+    "id": 159,
     "slug": "odara-medical-spa-spokane",
     "name": "Odara Medical Spa",
     "streetAddress": "1105 N Lincoln St",
@@ -2703,7 +2703,7 @@
     "description": null
   },
   {
-    "id": "160",
+    "id": 160,
     "slug": "cor-regenerate-spokane",
     "name": "COR Regenerate",
     "streetAddress": "501 S Bernard St Suite 219",
@@ -2720,7 +2720,7 @@
     "description": null
   },
   {
-    "id": "161",
+    "id": 161,
     "slug": "cor-body-spokane",
     "name": "COR Body",
     "streetAddress": "501 S Bernard St Suite 214",
@@ -2737,8 +2737,8 @@
     "description": null
   },
   {
-    "id": "162",
-    "slug": "ivnv-wellness-coeur-d-alene",
+    "id": 162,
+    "slug": "ivnv-wellness-coeur-dalene",
     "name": "IVNV Wellness",
     "streetAddress": "7600 N Mineral Dr Suite 105 Ste 300",
     "city": "Coeur d'Alene",
@@ -2754,7 +2754,7 @@
     "description": null
   },
   {
-    "id": "163",
+    "id": 163,
     "slug": "thrive-iv-hydration-mobile-spa-tulsa",
     "name": "Thrive IV Hydration Mobile & Spa",
     "streetAddress": "1135 E 33rd Pl",
@@ -2771,7 +2771,7 @@
     "description": null
   },
   {
-    "id": "164",
+    "id": 164,
     "slug": "iv-hydrate-cafe-bronx",
     "name": "IV Hydrate Cafe",
     "streetAddress": "Grace Ave",
@@ -2788,7 +2788,7 @@
     "description": null
   },
   {
-    "id": "165",
+    "id": 165,
     "slug": "iv-wellness-lounge-long-beach",
     "name": "IV & Wellness Lounge",
     "streetAddress": "6420 E Pacific Coast Hwy Suite 157",
@@ -2805,7 +2805,7 @@
     "description": null
   },
   {
-    "id": "166",
+    "id": 166,
     "slug": "next-health-in-bellevue-bellevue",
     "name": "Next Health in Bellevue",
     "streetAddress": "10425 NE 8th St",
@@ -2822,7 +2822,7 @@
     "description": null
   },
   {
-    "id": "167",
+    "id": 167,
     "slug": "medical-spa-at-pro-club-bellevue",
     "name": "Medical Spa at PRO Club",
     "streetAddress": "4455 148th Ave NE",
@@ -2839,7 +2839,7 @@
     "description": null
   },
   {
-    "id": "168",
+    "id": 168,
     "slug": "iv-glow-bar-los-angeles",
     "name": "Iv Glow Bar",
     "streetAddress": "6310 S San Vicente Blvd # 560",
@@ -2856,7 +2856,7 @@
     "description": null
   },
   {
-    "id": "169",
+    "id": 169,
     "slug": "the-dripbar-beverly-beverly",
     "name": "The DRIPBaR Beverly",
     "streetAddress": "45 Enon St",
@@ -2873,7 +2873,7 @@
     "description": null
   },
   {
-    "id": "170",
+    "id": 170,
     "slug": "symmetria-integrative-medical-marysville-marysville",
     "name": "Symmetria Integrative Medical Marysville",
     "streetAddress": "9528 State Ave #B",
@@ -2890,7 +2890,7 @@
     "description": null
   },
   {
-    "id": "171",
+    "id": 171,
     "slug": "jubilee-clinic-dpc-marysville",
     "name": "Jubilee Clinic DPC",
     "streetAddress": "1519 9th St",
@@ -2907,7 +2907,7 @@
     "description": null
   },
   {
-    "id": "172",
+    "id": 172,
     "slug": "ism-health-integrative-naturopathic-clinic-bothell",
     "name": "ISM Health - Integrative Naturopathic Clinic",
     "streetAddress": "18404 102nd Ave NE",
@@ -2924,7 +2924,7 @@
     "description": null
   },
   {
-    "id": "173",
+    "id": 173,
     "slug": "specialty-natural-medicine-lynnwood",
     "name": "Specialty Natural Medicine",
     "streetAddress": "19401 40th Ave W Suite 105",
@@ -2941,7 +2941,7 @@
     "description": null
   },
   {
-    "id": "174",
+    "id": 174,
     "slug": "better-body-healing-aesthetics-centralia",
     "name": "Better Body Healing & Aesthetics",
     "streetAddress": "1624 S Gold St",
@@ -2958,7 +2958,7 @@
     "description": null
   },
   {
-    "id": "175",
+    "id": 175,
     "slug": "velvet-skyn-aesthetics-olympia",
     "name": "Velvet Skyn Aesthetics",
     "streetAddress": "2627 Parkmont Lane Southwest STE 101",
@@ -2975,7 +2975,7 @@
     "description": null
   },
   {
-    "id": "176",
+    "id": 176,
     "slug": "stryker-optimal-health-wellness-spokane-valley",
     "name": "Stryker Optimal Health & Wellness",
     "streetAddress": "12615 E Mission Ave #105",
@@ -2992,7 +2992,7 @@
     "description": null
   },
   {
-    "id": "177",
+    "id": 177,
     "slug": "rejuvenationmd-bothell",
     "name": "RejuvenationMD®",
     "streetAddress": "22102 17th Ave SE Suite #200",
@@ -3009,7 +3009,7 @@
     "description": null
   },
   {
-    "id": "178",
+    "id": 178,
     "slug": "vitafusion-doctors-lounge-and-wellness-vienna",
     "name": "VitaFusion Doctors Lounge and Wellness",
     "streetAddress": "8130 Boone Blvd STE 340",
@@ -3026,7 +3026,7 @@
     "description": null
   },
   {
-    "id": "179",
+    "id": 179,
     "slug": "envy-iv-infusions-bridgewater",
     "name": "Envy IV Infusions",
     "streetAddress": "676 US-202 Bldg 2 STE D",
@@ -3043,7 +3043,7 @@
     "description": null
   },
   {
-    "id": "180",
+    "id": 180,
     "slug": "active-infusions-vienna",
     "name": "Active Infusions",
     "streetAddress": "8230 Leesburg Pike Suite 700",
@@ -3060,7 +3060,7 @@
     "description": null
   },
   {
-    "id": "181",
+    "id": 181,
     "slug": "his-and-hers-hormone-health-wellness-chehalis",
     "name": "His and Hers Hormone Health & Wellness",
     "streetAddress": "1292 S Market Blvd Ste 3",
@@ -3077,7 +3077,7 @@
     "description": null
   },
   {
-    "id": "182",
+    "id": 182,
     "slug": "the-garage-chehalis",
     "name": "The Garage",
     "streetAddress": "1270 SW William Ave",
@@ -3094,7 +3094,7 @@
     "description": null
   },
   {
-    "id": "183",
+    "id": 183,
     "slug": "adorne-medical-aesthetics-chehalis",
     "name": "Adorne Medical Aesthetics",
     "streetAddress": "2530 NE Kresky Ave Suite C",
@@ -3111,7 +3111,7 @@
     "description": null
   },
   {
-    "id": "184",
+    "id": 184,
     "slug": "medical-massage-acupuncture-chehalis",
     "name": "Medical Massage & Acupuncture",
     "streetAddress": "2923 Jackson Hwy",
@@ -3128,7 +3128,7 @@
     "description": null
   },
   {
-    "id": "185",
+    "id": 185,
     "slug": "interactive-health-clinic-lynnwood",
     "name": "Interactive Health Clinic",
     "streetAddress": "16108 Ash Way #109",
@@ -3145,7 +3145,7 @@
     "description": null
   },
   {
-    "id": "186",
+    "id": 186,
     "slug": "heart-of-wellness-tumwater",
     "name": "Heart of Wellness",
     "streetAddress": "205 Clark Pl SE",
@@ -3162,7 +3162,7 @@
     "description": null
   },
   {
-    "id": "187",
+    "id": 187,
     "slug": "inspire-physical-and-hand-therapy-tumwater-tumwater",
     "name": "Inspire Physical and Hand Therapy - Tumwater",
     "streetAddress": "100 Dennis St SW Ste. A",
@@ -3179,7 +3179,7 @@
     "description": null
   },
   {
-    "id": "188",
+    "id": 188,
     "slug": "nearing-total-health-lacey",
     "name": "Nearing Total Health",
     "streetAddress": "4520 Intelco Loop SE bldg 3",
@@ -3196,7 +3196,7 @@
     "description": null
   },
   {
-    "id": "189",
+    "id": 189,
     "slug": "savvy-rejuvenation-and-iv-bar-stanwood",
     "name": "Savvy Rejuvenation and IV Bar",
     "streetAddress": "27500 102nd Ave NW #4",
@@ -3213,7 +3213,7 @@
     "description": null
   },
   {
-    "id": "190",
+    "id": 190,
     "slug": "infusion-solutions-everett",
     "name": "Infusion Solutions",
     "streetAddress": "5929 Evergreen Wy #200",
@@ -3230,7 +3230,7 @@
     "description": null
   },
   {
-    "id": "191",
+    "id": 191,
     "slug": "radiant-beauty-med-spa-and-wellness-snohomish",
     "name": "Radiant Beauty Med Spa and Wellness",
     "streetAddress": "605 2nd St Suit 203",
@@ -3247,7 +3247,7 @@
     "description": null
   },
   {
-    "id": "192",
+    "id": 192,
     "slug": "bellevue-skin-and-wellness-bellevue",
     "name": "Bellevue Skin and Wellness",
     "streetAddress": "1900 116th Ave NE",
@@ -3264,7 +3264,7 @@
     "description": null
   },
   {
-    "id": "193",
+    "id": 193,
     "slug": "northwest-ketamine-clinics-bellevue-bellevue",
     "name": "Northwest Ketamine Clinics- Bellevue",
     "streetAddress": "1750 112th Ave NE Suite C228",
@@ -3281,7 +3281,7 @@
     "description": null
   },
   {
-    "id": "194",
+    "id": 194,
     "slug": "ayurvedic-and-naturopathic-medical-clinic-bellevue",
     "name": "Ayurvedic and Naturopathic Medical Clinic",
     "streetAddress": "2115 112th Ave NE #4",
@@ -3298,7 +3298,7 @@
     "description": null
   },
   {
-    "id": "195",
+    "id": 195,
     "slug": "northwest-medical-arts-university-place",
     "name": "Northwest Medical Arts",
     "streetAddress": "5350 Orchard St W Suite 202",
@@ -3315,7 +3315,7 @@
     "description": null
   },
   {
-    "id": "196",
+    "id": 196,
     "slug": "the-wellness-vault-cheney",
     "name": "The Wellness Vault",
     "streetAddress": "513 1st St",
@@ -3332,7 +3332,7 @@
     "description": null
   },
   {
-    "id": "197",
+    "id": 197,
     "slug": "hush-aesthetics-kent",
     "name": "Hush Aesthetics",
     "streetAddress": "109 2nd Ave S Ste 200",
@@ -3349,7 +3349,7 @@
     "description": null
   },
   {
-    "id": "198",
+    "id": 198,
     "slug": "osira-vitality-and-wellness-kalama",
     "name": "Osira Vitality and Wellness",
     "streetAddress": "262 N 1st St #3",
@@ -3366,7 +3366,7 @@
     "description": null
   },
   {
-    "id": "199",
+    "id": 199,
     "slug": "soundlife-wellness-gig-harbor",
     "name": "SoundLife Wellness",
     "streetAddress": "5801 Soundview Dr Suite #204",
@@ -3383,8 +3383,8 @@
     "description": null
   },
   {
-    "id": "200",
-    "slug": "iv-party-mobile-iv-therapy-providing-wellness-drips-directly-to-your-location-englewood",
+    "id": 200,
+    "slug": "iv-party-mobile-iv-therapy-providing-wellness-drips-directly-to-your-location-en",
     "name": "IV Party - Mobile IV Therapy providing Wellness Drips directly to your location.",
     "streetAddress": "200 Sterling Blvd",
     "city": "Englewood",
@@ -3396,11 +3396,11 @@
     "rating": 5,
     "reviewCount": 25,
     "categories": "Personal concierge service, Home health care service, IV therapy service, Medical spa, Nutritionist, Skin care clinic, Sportswear store, Vitamin & supplements store, Wellness center",
-    "priceRange": "$$",
+    "priceRange": "$$$",
     "description": null
   },
   {
-    "id": "201",
+    "id": 201,
     "slug": "thrivewell-infusion-holbrook-holbrook",
     "name": "Thrivewell Infusion - Holbrook",
     "streetAddress": "233 Union Ave Ste 105",
@@ -3417,7 +3417,7 @@
     "description": null
   },
   {
-    "id": "202",
+    "id": 202,
     "slug": "bioiv-therapy-jamaica",
     "name": "BioIV Therapy",
     "streetAddress": "95-27 Jamaica Ave",
@@ -3434,7 +3434,7 @@
     "description": null
   },
   {
-    "id": "203",
+    "id": 203,
     "slug": "peak-vitality-cheney",
     "name": "Peak Vitality",
     "streetAddress": "513 1st St",
@@ -3451,7 +3451,7 @@
     "description": null
   },
   {
-    "id": "204",
+    "id": 204,
     "slug": "chehalis-naturopathic-medicine-chehalis",
     "name": "Chehalis Naturopathic Medicine",
     "streetAddress": "2923 Jackson Hwy",
@@ -3468,7 +3468,7 @@
     "description": null
   },
   {
-    "id": "205",
+    "id": 205,
     "slug": "4ever-young-med-spa-wellness-center-edgewater-edgewater",
     "name": "4Ever Young Med Spa & Wellness Center - Edgewater",
     "streetAddress": "11 Edgewater Towne Ctr unit 9c",
@@ -3485,7 +3485,7 @@
     "description": null
   },
   {
-    "id": "206",
+    "id": 206,
     "slug": "wellness-pointe-direct-care-medical-massage-chehalis",
     "name": "Wellness Pointe Direct Care & Medical Massage",
     "streetAddress": "2530 NE Kresky Ave b",
@@ -3502,8 +3502,8 @@
     "description": null
   },
   {
-    "id": "207",
-    "slug": "evolution-health-hormone-replacement-and-weight-loss-therapy-for-men-and-women-centralia",
+    "id": 207,
+    "slug": "evolution-health-hormone-replacement-and-weight-loss-therapy-for-men-and-women-c",
     "name": "Evolution Health, Hormone Replacement and Weight Loss Therapy for Men and Women",
     "streetAddress": "1111 Kresky Ave Suite 101",
     "city": "Centralia",
@@ -3519,7 +3519,7 @@
     "description": null
   },
   {
-    "id": "208",
+    "id": 208,
     "slug": "innovative-sleep-centers-chehalis",
     "name": "Innovative Sleep Centers",
     "streetAddress": "1123 S Market Blvd",
@@ -3536,7 +3536,7 @@
     "description": null
   },
   {
-    "id": "209",
+    "id": 209,
     "slug": "iv-therapy-wellness-wickenburg",
     "name": "IV Therapy & Wellness",
     "streetAddress": "893 W Wickenburg Way Suite H",
@@ -3553,7 +3553,7 @@
     "description": null
   },
   {
-    "id": "210",
+    "id": 210,
     "slug": "thrive-iv-wellness-solutions-wilmington",
     "name": "Thrive IV Wellness Solutions",
     "streetAddress": "1403 Foulk Rd Ste 106",
@@ -3570,7 +3570,7 @@
     "description": null
   },
   {
-    "id": "211",
+    "id": 211,
     "slug": "eazy-iv-hydration-wellness-clinic-centerville",
     "name": "Eazy iV Hydration & Wellness Clinic",
     "streetAddress": "62 E Franklin St",
@@ -3587,7 +3587,7 @@
     "description": null
   },
   {
-    "id": "212",
+    "id": 212,
     "slug": "renewd-med-spa-everett-wa-everett",
     "name": "RENEWD | Med Spa | Everett, WA",
     "streetAddress": "1303 Pacific Ave",
@@ -3604,7 +3604,7 @@
     "description": null
   },
   {
-    "id": "213",
+    "id": 213,
     "slug": "option-care-health-everett",
     "name": "Option Care Health",
     "streetAddress": "728 134th St SW Building A, Suite 128",
@@ -3621,7 +3621,7 @@
     "description": null
   },
   {
-    "id": "214",
+    "id": 214,
     "slug": "purity-integrative-health-wellness-center-pllc-everett",
     "name": "Purity Integrative Health & Wellness Center PLLC",
     "streetAddress": "11314 4th Ave W #207",
@@ -3638,7 +3638,7 @@
     "description": null
   },
   {
-    "id": "215",
+    "id": 215,
     "slug": "wellness-institute-for-sleep-and-health-camas",
     "name": "Wellness Institute for Sleep and Health",
     "streetAddress": "3517 NW Camas Meadows Dr suite 210",
@@ -3655,7 +3655,7 @@
     "description": null
   },
   {
-    "id": "216",
+    "id": 216,
     "slug": "pnw-rejuvenation-enumclaw",
     "name": "PNW Rejuvenation",
     "streetAddress": "860 Cole St",
@@ -3672,7 +3672,7 @@
     "description": null
   },
   {
-    "id": "217",
+    "id": 217,
     "slug": "coastal-health-port-angeles",
     "name": "Coastal Health",
     "streetAddress": "621 E Front St",
@@ -3689,7 +3689,7 @@
     "description": null
   },
   {
-    "id": "218",
+    "id": 218,
     "slug": "petal-and-thorn-naturopathic-wellness-and-apothecary-camas",
     "name": "Petal and Thorn Naturopathic Wellness and Apothecary",
     "streetAddress": "327 NE 5th Ave",
@@ -3706,7 +3706,7 @@
     "description": null
   },
   {
-    "id": "219",
+    "id": 219,
     "slug": "renewed-skin-wellness-camas",
     "name": "Renewed Skin & Wellness",
     "streetAddress": "5420 NW 38th Ave Suite 202-20",
@@ -3723,7 +3723,7 @@
     "description": null
   },
   {
-    "id": "220",
+    "id": 220,
     "slug": "prime-iv-hydration-wellness-valparaiso-valparaiso",
     "name": "Prime IV Hydration & Wellness - Valparaiso",
     "streetAddress": "1703 Calumet Ave Unit B",
@@ -3740,7 +3740,7 @@
     "description": null
   },
   {
-    "id": "221",
+    "id": 221,
     "slug": "skin-therapy-gig-harbor-gig-harbor",
     "name": "Skin Therapy Gig Harbor",
     "streetAddress": "11515 Burnham Dr Suite 104B",
@@ -3757,7 +3757,7 @@
     "description": null
   },
   {
-    "id": "222",
+    "id": 222,
     "slug": "alchemy-aesthetics-and-wellness-gig-harbor",
     "name": "Alchemy Aesthetics and Wellness",
     "streetAddress": "8815 N Harborview Dr",
@@ -3774,7 +3774,7 @@
     "description": null
   },
   {
-    "id": "223",
+    "id": 223,
     "slug": "sanctuary-skin-brush-prairie",
     "name": "Sanctuary Skin",
     "streetAddress": "15814 NE 182nd Ave",
@@ -3791,7 +3791,7 @@
     "description": null
   },
   {
-    "id": "224",
+    "id": 224,
     "slug": "cosmetiq-medicine-vancouver-botox-filler-laser-vancouver",
     "name": "Cosmetiq Medicine - Vancouver Botox, Filler & Laser",
     "streetAddress": "12000 SE Mill Plain Blvd",
@@ -3808,7 +3808,7 @@
     "description": null
   },
   {
-    "id": "225",
+    "id": 225,
     "slug": "hey-sister-medical-spa-vancouver",
     "name": "Hey Sister Medical Spa",
     "streetAddress": "1309 NE 134th St Suite B",
@@ -3825,7 +3825,7 @@
     "description": null
   },
   {
-    "id": "226",
+    "id": 226,
     "slug": "vibrant-u-med-spa-vancouver",
     "name": "Vibrant U Med Spa",
     "streetAddress": "1306 Main St",
@@ -3842,7 +3842,7 @@
     "description": null
   },
   {
-    "id": "227",
+    "id": 227,
     "slug": "tite-medical-aesthetics-vancouver",
     "name": "TITE Medical Aesthetics",
     "streetAddress": "13025 NE Fourth Plain Blvd #102",
@@ -3859,7 +3859,7 @@
     "description": null
   },
   {
-    "id": "228",
+    "id": 228,
     "slug": "boost-iv-wellness-portland",
     "name": "Boost IV & Wellness",
     "streetAddress": "2342 NW Thurman St",
@@ -3876,7 +3876,7 @@
     "description": null
   },
   {
-    "id": "229",
+    "id": 229,
     "slug": "best-self-aesthetics-and-wellness-pllc-battle-ground",
     "name": "Best Self Aesthetics and Wellness, PLLC",
     "streetAddress": "1710 W Main St UNIT 201",
@@ -3893,7 +3893,7 @@
     "description": null
   },
   {
-    "id": "230",
+    "id": 230,
     "slug": "good-iv-lake-oswego",
     "name": "Good IV",
     "streetAddress": "425 2nd St #110",
@@ -3910,8 +3910,8 @@
     "description": null
   },
   {
-    "id": "231",
-    "slug": "m-d-medspa-wellness-centers-birch-bay-blaine",
+    "id": 231,
+    "slug": "md-medspa-wellness-centers-birch-bay-blaine",
     "name": "M.D. MedSpa & Wellness Centers - Birch Bay",
     "streetAddress": "8115 Birch Bay Square St Suite 107",
     "city": "Blaine",
@@ -3927,7 +3927,7 @@
     "description": null
   },
   {
-    "id": "232",
+    "id": 232,
     "slug": "aleris-aesthetics-woodinville",
     "name": "Aleris Aesthetics",
     "streetAddress": "17924 140th Ave NE Suite 101",
@@ -3944,7 +3944,7 @@
     "description": null
   },
   {
-    "id": "233",
+    "id": 233,
     "slug": "koco-medical-aesthetics-woodinville",
     "name": "KOCO Medical Aesthetics",
     "streetAddress": "14040 NE 181st St #1000",
@@ -3961,7 +3961,7 @@
     "description": null
   },
   {
-    "id": "234",
+    "id": 234,
     "slug": "salt-co-aesthetics-and-wellness-mount-vernon",
     "name": "Salt & Co Aesthetics and Wellness",
     "streetAddress": "419 S 1st St D",
@@ -3978,7 +3978,7 @@
     "description": null
   },
   {
-    "id": "235",
+    "id": 235,
     "slug": "pure-skin-wellness-spa-mount-vernon",
     "name": "Pure Skin Wellness Spa",
     "streetAddress": "419 S 2nd St",
@@ -3995,7 +3995,7 @@
     "description": null
   },
   {
-    "id": "236",
+    "id": 236,
     "slug": "bouncebackiv-medspa-mt-vernon",
     "name": "BouncebackIV Medspa",
     "streetAddress": "533 Gramatan Ave",
@@ -4012,7 +4012,7 @@
     "description": null
   },
   {
-    "id": "237",
+    "id": 237,
     "slug": "renew-nd-medspa-everett",
     "name": "Renew ND Medspa",
     "streetAddress": "11419 19th Ave SE a108",
@@ -4029,7 +4029,7 @@
     "description": null
   },
   {
-    "id": "238",
+    "id": 238,
     "slug": "hyper-health-wellness-center-medina",
     "name": "Hyper Health Wellness Center",
     "streetAddress": "750 E Washington St Suite C3",
@@ -4046,7 +4046,7 @@
     "description": null
   },
   {
-    "id": "239",
+    "id": 239,
     "slug": "fluid-revival-mobile-iv-therapy-austin",
     "name": "Fluid Revival Mobile IV Therapy",
     "streetAddress": "5818 Balcones Dr Ste 200D",
@@ -4063,7 +4063,7 @@
     "description": null
   },
   {
-    "id": "240",
+    "id": 240,
     "slug": "fir-lane-care-shelton",
     "name": "Fir Lane Care",
     "streetAddress": "2430 N 13th St",
@@ -4080,7 +4080,7 @@
     "description": null
   },
   {
-    "id": "241",
+    "id": 241,
     "slug": "advanced-pain-and-regenerative-medical-solutions-shelton",
     "name": "Advanced Pain And Regenerative Medical Solutions",
     "streetAddress": "10 Progress Dr #2F",
@@ -4097,7 +4097,7 @@
     "description": null
   },
   {
-    "id": "242",
+    "id": 242,
     "slug": "northwest-weight-wellness-center-everett",
     "name": "Northwest Weight & Wellness Center",
     "streetAddress": "125 130th St SE",
@@ -4114,7 +4114,7 @@
     "description": null
   },
   {
-    "id": "243",
+    "id": 243,
     "slug": "vida-integrated-health-everett-everett",
     "name": "Vida Integrated Health Everett",
     "streetAddress": "15 SW Everett Mall Way Suite G",
@@ -4131,7 +4131,7 @@
     "description": null
   },
   {
-    "id": "244",
+    "id": 244,
     "slug": "pure-infusion-suites-of-kirkland-kirkland",
     "name": "Pure Infusion Suites of Kirkland",
     "streetAddress": "12515 Willows Rd NE ste 500",
@@ -4148,7 +4148,7 @@
     "description": null
   },
   {
-    "id": "245",
+    "id": 245,
     "slug": "templum-aesthetics-wellness-kirkland",
     "name": "Templum Aesthetics & Wellness",
     "streetAddress": "808 6th St South",
@@ -4165,7 +4165,7 @@
     "description": null
   },
   {
-    "id": "246",
+    "id": 246,
     "slug": "longevity-medical-clinic-kirkland",
     "name": "Longevity Medical Clinic",
     "streetAddress": "11335 NE 122nd Way #250",
@@ -4182,7 +4182,7 @@
     "description": null
   },
   {
-    "id": "247",
+    "id": 247,
     "slug": "axis-stem-cell-institute-kirkland",
     "name": "Axis Stem Cell Institute",
     "streetAddress": "10517 NE 38th Pl Bldg. 11 Suite B",
@@ -4199,7 +4199,7 @@
     "description": null
   },
   {
-    "id": "248",
+    "id": 248,
     "slug": "ocean-beach-health-ilwaco-clinic-ilwaco",
     "name": "Ocean Beach Health - Ilwaco Clinic",
     "streetAddress": "176 First Ave N",
@@ -4216,7 +4216,7 @@
     "description": null
   },
   {
-    "id": "249",
+    "id": 249,
     "slug": "ocean-beach-health-ilwaco",
     "name": "Ocean Beach Health",
     "streetAddress": "174 First Ave N",
@@ -4233,7 +4233,7 @@
     "description": null
   },
   {
-    "id": "250",
+    "id": 250,
     "slug": "naturomedica-issaquah",
     "name": "Naturomedica",
     "streetAddress": "1220 10th Ave NE",
@@ -4250,7 +4250,7 @@
     "description": null
   },
   {
-    "id": "251",
+    "id": 251,
     "slug": "elevated-natural-health-seattle",
     "name": "Elevated Natural Health",
     "streetAddress": "1500 Westlake Ave N #120",
@@ -4267,7 +4267,7 @@
     "description": null
   },
   {
-    "id": "252",
+    "id": 252,
     "slug": "venus-rising-med-spa-vancouver",
     "name": "Venus Rising Med Spa",
     "streetAddress": "601 Main St Suite 101",
@@ -4284,7 +4284,7 @@
     "description": null
   },
   {
-    "id": "253",
+    "id": 253,
     "slug": "in-light-hyperbarics-llc-vancouver",
     "name": "In Light Hyperbarics LLC.",
     "streetAddress": "1601 Broadway St",
@@ -4301,8 +4301,8 @@
     "description": null
   },
   {
-    "id": "254",
-    "slug": "therapeutic-health-services-snohomish-everett-branch-everett",
+    "id": 254,
+    "slug": "therapeutic-health-services-snohomisheverett-branch-everett",
     "name": "Therapeutic Health Services - Snohomish/Everett Branch",
     "streetAddress": "9930 Evergreen Wy Building Z150",
     "city": "Everett",
@@ -4318,7 +4318,7 @@
     "description": null
   },
   {
-    "id": "255",
+    "id": 255,
     "slug": "gl-aesthetics-wellness-battle-ground",
     "name": "Glō Aesthetics + Wellness",
     "streetAddress": "819 SE 14th Loop Ste 115",
@@ -4335,7 +4335,7 @@
     "description": null
   },
   {
-    "id": "256",
+    "id": 256,
     "slug": "prime-iv-hydration-wellness-tualatin-or-tualatin",
     "name": "Prime IV Hydration & Wellness - Tualatin, OR",
     "streetAddress": "7602 SW Nyberg St",
@@ -4352,7 +4352,7 @@
     "description": null
   },
   {
-    "id": "257",
+    "id": 257,
     "slug": "ageless-beauty-rx-vancouver",
     "name": "Ageless Beauty Rx",
     "streetAddress": "7700 NE Greenwood Dr #120",
@@ -4369,7 +4369,7 @@
     "description": null
   },
   {
-    "id": "258",
+    "id": 258,
     "slug": "cohesive-therapy-healing-rejuvenation-center-vancouver",
     "name": "Cohesive Therapy Healing & Rejuvenation Center",
     "streetAddress": "5916 NE St Johns Rd",
@@ -4386,7 +4386,7 @@
     "description": null
   },
   {
-    "id": "259",
+    "id": 259,
     "slug": "peak-performance-prevention-puyallup",
     "name": "Peak Performance & Prevention",
     "streetAddress": "317 4th St NW",
@@ -4403,7 +4403,7 @@
     "description": null
   },
   {
-    "id": "260",
+    "id": 260,
     "slug": "eterna-vein-medical-aesthetics-puyallup",
     "name": "Eterna Vein & Medical Aesthetics",
     "streetAddress": "1803 S Meridian",
@@ -4420,7 +4420,7 @@
     "description": null
   },
   {
-    "id": "261",
+    "id": 261,
     "slug": "experience-total-health-puyallup",
     "name": "Experience Total Health",
     "streetAddress": "12020 Meridian E Suite B",
@@ -4437,7 +4437,7 @@
     "description": null
   },
   {
-    "id": "262",
+    "id": 262,
     "slug": "cardinal-clinic-eatonville",
     "name": "Cardinal Clinic",
     "streetAddress": "200 Center St W",
@@ -4454,7 +4454,7 @@
     "description": null
   },
   {
-    "id": "263",
+    "id": 263,
     "slug": "aur-med-lounge-hydration-wellness-iv-therapy-weight-loss-injections-puyallup",
     "name": "Auré Med Lounge Hydration & Wellness | IV therapy | Weight loss Injections",
     "streetAddress": "5401 104th St E c",
@@ -4471,7 +4471,7 @@
     "description": null
   },
   {
-    "id": "264",
+    "id": 264,
     "slug": "the-spa-by-horizon-view-puyallup",
     "name": "The Spa by Horizon View",
     "streetAddress": "201 15th Ave SW UNIT D",
@@ -4488,7 +4488,7 @@
     "description": null
   },
   {
-    "id": "265",
+    "id": 265,
     "slug": "purity-medical-spa-puyallup",
     "name": "Purity Medical Spa",
     "streetAddress": "117 15th Ave SE",
@@ -4505,7 +4505,7 @@
     "description": null
   },
   {
-    "id": "266",
+    "id": 266,
     "slug": "renew-aesthetics-and-regenerative-medicine-puyallup",
     "name": "Renew Aesthetics and Regenerative Medicine",
     "streetAddress": "6302 112th St E Suite 300",
@@ -4522,7 +4522,7 @@
     "description": null
   },
   {
-    "id": "267",
+    "id": 267,
     "slug": "ember-medical-services-puyallup",
     "name": "Ember Medical Services",
     "streetAddress": "12815 Canyon Rd E Suite AB",
@@ -4539,7 +4539,7 @@
     "description": null
   },
   {
-    "id": "268",
+    "id": 268,
     "slug": "natural-life-medicine-puyallup",
     "name": "Natural Life Medicine",
     "streetAddress": "104 23rd Ave SE",
@@ -4556,7 +4556,7 @@
     "description": null
   },
   {
-    "id": "269",
+    "id": 269,
     "slug": "olalla-recovery-centers-olalla-guest-lodge-olalla",
     "name": "Olalla Recovery Centers - Olalla Guest Lodge",
     "streetAddress": "12850 Lala Cove Ln SE",
@@ -4573,7 +4573,7 @@
     "description": null
   },
   {
-    "id": "270",
+    "id": 270,
     "slug": "living-medical-arts-friday-harbor",
     "name": "Living Medical Arts",
     "streetAddress": "232 A St C6B",
@@ -4590,7 +4590,7 @@
     "description": null
   },
   {
-    "id": "271",
+    "id": 271,
     "slug": "vitality-seattle",
     "name": "Vitality",
     "streetAddress": "1905 Queen Anne Ave N",
@@ -4607,7 +4607,7 @@
     "description": null
   },
   {
-    "id": "272",
+    "id": 272,
     "slug": "siren-curves-body-sculpting-federal-way",
     "name": "Siren Curves Body Sculpting",
     "streetAddress": "1115 S 348th St Suite A",
@@ -4624,7 +4624,7 @@
     "description": null
   },
   {
-    "id": "273",
+    "id": 273,
     "slug": "simply-health-dp3-federal-way",
     "name": "Simply Health DP3",
     "streetAddress": "32114 1st Ave S STE 202",
@@ -4641,7 +4641,7 @@
     "description": null
   },
   {
-    "id": "274",
+    "id": 274,
     "slug": "skin-unfiltered-medical-aesthetics-zillah",
     "name": "Skin Unfiltered Medical Aesthetics",
     "streetAddress": "616 Railroad Ave Suite D",
@@ -4658,7 +4658,7 @@
     "description": null
   },
   {
-    "id": "275",
+    "id": 275,
     "slug": "renew-medical-emma-c-doody-nd-edmonds",
     "name": "ReNew Medical: Emma C. Doody, ND",
     "streetAddress": "190 W Dayton St Suite 204",
@@ -4675,7 +4675,7 @@
     "description": null
   },
   {
-    "id": "276",
+    "id": 276,
     "slug": "soma-aesthetics-yakima",
     "name": "Soma Aesthetics",
     "streetAddress": "6101 Summitview Ave Suite 140",
@@ -4692,7 +4692,7 @@
     "description": null
   },
   {
-    "id": "277",
+    "id": 277,
     "slug": "wilkinson-wellness-clinic-yakima",
     "name": "Wilkinson Wellness Clinic",
     "streetAddress": "302 S 12th Ave",
@@ -4709,7 +4709,7 @@
     "description": null
   },
   {
-    "id": "278",
+    "id": 278,
     "slug": "ivy-wellness-clinic-dr-nicolette-bembenek-md-vancouver",
     "name": "Ivy Wellness Clinic: Dr. Nicolette Bembenek, MD",
     "streetAddress": "1207 Washington St suite 245",
@@ -4726,7 +4726,7 @@
     "description": null
   },
   {
-    "id": "279",
+    "id": 279,
     "slug": "vita-weight-loss-iv-infusions-yakima-yakima",
     "name": "Vita Weight Loss & IV Infusions Yakima",
     "streetAddress": "1714 S 24th Ave",
@@ -4743,7 +4743,7 @@
     "description": null
   },
   {
-    "id": "280",
+    "id": 280,
     "slug": "pure-infusion-suites-of-yakima-yakima",
     "name": "Pure Infusion Suites of Yakima",
     "streetAddress": "105 S 1st St Ste 100",
@@ -4760,7 +4760,7 @@
     "description": null
   },
   {
-    "id": "281",
+    "id": 281,
     "slug": "brio-wellness-yakima-yakima",
     "name": "Brio Wellness Yakima",
     "streetAddress": "1415 Lakeside Ct suite 102",
@@ -4777,7 +4777,7 @@
     "description": null
   },
   {
-    "id": "282",
+    "id": 282,
     "slug": "flo-wellness-and-aesthetics-yakima",
     "name": "Flo Wellness and Aesthetics",
     "streetAddress": "1020 S 40th Ave G",
@@ -4794,7 +4794,7 @@
     "description": null
   },
   {
-    "id": "283",
+    "id": 283,
     "slug": "healthwithin-wellness-center-yakima",
     "name": "HealthWithin Wellness Center",
     "streetAddress": "1104 W Tieton Dr",
@@ -4811,7 +4811,7 @@
     "description": null
   },
   {
-    "id": "284",
+    "id": 284,
     "slug": "signature-vitality-pittsburgh",
     "name": "Signature Vitality",
     "streetAddress": "69 N Wren Dr",
@@ -4828,7 +4828,7 @@
     "description": null
   },
   {
-    "id": "285",
+    "id": 285,
     "slug": "infusions-and-injections-st-helens",
     "name": "Infusions and Injections",
     "streetAddress": "2504 Sykes Rd",
@@ -4845,7 +4845,7 @@
     "description": null
   },
   {
-    "id": "286",
+    "id": 286,
     "slug": "prime-iv-hydration-wellness-shadow-lake-papillion",
     "name": "Prime IV Hydration & Wellness - Shadow Lake",
     "streetAddress": "7474 Towne Center Pkwy Unit T-113",
@@ -4862,7 +4862,7 @@
     "description": null
   },
   {
-    "id": "287",
+    "id": 287,
     "slug": "reviv-new-york-iv-therapy-nad-glutathione-b12-new-york",
     "name": "REVIV New York - IV Therapy | NAD+ | Glutathione | B12",
     "streetAddress": "1140 Broadway Suite 402",
@@ -4879,7 +4879,7 @@
     "description": null
   },
   {
-    "id": "288",
+    "id": 288,
     "slug": "drip-gym-jackson-heights-jackson-heights",
     "name": "Drip Gym - Jackson Heights",
     "streetAddress": "37-20 76th St",
@@ -4896,7 +4896,7 @@
     "description": null
   },
   {
-    "id": "289",
+    "id": 289,
     "slug": "stanwood-integrative-medicine-stanwood",
     "name": "Stanwood Integrative Medicine",
     "streetAddress": "7206 267th St NW Ste 102",
@@ -4913,7 +4913,7 @@
     "description": null
   },
   {
-    "id": "290",
+    "id": 290,
     "slug": "stanwood-wellness-clinic-stanwood",
     "name": "Stanwood Wellness Clinic",
     "streetAddress": "8705 271st St NW #7",
@@ -4930,7 +4930,7 @@
     "description": null
   },
   {
-    "id": "291",
+    "id": 291,
     "slug": "restore-hyper-wellness-bellingham",
     "name": "Restore Hyper Wellness",
     "streetAddress": "2411 James St",
@@ -4947,7 +4947,7 @@
     "description": null
   },
   {
-    "id": "292",
+    "id": 292,
     "slug": "performance-iv-hydration-federal-way",
     "name": "Performance IV Hydration",
     "streetAddress": "622 S 320th St ste b",
@@ -4964,7 +4964,7 @@
     "description": null
   },
   {
-    "id": "293",
+    "id": 293,
     "slug": "magnolia-steel-medi-spa-and-wellness-clinic-graham",
     "name": "Magnolia & Steel Medi Spa and Wellness Clinic",
     "streetAddress": "22811 Meridian E # B",
@@ -4981,7 +4981,7 @@
     "description": null
   },
   {
-    "id": "294",
+    "id": 294,
     "slug": "iv-therapy-wa-renton",
     "name": "IV Therapy WA",
     "streetAddress": "17800 Talbot Rd S Suite 106",
@@ -4998,7 +4998,7 @@
     "description": null
   },
   {
-    "id": "295",
+    "id": 295,
     "slug": "moore-family-clinic-spokane",
     "name": "Moore Family Clinic",
     "streetAddress": "318 E Rowan Ave #201",
@@ -5015,7 +5015,7 @@
     "description": null
   },
   {
-    "id": "296",
+    "id": 296,
     "slug": "pura-vida-hydration-aesthetics-woodinville",
     "name": "Pura Vida Hydration & Aesthetics",
     "streetAddress": "12601 NE Woodinville Dr Suite B4",
@@ -5032,7 +5032,7 @@
     "description": null
   },
   {
-    "id": "297",
+    "id": 297,
     "slug": "infusion-solutions-bellingham",
     "name": "Infusion Solutions",
     "streetAddress": "477 W Horton Rd",
@@ -5049,7 +5049,7 @@
     "description": null
   },
   {
-    "id": "298",
+    "id": 298,
     "slug": "ivitality-bellingham-bellingham",
     "name": "IVitality Bellingham",
     "streetAddress": "1201 13th St #103",
@@ -5066,7 +5066,7 @@
     "description": null
   },
   {
-    "id": "299",
+    "id": 299,
     "slug": "sound-mind-body-integrative-therapies-bellingham",
     "name": "Sound Mind & Body Integrative Therapies",
     "streetAddress": "1200 Old Fairhaven Pkwy Ste 201",
@@ -5083,7 +5083,7 @@
     "description": null
   },
   {
-    "id": "300",
+    "id": 300,
     "slug": "artistry-medical-aesthetics-bellingham",
     "name": "Artistry Medical Aesthetics",
     "streetAddress": "1155 N State St Suite 603",
@@ -5100,7 +5100,7 @@
     "description": null
   },
   {
-    "id": "301",
+    "id": 301,
     "slug": "hydravibe-wellness-puyallup",
     "name": "HydraVibe Wellness",
     "streetAddress": "4301 S Meridian Suite C, Studio 1",
@@ -5117,7 +5117,7 @@
     "description": null
   },
   {
-    "id": "302",
+    "id": 302,
     "slug": "celsius-seattle",
     "name": "Celsius",
     "streetAddress": "229 Queen Anne Ave N St 101",
@@ -5134,7 +5134,7 @@
     "description": null
   },
   {
-    "id": "303",
+    "id": 303,
     "slug": "peak-hydration-bellingham",
     "name": "Peak Hydration",
     "streetAddress": "1216 Bay St",
@@ -5151,7 +5151,7 @@
     "description": null
   },
   {
-    "id": "304",
+    "id": 304,
     "slug": "drip-lounge-iv-bar-seattle",
     "name": "Drip Lounge IV Bar",
     "streetAddress": "2044 Eastlake Ave E Suite B",
@@ -5168,7 +5168,7 @@
     "description": null
   },
   {
-    "id": "305",
+    "id": 305,
     "slug": "flow-iv-seattle",
     "name": "flow iv",
     "streetAddress": "9730 3rd Ave NE #203",
@@ -5185,7 +5185,7 @@
     "description": null
   },
   {
-    "id": "306",
+    "id": 306,
     "slug": "zen-flow-seattle",
     "name": "Zen Flow",
     "streetAddress": "1406 E Pine St",
@@ -5202,7 +5202,7 @@
     "description": null
   },
   {
-    "id": "307",
+    "id": 307,
     "slug": "neuroveda-health-seattle",
     "name": "Neuroveda Health",
     "streetAddress": "1700 Westlake Ave N STE 100",
@@ -5219,7 +5219,7 @@
     "description": null
   },
   {
-    "id": "308",
+    "id": 308,
     "slug": "infusion-vibes-silverdale",
     "name": "Infusion Vibes",
     "streetAddress": "9220 Ridgetop Blvd NW #100",
@@ -5236,7 +5236,7 @@
     "description": null
   },
   {
-    "id": "309",
+    "id": 309,
     "slug": "vns-aesthetics-nataliya-stavkovy-rn-renton",
     "name": "VNS Aesthetics, Nataliya Stavkovy, RN",
     "streetAddress": "321 Burnett Ave S Suite 300",
@@ -5253,7 +5253,7 @@
     "description": null
   },
   {
-    "id": "310",
+    "id": 310,
     "slug": "integrated-wellness-aesthetics-vancouver",
     "name": "Integrated Wellness & Aesthetics",
     "streetAddress": "6204 NE Hwy 99 Ste C",
@@ -5270,7 +5270,7 @@
     "description": null
   },
   {
-    "id": "311",
+    "id": 311,
     "slug": "evia-medical-spa-edgewood",
     "name": "Evia Medical Spa",
     "streetAddress": "1311 Meridian Ave E",
@@ -5287,7 +5287,7 @@
     "description": null
   },
   {
-    "id": "312",
+    "id": 312,
     "slug": "vibrant-rejuvenation-aesthetics-cheney",
     "name": "Vibrant Rejuvenation Aesthetics",
     "streetAddress": "1010 1st St Suite A",
@@ -5304,7 +5304,7 @@
     "description": null
   },
   {
-    "id": "313",
+    "id": 313,
     "slug": "iv-drip-dynamics-clarksville",
     "name": "IV Drip Dynamics",
     "streetAddress": "7079 Guilford Rd",
@@ -5317,11 +5317,11 @@
     "rating": 5,
     "reviewCount": 22,
     "categories": "IV therapy service, Personal concierge service, Weight loss service",
-    "priceRange": "$$",
+    "priceRange": "$$$",
     "description": null
   },
   {
-    "id": "314",
+    "id": 314,
     "slug": "nuhydration-iv-wellness-red-hook",
     "name": "NuHydration IV Wellness",
     "streetAddress": "50 Old Farm Rd",
@@ -5338,7 +5338,7 @@
     "description": null
   },
   {
-    "id": "315",
+    "id": 315,
     "slug": "nu-revive-llc-lakewood",
     "name": "Nu Revive llc",
     "streetAddress": "3819 100th St SW #6a",
@@ -5355,7 +5355,7 @@
     "description": null
   },
   {
-    "id": "316",
+    "id": 316,
     "slug": "hydro-flow-glow-easton",
     "name": "Hydro Flow & Glow",
     "streetAddress": "320 Cattell St",
@@ -5372,7 +5372,7 @@
     "description": null
   },
   {
-    "id": "317",
+    "id": 317,
     "slug": "medical-seattle",
     "name": "Medical",
     "streetAddress": "509 Olive Wy #1542",

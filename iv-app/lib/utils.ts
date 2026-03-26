@@ -7,7 +7,8 @@ export function cn(...inputs: ClassValue[]) {
 
 export function formatPhone(phone: string | null | undefined): string {
   if (!phone) return "";
-  return phone.replace(/^\+1\s?/, "").replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
+  const digits = phone.replace(/^\+1\s?/, "").replace(/\D/g, "");
+  return digits.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
 }
 
 export function formatRating(rating: number | null | undefined): string {

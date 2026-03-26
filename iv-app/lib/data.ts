@@ -1,13 +1,13 @@
 import clinicsData from "@/data/clinics.json";
 
 export interface Clinic {
-  id: string;
+  id: number;
   slug: string;
   name: string;
-  streetAddress: string;
+  streetAddress: string | null;
   city: string;
   state: string;
-  zip: string;
+  zip: string | null;
   phone: string | null;
   website: string | null;
   hours: string | null;
@@ -34,12 +34,8 @@ export function getAllSlugs(): { slug: string }[] {
 
 export function getTopClinics(limit = 6): Clinic[] {
   return clinics
-    .filter((c) => c.rating != null && c.reviewCount != null && c.rating >= 4.5 && c.reviewCount >= 50)
-    .sort((a, b) => {
-      const ratingDiff = (b.rating ?? 0) - (a.rating ?? 0);
-      if (ratingDiff !== 0) return ratingDiff;
-      return (b.reviewCount ?? 0) - (a.reviewCount ?? 0);
-    })
+    .filter((c) => c.rating != null && c.rating >= 4.5 && c.reviewCount != null && c.reviewCount >= 50)
+    .sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0) || (b.reviewCount ?? 0) - (a.reviewCount ?? 0))
     .slice(0, limit);
 }
 
@@ -65,9 +61,8 @@ export function searchClinics(params: {
   const minRating = rating ? parseFloat(rating) : undefined;
 
   let results = clinics.filter((c) => {
-    // Location filter
     if (zip) {
-      if (!c.zip.includes(zip.trim())) return false;
+      if (!c.zip || !c.zip.includes(zip.trim())) return false;
     } else if (q) {
       const term = q.trim().toLowerCase();
       const parts = term.split(",").map((s) => s.trim());
@@ -84,23 +79,17 @@ export function searchClinics(params: {
       }
     }
 
-    // Rating filter
-    if (minRating && (c.rating == null || c.rating < minRating)) return false;
+    if (minRating != null && (c.rating == null || c.rating < minRating)) return false;
 
     return true;
   });
 
-  // Sort
   if (sort === "reviews") {
     results = results.sort((a, b) => (b.reviewCount ?? 0) - (a.reviewCount ?? 0));
   } else if (sort === "name") {
     results = results.sort((a, b) => a.name.localeCompare(b.name));
   } else {
-    results = results.sort((a, b) => {
-      const ratingDiff = (b.rating ?? 0) - (a.rating ?? 0);
-      if (ratingDiff !== 0) return ratingDiff;
-      return (b.reviewCount ?? 0) - (a.reviewCount ?? 0);
-    });
+    results = results.sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0) || (b.reviewCount ?? 0) - (a.reviewCount ?? 0));
   }
 
   return results.slice(0, 100);

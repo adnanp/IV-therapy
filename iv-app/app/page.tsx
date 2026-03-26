@@ -1,7 +1,7 @@
 import Link from "next/link";
+import { getTopClinics, getFeaturedCities } from "@/lib/data";
 import { SearchBar } from "@/components/SearchBar";
 import { ClinicCard } from "@/components/ClinicCard";
-import { getTopClinics, getFeaturedCities } from "@/lib/data";
 import { MapPin, Star, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
