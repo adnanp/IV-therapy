@@ -1,1 +1,138 @@
-{}
+{
+  "northwest-weight-wellness-center-everett": {
+    "sessionDuration": "Vitamin IV therapy typically takes between 45 minutes and an hour.",
+    "whatIsIncluded": "Customizable blend of vitamins and minerals administered by registered nurses. Menu of vitamin add-ons. Drips include Natural Defense (immune boost), Hydration, and Glutathione. Infusion fully customized to individual needs.",
+    "firstVisitInfo": "Wear short sleeves or loose sleeves you can roll up. Drink lots of water before your appointment. Eat a wholesome meal or snack shortly before. You may experience a sensation of coldness or stiffness near the IV, which is normal.",
+    "frequency": null,
+    "specialties": [
+      "Natural Defense",
+      "Hydration Drip",
+      "Glutathione"
+    ],
+    "priceNote": null
+  },
+  "drip-gym-jackson-heights-jackson-heights": {
+    "sessionDuration": "IV treatments typically last between 30 to 60 minutes.",
+    "whatIsIncluded": "Each IV drip delivers 100% bioavailability of vitamins and minerals directly into the bloodstream via saline base plus customized vitamin cocktail. Booster shots available as add-ons. Licensed registered nurse administers all treatments.",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "Myers Cocktail",
+      "Hangover IV",
+      "IV Hydration",
+      "Chelation Therapy",
+      "Ozone Therapy",
+      "Glutathione Glow Drip",
+      "Alpha Lipoic Acid Weight Loss IV",
+      "Immunity Drip",
+      "NAD IV Therapy",
+      "High Dose Vitamin C"
+    ],
+    "priceNote": "Single session starts at $250. Gold Membership $220/month (1 drip/month + 15% off). Platinum Membership $415/month (2 drips/month + 25% off)."
+  },
+  "faces-in-bloom-vancouver": {
+    "sessionDuration": "Your bag of fluids will take approximately 45 minutes to infuse.",
+    "whatIsIncluded": "A customized blend of vitamins, minerals, and antioxidants delivered directly into the bloodstream. Cocktail of vitamins customized with your provider. You are seated in a comfortable lounge chair for the duration.",
+    "firstVisitInfo": "Come in comfy, eat a light meal, avoid caffeine and alcohol, bring entertainment. No downtime. New patients receive $50 off their first treatment.",
+    "frequency": "Monthly IV subscription available \u2014 members receive one IV each month.",
+    "specialties": [],
+    "priceNote": "$160 per infusion. Monthly subscription $160/month includes one IV per month plus exclusive add-on pricing."
+  },
+  "pnw-hydration-wellness-puyallup": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Each customized IV includes rehydration with 500mL of IV fluids and electrolytes plus vitamins, minerals, and nutrients tailored to individual goals. Shot Bar and booster add-ons available. Mobile services available for an additional fee.",
+    "firstVisitInfo": null,
+    "frequency": "Recommended 1\u20134 times a month depending on goals and symptoms.",
+    "specialties": [
+      "Myers' Cocktail",
+      "Hydration Drip",
+      "Hormone & Immune Support",
+      "Brain Boost",
+      "Beauty & Anti-Aging",
+      "Energy Drip",
+      "Stress Relief",
+      "Hangover & Migraine Recovery",
+      "NAD+ IV",
+      "Athletic Performance",
+      "Mental Health & Mood"
+    ],
+    "priceNote": "Pricing not publicly listed. Does not accept insurance."
+  },
+  "iv-elements-hoboken": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV drips delivering fluids, vitamins, minerals, and electrolytes directly into the bloodstream. Custom IV mixes. Registered nurses administer all treatments under supervision of a medical doctor and board-certified advanced practice nurse.",
+    "firstVisitInfo": null,
+    "frequency": "Skin Brightening IV recommended 2 times a week or until desired results are achieved.",
+    "specialties": [
+      "Myers Cocktail",
+      "Hydroboost",
+      "Immunity Support",
+      "Hangover Relief",
+      "Performance Recovery",
+      "Skin Brightening IV",
+      "High Dose Vitamin C",
+      "Mistletoe",
+      "NAD",
+      "Chelation",
+      "Ozone"
+    ],
+    "priceNote": "Hydroboost $149 at the lounge. Mobile IV service starts at $85 additional. Packages available (must be used within 5 months)."
+  },
+  "medical-spa-at-pro-club-bellevue": {
+    "sessionDuration": "Approximately 60\u201390 minutes depending on whether you are a returning or first-time patient. Infusions are tailored to infuse over an hour; venous flow ultimately determines duration.",
+    "whatIsIncluded": "Proprietary IV infusion blends using 100% certified and sterile ingredients from FDA-registered facilities. Customized for immunity, detox, sports performance, energy, skin rejuvenation, and overall well-being. Vitals checked and infusion options discussed at the start of each appointment.",
+    "firstVisitInfo": "Arrive well hydrated and having eaten some protein at least one hour prior. Wear layered clothing as body temperature may vary. Bring something to do. Walk-ins welcome; appointments recommended. No membership required.",
+    "frequency": null,
+    "specialties": [
+      "High-dose Vitamin C",
+      "Iron IV",
+      "Custom Physician-Ordered Prescriptions"
+    ],
+    "priceNote": "IV infusions range from $155\u2013$1,000. Cash pay clinic \u2014 no insurance or co-pays. $100 fee for cancellations less than 24 hours prior. PRO Club members may charge to their membership account."
+  },
+  "pure-skiin-spokane-valley": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV fluids and essential nutrients delivered directly into the bloodstream. Customized blend of vitamins, minerals, and hydration tailored to individual goals. Consultation prior to starting to ensure perfect blend.",
+    "firstVisitInfo": "Before starting any IV therapy, PURE SKIIN takes the time to consult with you, ensuring the perfect blend tailored to your specific goals \u2014 whether you're looking for an energy boost, immune support, or post-workout recovery.",
+    "frequency": null,
+    "specialties": [
+      "Myers Cocktail",
+      "Pure Defense",
+      "Revive & Thrive",
+      "Pure Focus",
+      "Relief Remedy Drip"
+    ],
+    "priceNote": null
+  },
+  "reviv-new-york-iv-therapy-nad-glutathione-b12-new-york": {
+    "sessionDuration": "The entire process takes 30 to 60 minutes.",
+    "whatIsIncluded": "Signature IV drip therapies formulated by board-certified emergency physicians and pharmacists. Vitamins, minerals, and hydration delivered directly into the bloodstream. A $25 consultation fee is required for all IV therapies.",
+    "firstVisitInfo": "Each session begins with a consultation to determine your needs. A licensed nurse gently inserts a cannula into your arm. $25 consultation fee required. Mobile service available \u2014 nurses come to your home, hotel, or office.",
+    "frequency": null,
+    "specialties": [
+      "Hydromax",
+      "Miniboost",
+      "Ultraviv",
+      "Megaboost",
+      "Vitaglow",
+      "Royal Flush",
+      "HELIIX",
+      "NAD+ 250mg",
+      "NAD+ 500mg"
+    ],
+    "priceNote": "Hydromax IV Therapy $119. REVIV Electrolyte Therapy $79. NAD+ 100mg IM Injection $99. $25 consultation fee required for all IV therapies."
+  },
+  "symmetria-integrative-medical-marysville-marysville": {
+    "sessionDuration": "Sessions typically last 30 minutes to 1 hour. More complex formulations may extend to up to 2 hours. Drip rate and patient comfort also influence duration.",
+    "whatIsIncluded": "Customized blend of vitamins, minerals, and nutrients delivered via IV drip, bypassing the digestive system for 100% absorption. Thorough medical history review and assessment before any treatment. Administered by a certified IV therapy nurse.",
+    "firstVisitInfo": "A thorough medical history review and assessment are conducted before any treatment to ensure patient safety.",
+    "frequency": "General recommended care plan is one treatment every two weeks, unless otherwise directed by a physician.",
+    "specialties": [
+      "Supercharged Myers' Cocktail IV",
+      "Myers' Cocktail IV",
+      "Performance & Recovery IV",
+      "Immune Boosting IV"
+    ],
+    "priceNote": "Specific pricing not listed. Call for more information."
+  }
+}

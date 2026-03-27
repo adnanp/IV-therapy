@@ -597,7 +597,7 @@
   {
     "id": 36,
     "slug": "rejuvenate-wellness-aesthetics-iv-hormones-aesthetics-massage-olympia",
-    "name": "Rejuvenate Wellness & Aesthetics | IV • Hormones • Aesthetics • Massage",
+    "name": "Rejuvenate Wellness & Aesthetics | IV \u2022 Hormones \u2022 Aesthetics \u2022 Massage",
     "streetAddress": "205 Lilly Rd NE Bldg B, Ste B",
     "city": "Olympia",
     "state": "WA",
@@ -1890,7 +1890,7 @@
     "id": 112,
     "slug": "driptherapy-flagler-beach",
     "name": "DripTherapy",
-    "streetAddress": "Inside East Coast Acupuncture and Alternative Medicine, 99 ኦልድ ኪንግስ ሮድ ሳውዝ #4",
+    "streetAddress": "Inside East Coast Acupuncture and Alternative Medicine, 99 \u12a6\u120d\u12f5 \u12aa\u1295\u130d\u1235 \u122e\u12f5 \u1233\u12cd\u12dd #4",
     "city": "Flagler Beach",
     "state": "FL",
     "zip": "32136",
@@ -2448,23 +2448,6 @@
     "description": null
   },
   {
-    "id": 145,
-    "slug": "invigor-medical-pasco",
-    "name": "Invigor Medical",
-    "streetAddress": "5226 Outlet Dr",
-    "city": "Pasco",
-    "state": "WA",
-    "zip": "99301",
-    "phone": "+1 888-966-4854",
-    "website": "http://invigormedical.com/",
-    "hours": "{\"Monday\": [\"6AM-5PM\"], \"Tuesday\": [\"6AM-5PM\"], \"Wednesday\": [\"6AM-5PM\"], \"Thursday\": [\"6AM-5PM\"], \"Friday\": [\"6AM-5PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
-    "rating": 4.8,
-    "reviewCount": 1189,
-    "categories": "Wellness center, Medical clinic",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
     "id": 146,
     "slug": "ivtology-staten-island",
     "name": "IVTOLOGY",
@@ -2994,7 +2977,7 @@
   {
     "id": 177,
     "slug": "rejuvenationmd-bothell",
-    "name": "RejuvenationMD®",
+    "name": "RejuvenationMD\u00ae",
     "streetAddress": "22102 17th Ave SE Suite #200",
     "city": "Bothell",
     "state": "WA",
@@ -4320,7 +4303,7 @@
   {
     "id": 255,
     "slug": "gl-aesthetics-wellness-battle-ground",
-    "name": "Glō Aesthetics + Wellness",
+    "name": "Gl\u014d Aesthetics + Wellness",
     "streetAddress": "819 SE 14th Loop Ste 115",
     "city": "Battle Ground",
     "state": "WA",
@@ -4456,7 +4439,7 @@
   {
     "id": 263,
     "slug": "aur-med-lounge-hydration-wellness-iv-therapy-weight-loss-injections-puyallup",
-    "name": "Auré Med Lounge Hydration & Wellness | IV therapy | Weight loss Injections",
+    "name": "Aur\u00e9 Med Lounge Hydration & Wellness | IV therapy | Weight loss Injections",
     "streetAddress": "5401 104th St E c",
     "city": "Puyallup",
     "state": "WA",
