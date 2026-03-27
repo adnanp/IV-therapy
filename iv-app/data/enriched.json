@@ -134,5 +134,115 @@
       "Immune Boosting IV"
     ],
     "priceNote": "Specific pricing not listed. Call for more information."
+  },
+  "manhattan-iv-therapy-new-york": {
+    "sessionDuration": "Sessions last 30\u201360 minutes for standard drips; NAD+ sessions last 2\u20134 hours; Myers' Cocktail completed within 45 minutes.",
+    "whatIsIncluded": "IV fluids, vitamins, minerals, and electrolytes delivered directly into the bloodstream. Custom blends per drip \u2014 e.g., Migraine IV includes B Complex, Vitamin C, Magnesium, anti-nausea and anti-inflammatory medicine. Healthcare experts tailor each session to your health goals.",
+    "firstVisitInfo": "Walk-ins and same-day appointments available. Book online, select date/time/location and IV drip, receive confirmation email.",
+    "frequency": "Every 2\u20134 weeks for optimal results; NAD+ may start weekly tapering to monthly for maintenance.",
+    "specialties": [
+      "Myers' Cocktail",
+      "Inner Beauty IV",
+      "Quench IV",
+      "NAD+ IV",
+      "Migraine & Headache IV",
+      "Jet Lag IV",
+      "Mental Clarity IV",
+      "Energy Boost IV",
+      "Immunity IV"
+    ],
+    "priceNote": "Inner Beauty IV $280; NAD+ starting at $300; Quench IV $150\u2013$300 depending on customization."
+  },
+  "restore-hyper-wellness-kirkland": {
+    "sessionDuration": "IV vitamin/hydration therapy is a relaxing 60\u201390 minute experience. NAD+ IV sessions are 1\u20134 hours. Niagen (NR) IV is 30\u201345 minutes.",
+    "whatIsIncluded": "Essential vitamins, minerals, and electrolytes delivered into the bloodstream. Custom blends available with registered nurse \u2014 immune-boosting Vitamin C, energy-boosting B Complex, antioxidants like Glutathione, and essential minerals.",
+    "firstVisitInfo": "New Client Special: $99 IV Drip at Kirkland location. Administered by Registered Nurses at the studio.",
+    "frequency": "Memberships provide monthly IV credits. NAD+ loading dose recommended within 7 days before maintenance doses.",
+    "specialties": [
+      "New Myers",
+      "Hangover IV",
+      "Amplified Beauty",
+      "NAD+ IV",
+      "Niagen (NR) IV",
+      "Immune Support IV",
+      "Energy Boost IV",
+      "Recovery IV"
+    ],
+    "priceNote": "New Client Special $99 IV Drip. Memberships (3-month minimum) unlock 30% off specialty services."
+  },
+  "the-regenerative-institute-spokane": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Myers IV, Glutathione, Vitamin B and D injections, IV NAD (coenzyme delivered directly into bloodstream), and IV Hydration (electrolytes and nutrients). All administered by infusion nurses.",
+    "firstVisitInfo": "Appointments available Monday\u2013Friday 8:00 AM\u20134:00 PM. Located at 1303 West Summit Parkway, Lower Level 1, Spokane, WA. Call 509.579.4300.",
+    "frequency": null,
+    "specialties": [
+      "Myers Cocktail",
+      "IV Hydration",
+      "IV NAD",
+      "Glutathione",
+      "Vitamin B12 Injection",
+      "Vitamin D Injection"
+    ],
+    "priceNote": null
+  },
+  "new-u-womens-clinic-aesthetics-kennewick": {
+    "sessionDuration": "IV therapy sessions usually take 30 to 60 minutes depending on your chosen treatment.",
+    "whatIsIncluded": "IV drips customized by double-certified doctor Dr. Fidino. Ingredients vary by drip \u2014 Immune Boost includes high-dose Vitamin C, zinc, B-vitamins, and glutathione; Libido/Vitality includes Vitamin C, magnesium, B-complex, B12, taurine, arginine, carnitine, and glutathione.",
+    "firstVisitInfo": "$100 OFF your first 4 NAD+ IV infusions. Book at (509) 491-1944.",
+    "frequency": null,
+    "specialties": [
+      "Immune Boost IV",
+      "Myers' Cocktail Hydration IV",
+      "Weight Loss IV",
+      "Libido/Vitality IV",
+      "Anti-Aging IV",
+      "NAD+ IV"
+    ],
+    "priceNote": "Pricing not publicly listed. $100 off first 4 NAD+ IV infusions promotion available."
+  },
+  "mobile-iv-drip-seattle": {
+    "sessionDuration": "Most IV therapy sessions take between 30 minutes to an hour; most treatments take just 35\u201345 minutes.",
+    "whatIsIncluded": "Licensed nurse arrives at your home, hotel, or office and administers IV drip including fluids, electrolytes, and vitamins. Administered by registered nurses and paramedics under oversight of a board-certified emergency medicine doctor.",
+    "firstVisitInfo": "Book appointment online at mobileivdrip.com/appointment/. Team comes to your desired location \u2014 home, office, hotel, or event space.",
+    "frequency": "Many clients book weekly, others monthly or as needed.",
+    "specialties": [
+      "Hydration IV",
+      "Immune Support IV",
+      "Energy Boosting IV",
+      "NAD+ IV",
+      "Dehydration IV"
+    ],
+    "priceNote": "Pricing not listed publicly. Monthly membership plans available with monthly IVs, exclusive discounts, and priority booking."
+  },
+  "intravene-mobile-iv-therapy-seattle": {
+    "sessionDuration": "A typical session lasts 30 to 60 minutes. Most hydration and vitamin drips take 45\u201360 minutes; NAD+ may require 2\u20134 hours.",
+    "whatIsIncluded": "ER- and ICU-trained Critical Care Nurses come to your location. IV hydration bags customized based on symptoms. Add-ons available including Toradol for pain, Zofran for nausea, or extra Glutathione. HSA/FSA cards accepted.",
+    "firstVisitInfo": "Book online or call (206) 887-0651. Operates 8 AM\u20138 PM with after-hours availability. Serves Seattle and surrounding areas.",
+    "frequency": null,
+    "specialties": [
+      "Myers Cocktail 2.0",
+      "NAD+ Therapy",
+      "Revive Hangover IV",
+      "Biotin Beauty IV",
+      "Immune Boosting IV"
+    ],
+    "priceNote": "Treatments range from $194 to $350. Full pricing transparency provided before appointment begins."
+  },
+  "boost-iv-wellness-seattle": {
+    "sessionDuration": "The procedure takes about 40 minutes.",
+    "whatIsIncluded": "Administered by licensed RNs and NPs. Customized blends of vitamins, minerals, and antioxidants. High-Dose Vitamin C and Iron IV (Venofer) available. Mobile service brings care to home, office, or hotel.",
+    "firstVisitInfo": "Book via boost-iv.com or call 971-533-1700. Mobile service available for individuals and groups.",
+    "frequency": "Memberships available with 3-month minimum. IV credit valid for 60 days.",
+    "specialties": [
+      "Hydration Boost",
+      "Myers' Cocktail",
+      "Athlete's Boost",
+      "Immune-C Boost",
+      "Calm Boost",
+      "NAD+ IV",
+      "High-Dose Vitamin C",
+      "Iron IV"
+    ],
+    "priceNote": "IV Cocktail single $215; 5-pack $860 ($172/IV). Hydration Boost ~$175 single; 5-pack $540 ($108/IV). NAD+ 500mg 4-pack $1,600 ($400/IV). High-Dose Vitamin C 25g 5-pack $860."
   }
 }
