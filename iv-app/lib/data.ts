@@ -1,5 +1,6 @@
 import clinicsData from "@/data/clinics.json";
 import reviewsData from "@/data/reviews.json";
+import enrichedData from "@/data/enriched.json";
 
 export interface Clinic {
   id: number;
@@ -30,8 +31,22 @@ export interface Review {
   placeId: string;
 }
 
+export interface ClinicEnrichment {
+  sessionDuration: string | null;
+  whatIsIncluded: string | null;
+  firstVisitInfo: string | null;
+  frequency: string | null;
+  specialties: string[];
+  priceNote: string | null;
+}
+
 const clinics: Clinic[] = clinicsData as Clinic[];
 const reviews = reviewsData as Record<string, Review[]>;
+const enriched = enrichedData as Record<string, ClinicEnrichment>;
+
+export function getEnrichment(slug: string): ClinicEnrichment | null {
+  return enriched[slug] ?? null;
+}
 
 export function getReviews(slug: string): Review[] {
   return reviews[slug] ?? [];

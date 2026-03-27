@@ -1,4 +1,4 @@
-import { getClinic, getAllSlugs, getReviews } from "@/lib/data";
+import { getClinic, getAllSlugs, getReviews, getEnrichment } from "@/lib/data";
 import { ReviewCard } from "@/components/ReviewCard";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -51,6 +51,7 @@ export default async function ClinicDetailPage({ params }: PageProps) {
   const phone = formatPhone(clinic.phone);
   const services = IV_SERVICES.slice(0, 4);
   const reviews = getReviews(slug);
+  const enrichment = getEnrichment(slug);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -195,10 +196,34 @@ export default async function ClinicDetailPage({ params }: PageProps) {
             <section>
               <h2 className="text-xl font-bold text-gray-900 mb-3">What to Expect</h2>
               <div className="bg-teal-50 rounded-xl p-6 space-y-3 text-sm text-gray-700">
-                <p><span className="font-semibold">Session Duration:</span> Most IV drips take 30–60 minutes. NAD+ sessions may take 2–4 hours.</p>
-                <p><span className="font-semibold">What's Included:</span> A pre-treatment health assessment, IV placement by a licensed medical professional, and post-treatment monitoring.</p>
-                <p><span className="font-semibold">First Visit:</span> Arrive 10–15 minutes early to complete intake forms. Wear comfortable clothing with easy arm access.</p>
-                <p><span className="font-semibold">Frequency:</span> Treatments can be done weekly or monthly depending on your wellness goals.</p>
+                <p>
+                  <span className="font-semibold">Session Duration: </span>
+                  {enrichment?.sessionDuration ?? "Most IV drips take 30–60 minutes. NAD+ sessions may take 2–4 hours."}
+                </p>
+                <p>
+                  <span className="font-semibold">What&apos;s Included: </span>
+                  {enrichment?.whatIsIncluded ?? "A pre-treatment health assessment, IV placement by a licensed medical professional, and post-treatment monitoring."}
+                </p>
+                <p>
+                  <span className="font-semibold">First Visit: </span>
+                  {enrichment?.firstVisitInfo ?? "Arrive 10–15 minutes early to complete intake forms. Wear comfortable clothing with easy arm access."}
+                </p>
+                <p>
+                  <span className="font-semibold">Frequency: </span>
+                  {enrichment?.frequency ?? "Treatments can be done weekly or monthly depending on your wellness goals."}
+                </p>
+                {enrichment?.priceNote && (
+                  <p>
+                    <span className="font-semibold">Pricing: </span>
+                    {enrichment.priceNote}
+                  </p>
+                )}
+                {enrichment?.specialties && enrichment.specialties.length > 0 && (
+                  <p>
+                    <span className="font-semibold">Specialties: </span>
+                    {enrichment.specialties.join(", ")}
+                  </p>
+                )}
               </div>
             </section>
           </div>
