@@ -3026,23 +3026,6 @@
     "description": null
   },
   {
-    "id": 182,
-    "slug": "the-garage-chehalis",
-    "name": "The Garage",
-    "streetAddress": "1270 SW William Ave",
-    "city": "Chehalis",
-    "state": "WA",
-    "zip": "98532",
-    "phone": "+1 360-748-8814",
-    "website": "http://www.thegaragehairlounge.com/",
-    "hours": "{\"Monday\": [\"9AM-3PM\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"9AM-6PM\"], \"Thursday\": [\"9AM-6PM\"], \"Friday\": [\"9AM-6PM\"], \"Saturday\": [\"9AM-6PM\"], \"Sunday\": [\"Closed\"]}",
-    "rating": 4.9,
-    "reviewCount": 247,
-    "categories": "Hair salon, Facial spa, Hair extension technician, Massage spa, Medical spa, Nail salon, Skin care clinic, Spa, Hairdresser",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
     "id": 183,
     "slug": "adorne-medical-aesthetics-chehalis",
     "name": "Adorne Medical Aesthetics",
@@ -4637,23 +4620,6 @@
     "rating": 4.2,
     "reviewCount": 32,
     "categories": "Doctor",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
-    "id": 278,
-    "slug": "ivy-wellness-clinic-dr-nicolette-bembenek-md-vancouver",
-    "name": "Ivy Wellness Clinic: Dr. Nicolette Bembenek, MD",
-    "streetAddress": "1207 Washington St suite 245",
-    "city": "Vancouver",
-    "state": "WA",
-    "zip": "98660",
-    "phone": "+1 360-334-2834",
-    "website": "https://www.ivywellnessclinic.com/",
-    "hours": "{\"Monday\": [\"9AM-5PM\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"9AM-5PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
-    "rating": 5,
-    "reviewCount": 250,
-    "categories": "Medical clinic, Immigration & naturalization service, Weight loss service",
     "priceRange": "$$",
     "description": null
   },

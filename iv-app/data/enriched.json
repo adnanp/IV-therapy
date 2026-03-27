@@ -244,5 +244,119 @@
       "Iron IV"
     ],
     "priceNote": "IV Cocktail single $215; 5-pack $860 ($172/IV). Hydration Boost ~$175 single; 5-pack $540 ($108/IV). NAD+ 500mg 4-pack $1,600 ($400/IV). High-Dose Vitamin C 25g 5-pack $860."
+  },
+  "vida-integrated-health-everett": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Vitamins, minerals, and essential nutrients delivered directly into the bloodstream. Options include High-Dose Vitamin C IV and multi-nutrient IV therapy. No Concierge membership required.",
+    "firstVisitInfo": "Complete an online contact form; FM Schedulers will arrange a consultation with a Functional Medicine Physician. Contact FM@thinkvida.com or 425-505-2027.",
+    "frequency": null,
+    "specialties": [
+      "High-Dose Vitamin C IV",
+      "Multi-Nutrient IV Therapy",
+      "B12 Injections"
+    ],
+    "priceNote": "Concierge members receive 10% discount on IV Therapy. No specific pricing listed publicly."
+  },
+  "sculpt-wellness-kennewick": {
+    "sessionDuration": "FastVitamin IV takes just 15 minutes.",
+    "whatIsIncluded": "IV infusions with vitamins, minerals, and amino acids tailored to individual needs. Clients can relax, read, or listen to music during session. No downtime or post-IV restrictions.",
+    "firstVisitInfo": "NAD+ first-timers recommended to book an IV consultation before their first session.",
+    "frequency": null,
+    "specialties": [
+      "FastVitamin IV",
+      "Fountain of Youth",
+      "NAD+",
+      "Brain Refuel",
+      "Post-Virus Recovery",
+      "Recharge/Reboot Protocol",
+      "Immune Support Blend (Vitamin C, Glutathione, Zinc)"
+    ],
+    "priceNote": "Flexible financing options available. Specific prices not publicly listed."
+  },
+  "rejuvenate-wellness-aesthetics-iv-hormones-aesthetics-massage-olympia": {
+    "sessionDuration": "Approximately 30 to 45 minutes depending on the drip.",
+    "whatIsIncluded": "All IVs come in a 500ml Lactated Ringer's base (1000ml option available for +$20). Include essential vitamins, minerals, and amino acids. Oxygen therapy and aromatherapy add-ons available. Boosters can be added to any drip.",
+    "firstVisitInfo": "Walk-ins accepted but appointments preferred and take priority. Staff reviews medical history and needs to recommend appropriate drip.",
+    "frequency": "No more than once a week recommended, except pre- and post-event therapies which can be administered before and after an event in the same week.",
+    "specialties": [
+      "Myers' Cocktail",
+      "High-Dose Vitamin C",
+      "Glutathione",
+      "NAD+ Therapy",
+      "Athletic Performance Blend",
+      "Hangover IV",
+      "Immune Support IV"
+    ],
+    "priceNote": "IV therapies range from $60 to $209. Drip Club memberships offer monthly drip packages with 10\u201320% discounts. Does not accept insurance."
+  },
+  "healthwithin-wellness-center-yakima": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Wide range of treatments from simple hydration to customized therapies with unique combinations of vitamins and minerals. Each session tailored to the individual's needs. Nutrients delivered directly to the bloodstream.",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [],
+    "priceNote": null
+  },
+  "peak-hydration-kennewick": {
+    "sessionDuration": "IV sessions typically last about an hour. Wellness Shots take about 10 to 15 minutes.",
+    "whatIsIncluded": "IV drips with vitamins, minerals, electrolytes, and amino acids administered by licensed board-certified doctors and registered nurses. Spa-like environment with comfortable recliners, heated blankets, soothing music, massage equipment, eye covers, and earplugs.",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "Myers' Cocktail",
+      "Immune Boost / Cold & Flu Drip",
+      "Hangover Drip",
+      "Headache/Migraine Drip",
+      "Migraine Mitigator",
+      "NAD+ Drip",
+      "Sport Support IV",
+      "Athletic Performance IV",
+      "Beauty IV",
+      "Sports Recovery"
+    ],
+    "priceNote": "Sports Recovery drip $185. Memberships start at $175/month. Birthday, friend referral, and military discounts available."
+  },
+  "valley-laser-skin-wenatchee": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Personalized blend of vitamins, minerals, amino acids, and nutrients delivered directly into the bloodstream via IV line. Performed in comfortable private rooms.",
+    "firstVisitInfo": "Experienced team creates a personalized treatment plan tailored to your specific needs. Contact (509) 667-2535 to book.",
+    "frequency": null,
+    "specialties": [],
+    "priceNote": null
+  },
+  "4ever-young-med-spa-wellness-center-edgewater": {
+    "sessionDuration": "Typically 30 to 90 minutes; most sessions approximately 45\u201360 minutes.",
+    "whatIsIncluded": "Nutrient-rich IV formula administered in comfortable recliners with cozy blankets. First visit begins with brief consultation reviewing health history, energy concerns, and current medications. Basic vitals taken before IV begins.",
+    "firstVisitInfo": "Brief consultation at first visit covering health history, energy concerns, and current medications. Basic vitals taken. Small catheter inserted into arm. Bring a book or earbuds.",
+    "frequency": null,
+    "specialties": [
+      "Myers Cocktail",
+      "NAD+ IV",
+      "4Ever Young IV",
+      "4Ever Refuel",
+      "4Ever Detoxify",
+      "4Ever Glow",
+      "4Ever Shield"
+    ],
+    "priceNote": "VIP members receive one wellness IV drip of choice per month, B12 Shot, free InBody analysis, additional IVs at 30% off, and 15% off all vitamin supplements."
+  },
+  "good-iv-portland": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV fluids, vitamins, minerals, and specialty infusions. Anti-nausea and pain relief available. Add-ons include Glutathione, NAD+, Amino Blend, Toradol, Zofran, Taurine, Biotin, and Oxygen therapy. Team customizes therapy to your health goals.",
+    "firstVisitInfo": "First-time visitors should be available for screening 1 hour before appointment. Team customizes therapy to align with health goals. $50 cancellation fee per person if canceled within 2 hours.",
+    "frequency": null,
+    "specialties": [
+      "Easy Does It (hydration)",
+      "Good God! (hangover)",
+      "Myers Cocktail",
+      "Myers Cocktail+",
+      "Vitamin C Boost",
+      "Hello Gorgeous! (beauty)",
+      "Zen Drip (stress relief)",
+      "NAD+ 500mg",
+      "Iron Infusion",
+      "Athlete Recovery"
+    ],
+    "priceNote": "NAD+ 500mg: $500. 750mg and 1g NAD+ available (call for pricing). No hidden service charges."
   }
 }
