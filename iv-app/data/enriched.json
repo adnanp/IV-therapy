@@ -1505,5 +1505,73 @@
       "Lipo C Injection"
     ],
     "priceNote": "$75 travel fee for locations within 30 min; group discounts: 5+ people host gets 50% off, 7+ people host gets IV free; all prices given upfront at booking"
+  },
+  "island-revive-chester": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV drip infusions with hydration (0.9% saline solution), vitamins, and electrolytes tailored to individual wellness goals; woman- and veteran-owned clinic inside Kent Island Chiropractic",
+    "firstVisitInfo": "Located inside Kent Island Chiropractic; personalized IV therapy sessions with highly trained professionals",
+    "frequency": null,
+    "specialties": [
+      "Hydration Therapy",
+      "Hangover Relief",
+      "Immune Boost",
+      "Energy & Vitality",
+      "Post-Workout Recovery"
+    ],
+    "priceNote": null
+  },
+  "new-wave-functional-aesthetic-medicine-renton": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV drips delivering vitamins, minerals, antioxidants, and hydration directly into the bloodstream; includes full-liter saline bags plus targeted nutrient blends; available to both members and non-members",
+    "firstVisitInfo": "Book by selecting IV Lounge as appointment type and specifying the desired IV in the notes; located at 123 Wells Ave S, Renton, WA",
+    "frequency": null,
+    "specialties": [
+      "Myer's Cocktail",
+      "MigraineEase",
+      "Immune Boost",
+      "Athletic Recovery",
+      "Mood Booster",
+      "HydroBoost",
+      "Weight Loss IV",
+      "NAD+ Detox",
+      "Iron IV",
+      "High Dose Vitamin C",
+      "Quercetin IV",
+      "Ozone Saline IV",
+      "NAD+ Series"
+    ],
+    "priceNote": "Members receive one complimentary IV push or HydroBoost IV per month; all services available to non-members at standard rates"
+  },
+  "arctic-elevation-renton": {
+    "sessionDuration": "Approximately 1 hour",
+    "whatIsIncluded": "Personalized IV drip cocktails with half a liter of hydration plus targeted nutrients; Registered Nurses craft customized infusions; Custom IV includes half a liter of hydration and Red Light Therapy prep",
+    "firstVisitInfo": "Walk-in or appointment at 1133 Lake Washington Blvd N, Ste 80, Renton, WA 98056; HSA and FSA cards accepted; no insurance accepted",
+    "frequency": "Membership options allow 2-4 IVs/month depending on tier",
+    "specialties": [
+      "Myers Cocktail",
+      "NAD+ IV",
+      "CBD IV",
+      "High-Dose Vitamin C IV",
+      "Founders Favorite IV (Glutathione, Vitamin C, B12, Biotin, Carnitine)",
+      "Fountain of Youth IV",
+      "Gut Health IV",
+      "Beauty Infusion",
+      "Custom IV"
+    ],
+    "priceNote": "Promotional Myers Cocktail IV + Red Light Therapy for $67; memberships $250-$600/month including 2-4 IVs plus 10-20% discounts"
+  },
+  "iv-league-hydration-and-wellness-llc-camp-hill": {
+    "sessionDuration": "30-60 minutes, up to 2 hours depending on formulation and individual needs",
+    "whatIsIncluded": "IV infusions with vitamins, minerals, peptides, electrolytes, and hydration; ingredients include Vitamin C, zinc, glutathione, B12, B-complex, magnesium, biotin, and optional Toradol add-on; sterile equipment and emergency protocols in place",
+    "firstVisitInfo": "Located at 3803 Cedar Avenue, Camp Hill, PA 17011; HSA/FSA accepted; 24-hour cancellation policy; card required on file at booking",
+    "frequency": "Generally limit to 1 therapy per week; spacing treatments 2-3 days apart recommended to optimize absorption",
+    "specialties": [
+      "Skin/Beauty Drip (Biotin + Vitamin C)",
+      "Hydration/Recovery Drip",
+      "Myers Cocktail-style Drip",
+      "Immune Boost (Vitamin C, Zinc, Glutathione, B6)",
+      "Toradol Add-On (pain relief/anti-inflammatory)"
+    ],
+    "priceNote": "Specific pricing not publicly listed; HSA/FSA accepted; no cash payments"
   }
 }
