@@ -1032,5 +1032,54 @@
       "The Denali (Vitamin C, Glutathione, NAC, Amino Blend, NAD precursors)"
     ],
     "priceNote": "Meyer's Elixir 95; Hangover Relief 95; Performance & Recovery 25; The Denali 55"
+  },
+  "three-points-healing-olympia": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV vitamin and nutrient infusions as part of a broader integrated wellness offering that includes ketamine therapy, nutritional counseling, spa services, and psychiatric care",
+    "firstVisitInfo": "New clients complete a pre-screening process and a 60-minute initial assessment session, after which a comprehensive treatment plan is discussed",
+    "frequency": null,
+    "specialties": [
+      "IV Infusion Therapy",
+      "IV Ketamine Therapy",
+      "Vitamin/Nutrient Infusions",
+      "IM Injections"
+    ],
+    "priceNote": null
+  },
+  "rehydrate-iv-infusion-shelton": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Customized IV infusion therapies to replenish the body with essential nutrients, hydration, and vitality; services in a spa-like environment with private rooms, comfortable chairs, and complimentary tea and water",
+    "firstVisitInfo": "All potential clients must complete a consultation prior to receiving any services to assess health status and determine suitability",
+    "frequency": null,
+    "specialties": [
+      "Radiance IV Infusion (Biotin, Glutathione, Vitamin C)",
+      "Vitamin C IV Drip",
+      "Gluta Plus IV",
+      "Compression Therapy",
+      "Red Light Therapy"
+    ],
+    "priceNote": "Memberships available with 10% off all IVs; Cherry payment plans offered"
+  },
+  "twin-rivers-iv-wellness-lounge-clayton-nc-clayton": {
+    "sessionDuration": "Approximately 30 minutes; first-time visitors should plan an additional 15 minutes for intake, vitals, and waiver",
+    "whatIsIncluded": "1L normal saline base with B-Complex and B-12 for all Health & Wellness IVs; customizable with boosts; NAD+ therapies and peptide therapy also available",
+    "firstVisitInfo": "First visit includes intake to discuss wellness goals, review medical history, take vitals, and complete a waiver; stay hydrated and come ready to relax",
+    "frequency": null,
+    "specialties": [
+      "Myers Boost",
+      "Athletic Boost",
+      "Beauty Boost",
+      "Immunity Boost",
+      "Super Immunity",
+      "Recovery Boost",
+      "Hangover Relief",
+      "Jet Lag",
+      "Migraine Relief",
+      "COVID Recovery",
+      "NAD+ Therapy",
+      "Peptide Therapy",
+      "Wellness Injections"
+    ],
+    "priceNote": "New customer Health & Wellness IV 9 (reg. 35); Elite+ Membership 00/month (2 IVs + 2 Boosts + 2 B-12 injections); HSA/FSA accepted"
   }
 }

@@ -765,23 +765,6 @@
     "description": null
   },
   {
-    "id": 58,
-    "slug": "level-up-wellness-liberty-lake",
-    "name": "Level Up Wellness",
-    "streetAddress": "1334 N Whitman Ln STE. 180",
-    "city": "Liberty Lake",
-    "state": "WA",
-    "zip": "99019",
-    "phone": "+1 509-992-4850",
-    "website": "https://www.leveluplibertylake.com/%3Futm_source%3Dgoogle-map%26utm_campaign%3Dgmb%26utm_medium%3Dorganic",
-    "hours": "{\"Monday\": [\"9AM-6PM\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"9AM-6PM\"], \"Thursday\": [\"9AM-6PM\"], \"Friday\": [\"8AM-2PM\"], \"Saturday\": [\"8AM-1PM\"], \"Sunday\": [\"Closed\"]}",
-    "rating": 5,
-    "reviewCount": 40,
-    "categories": "Wellness center, Day spa",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
     "id": 59,
     "slug": "twin-rivers-iv-wellness-lounge-clayton-nc-clayton",
     "name": "Twin Rivers IV & Wellness Lounge - Clayton NC",
@@ -795,23 +778,6 @@
     "rating": 5,
     "reviewCount": 102,
     "categories": "Health spa",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
-    "id": 60,
-    "slug": "northwest-ketamine-clinics-tacoma-tacoma",
-    "name": "Northwest Ketamine Clinics- Tacoma",
-    "streetAddress": "1901 S Union Ave Building B Suite 4001",
-    "city": "Tacoma",
-    "state": "WA",
-    "zip": "98405",
-    "phone": "+1 206-309-2299",
-    "website": "https://nwketamineclinics.com/tacoma/%3Futm_source%3Dgoogle%26utm_medium%3Dlocal%26utm_campaign%3Dtacoma_gbp",
-    "hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"9AM-6:30PM\"], \"Wednesday\": [\"9AM-6:30PM\"], \"Thursday\": [\"9AM-6:30PM\"], \"Friday\": [\"9AM-6:30PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
-    "rating": 5,
-    "reviewCount": 62,
-    "categories": "Mental health clinic, Medical clinic, Nurse practitioner",
     "priceRange": "$$",
     "description": null
   },
