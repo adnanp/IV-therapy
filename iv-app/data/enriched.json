@@ -424,5 +424,54 @@
       "IVF Hydration Therapy (recovery/hydration)"
     ],
     "priceNote": "Pricing not publicly listed; contact clinic at (971) 438-4384 for details"
+  },
+  "fresh-iv-drips-fresh-meadows": {
+    "sessionDuration": "30-45 minutes depending on the drip chosen",
+    "whatIsIncluded": "IV infusion administered by a licensed RN; vitamin and hydration infusions delivered to your door; two-hour arrival guarantee",
+    "firstVisitInfo": "Mobile service \u2014 a licensed nurse comes to your home, office, or hotel; appointments recommended; available Monday-Friday 9am-5pm",
+    "frequency": "As needed; on-demand mobile service",
+    "specialties": [
+      "Hangover Relief Basic",
+      "Hangover Relief Supreme",
+      "Energy Boost (B12 & B Complex)",
+      "Hydration IV",
+      "Vitamin Infusions"
+    ],
+    "priceNote": "Transparent pricing advertised; contact for quote"
+  },
+  "medivee-live-well-aesthetics-ferndale": {
+    "sessionDuration": "Approximately 45 minutes for most drips",
+    "whatIsIncluded": "Custom IV drip administered by a licensed RN; all treatments tested and monitored by a board-certified doctor; add-on boosters available; in-clinic or mobile service",
+    "firstVisitInfo": "Walk-ins welcome Mon-Fri 10am-5pm, Sat-Sun 11am-3pm; appointments outside normal hours available; located at 747 W Nine Mile Rd, Ferndale, MI",
+    "frequency": "Monthly memberships available; on-demand or recurring based on wellness goals",
+    "specialties": [
+      "iMyers Cocktail",
+      "iSICK (Immune Recovery)",
+      "iFIT (Athletic Performance)",
+      "iCALM (Stress & Sleep)",
+      "iYOUTH / NAD+ Therapy",
+      "Hangover/Recovery Drip",
+      "Glutathione Push",
+      "Mobile IV Therapy"
+    ],
+    "priceNote": "iMyers Cocktail from $239; mobile service add-on $300; monthly memberships available"
+  },
+  "alpine-integrated-medicine-redmond": {
+    "sessionDuration": "Approximately one hour per session",
+    "whatIsIncluded": "Custom IV bags compounded on-site; naturopathic doctor consultation and monitoring; three tiers of treatment intensity; optional add-ons (Glutathione, NAD+, Magnesium)",
+    "firstVisitInfo": "Tier 1 IVs can begin with a simple intake visit; Tier 2 and 3 require a personalized consultation with an AIM naturopathic doctor first",
+    "frequency": "Varies by treatment goal; ongoing care available through WellnessPLUS membership",
+    "specialties": [
+      "Hydration IV",
+      "Immunity IV",
+      "Myers' Cocktail",
+      "Cognition IV",
+      "Athletic IV",
+      "Anti-Viral IV",
+      "Beauty IV",
+      "Integrative Oncology IV",
+      "NAD+ Therapy"
+    ],
+    "priceNote": "Prices range from $119 to $449 depending on tier; Cherry financing available"
   }
 }
