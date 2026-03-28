@@ -632,5 +632,102 @@
       "Mobile IV Therapy"
     ],
     "priceNote": "Pricing not publicly listed; membership available (2 IVs/month + 3rd at 50% off + 1 injection)"
+  },
+  "drip-wellness-pllc-mill-creek": {
+    "sessionDuration": "30-60 minutes for IV drips; high-dose IV Vitamin C sessions can run 60-180 minutes",
+    "whatIsIncluded": "Personalized IV vitamin and hydration therapy using IV fluids, electrolytes, vitamins, minerals, amino acids, and antioxidants. Specialty services include high-dose IV Vitamin C and IV Iron. Mobile and event visits available with travel fee.",
+    "firstVisitInfo": "Discuss wellness goals and complete a brief medical history and consent form; staff help select appropriate IV or IM treatment; vitals checked before leaving. Located at 4008 133rd St SE, Suite 115, Mill Creek, WA. Same-day and after-hours appointments often available.",
+    "frequency": "Frequency individualized and determined in consultation with the medical team based on health goals and treatment type",
+    "specialties": [
+      "Myers' Cocktail",
+      "Immunity Boost IV",
+      "Beauty IV",
+      "High-Dose IV Vitamin C (10-75g)",
+      "IV Iron (Iron Sucrose/Venofer)",
+      "B12 IM Injection",
+      "Vitamin D IM Injection",
+      "Lipolean/Skinny Shot",
+      "Athletic Performance IV",
+      "Hangover Recovery IV",
+      "Migraine Relief IV"
+    ],
+    "priceNote": "High-dose IV Vitamin C: 50-25 (10-15g), 75-50 (20-25g), 50 (75g). IV Iron: 99 for 200mg. Standard IV drip pricing not publicly listed."
+  },
+  "prime-iv-hydration-wellness-north-spokane-spokane": {
+    "sessionDuration": "30-45 minutes for most IV drips; NAD+ infusions may take longer",
+    "whatIsIncluded": "IV drips containing 1 liter of saline plus a blend of vitamins, minerals, amino acids, and antioxidants; complimentary consultation with medically trained staff; personalized wellness plan; VIP massage chairs and oxygen treatment available",
+    "firstVisitInfo": "Book online, by phone, or walk in; complete intake form; receive complimentary consultation; relax in spa-like lounge during session. Located at 9992 N. Newport Highway, Suite 003, Spokane, WA 99218. Hours: Tue 10am-6pm, Wed-Thu 9am-5pm, Fri 10am-6pm, Sat 9am-6pm.",
+    "frequency": "Weekly, biweekly, or monthly depending on goals; 1-2 drips per month common for generally healthy adults",
+    "specialties": [
+      "Re-Hydrate",
+      "Athletic Performance",
+      "Anti-Aging",
+      "Hangover Recovery",
+      "Immunity Boost",
+      "Myers' Cocktail",
+      "Migraine Relief",
+      "Weight Loss Program",
+      "NAD+ Infusions & Injections",
+      "BHRT",
+      "Mobile IV Therapy"
+    ],
+    "priceNote": "First-time intro offer: 5; single sessions 00-50; memberships 4-99/month; HSA/FSA accepted"
+  },
+  "intravene-mobile-iv-therapy-spokane-spokane": {
+    "sessionDuration": "30-45 minutes for most IV treatments; NAD+ sessions may take longer",
+    "whatIsIncluded": "Mobile concierge IV therapy delivered by critical care nurses to your home, office, or hotel; all vitamin blends pharmacist-reviewed; physician reviews IV prior to treatment; includes nurse assessment, IV administration, and monitoring",
+    "firstVisitInfo": "Nurse dispatched to your location; conducts health assessment and selects best treatment; physician reviews IV prior to administration; nurses typically arrive within one hour. Available 8am-8pm; after-hours appointments can be pre-booked.",
+    "frequency": "Every two weeks recommended for generally healthy individuals; personalized by attending nurse",
+    "specialties": [
+      "NAD+ IV Therapy",
+      "Myers' Cocktail 2.0",
+      "Performance IV",
+      "Altitude/Mile Hydrate IV",
+      "Biotin Beauty IV",
+      "Revive Hangover IV",
+      "Ultimate Immune Boost",
+      "Banana Bag IV"
+    ],
+    "priceNote": "IV therapy treatments range from 94 to 50 depending on drip; HSA/FSA accepted"
+  },
+  "prime-iv-hydration-wellness-mill-creek-gateway-mill-creek": {
+    "sessionDuration": "30-45 minutes for most IV drips; NAD+ infusions may take longer",
+    "whatIsIncluded": "IV drips containing 1 liter of saline plus a blend of vitamins, minerals, amino acids, and antioxidants; complimentary consultation; personalized wellness plan; VIP massage chairs and oxygen treatment available",
+    "firstVisitInfo": "Book online, by phone, or walk in; complete intake form; receive complimentary consultation. Located at 13416 Bothell Everett Hwy, Suite 205, Mill Creek, WA 98012. Phone: (425) 320-5084.",
+    "frequency": "Weekly, biweekly, or monthly depending on goals; memberships support regular ongoing treatment",
+    "specialties": [
+      "Re-Hydrate",
+      "Athletic Performance",
+      "Anti-Aging",
+      "Hangover Recovery",
+      "Immunity Boost",
+      "Myers' Cocktail",
+      "Migraine Relief",
+      "Weight Loss Program",
+      "NAD+ Infusions & Injections",
+      "BHRT",
+      "Mobile IV Therapy"
+    ],
+    "priceNote": "First-time intro offer: 5; single sessions 00-50; memberships 4-99/month; HSA/FSA accepted"
+  },
+  "prime-iv-hydration-wellness-kennewick-kennewick": {
+    "sessionDuration": "30-45 minutes for most IV drips; NAD+ infusions may take longer",
+    "whatIsIncluded": "IV drips containing 1 liter of saline plus a blend of vitamins, minerals, amino acids, and antioxidants; complimentary consultation; personalized wellness plan; VIP massage chairs and oxygen treatment available",
+    "firstVisitInfo": "Book online, by phone, or walk in; complete intake form; receive complimentary consultation. Located at 1360 N. Louisiana St., Suite B, Kennewick, WA 99336. Hours: Mon-Tue/Thu-Fri 9am-5:30pm, Wed 9am-9pm, Sat 9am-4pm.",
+    "frequency": "Weekly, biweekly, or monthly depending on goals; memberships support regular ongoing treatment",
+    "specialties": [
+      "Re-Hydrate",
+      "Athletic Performance",
+      "Anti-Aging",
+      "Hangover Recovery",
+      "Immunity Boost",
+      "Myers' Cocktail",
+      "Migraine Relief",
+      "Weight Loss Program",
+      "NAD+ Infusions & Injections",
+      "BHRT",
+      "Mobile IV Therapy"
+    ],
+    "priceNote": "First-time intro offer: 5; single sessions 00-50; memberships 4-99/month; HSA/FSA accepted"
   }
 }
