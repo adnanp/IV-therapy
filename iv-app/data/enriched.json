@@ -358,5 +358,71 @@
       "Athlete Recovery"
     ],
     "priceNote": "NAD+ 500mg: $500. 750mg and 1g NAD+ available (call for pricing). No hidden service charges."
+  },
+  "lifted-beauty-wellness-seattle": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Intramuscular and intravenous nutrients that bypass first-pass liver metabolism for complete absorption; treatments include B12 Shot, Skinny Shot, IV Liquid Beauty, and IV Glutathione Push; said to boost energy 4 days to 2 weeks post-treatment",
+    "firstVisitInfo": "IV and IM therapy is not offered as a stand-alone service; must be booked alongside an aesthetic treatment (e.g., body contouring, HydraFacial). Contact clinic by text at (206) 299-1102 or book online.",
+    "frequency": null,
+    "specialties": [
+      "B12 Shot",
+      "Skinny Shot",
+      "IV Liquid Beauty",
+      "IV Glutathione Push"
+    ],
+    "priceNote": null
+  },
+  "prime-iv-hydration-wellness-south-lake-union-seattle-seattle": {
+    "sessionDuration": "45-60 minutes",
+    "whatIsIncluded": "IV drip of vitamins, minerals, and antioxidants delivered directly into the bloodstream; complimentary consultation with medically trained staff; relaxation in a spa-like environment with zero-gravity massage chairs; oxygen treatment; personalized wellness plan provided at the end of visit",
+    "firstVisitInfo": "Book online, by phone, or walk in. Fill out a brief intake form upon arrival, then receive a complimentary consultation to align therapy with wellness goals. Welcome discount available for first-time visitors.",
+    "frequency": "Monthly minimum recommended; membership plans designed for consistent monthly treatments with rollover credits if a session is missed",
+    "specialties": [
+      "Hangover Recovery",
+      "Immunity Boost",
+      "Myers' Cocktail",
+      "Summit Drip (Altitude Sickness)",
+      "Jet Lag Recovery",
+      "Beauty Boost",
+      "NAD+ Infusions and Injections",
+      "Lipolean Injections",
+      "B12 Injections"
+    ],
+    "priceNote": "Pricing varies by location and is not publicly listed nationally; tiered memberships available (Essentials and Transformation tiers)"
+  },
+  "prime-iv-hydration-wellness-appleton-appleton": {
+    "sessionDuration": "30-45 minutes",
+    "whatIsIncluded": "IV drip of vitamins, minerals, and antioxidants administered by licensed medical staff; freshly prepared IV bags with pharmaceutical-grade ingredients; personalized drip based on wellness goals; injections available as a 5-minute alternative",
+    "firstVisitInfo": "Thorough evaluation by licensed medical staff before every infusion; strict safety protocols followed; customized drip selected based on individual needs and goals",
+    "frequency": "Monthly recommended as part of a routine wellness plan; membership plans with monthly drip credits and rollover options",
+    "specialties": [
+      "Hangover Recovery",
+      "Immunity Boost",
+      "Myers' Cocktail",
+      "Beauty Boost",
+      "Liver Detox",
+      "Jet Lag Recovery",
+      "NAD+ Infusions and Injections",
+      "Vitamin D Injection",
+      "B12 Injection",
+      "B6 Injection",
+      "Biotin Injection",
+      "Lipolean Injections"
+    ],
+    "priceNote": "Pricing varies by location; tiered membership plans available; individual pricing not publicly listed"
+  },
+  "best-you-healthcare-solutions-iv-therapy-trt-weight-loss-dot-certifications-sand": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV infusion therapy delivering vitamins, minerals, and fluids directly into the bloodstream; in-person clinic, mobile home visits, and telehealth options available; led by a Family Nurse Practitioner with 26+ years of experience",
+    "firstVisitInfo": "In-person, mobile, or telehealth appointment options available; same-day appointments offered; provider evaluation prior to treatment",
+    "frequency": null,
+    "specialties": [
+      "Robust You IV Infusion (immune support)",
+      "Slender You Weight Loss IV",
+      "Beautiful You IV Infusion (skin health)",
+      "Refreshed You IV (hangover/pain relief)",
+      "IVF Hydration Therapy (recovery/hydration)"
+    ],
+    "priceNote": "Pricing not publicly listed; contact clinic at (971) 438-4384 for details"
   }
 }

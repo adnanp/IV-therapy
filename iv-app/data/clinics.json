@@ -68,23 +68,6 @@
     "description": null
   },
   {
-    "id": 5,
-    "slug": "revive-low-t-clinic-kirkland",
-    "name": "Revive Low T Clinic",
-    "streetAddress": "11911 NE 132nd St Suite 103",
-    "city": "Kirkland",
-    "state": "WA",
-    "zip": "98034",
-    "phone": "+1 206-960-4770",
-    "website": "https://revivelowtclinic.pharmacy/",
-    "hours": "{\"Monday\": [\"12-4PM\"], \"Tuesday\": [\"7AM-4PM\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"6AM-3PM\"], \"Friday\": [\"7AM-12PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
-    "rating": 4.9,
-    "reviewCount": 157,
-    "categories": "Medical clinic, Alternative medicine practitioner, Family planning center, Holistic medicine practitioner, Reproductive health clinic",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
     "id": 6,
     "slug": "best-you-healthcare-solutions-iv-therapy-trt-weight-loss-dot-certifications-sand",
     "name": "Best You Healthcare Solutions - IV Therapy, TRT, Weight Loss, DOT Certifications",
