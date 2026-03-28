@@ -1244,5 +1244,53 @@
       "Iron Drip"
     ],
     "priceNote": "NAD+ IV $300-$1,000+ depending on dose; add-ons $50-$150 each; group discounts available"
+  },
+  "healthy-living-liberty-lake-liberty-lake": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Customized IV vitamin and nutrient formulas administered directly into the bloodstream; treatments include immune-boosting blends, migraine relief, hydration, athletic recovery, detoxification, chelation (EDTA for heavy metal removal), NAD+, glutathione, vitamin C, and alpha-lipoic acid",
+    "firstVisitInfo": "Medical evaluation by Dr. Susan Ashley, MD (board-certified anti-aging and regenerative medicine physician); customized formulas created based on the patient's specific health concerns and nutritional deficiencies",
+    "frequency": null,
+    "specialties": [
+      "Myers' Cocktail",
+      "NAD+ IV Therapy",
+      "Glutathione / Liver Detox Drip",
+      "Chelation Therapy (EDTA)",
+      "Detoxification IV Therapy",
+      "Immune Boost IV",
+      "Migraine Relief IV",
+      "Athletic Recovery IV",
+      "Vitamin C High-Dose IV",
+      "Intravenous Peptides"
+    ],
+    "priceNote": null
+  },
+  "vancouver-ketamine-infusions-vancouver": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV vitamin infusions delivering nutrients, vitamins, and antioxidants directly into the bloodstream for up to 100% absorption; also offers medically supervised ketamine infusions administered by CRNAs with 40+ years of combined anesthesiology experience",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "IV Vitamin Infusion",
+      "Ketamine Infusion Therapy"
+    ],
+    "priceNote": null
+  },
+  "restore-hyper-wellness-issaquah": {
+    "sessionDuration": "60-90 minutes for standard IV drips; NAD+ IV sessions are 1-4 hours",
+    "whatIsIncluded": "Registered nurse-administered IV drips with essential vitamins, minerals, electrolytes, and amino acids; 9 IV formulas covering energy, recovery, immunity, beauty, hangover relief, and general wellness; key nutrients include Glutathione, B12, B Complex, Vitamin C, Magnesium, L-Carnitine, Taurine, Zinc, and Biotin",
+    "firstVisitInfo": "Free personalized consultation with a Wellness Rep to assess goals and recommend the right IV drip; new client specials may be available",
+    "frequency": "Membership model with monthly Core Therapy credits recommended for consistency; NAD+ initial treatment recommended as 4 consecutive days",
+    "specialties": [
+      "Myers' Cocktail",
+      "NAD+ IV Drip",
+      "Performance / Energy Drip",
+      "Recovery Drip",
+      "Immune Support Drip",
+      "Skin / Beauty Drip",
+      "Hangover / Reset Drip",
+      "High-Dose Vitamin C (10g)",
+      "High-Dose Glutathione (1200mg)"
+    ],
+    "priceNote": "Membership credits redeemable for IV drips; members receive 30% off specialty services; contact location at (425) 651-8137 for current pricing"
   }
 }
