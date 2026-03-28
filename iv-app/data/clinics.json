@@ -595,23 +595,6 @@
     "description": null
   },
   {
-    "id": 47,
-    "slug": "northwest-integrated-health-tacoma-2",
-    "name": "Northwest Integrated Health",
-    "streetAddress": "5929 Westgate Blvd Ste A",
-    "city": "Tacoma",
-    "state": "WA",
-    "zip": "98406",
-    "phone": "+1 253-503-0226",
-    "website": "http://www.nwih.org/",
-    "hours": "{\"Monday\": [\"8AM-5PM\"], \"Tuesday\": [\"8AM-5PM\"], \"Wednesday\": [\"8AM-5PM\"], \"Thursday\": [\"8AM-5PM\"], \"Friday\": [\"8AM-5PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
-    "rating": 4.5,
-    "reviewCount": 89,
-    "categories": "Addiction treatment center",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
     "id": 48,
     "slug": "outbound-wellness-hood-river",
     "name": "Outbound Wellness",

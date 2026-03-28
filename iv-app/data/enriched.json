@@ -895,5 +895,74 @@
       "Immune Boost IV"
     ],
     "priceNote": "$175 per IV infusion; VIP Yearly Membership $4,200/year for 24 IVs; Premier Yearly Membership $2,400/year for 12 IVs"
+  },
+  "pinnacle-health-and-spa-tacoma": {
+    "sessionDuration": null,
+    "whatIsIncluded": null,
+    "firstVisitInfo": "Free strategy session available to book; uses a body scanner to personalize individualized care plans covering weight loss, pain relief, IVs, aesthetics, and more",
+    "frequency": null,
+    "specialties": [
+      "IV Therapy",
+      "Hormone Therapy (HRT)",
+      "Weight Loss (Semaglutide/Tirzepatide)",
+      "Peptides",
+      "Botox",
+      "Body Contouring",
+      "Cryotherapy",
+      "Infrared Sauna",
+      "Vitamin Shots"
+    ],
+    "priceNote": null
+  },
+  "i-iv-hydration-wellness-bentonville": {
+    "sessionDuration": "45-60 minutes",
+    "whatIsIncluded": "Nutrient blends tailored to the client's needs, administered by a licensed nurse; spa-like touches such as an eye massager and cozy blanket; mobile service available throughout Benton County",
+    "firstVisitInfo": "Welcoming spa-like environment built for relaxation and renewal; staff walks clients through everything with confidence; book online and choose drip and appointment time",
+    "frequency": null,
+    "specialties": [
+      "Beauty & Skin drips",
+      "Immunity & Health drips",
+      "Performance & Recovery drips",
+      "Energy & Stress drips",
+      "NAD+ (shot/infusion)",
+      "Mobile IV therapy"
+    ],
+    "priceNote": "Membership program available with IV bank option; specific per-drip pricing not publicly listed"
+  },
+  "outbound-wellness-hood-river": {
+    "sessionDuration": "Varies by drip; NAD+ Ultimate Drip takes 2.5-4 hours; standard drips typically 45-60 minutes",
+    "whatIsIncluded": "Vitamin-packed IV infusions with nearly 100% nutrient absorption; drips contain vitamins, minerals, electrolytes, antioxidants, and optional medications (e.g., Toradol, Zofran); mobile service available throughout the Greater Columbia Gorge",
+    "firstVisitInfo": "All IV infusion clients must complete a liability waiver, confidential health questionnaire, and consult with a provider before any services may be performed",
+    "frequency": null,
+    "specialties": [
+      "Myers' Cocktail",
+      "Immune Boost",
+      "Athlete Recovery / Kedz Power Punch",
+      "NAD+ / NAD+ Ultimate Drip",
+      "Migraine Relief",
+      "Cognitive / Brain Drip",
+      "Jet Lag",
+      "Menstrual Relief",
+      "Food Poisoning"
+    ],
+    "priceNote": "Specific pricing not publicly listed; contact outboundwellness.com for current rates"
+  },
+  "prime-iv-hydration-wellness-east-vancouver-camas-camas": {
+    "sessionDuration": "30-45 minutes",
+    "whatIsIncluded": "IV vitamin therapies and injections in a relaxed lounge setting with massage chairs; all compounds are vegan-friendly; amplifier add-ons and injection therapies available; oxygen treatments included with membership",
+    "firstVisitInfo": "Schedule online, by phone, or walk in; fill out intake form; receive complimentary consultation; relax in massage chairs during infusion; personalized wellness plan reviewed after treatment; first-time intro offer of 45 available",
+    "frequency": "Weekly, biweekly, or monthly depending on goals; membership recommended for ongoing maintenance",
+    "specialties": [
+      "Hangover Recovery",
+      "Immunity Boost",
+      "Myers' Cocktail",
+      "Beauty Boost (Glutathione)",
+      "Liver Detox",
+      "Altitude Sickness / Summit Drip",
+      "Jetlag Recovery",
+      "NAD+ Therapy",
+      "Injection Therapies (B12, B6, Vitamin D, Biotin, Lipolean)"
+    ],
+    "priceNote": "IV procedures generally 5-00; memberships 4-99/month; first-time intro offer 45; HSA/FSA accepted"
   }
 }
