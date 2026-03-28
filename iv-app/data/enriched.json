@@ -1573,5 +1573,36 @@
       "Toradol Add-On (pain relief/anti-inflammatory)"
     ],
     "priceNote": "Specific pricing not publicly listed; HSA/FSA accepted; no cash payments"
+  },
+  "elevate-wellness-nw-woodland": {
+    "sessionDuration": "60 minutes",
+    "whatIsIncluded": "Customized IV formulas delivering essential fluids, vitamins, and minerals; options include Myers Cocktail, Beauty IV, high-dose vitamin C, athletic performance/recovery drips, migraine relief, gut health, and anti-inflammatory blends; non-GMO, preservative-free, locally sourced ingredients",
+    "firstVisitInfo": "A $50 provider consultation required for all new clients (renewed annually); provides a prescription and approval for access to all services",
+    "frequency": null,
+    "specialties": [
+      "Myers Cocktail",
+      "Beauty IV",
+      "High-Dose Vitamin C",
+      "Athletic Performance/Recovery Drip",
+      "Migraine Relief Blend",
+      "Gut Health Blend",
+      "Anti-Inflammatory Blend"
+    ],
+    "priceNote": "$50 new client provider consultation required (renewed annually); individual session pricing not publicly listed"
+  },
+  "sculpt-wellness-pasco": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Customized IV drips with essential vitamins and minerals; offerings include NAD+ IV (Brain Refuel protocol), FastVitaminIV, Beauty IV drips, Pain Relief IVs, Immune Support blend; no downtime or post-IV restrictions",
+    "firstVisitInfo": null,
+    "frequency": "Patients often return for monthly boosts; oral supplements recommended between IV sessions to maintain optimal nutrient levels",
+    "specialties": [
+      "Brain Refuel (NAD+ + FastVitaminIV)",
+      "Beauty IV Drip",
+      "Pain Relief IV",
+      "Immune Support Blend (Vitamin C, Glutathione, Zinc)",
+      "B-12 IM Injection",
+      "Vitamin Booster Injections"
+    ],
+    "priceNote": "Members ($179/month) receive discounts on vitamin drip IVs along with unlimited access to cryotherapy, infrared sauna, and other amenities"
   }
 }
