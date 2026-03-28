@@ -1425,5 +1425,85 @@
       "Ms. Olympia IV"
     ],
     "priceNote": "Monthly IV Special $79/month; IV Monthly Membership (4 IVs) $1,000/month; additional fluids +$50; extra nutrients +$25 each"
+  },
+  "ivfusionmd-bellevue": {
+    "sessionDuration": "30-60 minutes depending on infusion type; NAD+ infusions run longer",
+    "whatIsIncluded": "Physician-supervised IV infusions of vitamins, minerals, amino acids, antioxidants, and electrolytes; some infusions include anti-nausea and pain medications; optional add-ons available",
+    "firstVisitInfo": "Walk-in or appointment-based; all infusions administered under supervision of a licensed medical physician; no separate new patient consultation required for most drips",
+    "frequency": "General wellness maintenance typically every 2-4 weeks; weight loss program involves four structured visits",
+    "specialties": [
+      "Hydrate Me",
+      "Detoxify Me",
+      "Myers' Cocktail",
+      "Stomach Flu / Tummy Infusion",
+      "BioHack Me (vitamins + NAD+)",
+      "NAD+ Infusion",
+      "All-Inclusive Drip",
+      "Athlete / Sport Infusion",
+      "Weight Loss / L-Carnitine Infusion",
+      "Skin & Beauty Infusion",
+      "Vitamin D Shot",
+      "B12 Shot"
+    ],
+    "priceNote": "Pricing not publicly listed; contact clinic at (425) 243-5731"
+  },
+  "apex-health-wellness-bellevue": {
+    "sessionDuration": "45-60 minutes per session; NAD+ infusions may run longer",
+    "whatIsIncluded": "Clinically guided IV nutrient infusions of vitamins, minerals, antioxidants, amino acids, and metabolic cofactors; formulations customized based on health history, lab markers, and treatment goals; optional at-home NAD+ injections between visits",
+    "firstVisitInfo": "All IV therapy requires a consultation to become an established patient; first visit is a 60-minute comprehensive consultation; lab work may be recommended before treatment begins; free 15-minute phone consultation available",
+    "frequency": "Individualized protocol; frequency and composition adjusted as the program evolves",
+    "specialties": [
+      "Custom IV Therapy",
+      "NAD+ IV Therapy",
+      "Alpha Lipoic Acid (ALA) IV",
+      "Athletic Performance & Recovery IV",
+      "Beauty & Skin Glow IV",
+      "Brain & Cognitive Performance IV",
+      "Weight Loss Support IV",
+      "Vitamin C IV Infusion"
+    ],
+    "priceNote": "Pricing not publicly listed; contact (425) 366-8473"
+  },
+  "source-of-life-iv-and-wellness-union": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV therapy drips crafted to rehydrate, boost energy, support immunity, and restore balance; vitamins and nutrients delivered directly into the bloodstream for maximum absorption; fast drips offered; mobile service available",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [],
+    "priceNote": null
+  },
+  "true-heal-wellness-morristown": {
+    "sessionDuration": "30-45 minutes depending on type of IV therapy solution and individual needs",
+    "whatIsIncluded": "At-home and in-clinic IV drips administered by registered nurses under a Medical Director; customized blends of fluids, vitamins, amino acids, antioxidants, and electrolytes; some drips include anti-nausea agents",
+    "firstVisitInfo": "Appointments preferred but walk-ins welcome; new client paperwork can be filled out in advance; each treatment includes a full consultation; no doctor visit required prior to booking",
+    "frequency": "Weekly for some individuals; monthly for others depending on unique needs and health goals",
+    "specialties": [
+      "Cleanse & Detox IV Drip",
+      "Illness Recovery IV Drip",
+      "Energy & Cognition IV Drip",
+      "Weight Loss IV Drip",
+      "Hangover Relief IV Drip",
+      "NAD+ IV Drip",
+      "Altitude Sickness IV",
+      "Athletic Recovery IV",
+      "Personalized Wellness Program"
+    ],
+    "priceNote": "$299-$599 depending on service type; membership includes one IV service plus B12 injection per month"
+  },
+  "liquid-life-iv-south-hill": {
+    "sessionDuration": "30-45 minutes; Good Faith Exam required before first infusion",
+    "whatIsIncluded": "23 uniquely customized vitamin IV infusions and vitamin injections administered by registered nurses under a medical director; includes full health history evaluation; Lipo B and Lipo C injections also available; mobile service with travel fee",
+    "firstVisitInfo": "Complete forms and a Good Faith Exam before first session (bypassed on future visits); a clinical coordinator calls to determine which IV best suits your needs before a registered nurse is dispatched",
+    "frequency": "Two IV drips per month recommended for preventative health and wellness",
+    "specialties": [
+      "Hangover Relief Drip",
+      "Stress/Headache Relief Drip",
+      "Immunity Drip",
+      "Energy Drip",
+      "Beauty/Skin & Hair Drip",
+      "Lipo B Injection",
+      "Lipo C Injection"
+    ],
+    "priceNote": "$75 travel fee for locations within 30 min; group discounts: 5+ people host gets 50% off, 7+ people host gets IV free; all prices given upfront at booking"
   }
 }
