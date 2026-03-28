@@ -1189,5 +1189,60 @@
       "Custom IV Bag"
     ],
     "priceNote": "Pricing not publicly listed; contact clinic for current rates"
+  },
+  "vigor-natural-health-clinic-vancouver": {
+    "sessionDuration": "Minutes to hours depending on formula chosen",
+    "whatIsIncluded": "IV nutritional therapy infusing amino acids, electrolytes, minerals, and vitamins directly into the bloodstream; options include NAD+ IV, High Dose Vitamin C, Hydration Drip, Migraine Relief IV (saline and magnesium), Parkinson's Support IV (glutathione), and Hydrogen Peroxide IV",
+    "firstVisitInfo": "Open to the public \u2014 no need to be an existing patient; start at a low dose and titrate up at each visit to avoid side effects; High Dose Vitamin C and Hydrogen Peroxide IV require lab testing prior to scheduling; sessions available Mon, Wed, Fri",
+    "frequency": "Typically 1-2 times per week; beneficial effects usually noticed by the 3rd or 4th visit; those with chronic conditions continue every 1-4 weeks",
+    "specialties": [
+      "NAD+ IV Therapy",
+      "High Dose Vitamin C IV",
+      "Hydration Drip",
+      "General Vitamin & Mineral IV",
+      "Migraine Relief IV",
+      "Parkinson's Support IV (Glutathione)",
+      "Hydrogen Peroxide IV"
+    ],
+    "priceNote": "Tiered pricing based on dosage; specific prices not publicly listed \u2014 contact clinic at (360) 406-4884"
+  },
+  "365-iv-drips-edgewater": {
+    "sessionDuration": "30-45 minutes per session",
+    "whatIsIncluded": "IV cocktails, mixers, and shots administered by a Board Certified Nurse Practitioner or Registered Nurse; variety of vitamin and mineral blends tailored to wellness goals; mobile and in-office options available",
+    "firstVisitInfo": "Available in-office at 725 River Rd, Ste. 213, Edgewater, NJ or via mobile concierge service; administered by a licensed NP or RN",
+    "frequency": "Packages available including 3-drip bundles and Buy 5 Get 1 Free memberships",
+    "specialties": [
+      "Myers' Cocktail",
+      "Hangover / Recovery Cocktail",
+      "Beauty / Glow Drip",
+      "Hydration Drip",
+      "Athletic Cocktail",
+      "Skinny Cocktail",
+      "Energy Drip",
+      "Immune Support Drip",
+      "Vitamin C Drip",
+      "Glutathione Drip"
+    ],
+    "priceNote": "Packages include 3-drip bundles and Buy 5 Get 1 Free; accepts CareCredit; specific per-drip prices not publicly listed"
+  },
+  "swifthealth-mobile-iv-therapy-and-housecalls-englewood": {
+    "sessionDuration": "45-60 minutes including intake forms and a quick medical assessment",
+    "whatIsIncluded": "Mobile IV therapy brought to your home, office, or hotel; all equipment provided; administered by licensed RNs overseen by an MD or PA; includes medical intake and assessment prior to infusion",
+    "firstVisitInfo": "Fill out a few forms and complete a quick medical assessment; a nurse comes to your location \u2014 all you need is a place to sit; same-day appointments available 7 days a week",
+    "frequency": "Available on-demand; same-day scheduling 7 days a week throughout New Jersey and New York City",
+    "specialties": [
+      "Myers' Cocktail",
+      "Athletic Performance Drip",
+      "High-Dose Vitamin C",
+      "Immunity and Energy Booster",
+      "Hangover IV",
+      "Flu Rescue IV",
+      "Migraine Relief Drip",
+      "Hydration IV",
+      "NAD+ IV Therapy",
+      "Phosphatidylcholine IV",
+      "Iron Drip"
+    ],
+    "priceNote": "NAD+ IV $300-$1,000+ depending on dose; add-ons $50-$150 each; group discounts available"
   }
 }
