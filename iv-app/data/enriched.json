@@ -846,5 +846,54 @@
       "Fatigue & Stress Relief IV"
     ],
     "priceNote": "Pricing not publicly listed; contact clinic directly"
+  },
+  "revive-drip-gig-harbor": {
+    "sessionDuration": "Approximately 20 minutes at the Gig Harbor clinic",
+    "whatIsIncluded": "Customized IV saline and vitamins; NAD+ infusions include B Complex, B12, Zofran, and Glutathione depending on package; all treatments administered by Vascular Access RNs",
+    "firstVisitInfo": "Available at the Gig Harbor clinic (5800 Soundview Dr, Building B, Suite 201) or via mobile service; book online or call/text (253) 858-3800; appointments Mon, Wed, Fri, and Sat",
+    "frequency": null,
+    "specialties": [
+      "IV Hydration & Vitamin Wellness",
+      "NAD+ IV Therapy",
+      "Functional Medicine IV",
+      "Immune-Boosting Therapy",
+      "Weight Loss IV Support",
+      "Mobile & Event IV Services"
+    ],
+    "priceNote": "Wellness Wednesday sessions at 00; NAD+ drips range from 75-75; 20% discount at clinic vs home infusion pricing"
+  },
+  "nouveau-medspas-gig-harbor": {
+    "sessionDuration": "20-60 minutes depending on the amount of nutrients prescribed",
+    "whatIsIncluded": "Vitamins, minerals, and essential nutrients delivered directly into the bloodstream; IV solutions custom designed for each patient; sourced through Olympia Pharmaceuticals; administered by registered nurses with 30+ years of experience",
+    "firstVisitInfo": "Initial consultation with Dr. Rubin who reviews nutrients to be prescribed for your IV injection; credit card required to hold appointment",
+    "frequency": null,
+    "specialties": [
+      "IV Hydration",
+      "Stress Relief IV",
+      "Immune Booster IV",
+      "Antioxidant IV",
+      "Athlete Prep IV",
+      "Post-Surgery Boost IV",
+      "Fitness Recovery IV",
+      "Custom IV"
+    ],
+    "priceNote": "Pricing not publicly listed; contact (253) 358-3667 for details"
+  },
+  "empowered-med-spa-tacoma": {
+    "sessionDuration": "Less than 90 minutes; NAD+ IV administered over 60-90 minutes",
+    "whatIsIncluded": "Customized infusion of vitamins, minerals, and nutrients delivered directly into bloodstream at 99% absorption rate; sessions personalized to individual health and wellness goals",
+    "firstVisitInfo": "Initial consultation (in person or virtual) with ARNP to assess wellness goals, review health history, medications, and determine candidacy; plan for a full hour; hydrate well and avoid alcohol/caffeine before session",
+    "frequency": "Once or twice a week for active users; most patients once every 4-6 weeks",
+    "specialties": [
+      "NAD+ IV Therapy",
+      "Myers' Cocktail IV",
+      "IV Hydration",
+      "Weight-Loss IV",
+      "MICC Weight-Loss Shots",
+      "B12 Injections",
+      "Anti-Aging IV",
+      "Immune Boost IV"
+    ],
+    "priceNote": "$175 per IV infusion; VIP Yearly Membership $4,200/year for 24 IVs; Premier Yearly Membership $2,400/year for 12 IVs"
   }
 }
