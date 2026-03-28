@@ -815,5 +815,36 @@
       "Concierge/At-Home IV Service"
     ],
     "priceNote": "Yearly wellness memberships available; same-day service available; pricing not publicly listed"
+  },
+  "gig-harbor-medical-spa-and-concierge-medicine-gig-harbor": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV therapy for energy boost alongside hormone support and wellness services; part of an integrated medical spa and concierge medicine model",
+    "firstVisitInfo": "Clinic transitioned to a Concierge Medicine model as of January 1, 2026; new patients gain priority access to nurse practitioners with flexible appointment options",
+    "frequency": null,
+    "specialties": [
+      "IV therapy",
+      "Hormone Replacement Therapy (BHRT)",
+      "Weight Loss Injections",
+      "Concierge Medicine",
+      "Botox",
+      "Dermal Fillers"
+    ],
+    "priceNote": "Concierge membership works alongside insurance; specific IV therapy pricing not publicly listed"
+  },
+  "apollo-health-gig-harbor": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Fluids, vitamins, minerals, antioxidants, and other nutrients delivered directly into the bloodstream; bypasses digestive system for maximum absorption; options include Myers Cocktail and NAD+",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "Myers' Cocktail",
+      "NAD+",
+      "Immune Boost IV",
+      "Hydration IV",
+      "Anti-aging IV",
+      "Hangover Relief IV",
+      "Fatigue & Stress Relief IV"
+    ],
+    "priceNote": "Pricing not publicly listed; contact clinic directly"
   }
 }
