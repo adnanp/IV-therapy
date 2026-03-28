@@ -1604,5 +1604,76 @@
       "Vitamin Booster Injections"
     ],
     "priceNote": "Members ($179/month) receive discounts on vitamin drip IVs along with unlimited access to cryotherapy, infrared sauna, and other amenities"
+  },
+  "moses-lake-aesthetics-and-wellness-moses-lake": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV fluid bag delivering vitamins, nutrients, and hydration directly into the bloodstream; drips may include saline, B-complex, vitamin C, magnesium, calcium, antioxidants, anti-nausea medication, amino acids, and optional add-on injections",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "The OG (basic saline hydration)",
+      "The Immune Boost",
+      "The Hangover Pt. 2 (with anti-nausea medication)",
+      "Skinny Dripping (metabolism/fat burn)",
+      "Ms. Myer (Myers' Cocktail)",
+      "Pregnancy IV",
+      "The All-Star (athletic performance)",
+      "Custom IV Therapy"
+    ],
+    "priceNote": null
+  },
+  "vancouver-wellness-studio-waterfront-spa-vancouver": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Nutritional IV infusions and injections administered under naturopathic physician oversight; offerings include Glutathione IV push, MIC + B12 injection, Vitamin D and Testosterone injections",
+    "firstVisitInfo": "A free consultation with a naturopathic doctor is recommended before undergoing nutritional IV therapy to assess individual needs and determine optimal nutrient formulation",
+    "frequency": "MIC + B12 injection series typically recommended as 6-12 injections ranging from 2x weekly to every other week",
+    "specialties": [
+      "Glutathione IV Push",
+      "MIC + B12 Injection (Methionine, Inositol, Choline, Acetyl-L-Carnitine, B12)",
+      "Vitamin D Injection",
+      "Testosterone Injection"
+    ],
+    "priceNote": "HSA/FSA accepted; superbills provided for insurance reimbursement; specific IV pricing not publicly listed"
+  },
+  "driptherapy-flagler-beach": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV vitamin and nutrient infusions customized per patient; all ingredients sourced from an FDA 503B/503A compounding pharmacy; dosages vary based on age, body mass, health history, and client needs",
+    "firstVisitInfo": "Medical clearance required before first IV therapy session: exam, review of health history and medications, and final approval by a Nurse Practitioner or Physician's Assistant",
+    "frequency": null,
+    "specialties": [
+      "IV Vitamin Therapy",
+      "IV Iron Infusions",
+      "NAD+",
+      "High Dose Vitamin C",
+      "Customized IV blends"
+    ],
+    "priceNote": "Free consultation offered; specific drip pricing not publicly listed"
+  },
+  "illuminateme-silverdale": {
+    "sessionDuration": "Most infusions approximately 45-60 minutes; NAD+ is longer",
+    "whatIsIncluded": "IV nutrient infusions delivering vitamins, minerals, amino acids, and antioxidants directly into the bloodstream; each drip formulated for a specific wellness goal; optional Luxe Lounge Experience add-on with CO2 Pro Lift therapy",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "Rise & Shine (hangover recovery) $165",
+      "Natural Defense (immune boost) $220",
+      "Glutathione IV $140",
+      "Fountain of Youth (hair, skin, nails) $250",
+      "Hydration IV $110",
+      "NAD+ IV Infusion",
+      "The Liquid Lift (comprehensive vitamins/minerals/amino acids) $310"
+    ],
+    "priceNote": "Prices range from $110 (Hydration) to $310 (Liquid Lift); B12 injection add-on $40; Cherry Financing available; VIP rewards program offers $50 off"
+  },
+  "remedy-health-and-wellness-richland": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Tailored IV vitamin and nutrient infusions to improve immune health, boost energy, speed up recovery, and combat dehydration; part of a broader direct primary care model",
+    "firstVisitInfo": "Free consultation offered on first visit",
+    "frequency": null,
+    "specialties": [
+      "IV Hydration",
+      "IV Vitamin and Nutrient Infusions"
+    ],
+    "priceNote": "Monthly memberships provide access to all core services including IV therapy with no copays; individual IV pricing not publicly listed"
   }
 }
