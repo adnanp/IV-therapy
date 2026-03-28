@@ -1496,23 +1496,6 @@
     "description": null
   },
   {
-    "id": 115,
-    "slug": "columbia-shores-regenerative-health-richland",
-    "name": "Columbia Shores Regenerative Health",
-    "streetAddress": "Tuscan Park Plaza, 138 Keene Rd",
-    "city": "Richland",
-    "state": "WA",
-    "zip": "99352",
-    "phone": "+1 509-572-2130",
-    "website": "https://www.columbiashoresrh.com/",
-    "hours": "{\"Monday\": [\"9AM-5:30PM\"], \"Tuesday\": [\"9AM-5:30PM\"], \"Wednesday\": [\"9AM-5:30PM\"], \"Thursday\": [\"9AM-5:30PM\"], \"Friday\": [\"9AM-4:30PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
-    "rating": 4.8,
-    "reviewCount": 122,
-    "categories": "Medical spa, Women's health clinic",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
     "id": 116,
     "slug": "revel-medspa-richland",
     "name": "Revel Medspa",

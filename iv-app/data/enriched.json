@@ -1675,5 +1675,64 @@
       "IV Vitamin and Nutrient Infusions"
     ],
     "priceNote": "Monthly memberships provide access to all core services including IV therapy with no copays; individual IV pricing not publicly listed"
+  },
+  "revel-medspa-richland": {
+    "sessionDuration": "30-45 minutes for IV infusion; 15 minutes for IM vitamin injection",
+    "whatIsIncluded": "IV infusions and IM injections with normal saline base plus customized vitamin/medication cocktails; includes Vitamin B12, B Complex, Magnesium, Calcium, Zinc, Myers Cocktail, anti-nausea agents, Glutathione, Methionine, Inositol, and Choline",
+    "firstVisitInfo": "Book a one-hour infusion or 15-minute IM vitamin appointment and consult with a medical provider to determine the best treatment option based on your current symptoms",
+    "frequency": null,
+    "specialties": [
+      "Myers' Cocktail",
+      "Headache/Migraine IV (Magnesium, Calcium, Zinc, Diphenhydramine, Ketorolac, Glutathione)",
+      "Detox/Beauty Drip (B Complex, Methionine, Inositol, Choline, Glutathione)",
+      "NAD+ IV Therapy",
+      "Vitamin B12 IM Injection",
+      "Vitamin B Complex IM Injection"
+    ],
+    "priceNote": "Pricing not publicly listed; contact clinic at (509) 386-2063"
+  },
+  "the-lab-aesthetics-wellness-spokane-valley": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV infusions delivering essential vitamins, minerals, amino acids, antioxidants, and hydration directly into the bloodstream, bypassing the digestive system for faster absorption",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "Skin Rejuvenation IV (Vitamin C, Glutathione)",
+      "Hair & Nail Health IV (Biotin, Zinc, Folic Acid)",
+      "Detox IV",
+      "Immune Boost IV (high-dose Vitamin C)",
+      "Energy & Vitality IV (B-complex, amino acids)",
+      "Stress Relief IV (Magnesium, B vitamins)",
+      "Hydration IV"
+    ],
+    "priceNote": "Pricing not publicly listed; contact clinic at (509) 255-3840"
+  },
+  "cor-institute-spokane": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Hand-selected IV infusions designed for optimal health and wellness, integrated into a broader lifestyle enhancement program",
+    "firstVisitInfo": "A guided tour by knowledgeable staff is recommended to explore the range of wellness services; IV therapy offered under their branded IV Method program",
+    "frequency": null,
+    "specialties": [
+      "IV Method (branded IV infusion program)"
+    ],
+    "priceNote": "Pricing not publicly listed; call (509) 816-1286 for rates; members receive 10% off IV METHOD treatments"
+  },
+  "clinic-5c-functional-medicine-spokane": {
+    "sessionDuration": "30-60 minutes per session",
+    "whatIsIncluded": "Customized IV infusions prescribed based on labs, symptoms, and individual functional care plan; delivers vitamins, minerals, amino acids, and antioxidants for 100% bioavailability; formulas can be enhanced with Glutathione or NAD+ add-ons",
+    "firstVisitInfo": "IVs are prescribed intentionally based on labs, symptoms, and your functional care plan; new patients should schedule a consultation so providers can customize an IV formula to their specific needs",
+    "frequency": "May be booked individually or incorporated into a Longevity Membership or functional medicine plan",
+    "specialties": [
+      "NAD+ Infusion",
+      "High-Dose Vitamin C",
+      "IV UVBI + Ozone Therapy",
+      "IV Exosome Therapy",
+      "Immune Support IV",
+      "Athletic Recovery IV",
+      "Hydration/Electrolyte IV",
+      "B12 IM Injection",
+      "Glutathione IM Injection"
+    ],
+    "priceNote": "Standard IV session valued at $200; IV Exosome Therapy starts at $2,500+; Longevity Membership includes IVs as part of a personalized care plan"
   }
 }
