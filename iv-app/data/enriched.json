@@ -1353,5 +1353,77 @@
       "Group Hydration Sessions"
     ],
     "priceNote": "VIP/Direct Primary Care members receive 20% off; group discounts for 3 or more; monthly membership available"
+  },
+  "honey-glow-health-bonney-lake": {
+    "sessionDuration": "30 minutes to 1 hour",
+    "whatIsIncluded": "Essential vitamins, minerals, and hydration delivered directly into the bloodstream via IV; sessions customized to individual wellness goals; IV hydration included in membership tiers alongside B12 and weight-loss injections",
+    "firstVisitInfo": "Consultations available; provider tailors treatment plans based on individual health goals; staff includes an IV-certified phlebotomist/medical assistant",
+    "frequency": "Tailored to individual goals; benefits can last several days to weeks with regular sessions",
+    "specialties": [
+      "IV Hydration",
+      "Immune Support IV",
+      "Energy IV",
+      "Custom nutrient IV drips"
+    ],
+    "priceNote": "IV hydration included in membership tiers (Silver, Gold, Platinum, Diamond, Honey); individual pricing not publicly listed"
+  },
+  "lavie-skinthetics-wellness-spa-federal-way": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV Therapy offered as one of the core service categories alongside skin, body, laser, injectables, and weight loss treatments",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "IV Therapy"
+    ],
+    "priceNote": null
+  },
+  "bella-md-health-and-wellness-shoreline": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV Therapy and IV Drip Hydration offered at a physician-led med spa; providers are primary care doctors with medical aesthetic expertise",
+    "firstVisitInfo": "Physician-led med spa; complimentary drinks/snacks, free parking, free WiFi, and wheelchair accessibility available",
+    "frequency": null,
+    "specialties": [
+      "IV Drip Hydration",
+      "IV Therapy"
+    ],
+    "priceNote": "Pricing not publicly listed; contact (425) 286-8041"
+  },
+  "hello-nurse-llc-bothell": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV drips with vitamins, minerals, and hydration; add-on injections available; first-time patients require a tele-screening consultation (~5 minutes, $15) per Washington State DOH policy",
+    "firstVisitInfo": "New patients must complete a tele-screening with a provider via smartphone or computer (annual re-screen required); screening costs $15 and takes about 5 minutes",
+    "frequency": "Elite Membership ($129/year) provides 15% off per IV infusion for regular visitors",
+    "specialties": [
+      "Athletic Performance Drip",
+      "Beauty Drip",
+      "Cold/Flu Drip",
+      "Energy Drip",
+      "Hangover Drip",
+      "Menstrual Cramps Drip",
+      "Migraine Drip",
+      "NAD+ Performance Drip",
+      "Brainstorm Drip",
+      "Immunity Drip"
+    ],
+    "priceNote": "Elite Membership $129/year with 15% off all IV infusions; referral discount 10% off; per-drip pricing not publicly listed"
+  },
+  "ivitality-bellevue-bellevue": {
+    "sessionDuration": "30-60 minutes (base of 500ml saline)",
+    "whatIsIncluded": "15 different IV therapies administered by Registered Nurses; dosages and protocols written by medical team; base includes 500ml saline with upgrade options; blood draw at clinic yields 50% off an IV or nutrient shot",
+    "firstVisitInfo": "New patients can be seen in-person or via Telemedicine (Zoom); telemedicine requires an additional $100 fee for biometrics testing at LabCorp; staff includes naturopathic doctors",
+    "frequency": "Monthly IV Special available; IV Monthly Membership Subscription (4 IVs/month) available",
+    "specialties": [
+      "Myers' Cocktail",
+      "Glutathione IV",
+      "Vitamin C IV",
+      "Immune Boost IV",
+      "Athletic Performance IV",
+      "Hangover Relief IV",
+      "NAD+ IV",
+      "Get Up & Go! IV",
+      "Dr. Witte's Super IV",
+      "Ms. Olympia IV"
+    ],
+    "priceNote": "Monthly IV Special $79/month; IV Monthly Membership (4 IVs) $1,000/month; additional fluids +$50; extra nutrients +$25 each"
   }
 }
