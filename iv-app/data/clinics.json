@@ -782,23 +782,6 @@
     "description": null
   },
   {
-    "id": 61,
-    "slug": "pure-infusion-suites-of-olympia-olympia",
-    "name": "Pure Infusion Suites of Olympia",
-    "streetAddress": "360 Lilly Rd NE STE B",
-    "city": "Olympia",
-    "state": "WA",
-    "zip": "98506",
-    "phone": "+1 360-436-6800",
-    "website": "https://pureinfusionsuites.com/locations/%23washington",
-    "hours": "{\"Monday\": [\"8AM-4PM\"], \"Tuesday\": [\"8AM-4PM\"], \"Wednesday\": [\"8AM-4PM\"], \"Thursday\": [\"8AM-4PM\"], \"Friday\": [\"Closed\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
-    "rating": 5,
-    "reviewCount": 38,
-    "categories": "Medical group",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
     "id": 62,
     "slug": "elevating-wellness-nw-llc-lacey",
     "name": "Elevating Wellness NW LLC",
@@ -829,23 +812,6 @@
     "rating": 5,
     "reviewCount": 51,
     "categories": "Medical spa, Alternative medicine practitioner, Craniosacral therapy, Doctor, Holistic medicine practitioner, Homeopath, Lymph drainage therapist, Naturopathic practitioner, Weight loss service, Wellness center",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
-    "id": 64,
-    "slug": "peacehealth-infusion-center-at-medical-center-physicians-building-vancouver",
-    "name": "PeaceHealth Infusion Center at Medical Center Physicians Building",
-    "streetAddress": "505 NE 87th Ave #350",
-    "city": "Vancouver",
-    "state": "WA",
-    "zip": "98664",
-    "phone": "+1 360-514-2565",
-    "website": "https://www.peacehealth.org/locations/vancouver/peacehealth-infusion-center-medical-center-physicians-building%3Futm_source%3Dgbp%26utm_medium%3Dorganic%26utm_content%3DVANC-072%26utm_campaign%3Dgmb",
-    "hours": "{\"Monday\": [\"8AM-5PM\"], \"Tuesday\": [\"8AM-5PM\"], \"Wednesday\": [\"8AM-5PM\"], \"Thursday\": [\"8AM-5PM\"], \"Friday\": [\"8AM-5PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
-    "rating": 4.6,
-    "reviewCount": 11,
-    "categories": "Cancer treatment center",
     "priceRange": "$$",
     "description": null
   },

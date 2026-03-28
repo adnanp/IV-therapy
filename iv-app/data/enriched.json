@@ -1081,5 +1081,52 @@
       "Wellness Injections"
     ],
     "priceNote": "New customer Health & Wellness IV 9 (reg. 35); Elite+ Membership 00/month (2 IVs + 2 Boosts + 2 B-12 injections); HSA/FSA accepted"
+  },
+  "elevating-wellness-nw-llc-lacey": {
+    "sessionDuration": "30-60 minutes",
+    "whatIsIncluded": "Essential vitamins, minerals, and nutrients delivered directly into the bloodstream; drip categories include weight loss support, energy boosters, immune enhancing IVs, NAD+, and Niagen IV therapy",
+    "firstVisitInfo": null,
+    "frequency": "Monthly for general health maintenance; more frequent sessions for specific concerns such as immune support or energy",
+    "specialties": [
+      "NAD+ IV Therapy",
+      "Niagen IV Therapy",
+      "Weight Loss IV",
+      "Energy Boost IV",
+      "Immune Enhancing IV",
+      "Stem Cell Infusion Therapy"
+    ],
+    "priceNote": "Priced to be accessible; specific pricing not publicly listed"
+  },
+  "temple-natural-health-lacey": {
+    "sessionDuration": "30-60 minutes",
+    "whatIsIncluded": "Personalized nutrient infusions including vitamins, minerals, and amino acids; crafted and administered by naturopathic doctors in a comfortable IV Lounge",
+    "firstVisitInfo": "First-time clients complete intake forms online before their session; upon arrival, a skilled practitioner sets up a gentle drip line while you recline in a cozy chair",
+    "frequency": "Weekly sessions recommended for immune boosting; monthly sessions for general health maintenance",
+    "specialties": [
+      "Myers' Cocktail",
+      "Myers' Cocktail with Glutathione",
+      "Hydration IV",
+      "High Dose Vitamin C IV",
+      "NAD+ IV Therapy",
+      "Iron IV Infusion",
+      "Glutathione IV",
+      "Magnesium IV",
+      "Ozone IV",
+      "Amino Acid IV"
+    ],
+    "priceNote": "Pricing listed with no hidden costs; Myers' Cocktail with Glutathione $225"
+  },
+  "paradigm-wellness-center-vancouver": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Targeted IV drips designed to restore hydration, boost energy, and deliver essential nutrients directly into the bloodstream; complemented by hyperbaric oxygen therapy, regenerative aesthetics, and personalized lab testing",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "IV Drip Therapy",
+      "Hyperbaric Oxygen Therapy",
+      "Regenerative Aesthetics",
+      "Personalized Lab Testing"
+    ],
+    "priceNote": "Pricing not publicly listed; contact clinic directly"
   }
 }
