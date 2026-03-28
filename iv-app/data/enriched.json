@@ -964,5 +964,73 @@
       "Injection Therapies (B12, B6, Vitamin D, Biotin, Lipolean)"
     ],
     "priceNote": "IV procedures generally 5-00; memberships 4-99/month; first-time intro offer 45; HSA/FSA accepted"
+  },
+  "elevate-wellness-chelan": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Each IV starts with the Elevate Base \u2014 a nutrient cocktail of essential minerals, vitamins, and aminos; can be customized with targeted vitamins and aminos for specific concerns; all IVs delivered by registered nurses",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "Immune Boost",
+      "Custom IV drips",
+      "Intramuscular injections"
+    ],
+    "priceNote": null
+  },
+  "integrated-wellness-psychiatry-tacoma": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV hydration therapy offered as a complementary cash-based service alongside hormone optimization and medical aesthetics; administered by board-certified advanced practice providers",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "IV Hydration"
+    ],
+    "priceNote": "Cash-based, not covered by insurance; accepts major credit/debit cards, CareCredit, HSA, and FSA"
+  },
+  "okojie-wellness-iv-infusion-therapy-vancouver-washington-vancouver": {
+    "sessionDuration": "30-60 minutes for most drips; NAD+ may take up to 4 hours",
+    "whatIsIncluded": "Over 50 unique IV drip therapies with fluids, vitamins, and minerals infused directly into the bloodstream for 100% absorption; customized per patient; administered by registered nurses with ER/ICU experience",
+    "firstVisitInfo": "Comprehensive assessment including review of medical history, discussion of concerns, and detailed review of treatment options; virtual consultations also available",
+    "frequency": "Follow-up visits typically every month, or as determined by the individual treatment plan",
+    "specialties": [
+      "Normal Saline",
+      "Lactated Ringer",
+      "Myers' Cocktail",
+      "Soul Glow",
+      "Tri-Immune Boost",
+      "High C IV",
+      "Glutathione IV",
+      "NAD+ IV Therapy",
+      "Stem Cell IV Therapy"
+    ],
+    "priceNote": "Tri-Immune Boost starting at 9; NAD+ IV 50 for 500mg / 00 for 1000mg; vitamin drip treatments starting at 9"
+  },
+  "thrive-wellbeing-battle-ground": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Custom IV drips with fluids, vitamins, and nutrients; complimentary snacks, drinks, heated neck/back wraps, electric blankets, eye covers, and under-eye masks; optional guided meditations and custom flower essence readings; mobile and in-clinic options available",
+    "firstVisitInfo": "All new clients complete a brief Good Faith Medical Exam at the start of their first appointment; 0 fee added to first visit, valid for one year once medically cleared",
+    "frequency": null,
+    "specialties": [
+      "Hydration IV drip",
+      "Immune boost IV drip",
+      "Migraine relief IV drip",
+      "Skin refresh IV drip",
+      "Nervous system reset IV drip",
+      "Vitamin injections (IM nutrient injections)"
+    ],
+    "priceNote": "New client Good Faith Medical Exam fee: 0; all services are elective and self-pay"
+  },
+  "nadashaa-heeni-vancouver": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV therapy drips administered by registered nurses with personalized treatment plans; vitamins, minerals, and antioxidants infused intravenously",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "Meyer's Elixir (Vitamin C, B12, B Complex, Magnesium, Selenium)",
+      "Hangover Relief Elixir (with optional Zofran, Toradol add-ons)",
+      "Performance and Recovery Elixir (Amino Blend, LipoStat Plus)",
+      "The Denali (Vitamin C, Glutathione, NAC, Amino Blend, NAD precursors)"
+    ],
+    "priceNote": "Meyer's Elixir 95; Hangover Relief 95; Performance & Recovery 25; The Denali 55"
   }
 }
