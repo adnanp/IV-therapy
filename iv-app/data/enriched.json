@@ -729,5 +729,91 @@
       "Mobile IV Therapy"
     ],
     "priceNote": "First-time intro offer: 5; single sessions 00-50; memberships 4-99/month; HSA/FSA accepted"
+  },
+  "blue-iv-hydration-and-spa-richland": {
+    "sessionDuration": "30-45 minutes",
+    "whatIsIncluded": "Custom-blended IV bags with vitamins, minerals, and hydration fluids administered by registered nurses in a spa-like setting; add-ons available including glutathione and B12 injections",
+    "firstVisitInfo": "Appointment-only; registered nurses administer all IVs; many feel energy and clarity improvements before leaving; full effects develop over 24-48 hours",
+    "frequency": "Weekly for intense training, monthly for maintenance, or targeted support during stressful periods; package options available",
+    "specialties": [
+      "Reboot/Hangover IV",
+      "Immunity IV",
+      "Beauty/Glow Drip",
+      "Performance/Energy IV",
+      "Custom IV Bags",
+      "Glutathione Injection",
+      "B-12 Injection",
+      "Tri Immune Boost Injection",
+      "Weight Loss Injections"
+    ],
+    "priceNote": "Glutathione add-on 0; accepts FSA/HSA, Afterpay; specific IV drip prices not publicly listed"
+  },
+  "iv-bars-edgewater": {
+    "sessionDuration": "30-45 minutes including intake forms and a quick medical assessment",
+    "whatIsIncluded": "IV fluids, vitamins, and minerals delivered by a registered nurse or paramedic under a medical director; wide range of cocktail options plus add-ons (glutathione, B12, B complex, magnesium, calcium, zinc, iron, lipo shots)",
+    "firstVisitInfo": "Health history evaluated before first treatment; first-time customers receive a discount; walk-ins accepted; concierge service available for homes and events",
+    "frequency": "Two IV drips per month recommended for preventative health and wellness",
+    "specialties": [
+      "Hangover Cure",
+      "Immune Boost",
+      "Energy Boost",
+      "Beauty Drip",
+      "Athletic Performance",
+      "Jet Lag Relief",
+      "Migraine Relief",
+      "Weight Loss",
+      "Anti-Aging",
+      "Myers' Cocktail",
+      "Brain Focus",
+      "Lipo Shots",
+      "Custom Cocktail"
+    ],
+    "priceNote": "Group discount of 25% for sessions of 5 or more; first-time customer discount available; pricing not publicly listed"
+  },
+  "olympic-valley-clinic-pllc-elma": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Tailored IV infusions with essential vitamins, minerals, and nutrients formulated by Olympia Pharmaceuticals (FDA-registered); key ingredients include Magnesium Chloride, Thiamine, B vitamins, Calcium Gluconate, and Ascorbic Acid",
+    "firstVisitInfo": "Family nurse practitioner-run primary care practice; IV therapy offered alongside primary care; new patients accepted; appointment recommended",
+    "frequency": null,
+    "specialties": [
+      "Myers' Cocktail IV",
+      "IV Vitamin Therapy for fatigue and low energy",
+      "IV Vitamin Therapy for stress"
+    ],
+    "priceNote": "Specific IV therapy pricing not publicly listed; contact clinic directly"
+  },
+  "walla-walla-drip-iv-walla-walla": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Mobile IV therapy powered by Hydreight; nurses come to home, hotel, or poolside; IV blends with vitamins, electrolytes, and minerals; vitamin shots also available",
+    "firstVisitInfo": "New patient consult fee applies (5 standard, 0 premium); mobile service \u2014 nurse arrives at your location typically within 40 minutes; available 8am-8pm daily",
+    "frequency": "Weekly if needing a boost; every couple of weeks or monthly depending on individual needs",
+    "specialties": [
+      "Detox/Hangover IV",
+      "Energy + Performance IV",
+      "Immune Booster IV",
+      "Hydration IV",
+      "Pregnancy Support IV",
+      "NAD+ Brain Biohack",
+      "MICC Shot",
+      "B12 Shot",
+      "Glutathione Shot"
+    ],
+    "priceNote": "New patient consult fee: 5 standard / 0 premium; NAD+ priced at /mg"
+  },
+  "boost-iv-port-washington": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Custom-blended IV drips with essential vitamins, minerals, and hydration administered by experienced physicians; options for in-spa or concierge/at-home service",
+    "firstVisitInfo": "In-person or phone consultations available; same-day appointments available; located at 18 Haven Ave, Port Washington, NY 11050",
+    "frequency": null,
+    "specialties": [
+      "Immunity Drip (high-dose Vitamin C, zinc, glutathione)",
+      "Recovery & Hydration IV",
+      "Immune Boost IV",
+      "Custom IV Drips",
+      "Injections",
+      "Home Sick Visits",
+      "Concierge/At-Home IV Service"
+    ],
+    "priceNote": "Yearly wellness memberships available; same-day service available; pricing not publicly listed"
   }
 }
