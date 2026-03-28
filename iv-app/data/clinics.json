@@ -289,23 +289,6 @@
     "description": null
   },
   {
-    "id": 22,
-    "slug": "pure-infusion-suites-of-tacoma-tacoma",
-    "name": "Pure Infusion Suites of Tacoma",
-    "streetAddress": "1818 S Union Ave ste 2b",
-    "city": "Tacoma",
-    "state": "WA",
-    "zip": "98405",
-    "phone": "+1 253-393-2700",
-    "website": "https://pureinfusionsuites.com/locations/tacoma/",
-    "hours": "{\"Monday\": [\"8AM-5PM\"], \"Tuesday\": [\"8AM-5PM\"], \"Wednesday\": [\"8AM-5PM\"], \"Thursday\": [\"8AM-5PM\"], \"Friday\": [\"8AM-12PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
-    "rating": 5,
-    "reviewCount": 36,
-    "categories": "Medical Center",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
     "id": 23,
     "slug": "drip-wellness-pllc-mill-creek",
     "name": "Drip Wellness, PLLC",

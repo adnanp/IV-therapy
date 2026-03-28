@@ -562,5 +562,75 @@
       "Medical Weight Loss / Peptide Therapy"
     ],
     "priceNote": null
+  },
+  "vio-med-spa-redmond": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV solution formulated with Vitamin C, B Vitamins, and an exclusive mineral blend; also offers Tri-Immune Injections and B12 injections",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "IV Hydration Therapy",
+      "B12 Injections",
+      "Tri-Immune Injections",
+      "Weight loss support supplements"
+    ],
+    "priceNote": "Pricing not publicly listed; Cherry financing available starting at 0% APR"
+  },
+  "tri-cities-ketamine-infusion-and-wellness-clinic-kennewick-wa-kennewick": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Essential fluids, electrolytes, vitamins, and antioxidants; add-on options include B-Complex, Biotin, B12, and Lipo Plus IM injection; ketamine infusions include monitoring equipment and supervised recovery time",
+    "firstVisitInfo": "Get comfortable while staff prepares the IV and monitoring equipment; patients can nap, watch a movie, or meditate during the infusion; a short recovery monitoring period follows before discharge",
+    "frequency": "Personalized recommendations provided by clinical staff based on individual goals and condition",
+    "specialties": [
+      "Ketamine Infusion Therapy (depression, OCD, anxiety, PTSD, chronic pain)",
+      "Hydration Recovery IV",
+      "Vitality/Energy & Clarity IV",
+      "Immunity Booster IV",
+      "COVID Recovery IV",
+      "Athlete Recovery IV",
+      "Vitamin C Infusion",
+      "Iron IV Infusion",
+      "Hangover Relief IV"
+    ],
+    "priceNote": "Hydration Recovery 15; Antioxidant/Immunity 80; Vitality IV 85; Athlete Recovery 25; Vitamin C low/med/high 75/00/25"
+  },
+  "prime-iv-hydration-wellness-spokane-spokane": {
+    "sessionDuration": "30 to 45 minutes for standard drips; NAD+ sessions range from 2 to 4 hours",
+    "whatIsIncluded": "Customized blend of fluids, vitamins, minerals, and antioxidants delivered directly into the bloodstream; heated massage chair and VIP lounge amenities included; complimentary wellness consultation on first visit",
+    "firstVisitInfo": "Schedule online, by phone, or walk in; fill out a brief intake form; receive a complimentary consultation with a trained Infusion Specialist who takes vital signs and customizes a vitamin blend based on your wellness goals",
+    "frequency": "Monthly membership encourages regular visits; personalized frequency recommendations provided after each session",
+    "specialties": [
+      "Hangover Recovery",
+      "Immunity Boost",
+      "Myers' Cocktail",
+      "Summit Drip (Altitude Sickness)",
+      "Weight Loss Drip",
+      "Beauty Boost (Glutathione)",
+      "Liver Detox",
+      "Calm Drip",
+      "NAD+ IV Therapy",
+      "High-dose Vitamin C",
+      "Semaglutide and Tirzepatide",
+      "Mobile IV Therapy"
+    ],
+    "priceNote": "IV procedures range from 5 to 00; membership plans from 4-99/month; HSA and FSA accepted"
+  },
+  "optimized-health-iv-bar-kennewick": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV nutrient infusion formulas with vitamins and minerals delivered directly into the bloodstream; formulated by a Nurse Practitioner; optional glutathione add-on available; IM shots also offered",
+    "firstVisitInfo": null,
+    "frequency": "Membership includes 2 IVs of choice per month with 3rd at 50% off plus 1 injection of choice",
+    "specialties": [
+      "Immune Boost IV",
+      "Beauty IV",
+      "Performance & Recovery IV",
+      "Energy & Clarity IV",
+      "Hangover Recovery IV",
+      "NAD+ Infusions",
+      "Medical Weight Loss",
+      "Hormone Optimization / HRT",
+      "Mobile IV Therapy"
+    ],
+    "priceNote": "Pricing not publicly listed; membership available (2 IVs/month + 3rd at 50% off + 1 injection)"
   }
 }
