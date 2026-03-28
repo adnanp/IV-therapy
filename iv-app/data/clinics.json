@@ -867,23 +867,6 @@
     "description": null
   },
   {
-    "id": 68,
-    "slug": "holistique-medical-center-iv-lounge-bellevue",
-    "name": "Holistique Medical Center & IV Lounge",
-    "streetAddress": "1200 116th Ave NE C",
-    "city": "Bellevue",
-    "state": "WA",
-    "zip": "98004",
-    "phone": "+1 425-451-0404",
-    "website": "https://holistique.com/",
-    "hours": "{\"Monday\": [\"8AM-5PM\"], \"Tuesday\": [\"8AM-5PM\"], \"Wednesday\": [\"8AM-5PM\"], \"Thursday\": [\"8AM-5PM\"], \"Friday\": [\"8AM-5PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
-    "rating": 4.4,
-    "reviewCount": 167,
-    "categories": "Naturopathic practitioner, Cancer treatment center, Craniosacral therapy, Holistic medicine practitioner, Massage therapist, Medical Center, Nutritionist, Vitamin & supplements store",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
     "id": 69,
     "slug": "faces-in-bloom-vancouver",
     "name": "Faces in Bloom",

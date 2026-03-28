@@ -1128,5 +1128,66 @@
       "Personalized Lab Testing"
     ],
     "priceNote": "Pricing not publicly listed; contact clinic directly"
+  },
+  "body-balance-health-and-aesthetics-medicine-camas": {
+    "sessionDuration": "30 to 60 minutes depending on the type of infusion",
+    "whatIsIncluded": "IV infusion of fluids, vitamins, minerals, and nutrients directly into the bloodstream; common ingredients include normal saline, glutathione, B-complex, B12, magnesium, vitamin C, and zinc; optional add-ons for nausea, pain relief, or anti-inflammation",
+    "firstVisitInfo": "A consultation with a healthcare provider is recommended prior to treatment to ensure suitability",
+    "frequency": null,
+    "specialties": [
+      "Myer's Cocktail",
+      "Vitality Boost",
+      "Lean Luxe",
+      "Glow and Go"
+    ],
+    "priceNote": "Specific pricing not publicly listed; contact clinic for current rates"
+  },
+  "holistique-iv-lounge-bellevue": {
+    "sessionDuration": "35 to 60 minutes; most Nutradrips run 45 minutes to 1 hour",
+    "whatIsIncluded": "Signature Nutradrips compounded fresh in a Certified Clean Room using highest-grade injectable raw vitamins; infusion administered by a physician; patients relax in massage or zero-gravity chairs with hot tea and blanket; add-ons include hyperbaric oxygen, acupuncture, massage, and BallancerPro Lymph treatments",
+    "firstVisitInfo": "New patients meet briefly with a medical team member for a quick health assessment and review of medical history before receiving their first infusion; NAD+ first-timers must schedule a complimentary consultation with a naturopathic doctor first",
+    "frequency": null,
+    "specialties": [
+      "Athletic Performance Nutradrip",
+      "Beauty Bliss Nutradrip",
+      "NAD+ IV",
+      "Detox IV",
+      "UltraSlim",
+      "Ultra Vitamin C",
+      "The Energizer",
+      "Hangover Buster",
+      "Brain Power IV",
+      "Ozone IV",
+      "Methylene Blue IV",
+      "Peptide IV"
+    ],
+    "priceNote": "UltraSlim $220; Ultra Vitamin C $260; NAD+ 250mg + Lounge IV $699; other Nutradrips not publicly listed"
+  },
+  "emerge-natural-health-care-pllc-vancouver": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Individualized IV nutritional formulas selected based on patient needs; range from simple hydration to customized vitamin and mineral therapies; formulas include B vitamins, amino acids, magnesium, zinc, selenium, and antiemetics as needed",
+    "firstVisitInfo": "Complete new patient forms in advance; bring list of current medications and relevant medical records; naturopathic doctors perform a thorough intake to individualize the IV formula",
+    "frequency": null,
+    "specialties": [
+      "Fatigue and Low Testosterone Support IV",
+      "Metabolism and Weight Management IV",
+      "Immune and Mineral Support IV",
+      "Hydration IV"
+    ],
+    "priceNote": "Pricing not publicly listed; select insurance plans accepted for certain services"
+  },
+  "evolve-aesthetics-and-wellness-vancouver": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV bag infused with vitamins, antioxidants, electrolytes, fluids, and minerals tailored to chosen treatment; anti-inflammatory and anti-nausea medications included in select formulas; custom bags available",
+    "firstVisitInfo": "Appointments scheduled online or by phone; treatment administered by medical professionals in a comfortable boutique setting",
+    "frequency": null,
+    "specialties": [
+      "Immune Support IV",
+      "Sleep & Immune Reset IV",
+      "Hangover Relief IV",
+      "Relaxation/Anti-Inflammatory IV",
+      "Custom IV Bag"
+    ],
+    "priceNote": "Pricing not publicly listed; contact clinic for current rates"
   }
 }
