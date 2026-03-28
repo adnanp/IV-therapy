@@ -1292,5 +1292,66 @@
       "High-Dose Glutathione (1200mg)"
     ],
     "priceNote": "Membership credits redeemable for IV drips; members receive 30% off specialty services; contact location at (425) 651-8137 for current pricing"
+  },
+  "access-iv-vitamin-lounge-boonton": {
+    "sessionDuration": "Approximately 30-60 minutes per session; first visit may run longer due to intake consultation",
+    "whatIsIncluded": "IV infusions delivering vitamins, minerals, and essential compounds directly into the bloodstream; mobile services also available",
+    "firstVisitInfo": "Intake consultation with a medical provider before treatment; comfortable spa-like lounge environment with blankets; free onsite parking; same-day appointments available",
+    "frequency": null,
+    "specialties": [
+      "Hair, Skin & Nails Infusion",
+      "Athletic Performance Infusion",
+      "Hot Flash SOS (Menopause Support)",
+      "High-Dose Vitamin C",
+      "Immunity Support",
+      "Energy & Recovery Drips"
+    ],
+    "priceNote": "Reasonably priced with discount offers available; gift cards available"
+  },
+  "mobile-iv-drip-new-york": {
+    "sessionDuration": "35-45 minutes for most treatments",
+    "whatIsIncluded": "Hospital-grade IV therapy delivered to your home, hotel, or office by a licensed nurse; fluids, electrolytes, vitamins, minerals, and amino acids; IM booster shots also available; 24/7 availability",
+    "firstVisitInfo": "Book online or by phone; a licensed nurse (with ER, ICU, or trauma experience) arrives at your chosen location; all treatments administered under guidance of a board-certified emergency medicine doctor",
+    "frequency": "Weekly for ongoing wellness maintenance; monthly for general health; or as needed",
+    "specialties": [
+      "Hydration IV",
+      "Immunity Drip",
+      "Hangover Relief Drip",
+      "NAD+ IV",
+      "Beauty/Skin Drip",
+      "Energy & Fatigue Relief",
+      "Migraine Relief",
+      "Exercise Recovery",
+      "Group & Event IV Services"
+    ],
+    "priceNote": "Monthly membership plans available with exclusive discounts and priority booking; group discounts for events; exact per-session pricing not publicly listed"
+  },
+  "lifedripsiv-jersey-city": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV drips with natural vitamins, minerals, and fluids administered intravenously; treatments target hangovers, colds, jet lag, dehydration, inflammation, anti-aging, and skin/hair/nail health",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "IV Recharge (cold/flu, dehydration, jet lag, hangovers)",
+      "IV Rehydrate (stomach sickness, nausea, muscle aches)",
+      "IV Repair (inflammation, post-workout recovery)",
+      "IV Revitalize (anti-aging, skin, hair, nails, immunity)",
+      "Vitamin B12 Injection"
+    ],
+    "priceNote": null
+  },
+  "revive-wellness-kennewick": {
+    "sessionDuration": "One hour or less for most IV treatments",
+    "whatIsIncluded": "All-natural bio-identical vitamins and nutrients delivered intravenously; drips include Myers Cocktail, Migraine IV, Glutathione add-on; MIC/Lipo injections; group hydration packages",
+    "firstVisitInfo": null,
+    "frequency": "Monthly IV therapy recommended for members; monthly membership allows one IV session per month",
+    "specialties": [
+      "Myers Cocktail",
+      "Migraine IV Therapy",
+      "Glutathione Booster (IV push or injection)",
+      "MIC/Lipo Injections",
+      "Group Hydration Sessions"
+    ],
+    "priceNote": "VIP/Direct Primary Care members receive 20% off; group discounts for 3 or more; monthly membership available"
   }
 }

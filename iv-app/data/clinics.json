@@ -1037,23 +1037,6 @@
     "description": null
   },
   {
-    "id": 83,
-    "slug": "ivx-health-infusion-center-clifton",
-    "name": "IVX Health Infusion Center",
-    "streetAddress": "225 Allwood Rd Unit 8",
-    "city": "Clifton",
-    "state": "NJ",
-    "zip": "7012",
-    "phone": "+1 973-200-1886",
-    "website": "http://www.ivxhealth.com/locations/new-jersey/north-jersey/clifton",
-    "hours": "{\"Monday\": [\"7AM-7PM\"], \"Tuesday\": [\"7AM-7PM\"], \"Wednesday\": [\"7AM-7PM\"], \"Thursday\": [\"7AM-7PM\"], \"Friday\": [\"7AM-7PM\"], \"Saturday\": [\"10AM-3PM\"], \"Sunday\": [\"Closed\"]}",
-    "rating": 4.8,
-    "reviewCount": 20,
-    "categories": "Medical clinic",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
     "id": 84,
     "slug": "access-iv-vitamin-lounge-boonton",
     "name": "Access IV Vitamin Lounge",
