@@ -473,5 +473,94 @@
       "NAD+ Therapy"
     ],
     "priceNote": "Prices range from $119 to $449 depending on tier; Cherry financing available"
+  },
+  "zyra-clinic-redmond": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV/nutrient infusions and nutrient shots designed to enhance metabolism, boost energy, and support weight management, delivered directly into the bloodstream for immediate results",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "IV/Nutrient Drips",
+      "Nutrient Shots",
+      "Bio-Hack Wellness Infusions",
+      "Weight Management Drips"
+    ],
+    "priceNote": null
+  },
+  "the-dripbar-fairfield-iv-therapy-fairfield": {
+    "sessionDuration": "30 to 60 minutes for most drips; up to 90 minutes for some formulas",
+    "whatIsIncluded": "Personalized IV drip mixed to order by a licensed nurse, administered via small catheter while relaxing in a comfortable lounge; includes intake consultation, monitoring throughout, and licensed nurse oversight",
+    "firstVisitInfo": "A licensed nurse reviews your wellness goals and health history, places a small catheter in your arm, mixes your drip to order, and monitors you throughout; certain Health Support drips require a brief telehealth physician consultation before treatment; walk-ins welcome but appointments preferred",
+    "frequency": "Varies by wellness goal; membership programs available for regular clients",
+    "specialties": [
+      "NAD+ Drip",
+      "Glutathione Drip",
+      "Alpha Lipoic Acid (ALA) Drip",
+      "Myers' Cocktail-style Lifestyle Drips",
+      "Energy Drip",
+      "Immunity Drip",
+      "Hydration Balance Drip",
+      "Recovery Enhancement Drip",
+      "Weight Loss/Metabolize Drip",
+      "Allergy Relief Drip",
+      "Beauty/Firm Drip",
+      "Surgery Support Drip",
+      "Red Light Therapy",
+      "Halotherapy",
+      "Infrared Sauna",
+      "Peptide Therapy"
+    ],
+    "priceNote": "New client special: $100 in additional services free with drip purchase (drips from $224); monthly memberships available"
+  },
+  "ethereal-aesthetics-vancouver": {
+    "sessionDuration": "35 to 60 minutes, varying based on gravity, catheter, and vein size",
+    "whatIsIncluded": "Personalized IV drip administered by an advanced practice nurse with 20+ years of healthcare experience; includes medical history review, formulation selection, and monitored infusion",
+    "firstVisitInfo": "An advanced practice nurse reviews your medical history and answers all questions to ensure safe treatment; treatment is personalized to your health goals and nutritional requirements",
+    "frequency": "Weekly, monthly, or as needed based on individual health goals",
+    "specialties": [
+      "B-Lean (fat-burning, metabolism boost)",
+      "Brainstorm (cognitive function, memory)",
+      "Myers' Cocktail",
+      "NAD+ Drip",
+      "CBD IV Infusion",
+      "Vitamin Injections",
+      "Weight Loss Injections / Semaglutide"
+    ],
+    "priceNote": null
+  },
+  "root-infusions-and-wellness-south-easton": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Custom vitamin IV infusions, IM vitamin shots (under 5 minutes, no downtime), and mobile IV services; NAD+ drip requires a brief NP consultation prior to appointment",
+    "firstVisitInfo": "NAD+ drip requires a brief consult with a nurse practitioner prior to the first appointment; booking available online",
+    "frequency": null,
+    "specialties": [
+      "Energy Drip (IV or IM)",
+      "Glutathione Drip (IV or IM)",
+      "Weight Loss / Amino Acid Blend Drip",
+      "Tri-Immunity Blend (IV or IM)",
+      "Biotin / Vitamin B7 (IV or IM)",
+      "Anti-Nausea Drip",
+      "NAD+ Drip",
+      "IM Vitamin Shots",
+      "Mobile IV Therapy"
+    ],
+    "priceNote": null
+  },
+  "inshapemd-clinic-redmond": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Medical-grade IV infusions administered by licensed medical professionals in a spa-like environment; nutrients delivered directly into the bloodstream bypassing digestion for maximum absorption",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "NAD+ Drip",
+      "Glutathione IV Push",
+      "Myers' Cocktail",
+      "Energy Drips",
+      "Immunity Drips",
+      "Beauty Drips",
+      "Detox Drips",
+      "Medical Weight Loss / Peptide Therapy"
+    ],
+    "priceNote": null
   }
 }
