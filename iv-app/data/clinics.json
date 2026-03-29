@@ -1904,23 +1904,6 @@
     "description": null
   },
   {
-    "id": 147,
-    "slug": "whidbeyhealth-walk-in-care-clinton",
-    "name": "WhidbeyHealth Walk-In Care",
-    "streetAddress": "11245 WA-525",
-    "city": "Clinton",
-    "state": "WA",
-    "zip": "98236",
-    "phone": "+1 360-341-5252",
-    "website": "https://whidbeyhealth.org/",
-    "hours": "{\"Monday\": [\"7AM-7PM\"], \"Tuesday\": [\"7AM-7PM\"], \"Wednesday\": [\"7AM-7PM\"], \"Thursday\": [\"7AM-7PM\"], \"Friday\": [\"7AM-7PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"Closed\"]}",
-    "rating": 3.1,
-    "reviewCount": 54,
-    "categories": "Medical clinic",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
     "id": 148,
     "slug": "vitality-wenatchee-wenatchee",
     "name": "Vitality Wenatchee",

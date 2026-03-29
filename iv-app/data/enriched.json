@@ -1942,5 +1942,49 @@
       "Injectables"
     ],
     "priceNote": null
+  },
+  "wellness-for-life-anacortes": {
+    "sessionDuration": "Approximately 90 minutes",
+    "whatIsIncluded": "Customizable IV drips to elevate nutritional status and boost hydration; options include vitamins, minerals, and add-ons tailored per client",
+    "firstVisitInfo": "Appointments required; bookings after 4:30 PM not recommended for IV drips due to 90-minute session length",
+    "frequency": null,
+    "specialties": [
+      "Rejuvenation & Recovery",
+      "Alleviate (PMS/Migraines)",
+      "Immunity Boost",
+      "Inner Beauty",
+      "NAD+ IV",
+      "Ketamine IV infusions"
+    ],
+    "priceNote": "Pricing not publicly listed; book via vagaro.com/wellnessforlife or call 360-524-0111"
+  },
+  "forever-young-aesthetics-seattle": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV hydration using lactated Ringer's solution (sodium, chloride, potassium, calcium, lactate); can be combined with vitamins and supplements; 100% absorption into system",
+    "firstVisitInfo": "By appointment only; virtual consultations are free; no drop-ins accepted",
+    "frequency": null,
+    "specialties": [
+      "IV Hydration",
+      "Vitamin B12 injections"
+    ],
+    "priceNote": "Pricing not publicly listed; contact clinic at (206) 486-0753"
+  },
+  "ivtology-staten-island": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Hydration and vitamin infusions, wellness shots; concierge/mobile services also available",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [],
+    "priceNote": null
+  },
+  "vitality-wenatchee-wenatchee": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV hydration therapy as part of a broader health optimization plan including hormone therapy, metabolic testing, and weight loss programs",
+    "firstVisitInfo": "Consultations available in-person or virtual; clinic open Monday-Friday 9am-4pm at 14 Kittitas St, Wenatchee, WA",
+    "frequency": null,
+    "specialties": [
+      "IV Hydration Therapy"
+    ],
+    "priceNote": "Membership plan includes 10% off all additional services including IV hydration; standalone IV pricing not publicly listed"
   }
 }
