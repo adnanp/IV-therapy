@@ -1852,5 +1852,95 @@
       "IV Wellness Membership (2 infusions/month)"
     ],
     "priceNote": "IV Wellness Membership available with two infusions per month plus member pricing; individual session pricing not publicly listed"
+  },
+  "well-iv-hydration-stafford-township": {
+    "sessionDuration": "30 to 60 minutes depending on the infusion (Quick Fix 500ml ~30 min; 1000ml infusions up to 60 min)",
+    "whatIsIncluded": "IV fluid and electrolyte hydration delivered directly into the bloodstream by an RN or APN; options include Total Hydration, Quick Fix, Immune Boost, Energy Boost, Essential Vitamins, Age Defying Detox, Myers Cocktail, and Athletic Performance; optional add-ons include Glutathione, Zofran, Toradol",
+    "firstVisitInfo": "Book online, by phone, email, or text; administered by an RN or APN; effects felt immediately and can last up to one week; home visits, group bookings, and pop-up events also available",
+    "frequency": "Weekly for active recovery or acute needs; monthly for maintenance",
+    "specialties": [
+      "Total Hydration",
+      "Quick Fix Hydration",
+      "Immune Boost",
+      "Energy Boost",
+      "Essential Vitamins",
+      "Age Defying Detox",
+      "Myer's Cocktail",
+      "Athletic Performance",
+      "Glutathione add-on",
+      "B12 injections",
+      "Lipotropic injections",
+      "Semaglutide weight loss injections"
+    ],
+    "priceNote": "Total Hydration $175; Quick Fix Hydration $155; Glutathione add-on $50; Zofran/Toradol add-ons $40 each; group discounts for 6+ people; HSA accepted"
+  },
+  "iv-nutrition-nashville": {
+    "sessionDuration": "30 to 60 minutes for most drips",
+    "whatIsIncluded": "IV vitamin and nutrient infusions administered directly into the bloodstream; drips formulated for immunity, energy, hydration, performance, recovery, beauty, and brain health; zero-gravity massage chairs during sessions; mobile service available",
+    "firstVisitInfo": "Walk-in or appointment at 315 Deaderick St, Nashville; staff help select the best drip; clients relax in zero-gravity massage chairs; wellness plan consultations available",
+    "frequency": "Customized to personal goals; membership tiers support ongoing regular sessions",
+    "specialties": [
+      "Immune Resilience Drip",
+      "Energy and Brain Power Drip",
+      "IV Hydration Plus",
+      "NAD+ Therapy",
+      "High-Dose Vitamin C",
+      "Glutathione",
+      "Performance & Recovery IV",
+      "Natural Beauty Drip",
+      "Belly Blaster IV",
+      "Balanced Brain IV",
+      "Deep & Double Detox",
+      "Absolute Athlete"
+    ],
+    "priceNote": "Pricing not publicly listed; membership tiers available with discounts on all IVs and injections; mobile service available for groups and events"
+  },
+  "ivitality-issaquah-issaquah": {
+    "sessionDuration": "30 to 60 minutes for standard IVs; NAD+ IV takes longer",
+    "whatIsIncluded": "Base of 500ml saline fluids; specialty IV therapies for mental clarity, energy, immunity, or appearance; NAD+ IV therapy; nutrient add-ons at $25 each; additional fluids upgrade $50; administered by Registered Nurses",
+    "firstVisitInfo": "Located in downtown Issaquah off I-90 with free parking; open 7 days a week 10am-7pm; consultations available with naturopathic doctors",
+    "frequency": "Monthly IV membership subscription available (4 IVs); monthly special drip at $79",
+    "specialties": [
+      "Get Up & Go! IV",
+      "Dr. Witte's Super IV",
+      "Ms. Olympia IV",
+      "NAD+ IV Therapy",
+      "Immunity IV",
+      "Anti-Aging / Beauty IV",
+      "Energy IV",
+      "Mental Clarity IV",
+      "Nutrient Shots"
+    ],
+    "priceNote": "Specialty IVs from $224; monthly special $79; add-on nutrients $25; monthly membership 4-IV subscription $1,000"
+  },
+  "iv-drip-booth-burlington": {
+    "sessionDuration": "45 to 60 minutes for most treatments; 1 to 2 hours for Migraine IV, NAD, and ALA",
+    "whatIsIncluded": "IV infusion of vitamins, minerals, and medications bypassing the GI tract for maximum absorption; administered per strict pharmacy and FDA guidelines; vitamin shots also available; appointment only",
+    "firstVisitInfo": "Appointment required; book via website; doctor consultation determines best treatment plan and frequency; 24-hour cancellation notice required",
+    "frequency": "Weekly treatment typically recommended; some patients may only need monthly; determined during doctor consultation",
+    "specialties": [
+      "Myers' Cocktail",
+      "Pain & Migraine IV",
+      "Immune Boost IV",
+      "NAD+ IV",
+      "Alpha-Lipoic Acid (ALA) IV",
+      "Vitamin Shots"
+    ],
+    "priceNote": "10% off first infusion when signing up for newsletter; Groupon deals available; prices not publicly listed"
+  },
+  "peak-by-md-jersey-city": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV vitamin therapy and NAD+ infusions as part of a medical longevity and aesthetics program; treatments address low energy, fatigue, aging, brain fog, and overall wellness",
+    "firstVisitInfo": "Consultation-based intake via Optimantra Patient Portal; clinic at 95 Coles St, Jersey City NJ 07302; Mon/Wed 8am-6:30pm, Fri 9am-2pm",
+    "frequency": null,
+    "specialties": [
+      "IV Vitamin Therapy",
+      "NAD+ Infusions",
+      "Weight Management",
+      "Hormone & Metabolic Testing",
+      "Peptide Therapy",
+      "Injectables"
+    ],
+    "priceNote": null
   }
 }
