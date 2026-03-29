@@ -1734,5 +1734,51 @@
       "Glutathione IM Injection"
     ],
     "priceNote": "Standard IV session valued at $200; IV Exosome Therapy starts at $2,500+; Longevity Membership includes IVs as part of a personalized care plan"
+  },
+  "the-metabolic-institute-spokane": {
+    "sessionDuration": "Approximately 30-60 minutes for most drips; NAD+ infusions can take 2-4 hours depending on dose and tolerance",
+    "whatIsIncluded": "Custom IV drips mixed on-site under an FDA-approved hood; blends of vitamins, minerals, antioxidants, and amino acids tailored to individual pre-treatment testing; options include energy injections, B12 booster shots, peptide IV therapy, and wellness packages",
+    "firstVisitInfo": "Pre-treatment testing is conducted to determine the right infusion cocktail; a medical professional inserts an IV catheter and the treatment is administered in their IV Lounge",
+    "frequency": "Weekly sessions when first starting; every two weeks once nutrient levels stabilize; monthly maintenance for those who have achieved desired results",
+    "specialties": [
+      "Custom IV drips",
+      "Peptide IV therapy",
+      "B12 booster shots",
+      "Energy injections",
+      "NAD+ IV therapy",
+      "Wellness packages"
+    ],
+    "priceNote": null
+  },
+  "evo-med-spa-spokane": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV infusions as part of medically assisted weight loss programs; also includes lipotropic injections, vitamin injections, and GLP-1 medications; all services provided by certified medical staff under physician supervision",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "IV infusions",
+      "Lipotropic injections",
+      "Vitamin injections",
+      "GLP-1 weight loss"
+    ],
+    "priceNote": "6-month minimum contract required for memberships; specific IV pricing not publicly listed"
+  },
+  "luminess-lounge-spokane-valley": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV hydration and vitamin drips with personalized nutrient blends; clients receive treatment in a top-of-the-line massage chair; mobile/in-home service also available; RN-administered with personalized assessment",
+    "firstVisitInfo": "Practitioners take time to assess what your body would benefit from most; experienced nurse practitioner or RN guides you through the process in a relaxed, personalized environment",
+    "frequency": null,
+    "specialties": [
+      "Myers Cocktail",
+      "Hangover IV",
+      "Immunity Boost",
+      "Energy drip",
+      "NAD+",
+      "B12 shots",
+      "Vitamin D3 shots",
+      "Beauty Detox drip",
+      "IV hydration"
+    ],
+    "priceNote": null
   }
 }

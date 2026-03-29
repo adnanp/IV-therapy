@@ -1581,23 +1581,6 @@
     "description": null
   },
   {
-    "id": 121,
-    "slug": "option-care-health-spokane-valley",
-    "name": "Option Care Health",
-    "streetAddress": "3310 N Pines Rd",
-    "city": "Spokane Valley",
-    "state": "WA",
-    "zip": "99206",
-    "phone": "+1 509-326-0306",
-    "website": "https://optioncarehealth.com/locations/spokane-valley-wa-3310-n-pines-rd",
-    "hours": "{\"Monday\": [\"8AM-6PM\"], \"Tuesday\": [\"8AM-6PM\"], \"Wednesday\": [\"8AM-6PM\"], \"Thursday\": [\"8AM-6PM\"], \"Friday\": [\"8AM-6PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
-    "rating": 3.5,
-    "reviewCount": 32,
-    "categories": "Specialized clinic",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
     "id": 122,
     "slug": "the-metabolic-institute-spokane",
     "name": "The Metabolic Institute",
@@ -1662,23 +1645,6 @@
     "rating": 5,
     "reviewCount": 351,
     "categories": "Medical clinic",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
-    "id": 126,
-    "slug": "pure-infusion-suites-of-spokane-spokane-valley",
-    "name": "Pure Infusion Suites of Spokane",
-    "streetAddress": "16201 E Indiana Ave Ste 3100",
-    "city": "Spokane Valley",
-    "state": "WA",
-    "zip": "99216",
-    "phone": "+1 509-418-9880",
-    "website": "https://pureinfusionsuites.com/locations/spokane/",
-    "hours": "{\"Monday\": [\"8AM-5PM\"], \"Tuesday\": [\"8AM-5PM\"], \"Wednesday\": [\"8AM-5PM\"], \"Thursday\": [\"8AM-5PM\"], \"Friday\": [\"8AM-5PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
-    "rating": 4.9,
-    "reviewCount": 155,
-    "categories": "Medical Center",
     "priceRange": "$$",
     "description": null
   },
