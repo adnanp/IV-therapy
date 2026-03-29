@@ -1768,23 +1768,6 @@
     "description": null
   },
   {
-    "id": 137,
-    "slug": "option-care-health-lakewood",
-    "name": "Option Care Health",
-    "streetAddress": "6111 Lakewood Towne Center Blvd SW Suite L",
-    "city": "Lakewood",
-    "state": "WA",
-    "zip": "98499",
-    "phone": "+1 253-512-0400",
-    "website": "https://optioncarehealth.com/locations/lakewood-wa-6111-lakewood-town-center-blvd-sw",
-    "hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
-    "rating": 2.4,
-    "reviewCount": 14,
-    "categories": "Specialized clinic",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
     "id": 138,
     "slug": "well-iv-hydration-stafford-township",
     "name": "well iv hydration",

@@ -1804,5 +1804,53 @@
       "Vitamin Shots"
     ],
     "priceNote": null
+  },
+  "the-iv-method-spokane": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV vitamin infusion therapies and IM injections delivering 100% bioavailable nutrients; Myers' Cocktail includes Vitamin C, Magnesium, B Complex, Calcium Gluconate, B12, and Zinc; High Dose Vitamin C and Chelation Therapy (EDTA) also available",
+    "firstVisitInfo": "No referral needed; free 5-minute consultation with an RN recommended for Chelation therapy; Heavy Metals test available in-clinic for Chelation patients",
+    "frequency": null,
+    "specialties": [
+      "Myers' Cocktail",
+      "Myers' Cocktail with additional Vitamin C",
+      "High Dose Vitamin C",
+      "Chelation Therapy (EDTA heavy metal detox)",
+      "Athletic/Recovery Infusion",
+      "Glutathione",
+      "IM injections"
+    ],
+    "priceNote": null
+  },
+  "divine-aesthetic-lounge-mill-creek": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV infusions offered alongside aesthetic services; specific IV drip contents not publicly detailed",
+    "firstVisitInfo": "Every visit is a calm, one-on-one experience directly with Divine Grace, Aesthetic Nurse Practitioner; free consultations with zero commitment; appointments only",
+    "frequency": null,
+    "specialties": [
+      "IV Infusions"
+    ],
+    "priceNote": "Flexible payment options including zero-interest split payments; specific IV pricing not publicly listed"
+  },
+  "skin-addiction-medspa-health-clinic-mill-creek": {
+    "sessionDuration": null,
+    "whatIsIncluded": "I.V. Skin Therapy is a signature offering; described as the sole provider in the Greater Seattle Area offering I.V. Skin Therapy, IPL, Erbium Laser, and PRP all in one location",
+    "firstVisitInfo": "Individualized treatment plans crafted for each patient; complimentary consultations offered; appointments only",
+    "frequency": null,
+    "specialties": [
+      "I.V. Skin Therapy",
+      "IV Therapy (general wellness)"
+    ],
+    "priceNote": null
+  },
+  "radiance-aesthetics-wellness-bonners-ferry": {
+    "sessionDuration": "30-60 minutes",
+    "whatIsIncluded": "IV Vitamin Infusions deliver a blend of fluids, vitamins, and nutrients directly into the bloodstream; administered by registered nurses under NP medical director oversight",
+    "firstVisitInfo": "Care delivered by a team of RNs with NP medical oversight; clinic designed to feel welcoming and comfortable while maintaining clinical standards",
+    "frequency": "IV Wellness Membership includes two IV infusions per month",
+    "specialties": [
+      "IV Vitamin Infusions",
+      "IV Wellness Membership (2 infusions/month)"
+    ],
+    "priceNote": "IV Wellness Membership available with two infusions per month plus member pricing; individual session pricing not publicly listed"
   }
 }
