@@ -1986,5 +1986,37 @@
       "IV Hydration Therapy"
     ],
     "priceNote": "Membership plan includes 10% off all additional services including IV hydration; standalone IV pricing not publicly listed"
+  },
+  "rebel-med-nw-seattle": {
+    "sessionDuration": "Standard nutrient IVs typically 30-60 minutes; NAD+ infusions range from 30 minutes (50mg) to 3-4 hours (500mg); initial IV consultation is 15 minutes before first treatment",
+    "whatIsIncluded": "Personalized nutrient IV infusions including vitamins, minerals, and antioxidants; named blends include Aesthetics IV (Vitamin C, Biotin, Glutathione, B Complex), Calming blend (Magnesium), and Immune Boost blend (Vitamin C, Zinc, B Complex); Iron IV infusion also available",
+    "firstVisitInfo": "New patients must complete an initial 15-minute IV consultation with a doctor before first nutrient IV; goals, health history, and questions are discussed; high-dose concentration IVs require a blood test and prescription",
+    "frequency": "Protocols individualized; cosmetic-supportive IV series typically recommend 3-5 sessions; membership includes monthly vitamin injection",
+    "specialties": [
+      "NAD+ IV",
+      "Aesthetics IV (Vitamin C, Biotin, Glutathione, B Complex)",
+      "Calming Blend (Magnesium)",
+      "Immune Boost Blend (Vitamin C, Zinc, B Complex)",
+      "Glutathione IV",
+      "Iron IV Infusion",
+      "Vitamin Injections (B12, B Complex, Lipotropic)"
+    ],
+    "priceNote": "NAD+ IV: $125/50mg, $200/100mg, $300/250mg, $550/500mg; package discounts at 3-packs and 5-packs; concierge membership includes per-session discounts and monthly vitamin injection"
+  },
+  "village-medicine-seattle-seattle": {
+    "sessionDuration": "45 minutes to 1 hour",
+    "whatIsIncluded": "Personalized IV infusions of vitamins, minerals, and nutrients tailored to individual health goals; 100% bioavailability emphasized; treatments customized by providers; administered in relaxing treatment rooms",
+    "firstVisitInfo": "The team gets to know your needs and goals before creating a personalized treatment plan; initial consultation with a provider required; pricing is based on total time spent with provider",
+    "frequency": "Individualized based on patient needs and goals",
+    "specialties": [],
+    "priceNote": "Pricing not publicly listed; initial consultation cost depends on total time with provider"
+  },
+  "exhala-wellness-wenatchee": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV therapy and injections offered as part of a MedSpa & IV Bar; treatments tailored to individual needs through personalized consultations",
+    "firstVisitInfo": "Each consultation begins with a thorough understanding of individual needs to ensure a tailored treatment plan",
+    "frequency": null,
+    "specialties": [],
+    "priceNote": null
   }
 }
