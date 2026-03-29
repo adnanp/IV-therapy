@@ -1780,5 +1780,29 @@
       "IV hydration"
     ],
     "priceNote": null
+  },
+  "wholebody-wellness-aesthetics-spokane-valley": {
+    "sessionDuration": "1-3 hours for chelation; general IV wellness infusions typically 20-60 minutes",
+    "whatIsIncluded": "Vitamins, minerals, and hydration delivered intravenously; includes Myers' Cocktail (B vitamins, vitamin C); chelation therapy uses amino acids to bind and flush heavy metals",
+    "firstVisitInfo": "Patient sits and relaxes throughout treatment; can read, watch TV, nap, or enjoy snacks; minimal downtime and recovery",
+    "frequency": "Weekly treatments recommended for optimal results; chelation patients typically receive 20-60 treatments over 12-36 weeks, with optional monthly maintenance",
+    "specialties": [
+      "Myers' Cocktail",
+      "IV Wellness Nutritional Infusions",
+      "Vitamin Shots",
+      "Chelation Therapy"
+    ],
+    "priceNote": null
+  },
+  "r-r-beauty-med-spa-kent": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Customized IV hydration with tailored solutions designed to recharge the body and boost energy levels; vitamin shots also available",
+    "firstVisitInfo": null,
+    "frequency": null,
+    "specialties": [
+      "Customized IV Hydration",
+      "Vitamin Shots"
+    ],
+    "priceNote": null
   }
 }
