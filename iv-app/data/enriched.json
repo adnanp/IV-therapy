@@ -2018,5 +2018,68 @@
     "frequency": null,
     "specialties": [],
     "priceNote": null
+  },
+  "pacific-northwest-wellness-center-pllc-east-wenatchee": {
+    "sessionDuration": "Standard IV infusions approximately 1 hour; immunity IV under 45 minutes; NAD+/neurological IV 3-8 hours",
+    "whatIsIncluded": "Customized blends of vitamins, minerals, amino acids, and fluids; menu includes Myers' Cocktail, Biotin Beauty IV, Metabolism/Detox IV, Migraine Relief IV, Peak Performance IV, and NAD+/Neurological Detox IV for PTSD, Lyme Disease, anti-aging, and detox protocols",
+    "firstVisitInfo": "Patients seeking NAD+ for detox must first see a prescribing provider; labs drawn on Day 1 for detox protocols; anti-aging and Lyme patients evaluated by a Nurse Practitioner",
+    "frequency": "Average treatment plan is 6-10 treatments; detox protocols require 10 consecutive days",
+    "specialties": [
+      "Myers' Cocktail",
+      "Biotin Beauty / Grow & Glow IV",
+      "Metabolism/Detox IV",
+      "Migraine Relief IV",
+      "Peak Performance IV",
+      "NAD+ Neurological/Detox IV",
+      "Immunity IV"
+    ],
+    "priceNote": "Pricing included with membership plan; contact (509) 888-6334 for non-member pricing"
+  },
+  "funk-regenerative-med-clinic-wenatchee": {
+    "sessionDuration": null,
+    "whatIsIncluded": "High-dose IV ozone therapy and targeted IV nutrient infusions to support cellular function and cleansing pathways; treatment begins with review of medical history followed by individualized IV plan",
+    "firstVisitInfo": "Initial visit includes review of medical history and symptom patterns; sessions in calm clinic setting with reclining chairs and soothing music",
+    "frequency": null,
+    "specialties": [
+      "High Dose IV Ozone Therapy",
+      "IV Nutrient Therapy",
+      "EBOO (Extracorporeal Blood Ozonation and Oxygenation)"
+    ],
+    "priceNote": null
+  },
+  "elite-med-spa-wenatchee": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Personalized IV blends of fluids, vitamins, minerals, and nutrients; IV can be received during another spa treatment simultaneously",
+    "firstVisitInfo": "Complimentary consultations available; providers recommend treatments based on individual goals",
+    "frequency": null,
+    "specialties": [
+      "Athletic Recovery IV (amino blend, Vitamin C, B vitamins, Magnesium, Zinc)",
+      "Beauty/Glow IV (collagen support, antioxidants)",
+      "Metabolism/Energy IV (B vitamins and amino acids)",
+      "NAD+ Injections"
+    ],
+    "priceNote": "Specific pricing not publicly listed; contact (509) 860-6481"
+  },
+  "valley-laser-skin-wenatchee-wenatchee": {
+    "sessionDuration": null,
+    "whatIsIncluded": "Customized IV blends of vitamins, minerals, amino acids, and nutrients; administered in comfortable private rooms; targets increased energy, improved immunity, enhanced hydration, and faster recovery",
+    "firstVisitInfo": "Treatment in comfortable private rooms; experienced professionals customize IV treatments to individual needs",
+    "frequency": null,
+    "specialties": [],
+    "priceNote": "Pricing not publicly listed; contact (509) 667-2535"
+  },
+  "skinwell-co-spokane": {
+    "sessionDuration": null,
+    "whatIsIncluded": "IV infusion menu includes Meyer's Infusion, Immune Support Infusion, Wellness/Recovery Infusion, Migraine Relief Infusion (includes Ketorolac, Ondansetron, Dexamethasone), and Hangover Recovery Infusion; consultations conducted prior to treatment",
+    "firstVisitInfo": "Consultations conducted prior to treatment to discuss individual needs; walk-ins may be accommodated depending on availability",
+    "frequency": null,
+    "specialties": [
+      "Meyer's Infusion",
+      "Immune Support Infusion",
+      "Wellness/Recovery Infusion",
+      "Migraine Relief Infusion",
+      "Hangover Recovery Infusion"
+    ],
+    "priceNote": "Specific pricing not publicly listed; book via skinwell.myaestheticrecord.com"
   }
 }
