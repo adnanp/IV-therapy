@@ -2109,5 +2109,23 @@
       "Functional Medicine"
     ],
     "priceNote": "Pricing not publicly listed; group and corporate membership pricing available. Contact (509) 816-1286 for rates."
+  },
+  "ivnv-wellness-coeur-dalene": {
+    "sessionDuration": "30\u201360 minutes for standard infusions; 2\u20134 hours for NAD+; 10 minutes for IM injections",
+    "whatIsIncluded": "Customized IV vitamin infusions with vitamins, minerals, amino acids, and antioxidants. IM injections (B12, B-Complex, Vitamin D3, NAD+), NAD+ infusions with Glutathione, High Dose Vitamin C, Curcumin, Peptide Stacks, Hyperbaric Oxygen Therapy (HBOT), and EBOO ozone therapy.",
+    "firstVisitInfo": "No-obligation consultation available. Complete intake paperwork and an RN reviews your medical history, medications, and wellness goals to customize your infusion. Therapeutic services may require baseline labs (CBC, CMP, G6PD). TeleMed consultation with Medical Director Dr. Cochran available.",
+    "frequency": "IM injections ideal for maintaining balance between IV sessions. NAD+ most popular as a 4-infusion package. Regular infusions alongside exercise and healthy diet recommended for weight loss. Ongoing memberships and packages available.",
+    "specialties": [
+      "NAD+ Therapy",
+      "High Dose Vitamin C",
+      "Curcumin Infusions",
+      "Weight Loss IV",
+      "Immune Defense",
+      "Athletic Performance",
+      "Hyperbaric Oxygen Therapy",
+      "EBOO Ozone Therapy",
+      "Peptide Stacks"
+    ],
+    "priceNote": "Pricing not publicly listed; introductory HBOT session at $49; memberships and packages available. Contact clinic for full pricing."
   }
 }

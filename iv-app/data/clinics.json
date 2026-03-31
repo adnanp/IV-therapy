@@ -2091,23 +2091,6 @@
     "description": null
   },
   {
-    "id": 161,
-    "slug": "cor-body-spokane",
-    "name": "COR Body",
-    "streetAddress": "501 S Bernard St Suite 214",
-    "city": "Spokane",
-    "state": "WA",
-    "zip": "99204",
-    "phone": "+1 509-862-6974",
-    "website": "http://corbodyspokane.com/",
-    "hours": "{\"Monday\": [\"9:30AM-7PM\"], \"Tuesday\": [\"9:30AM-2:30PM\"], \"Wednesday\": [\"9:30AM-2:30PM\"], \"Thursday\": [\"9:30AM-7PM\"], \"Friday\": [\"9:30AM-2:30PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
-    "rating": 5,
-    "reviewCount": 29,
-    "categories": "Health spa",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
     "id": 162,
     "slug": "ivnv-wellness-coeur-dalene",
     "name": "IVNV Wellness",
