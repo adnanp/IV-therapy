@@ -2127,5 +2127,38 @@
       "Peptide Stacks"
     ],
     "priceNote": "Pricing not publicly listed; introductory HBOT session at $49; memberships and packages available. Contact clinic for full pricing."
+  },
+  "thrive-iv-hydration-mobile-spa-tulsa": {
+    "sessionDuration": "Approximately 45 minutes",
+    "whatIsIncluded": "Custom IV blends with pharmaceutical-grade vitamins, minerals, antioxidants, and amino acids administered by ACLS/BLS-certified RNs. Drips include Super Immunity, Super Energy & Endurance, Myers Cocktail, High-dose Vitamin C, Migraine Treatment, and NAD+ Therapy. Custom blends and add-ons available.",
+    "firstVisitInfo": "A Thrive professional consults with you before treatment to discuss health concerns and potential add-ons. Available at Midtown or South Tulsa locations, or via mobile concierge within 1\u20133 hours. Book online or call/text (918) 550-2740.",
+    "frequency": "Monthly or as-needed; mobile concierge available on demand within 1\u20133 hours.",
+    "specialties": [
+      "Mobile IV Concierge",
+      "NAD+ Therapy",
+      "Athletic Performance",
+      "Immune Support",
+      "Migraine Treatment",
+      "Myers Cocktail",
+      "High-Dose Vitamin C",
+      "Event & Group Bookings"
+    ],
+    "priceNote": "Pricing not publicly listed; varies by drip and add-ons. Contact (918) 550-2740 for exact pricing."
+  },
+  "iv-hydrate-cafe-bronx": {
+    "sessionDuration": "30\u201360 minutes for IV infusions; faster for IM injections",
+    "whatIsIncluded": "IV vitamin drips including Myers Macchiato (Magnesium, Calcium, Vitamin C, B-Complex, B12), Energy Espresso (B-Complex, B12, Amino Blend, Glutathione), Hangover Frappuccino (with optional Zofran/Toradol), ImmuniTea, Athletic Infusion, and NAD+ Therapy. IM vitamin boost injections also available. Products sourced from FDA-approved suppliers.",
+    "firstVisitInfo": "Walk-in or appointment at 3531 Grace Ave, Bronx, NY. No insurance accepted \u2014 all services are cash pay. Owned and operated by sisters Latoya Powell, RN and Latisha Powell, FNP.",
+    "frequency": "1\u20132 IV infusions per month for wellness; weekly IM injections to maintain results.",
+    "specialties": [
+      "Myers Cocktail",
+      "Hangover Recovery",
+      "Immune Support",
+      "Athletic Recovery",
+      "NAD+ Therapy",
+      "Energy Restoration",
+      "IM Vitamin Injections"
+    ],
+    "priceNote": "Pricing not publicly listed; all services are self-pay, no insurance. Contact (347) 429-7177 for current pricing."
   }
 }
