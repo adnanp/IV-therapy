@@ -2229,5 +2229,36 @@
       "Mobile IV for Groups"
     ],
     "priceNote": "Membership tiers $179\u2013$349/month with discounted drip pricing. Walk-in pricing not publicly listed. New client special: $100 in free perks. Contact (978) 451-6797 for pricing."
+  },
+  "jubilee-clinic-dpc-marysville": {
+    "sessionDuration": "~2 hours for NAD+ full infusion; shorter for injections and other infusions",
+    "whatIsIncluded": "IV infusions via Viva Infusions inside the clinic. Menu includes Myers Cocktail (Magnesium, Calcium, B-Complex, Vitamin C), NAD+ full infusion, NAD+ injection (IV/IM/SubQ), and Recovery & Performance infusion. At-home IV available with $75 travel fee. Sourced from Olympia Pharmacy (FDA 503A/503B).",
+    "firstVisitInfo": "Book directly \u2014 no referral needed. Infusion services are separate from DPC membership fees. First-week NAD+ injection promotion: buy 2 of the first week's 3-injection regimen, get 1 free.",
+    "frequency": "NAD+ injections structured as a 3-injection regimen in the first week. Ongoing frequency is individualized; contact clinic for recommendations.",
+    "specialties": [
+      "NAD+ Therapy",
+      "Myers Cocktail",
+      "Recovery & Performance",
+      "At-Home IV Infusions",
+      "Hyperbaric Oxygen Therapy"
+    ],
+    "priceNote": "Pricing not publicly listed. HSA accepted. At-home visits add $75 travel fee. Contact clinic for current rates."
+  },
+  "ism-health-integrative-naturopathic-clinic-bothell": {
+    "sessionDuration": "Initial consultation 60\u201390 minutes; follow-up IV sessions approximately 30\u201360 minutes",
+    "whatIsIncluded": "Customized IV drip or push formulated per patient needs with Vitamin C, B-Complex, amino acids (glutamine, arginine, lysine, citrulline, L-carnitine), and minerals (Magnesium, Zinc, Selenium). Injectable add-ons include B12, L-Carnitine, and combo pre-workout blends. Part of a holistic naturopathic care plan.",
+    "firstVisitInfo": "No referral needed. Initial visit includes full health history review, physical exam, lab review, and personalized therapy recommendations. Insurance verification offered before first appointment.",
+    "frequency": "Individualized based on health goals and naturopathic care plan. Multiple treatments can be combined per visit for optimal results.",
+    "specialties": [
+      "IV Nutrient Therapy",
+      "Fatigue & Low Energy",
+      "Immune Support",
+      "Nausea & Dehydration",
+      "B12 & L-Carnitine Injections",
+      "Thyroid & Hormonal Conditions",
+      "Cardiovascular Health",
+      "Naturopathic Primary Care"
+    ],
+    "priceNote": "Pricing not publicly listed. Package pricing available for out-of-pocket patients. Many insurance plans accepted; clinic verifies benefits before first appointment. Call (425) 492-0082."
   }
 }
