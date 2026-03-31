@@ -2260,5 +2260,36 @@
       "Naturopathic Primary Care"
     ],
     "priceNote": "Pricing not publicly listed. Package pricing available for out-of-pocket patients. Many insurance plans accepted; clinic verifies benefits before first appointment. Call (425) 492-0082."
+  },
+  "specialty-natural-medicine-lynnwood": {
+    "sessionDuration": "20\u201390 minutes depending on IV type and nutrient dose",
+    "whatIsIncluded": "IV drip of essential vitamins, minerals, and amino acids. Includes Myers' Cocktail (B vitamins, Vitamin C, Magnesium, Calcium, electrolytes), Glutathione IV Push (for detox and mold/mycotoxin management), and Iron IV Therapy. Custom high-dose nutrient IVs also available. All procedures performed by licensed doctors.",
+    "firstVisitInfo": "Lab work required before first treatment: CBC and CMP within last 6 months for Myers'/Glutathione; CBC, CMP, and ferritin within last 3 months for Iron IV. Many treatments are available at the first appointment depending on condition and doctor recommendation.",
+    "frequency": "Glutathione for mold/mycotoxin: twice weekly for 4 weeks. Myers' Cocktail and maintenance IVs: frequency determined per patient plan.",
+    "specialties": [
+      "Myers' Cocktail",
+      "Glutathione IV (Mold/Mycotoxin Detox)",
+      "Iron IV Therapy",
+      "Custom High-Dose Nutrient IVs",
+      "Semaglutide Weight Loss",
+      "Naturopathic Medicine"
+    ],
+    "priceNote": "IV therapy ranges from $75\u2013$250+. Iron IV can be billed to insurance. Myers' and Glutathione are cash-pay; contact clinic for aggressive cash rates."
+  },
+  "better-body-healing-aesthetics-centralia": {
+    "sessionDuration": "45 minutes to 1 hour for standard infusions; minimum 2 hours for NAD+",
+    "whatIsIncluded": "IV infusions of vitamins, minerals, and amino acids administered in heated massage chairs. Menu includes Myers' Cocktail (standard and Deluxe with extra minerals and antioxidants), Immune Booster Drip, NAD+ Drip, Alpha Lipoic Acid (ALA) Drip, and specialized drips on request.",
+    "firstVisitInfo": "Nurse practitioner conducts a consultation on the first visit to review medical history before beginning IV therapy. A prescription for infusion therapy is issued following consultation.",
+    "frequency": "Determined per patient in consultation with the provider.",
+    "specialties": [
+      "NAD+ IV Therapy",
+      "Myers' Cocktail",
+      "Immune Booster IV",
+      "Alpha Lipoic Acid (ALA) IV",
+      "Hormone Replacement Therapy",
+      "Weight Management",
+      "Aesthetics (Botox, Fillers)"
+    ],
+    "priceNote": "Standard IV infusions approximately $110\u2013$159 per session. Does not bill insurance directly; HSA/FSA may apply. Contact (360) 880-0457 for current pricing."
   }
 }
