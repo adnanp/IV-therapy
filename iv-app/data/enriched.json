@@ -2194,5 +2194,40 @@
       "Executive Physicals"
     ],
     "priceNote": "Standard IV drips $199/session. Premier membership $299/month includes 2 IV drips + 2 vitamin shots + cryotherapy + infrared + hyperbaric. 5-pack available at 20% savings."
+  },
+  "iv-glow-bar-los-angeles": {
+    "sessionDuration": "45\u201360 minutes for standard drips; NAD+ sessions run longer",
+    "whatIsIncluded": "Personalized IV drip administered by a licensed nurse, mixed to order with vitamins, minerals, and hydration fluids. Signature Glow Drip includes Vitamin C, Biotin, Glutathione, B-Complex, and saline. Other drips include immune boost, hangover recovery, postpartum recovery, and NAD+. Peptide injections and IM wellness shots also available.",
+    "firstVisitInfo": "New clients complete a brief nurse consultation to review health history, medications, and wellness goals before treatment. A licensed nurse prepares the appropriate drip formula. Peptide orders require a mandatory consultation.",
+    "frequency": "Once or twice per month for ongoing maintenance. Weekly sessions available for intensive needs. Skin improvements peak at 24\u201348 hours and are best maintained with regular monthly treatments.",
+    "specialties": [
+      "Glow & Anti-Aging (Glutathione, Biotin)",
+      "NAD+ Therapy",
+      "Hangover Recovery",
+      "Immune Support",
+      "Postpartum Recovery",
+      "Weight Loss Support",
+      "Peptide Therapy",
+      "Mobile IV (LA, Beverly Hills, OC, Ventura)"
+    ],
+    "priceNote": "Glow Drip listed at $325. Other drip prices not publicly listed. Mobile service available at additional cost. Contact ivglowbar.com for full pricing."
+  },
+  "the-dripbar-beverly-beverly": {
+    "sessionDuration": "30\u201390 minutes depending on drip; IM quick shots approximately 5 minutes",
+    "whatIsIncluded": "Licensed nurse-administered IV drips mixed to order with fluids, vitamins, minerals, and electrolytes. Lifestyle Drips (energy, immunity, hydration, recovery), Premium Drips (High Dose Vitamin C, Alpha Lipoic Acid, NAD+), and Health Support Drips. IM quick shots, peptide therapies, infrared sauna, red light therapy, halotherapy, and leg compression also offered.",
+    "firstVisitInfo": "First visit includes a detailed consultation with a licensed nurse to review health history and wellness goals. Complete a health questionnaire for proper drip customization. New client special offers $100 in free perks at sign-up.",
+    "frequency": "Monthly membership model with 1 lifestyle drip per month in base tier, more at higher tiers. 4 wellness service credits per month (sauna, halotherapy, B12 shot, etc.) also included.",
+    "specialties": [
+      "Energy Optimization",
+      "Immune Resilience",
+      "NAD+ Therapy",
+      "Detox & Heavy Metal Support",
+      "Pre/Post-Surgery IV",
+      "Pre/Postnatal IV",
+      "Peptide Therapy",
+      "Infrared Sauna",
+      "Mobile IV for Groups"
+    ],
+    "priceNote": "Membership tiers $179\u2013$349/month with discounted drip pricing. Walk-in pricing not publicly listed. New client special: $100 in free perks. Contact (978) 451-6797 for pricing."
   }
 }
