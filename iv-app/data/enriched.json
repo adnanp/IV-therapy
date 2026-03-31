@@ -2081,5 +2081,33 @@
       "Hangover Recovery Infusion"
     ],
     "priceNote": "Specific pricing not publicly listed; book via skinwell.myaestheticrecord.com"
+  },
+  "odara-medical-spa-spokane": {
+    "sessionDuration": "30\u201360 minutes",
+    "whatIsIncluded": "Customized IV infusions including Myers' Cocktail, Rebuild and Recover, and Immune Booster. All sessions are provider-reviewed and tailored to your health history and goals.",
+    "firstVisitInfo": "New patients complete a health questionnaire and submit recent lab work. A provider reviews your intake and may schedule a consultation before your first infusion.",
+    "frequency": "Recommended starting protocol is weekly for 4 sessions, then tapering to every 2\u20134 weeks based on symptoms and goals.",
+    "specialties": [
+      "Myers' Cocktail",
+      "Rebuild and Recover",
+      "Immune Booster",
+      "Customized IV infusions"
+    ],
+    "priceNote": "Pricing not publicly listed; contact clinic at (509) 443-4622 for current rates."
+  },
+  "cor-regenerate-spokane": {
+    "sessionDuration": "Duration varies by infusion type",
+    "whatIsIncluded": "Hand-selected IV infusions designed for optimal health and wellness, offered alongside HOCATT ozone sauna, Hyperbaric Chamber (HBOT), Near Infrared Sauna, BEMER/PEMF therapy, and other regenerative modalities.",
+    "firstVisitInfo": "COR maps out a personalized wellness plan covering physical, emotional, cognitive, and nutritional goals. An initial consultation is recommended before your first infusion.",
+    "frequency": "COR positions services as ongoing lifestyle wellness and preventative medicine rather than single-session treatments.",
+    "specialties": [
+      "IV Therapy",
+      "NAD+",
+      "Hyperbaric Oxygen Therapy",
+      "HOCATT Ozone Therapy",
+      "Sports Chiropractic",
+      "Functional Medicine"
+    ],
+    "priceNote": "Pricing not publicly listed; group and corporate membership pricing available. Contact (509) 816-1286 for rates."
   }
 }
