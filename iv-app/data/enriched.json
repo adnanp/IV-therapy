@@ -2160,5 +2160,39 @@
       "IM Vitamin Injections"
     ],
     "priceNote": "Pricing not publicly listed; all services are self-pay, no insurance. Contact (347) 429-7177 for current pricing."
+  },
+  "iv-wellness-lounge-long-beach": {
+    "sessionDuration": "30\u201360 minutes for standard IV drips; 1\u20132 hours for NAD+",
+    "whatIsIncluded": "Vitamin-infused IV drips with fluids, vitamins, amino acids, antioxidants, and optional glutathione boost. Menu includes Advanced/All-Inclusive IV, Immunity IV, Hangover/Recovery IV, Migraine Relief IV, NAD+ IV, and a range of Vitamin Shots. Functional lab testing and supplements also available.",
+    "firstVisitInfo": "Every visit begins with a personalized assessment to guide you toward the best drip for your wellness goals. Same-day bookings available; walk-in or appointment-based.",
+    "frequency": "Monthly membership available. Combo wellness package (IV + infrared sauna/cold plunge) available for under $200.",
+    "specialties": [
+      "IV Hydration",
+      "NAD+ IV",
+      "Immunity IV",
+      "Hangover Recovery",
+      "Migraine Relief",
+      "Vitamin Shots",
+      "Functional Lab Testing"
+    ],
+    "priceNote": "Individual drip prices not publicly listed. Combo IV + sauna/cold plunge package under $200. Memberships available with 50% off first month. Call (562) 594-5523 for pricing."
+  },
+  "next-health-in-bellevue-bellevue": {
+    "sessionDuration": "Under 1 hour for standard drips; 2\u20133 hours for NAD+",
+    "whatIsIncluded": "All IVs start with lactated ringers plus a Myers' Cocktail base (B-complex, B5, B6, B12, Vitamin C, Magnesium, Calcium, Zinc). Custom drip menu includes Energy Plus, Super Immune, Beauty, Athlete/Performance, Detox, Metabolic, Gut Health, Stress/Relax, and NAD+ IV. Administered in a lounge with massage chairs, NuCalm brainwave therapy, and heating pads.",
+    "firstVisitInfo": "Advanced IV therapies require qualifying lab results from the last 3 months and a Medical Provider clearance consultation. Standard IVs available by walk-in or appointment. Book via text/call (425) 274-2887 or their app.",
+    "frequency": "Twice-monthly IV drips recommended for optimal results, as structured in the Premier IV Therapy Membership.",
+    "specialties": [
+      "IV Drip Therapy",
+      "NAD+ IV",
+      "Myers' Cocktail",
+      "Therapeutic Plasma Exchange",
+      "EBOO Ozone Therapy",
+      "Hormone Optimization",
+      "Cryotherapy",
+      "Hyperbaric Oxygen Therapy",
+      "Executive Physicals"
+    ],
+    "priceNote": "Standard IV drips $199/session. Premier membership $299/month includes 2 IV drips + 2 vitamin shots + cryotherapy + infrared + hyperbaric. 5-pack available at 20% savings."
   }
 }
