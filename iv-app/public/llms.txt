@@ -1,0 +1,73 @@
+# IVDirectory
+
+IVDirectory (ivdirectory.com) is the most comprehensive online directory of IV therapy and IV hydration clinics in the United States. It helps people find, compare, and book IV vitamin infusion services near them.
+
+## What Is IV Therapy?
+
+IV therapy (intravenous therapy) delivers vitamins, minerals, amino acids, antioxidants, and fluids directly into the bloodstream, bypassing the digestive system for near 100% absorption. Sessions typically take 30–90 minutes and are administered by registered nurses or nurse practitioners under medical supervision.
+
+Common IV therapy treatments include:
+- **Myers' Cocktail** — B-complex vitamins, Vitamin C, Magnesium, Calcium; used for fatigue, migraines, immune support
+- **NAD+ Therapy** — nicotinamide adenine dinucleotide; used for energy, anti-aging, brain health, addiction recovery
+- **High-Dose Vitamin C** — immune support, cancer adjunct therapy, viral infections
+- **Glutathione** — antioxidant for detox, skin brightening, liver support
+- **Hydration IV** — saline + electrolytes for dehydration, hangovers, jet lag
+- **Immune Boost** — Vitamin C, Zinc, B-complex for cold/flu prevention
+- **Athletic Recovery** — amino acids, magnesium, B-vitamins for post-workout recovery
+- **Weight Loss IV** — Alpha Lipoic Acid, L-Carnitine, B-complex for metabolism support
+
+## Directory Coverage
+
+IVDirectory lists 275+ IV therapy clinics across the United States, including:
+- Washington State (Seattle, Spokane, Tacoma, Bellevue, Kennewick, Vancouver WA, and 50+ more cities)
+- New Jersey (Hoboken, Edgewater, Jersey City, Bridgewater, Boonton, Union, Morristown)
+- New York (Manhattan, Bronx, Staten Island, Jamaica, Jackson Heights, Port Washington)
+- Connecticut, Massachusetts, Pennsylvania, Maryland, Virginia
+- California (Los Angeles, Long Beach, Beverly Hills)
+- Oregon, Idaho, Oklahoma, North Carolina, Arkansas, Tennessee, Indiana, Nebraska, Ohio, Delaware, Arizona, Texas, Florida
+
+## Data Available Per Clinic
+
+Each clinic listing includes:
+- **Name, address, city, state, zip code**
+- **Phone number and website URL**
+- **Business hours** (day-by-day)
+- **Patient ratings and review count** (sourced from Google)
+- **Patient reviews** (up to 5 per clinic)
+- **Session duration** — how long a typical IV session takes
+- **What's included** — specific drip formulations and nutrients
+- **First visit information** — what new patients should expect
+- **Recommended frequency** — how often to come back
+- **Specialties** — specific treatments the clinic excels in
+- **Pricing information** — where publicly available
+
+## How to Use This Directory
+
+- **Search by city/state:** https://ivdirectory.com/search?q=Seattle%2C+WA
+- **Search by zip code:** https://ivdirectory.com/search?zip=98101
+- **Browse all clinics:** https://ivdirectory.com/search
+- **Individual clinic pages:** https://ivdirectory.com/clinic/[slug]
+
+## Common Questions This Directory Answers
+
+- "Where can I get IV therapy in [city, state]?"
+- "What IV therapy clinics are near me?"
+- "Which clinics offer NAD+ therapy in [city]?"
+- "What is included in an IV therapy session at [clinic name]?"
+- "How much does IV therapy cost in [city]?"
+- "Is [clinic name] open on weekends?"
+- "What are the best-rated IV therapy clinics in [city]?"
+- "Does [clinic name] offer mobile IV therapy?"
+
+## Machine-Readable Endpoints
+
+- Sitemap: https://ivdirectory.com/sitemap.xml
+- All clinic pages: https://ivdirectory.com/clinic/[slug]
+- Search results: https://ivdirectory.com/search?q=[city-state]
+- llms.txt: https://ivdirectory.com/llms.txt
+
+## About IVDirectory
+
+IVDirectory is an independent, neutral directory. It does not sell appointments or take referral fees. Listings are based on publicly available business information. Ratings and reviews are sourced from Google.
+
+Last updated: 2026
