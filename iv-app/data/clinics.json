@@ -2397,23 +2397,6 @@
     "description": null
   },
   {
-    "id": 180,
-    "slug": "active-infusions-vienna",
-    "name": "Active Infusions",
-    "streetAddress": "8230 Leesburg Pike Suite 700",
-    "city": "Vienna",
-    "state": "VA",
-    "zip": "22182",
-    "phone": "+1 240-200-4464",
-    "website": "http://www.activeinfusions.com/",
-    "hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-10PM\"]}",
-    "rating": 4.9,
-    "reviewCount": 64,
-    "categories": "Medical Center",
-    "priceRange": "$$",
-    "description": null
-  },
-  {
     "id": 181,
     "slug": "his-and-hers-hormone-health-wellness-chehalis",
     "name": "His and Hers Hormone Health & Wellness",

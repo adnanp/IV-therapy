@@ -2361,5 +2361,23 @@
       "Private Wellness Lounge Events"
     ],
     "priceNote": "Single IV: $250. 4-pack: $900 (10% off). 8-pack: $1,700 (15% off). Pure Detox IV: $150. NAD+ 250mg (2hr): $400; 500mg (4hr): $650. IM shots: $70 single, $378/6-pack."
+  },
+  "envy-iv-infusions-bridgewater": {
+    "sessionDuration": "45\u201390 minutes depending on treatment type",
+    "whatIsIncluded": "IV vitamin infusions administered by a registered nurse in a spa setting. Menu includes Hydration Drip, Myers Cocktail, Glutathione, Immune Boost, Allergy Relief, Stomach/Food Poisoning Relief, Energy & Mental Clarity, Hangover Relief, and Weight Management drip. NAD+ and IM injections also offered.",
+    "firstVisitInfo": "20% off first IV infusion when signing up for membership. Sessions are nurse-administered; brief needle insertion then relaxation during infusion. 24\u201348 hour cancellation policy applies.",
+    "frequency": "Membership program implies regular recurring visits. Weight management and wellness protocols suggest ongoing or weekly cadence.",
+    "specialties": [
+      "Myers Cocktail",
+      "NAD+",
+      "Glutathione",
+      "Hangover Relief",
+      "Immune Boost",
+      "Allergy Relief",
+      "Weight Management IV",
+      "Energy & Mental Clarity",
+      "Aesthetic Services (Botox, Fillers)"
+    ],
+    "priceNote": "Per-drip prices not publicly listed. Membership plans available; 20% off first visit with sign-up. Contact envyivinfusions.com for current rates."
   }
 }
