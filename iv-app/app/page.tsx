@@ -123,18 +123,19 @@ export default function HomePage() {
       {/* Browse by Treatment */}
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-10">
+          <div className="text-center mb-8">
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">What Are You Looking For?</h2>
             <p className="text-gray-500 mt-2">Browse clinics by treatment type</p>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+          {/* Mobile: horizontal scroll. Desktop: 6-col grid */}
+          <div className="flex gap-3 overflow-x-auto pb-2 sm:pb-0 sm:grid sm:grid-cols-3 lg:grid-cols-6 scrollbar-hide -mx-4 px-4 sm:mx-0 sm:px-0">
             {TREATMENTS.map(({ icon, label, desc }) => (
               <Link
                 key={label}
                 href="/search"
-                className="group flex flex-col items-center text-center p-5 rounded-2xl border border-gray-200 bg-white hover:border-teal-400 hover:shadow-md transition-all"
+                className="group flex flex-col items-center text-center p-4 sm:p-5 rounded-2xl border border-gray-200 bg-white hover:border-teal-400 hover:shadow-md transition-all shrink-0 w-36 sm:w-auto"
               >
-                <div className="w-12 h-12 rounded-xl bg-teal-50 group-hover:bg-teal-100 flex items-center justify-center text-teal-600 mb-3 transition-colors">
+                <div className="w-11 h-11 rounded-xl bg-teal-50 group-hover:bg-teal-100 flex items-center justify-center text-teal-600 mb-3 transition-colors">
                   {icon}
                 </div>
                 <span className="font-semibold text-gray-900 text-sm leading-snug">{label}</span>

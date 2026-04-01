@@ -2,14 +2,16 @@
 
 import { useRouter, usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
+import { SlidersHorizontal } from "lucide-react"
 
 interface SearchFiltersProps {
   currentSort?: string
   currentRating?: string
   query: string
+  variant?: "sidebar" | "mobile"
 }
 
-export function SearchFilters({ currentSort, currentRating, query }: SearchFiltersProps) {
+export function SearchFilters({ currentSort, currentRating, query, variant = "sidebar" }: SearchFiltersProps) {
   const router = useRouter()
   const pathname = usePathname()
 
@@ -19,11 +21,7 @@ export function SearchFilters({ currentSort, currentRating, query }: SearchFilte
       if (/^\d{5}$/.test(query)) params.set("zip", query)
       else params.set("q", query)
     }
-    const merged = {
-      sort: currentSort,
-      rating: currentRating,
-      ...overrides,
-    }
+    const merged = { sort: currentSort, rating: currentRating, ...overrides }
     for (const [k, v] of Object.entries(merged)) {
       if (v) params.set(k, v)
     }
@@ -39,16 +37,55 @@ export function SearchFilters({ currentSort, currentRating, query }: SearchFilte
 
   const ratingOptions = [
     { label: "Any Rating", value: undefined },
-    { label: "4.5+ Stars", value: "4.5" },
-    { label: "4+ Stars", value: "4" },
-    { label: "3.5+ Stars", value: "3.5" },
+    { label: "4.5+ ★", value: "4.5" },
+    { label: "4.0+ ★", value: "4" },
+    { label: "3.5+ ★", value: "3.5" },
   ]
+
+  if (variant === "mobile") {
+    return (
+      <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-hide">
+        <span className="flex items-center gap-1 text-xs font-semibold text-gray-500 shrink-0">
+          <SlidersHorizontal className="w-3.5 h-3.5" /> Filter:
+        </span>
+        {sortOptions.slice(1).map((opt) => (
+          <button
+            key={opt.label}
+            onClick={() => router.push(buildUrl({ sort: opt.value }))}
+            className={cn(
+              "shrink-0 text-xs px-3 py-1.5 rounded-full border transition-colors whitespace-nowrap",
+              currentSort === opt.value
+                ? "bg-teal-600 text-white border-teal-600 font-semibold"
+                : "bg-white text-gray-600 border-gray-200 hover:border-teal-400"
+            )}
+          >
+            {opt.label}
+          </button>
+        ))}
+        <div className="w-px h-4 bg-gray-200 shrink-0" />
+        {ratingOptions.slice(1).map((opt) => (
+          <button
+            key={opt.label}
+            onClick={() => router.push(buildUrl({ rating: opt.value }))}
+            className={cn(
+              "shrink-0 text-xs px-3 py-1.5 rounded-full border transition-colors whitespace-nowrap",
+              currentRating === opt.value
+                ? "bg-teal-600 text-white border-teal-600 font-semibold"
+                : "bg-white text-gray-600 border-gray-200 hover:border-teal-400"
+            )}
+          >
+            {opt.label}
+          </button>
+        ))}
+      </div>
+    )
+  }
 
   return (
     <div className="space-y-6">
       <div>
-        <h3 className="text-sm font-semibold text-gray-700 mb-3 uppercase tracking-wide">Sort By</h3>
-        <div className="space-y-1.5">
+        <h3 className="text-xs font-bold text-gray-500 mb-3 uppercase tracking-widest">Sort By</h3>
+        <div className="space-y-1">
           {sortOptions.map((opt) => (
             <button
               key={opt.label}
@@ -56,7 +93,7 @@ export function SearchFilters({ currentSort, currentRating, query }: SearchFilte
               className={cn(
                 "w-full text-left px-3 py-2 rounded-lg text-sm transition-colors",
                 currentSort === opt.value || (!currentSort && !opt.value)
-                  ? "bg-teal-50 text-teal-700 font-medium"
+                  ? "bg-teal-50 text-teal-700 font-semibold"
                   : "text-gray-600 hover:bg-gray-100"
               )}
             >
@@ -67,8 +104,8 @@ export function SearchFilters({ currentSort, currentRating, query }: SearchFilte
       </div>
 
       <div>
-        <h3 className="text-sm font-semibold text-gray-700 mb-3 uppercase tracking-wide">Minimum Rating</h3>
-        <div className="space-y-1.5">
+        <h3 className="text-xs font-bold text-gray-500 mb-3 uppercase tracking-widest">Minimum Rating</h3>
+        <div className="space-y-1">
           {ratingOptions.map((opt) => (
             <button
               key={opt.label}
@@ -76,7 +113,7 @@ export function SearchFilters({ currentSort, currentRating, query }: SearchFilte
               className={cn(
                 "w-full text-left px-3 py-2 rounded-lg text-sm transition-colors",
                 currentRating === opt.value || (!currentRating && !opt.value)
-                  ? "bg-teal-50 text-teal-700 font-medium"
+                  ? "bg-teal-50 text-teal-700 font-semibold"
                   : "text-gray-600 hover:bg-gray-100"
               )}
             >

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { MapPin, Phone, Clock, Globe } from "lucide-react"
+import { MapPin, Phone, Clock, Timer, ChevronRight } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { StarRating } from "@/components/StarRating"
@@ -34,21 +34,29 @@ export function ClinicCard({ clinic }: ClinicCardProps) {
     : inferIVTypes(clinic.categories)
 
   return (
-    <Link href={`/clinic/${clinic.slug}`}>
-      <Card className="hover:shadow-md transition-shadow cursor-pointer h-full">
-        <CardContent className="p-5">
+    <Link href={`/clinic/${clinic.slug}`} className="block h-full group">
+      <Card className="h-full border-gray-200 group-hover:border-teal-300 group-hover:shadow-lg transition-all duration-200">
+        <CardContent className="p-5 flex flex-col h-full">
           {/* Header */}
           <div className="flex justify-between items-start gap-3 mb-3">
             <div className="flex-1 min-w-0">
-              <h3 className="font-semibold text-gray-900 text-base leading-tight line-clamp-2">{clinic.name}</h3>
+              <h3 className="font-semibold text-gray-900 text-base leading-snug line-clamp-2 group-hover:text-teal-700 transition-colors">
+                {clinic.name}
+              </h3>
               <div className="flex items-center gap-1 mt-1 text-gray-500 text-sm">
-                <MapPin className="w-3.5 h-3.5 shrink-0" />
+                <MapPin className="w-3.5 h-3.5 shrink-0 text-teal-400" />
                 <span className="truncate">{clinic.city}, {clinic.state}</span>
               </div>
             </div>
-            <div className="shrink-0 text-right">
-              <div className="text-sm font-semibold text-gray-700">{clinic.priceRange ?? "$$"}</div>
-            </div>
+            {openStatus !== null && (
+              <span className={`shrink-0 text-xs font-semibold px-2 py-1 rounded-full ${
+                openStatus
+                  ? "bg-green-50 text-green-700"
+                  : "bg-red-50 text-red-600"
+              }`}>
+                {openStatus ? "Open" : "Closed"}
+              </span>
+            )}
           </div>
 
           {/* Rating */}
@@ -58,35 +66,37 @@ export function ClinicCard({ clinic }: ClinicCardProps) {
             </div>
           )}
 
-          {/* IV Types */}
+          {/* Specialties */}
           <div className="flex flex-wrap gap-1.5 mb-3">
             {ivTypes.map((type) => (
-              <Badge key={type} variant="secondary" className="text-xs">{type}</Badge>
+              <Badge key={type} variant="secondary" className="text-xs font-medium">{type}</Badge>
             ))}
           </div>
 
           {/* Session duration */}
           {enrichment?.sessionDuration && (
-            <div className="flex items-center gap-1 text-xs text-gray-500 mb-3">
-              <Clock className="w-3.5 h-3.5 shrink-0 text-teal-500" />
+            <div className="flex items-center gap-1.5 text-xs text-gray-500 mb-3">
+              <Timer className="w-3.5 h-3.5 shrink-0 text-teal-500" />
               <span>{enrichment.sessionDuration}</span>
             </div>
           )}
 
-          {/* Footer info */}
-          <div className="flex items-center justify-between pt-3 border-t border-gray-100">
-            <div className="flex items-center gap-1 text-xs">
-              <Clock className="w-3.5 h-3.5 text-gray-400" />
-              {openStatus === true && <span className="text-green-600 font-medium">Open Now</span>}
-              {openStatus === false && <span className="text-red-500 font-medium">Closed</span>}
-              {openStatus === null && <span className="text-gray-400">Hours vary</span>}
-            </div>
-            {clinic.phone && (
+          {/* Spacer */}
+          <div className="flex-1" />
+
+          {/* Footer */}
+          <div className="flex items-center justify-between pt-3 border-t border-gray-100 mt-3">
+            {clinic.phone ? (
               <div className="flex items-center gap-1 text-xs text-gray-500">
                 <Phone className="w-3.5 h-3.5" />
                 <span>{formatPhone(clinic.phone)}</span>
               </div>
+            ) : (
+              <span />
             )}
+            <span className="text-xs text-teal-600 font-semibold flex items-center gap-0.5 group-hover:gap-1.5 transition-all">
+              View profile <ChevronRight className="w-3.5 h-3.5" />
+            </span>
           </div>
         </CardContent>
       </Card>
