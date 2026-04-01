@@ -4,13 +4,12 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { StarRating } from "@/components/StarRating"
 import { isOpenNow, formatPhone } from "@/lib/utils"
+import { getEnrichment } from "@/lib/data"
 import type { Clinic } from "@/lib/data"
 
 interface ClinicCardProps {
   clinic: Clinic
 }
-
-const IV_TYPES = ["Hydration", "NAD+", "Myers Cocktail", "Immunity", "Recovery", "Beauty", "Vitamin C", "Glutathione"]
 
 function inferIVTypes(categories: string | null): string[] {
   if (!categories) return ["IV Therapy"]
@@ -29,7 +28,10 @@ function inferIVTypes(categories: string | null): string[] {
 
 export function ClinicCard({ clinic }: ClinicCardProps) {
   const openStatus = isOpenNow(clinic.hours)
-  const ivTypes = inferIVTypes(clinic.categories)
+  const enrichment = getEnrichment(clinic.slug)
+  const ivTypes = enrichment?.specialties?.length
+    ? enrichment.specialties.slice(0, 3)
+    : inferIVTypes(clinic.categories)
 
   return (
     <Link href={`/clinic/${clinic.slug}`}>
@@ -62,6 +64,14 @@ export function ClinicCard({ clinic }: ClinicCardProps) {
               <Badge key={type} variant="secondary" className="text-xs">{type}</Badge>
             ))}
           </div>
+
+          {/* Session duration */}
+          {enrichment?.sessionDuration && (
+            <div className="flex items-center gap-1 text-xs text-gray-500 mb-3">
+              <Clock className="w-3.5 h-3.5 shrink-0 text-teal-500" />
+              <span>{enrichment.sessionDuration}</span>
+            </div>
+          )}
 
           {/* Footer info */}
           <div className="flex items-center justify-between pt-3 border-t border-gray-100">
