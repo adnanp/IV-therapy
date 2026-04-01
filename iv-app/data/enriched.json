@@ -2291,5 +2291,39 @@
       "Aesthetics (Botox, Fillers)"
     ],
     "priceNote": "Standard IV infusions approximately $110\u2013$159 per session. Does not bill insurance directly; HSA/FSA may apply. Contact (360) 880-0457 for current pricing."
+  },
+  "velvet-skyn-aesthetics-olympia": {
+    "sessionDuration": "30\u201360 minutes",
+    "whatIsIncluded": "IV Nutrient Therapy drips tailored to specific goals. Menu includes Athletic/Recovery (Vitamin C, Amino Acids, Electrolytes), Energy/Metabolism (B-vitamins), Immune Support (Zinc, Vitamin C), Hair/Nail/Skin (Biotin, Vitamin C), Hangover Recovery, Hydration, and Normal Saline drips. Lipotropic Skynny Shots (B-vitamins, Amino Acids) also available.",
+    "firstVisitInfo": "New clients must book a new client appointment. A $50 refundable deposit is required; it applies toward any future service. Consultation includes medical history, lifestyle, and wellness evaluation.",
+    "frequency": "Personalized to individual wellness goals. Normal Saline drip discounted when added to other services.",
+    "specialties": [
+      "Athletic Recovery",
+      "Immune Support",
+      "Hangover Recovery",
+      "Hair/Nail/Skin Wellness",
+      "Metabolism & Weight Support",
+      "Lipotropic Injections",
+      "Hormone Therapy",
+      "Aesthetics"
+    ],
+    "priceNote": "Specific drip pricing not publicly listed. Velvet Elite Membership: $300 enrollment + $175/month wallet credit redeemable on services. Contact clinic for individual session rates."
+  },
+  "stryker-optimal-health-wellness-spokane-valley": {
+    "sessionDuration": "30\u201360 minutes",
+    "whatIsIncluded": "Customized vitamin IV infusions designed to boost energy, hydration, and immunity. Offered alongside hormone replacement therapy, medical weight loss, thyroid optimization, peptide therapy, lab testing, and aesthetic services.",
+    "firstVisitInfo": "Free no-obligation consultation offered. Services are membership-based with costs determined by elected services. Book online via strykerwellness.com. Does not accept health insurance; HSA accepted.",
+    "frequency": "Structured around monthly membership plans customized per patient.",
+    "specialties": [
+      "IV Infusion Therapy",
+      "Hormone Replacement Therapy",
+      "Testosterone Replacement Therapy",
+      "Medical Weight Loss",
+      "Thyroid Optimization",
+      "Peptide Therapy",
+      "Men's Health",
+      "Aesthetic Services"
+    ],
+    "priceNote": "IV pricing not publicly listed. Membership-based model. Free initial consultation. No insurance accepted; HSA accepted."
   }
 }
