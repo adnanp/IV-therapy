@@ -2412,5 +2412,35 @@
       "Medical Aesthetics"
     ],
     "priceNote": "Pricing not publicly listed. Contact adorne.org or call (360) 996-4322 for pricing."
+  },
+  "medical-massage-acupuncture-chehalis": {
+    "sessionDuration": "45\u201360 minutes per session; naturopathic IV infusions typically 30\u201360 minutes depending on the protocol",
+    "whatIsIncluded": "Naturopathic IV nutrient therapy with customized vitamins, minerals, and botanicals administered by a licensed naturopathic doctor; initial intake and physical assessment included on first visit",
+    "firstVisitInfo": "First visit includes a comprehensive health history intake and physical exam with a naturopathic doctor, who then designs a personalized treatment plan; clinic works closely with referring physicians",
+    "frequency": "Frequency is determined by the naturopathic doctor based on individual health goals; typical protocols range from weekly to monthly maintenance sessions",
+    "specialties": [
+      "Medical Massage",
+      "Acupuncture",
+      "Naturopathic Medicine",
+      "CranioSacral Therapy",
+      "Hypnotherapy",
+      "Sports Massage & Injury Treatment"
+    ],
+    "priceNote": "Clinic accepts insurance, L&I, and auto claims as well as private pay; specific IV therapy pricing not publicly listed \u2014 contact clinic at (360) 996-4778 for rates"
+  },
+  "interactive-health-clinic-lynnwood": {
+    "sessionDuration": "Fast Track IVs: 20\u201330 minutes; standard nutrient IV bags: 45\u201360 minutes; specialty/oncology infusions: 1\u20134 hours depending on dose and protocol",
+    "whatIsIncluded": "Choice of 15 customized IV bags with vitamins, minerals, amino acids, iron, and botanicals; options include Fast Track and Intravenous Full Support formulas; common blends feature B vitamins, magnesium, calcium, vitamin C, and glutathione; Happy Hour specials available Tuesdays and Wednesdays",
+    "firstVisitInfo": "First visit includes a detailed health history intake and physical exam with a licensed naturopathic doctor; lab results may be reviewed to create a customized IV therapy plan tailored to the patient's unique needs",
+    "frequency": "Varies by treatment goal; general wellness sessions can be scheduled as needed or weekly; oncology-related infusions typically 1\u20133 times per week; ongoing frequency is determined by the naturopathic doctor",
+    "specialties": [
+      "Nutrient IV Therapy",
+      "High-Dose Vitamin C IV",
+      "Glutathione IV",
+      "Integrative Oncology IV (Alpha Lipoic Acid, Curcumin, Artesunate)",
+      "Myers Cocktail",
+      "Regenerative Injection & Ozone Therapy"
+    ],
+    "priceNote": "Specific pricing not publicly listed; cost varies by IV type, nutrient concentration, and delivery mechanism; most insurance plans accepted \u2014 contact clinic at (425) 361-7945 for current pricing"
   }
 }
