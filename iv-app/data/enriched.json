@@ -2379,5 +2379,38 @@
       "Aesthetic Services (Botox, Fillers)"
     ],
     "priceNote": "Per-drip prices not publicly listed. Membership plans available; 20% off first visit with sign-up. Contact envyivinfusions.com for current rates."
+  },
+  "his-and-hers-hormone-health-wellness-chehalis": {
+    "sessionDuration": "45\u201360 minutes for standard drips; 1\u20132+ hours for NAD+",
+    "whatIsIncluded": "Full IV drip menu including Simple Hydration, Myers' Cocktail (B Complex, B12, Vitamin C, Magnesium, Calcium), Energy/Beauty Boost (with Glutathione and NAD+), Hangover Recovery (with Zofran, Toradol), Weight Loss drip (Alpha Lipoic Acid, Lipo-C, Zinc), Headache/Nausea Relief, and Skin & Beauty (Biotin, Selenium, Glutathione). NAD+ available as IV, injection, or take-home vial.",
+    "firstVisitInfo": "Consultation with provider Ashley Roady, FNP-BC to discuss health goals. Book via the optimantra.com patient portal or by calling (360) 206-3937.",
+    "frequency": "IV sessions scheduled as needed based on individual health goals. Hormone follow-ups every 3\u20136 months once stable.",
+    "specialties": [
+      "Myers' Cocktail",
+      "NAD+ IV Therapy",
+      "Weight Loss IV",
+      "Skin & Beauty IV",
+      "Hangover Recovery",
+      "Hormone Replacement Therapy",
+      "Peptide Therapy",
+      "B12 Injections"
+    ],
+    "priceNote": "Pricing not publicly listed. Contact clinic at (360) 206-3937 for current rates."
+  },
+  "adorne-medical-aesthetics-chehalis": {
+    "sessionDuration": "30\u201360 minutes depending on infusion type",
+    "whatIsIncluded": "IV infusions including Myers' Cocktail (Magnesium, B12, Calcium, Vitamin C, B-Complex), Beauty/Skin Infusion (Vitamin C, B-Complex, Biotin for skin hydration, collagen support, and hair/nail strength), and Vitamin D Injection. Each infusion is customized to individual health goals.",
+    "firstVisitInfo": "Pre-treatment consultation to discuss health concerns and goals. A personalized IV infusion plan is developed. Book online at adorne.org or call (360) 996-4322.",
+    "frequency": "Weekly for some clients; monthly or seasonal for others \u2014 determined by individual health goals. Full effects felt within 24\u201348 hours post-infusion.",
+    "specialties": [
+      "Myers' Cocktail",
+      "Beauty & Skin IV",
+      "Vitamin D Injection",
+      "Immune Support",
+      "Hydration Therapy",
+      "BHRT",
+      "Medical Aesthetics"
+    ],
+    "priceNote": "Pricing not publicly listed. Contact adorne.org or call (360) 996-4322 for pricing."
   }
 }

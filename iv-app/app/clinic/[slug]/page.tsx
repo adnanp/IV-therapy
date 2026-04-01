@@ -21,9 +21,22 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
   const clinic = getClinic(slug);
   if (!clinic) return {};
+  const enrichment = getEnrichment(slug);
+  const specialties = enrichment?.specialties?.slice(0, 3).join(", ");
+  const description = specialties
+    ? `${clinic.name} in ${clinic.city}, ${clinic.state} offers ${specialties} and more. View hours, patient reviews, session info, and pricing.`
+    : `${clinic.name} offers IV therapy and wellness infusion services in ${clinic.city}, ${clinic.state}. View hours, contact info, and patient ratings.`;
   return {
     title: `${clinic.name} – IV Therapy in ${clinic.city}, ${clinic.state}`,
-    description: `${clinic.name} offers IV therapy and wellness infusion services in ${clinic.city}, ${clinic.state}. View hours, contact info, and ratings.`,
+    description,
+    openGraph: {
+      title: `${clinic.name} – IV Therapy in ${clinic.city}, ${clinic.state}`,
+      description,
+      type: "website",
+    },
+    alternates: {
+      canonical: `/clinic/${slug}`,
+    },
   };
 }
 
@@ -57,6 +70,8 @@ export default async function ClinicDetailPage({ params }: PageProps) {
     "@context": "https://schema.org",
     "@type": "MedicalClinic",
     name: clinic.name,
+    description: clinic.description ??
+      `${clinic.name} is an IV therapy and wellness infusion clinic in ${clinic.city}, ${clinic.state}.`,
     address: {
       "@type": "PostalAddress",
       streetAddress: clinic.streetAddress,
@@ -65,11 +80,32 @@ export default async function ClinicDetailPage({ params }: PageProps) {
       postalCode: clinic.zip,
       addressCountry: "US",
     },
+    geo: {
+      "@type": "GeoCoordinates",
+    },
     telephone: clinic.phone,
     url: clinic.website,
+    priceRange: clinic.priceRange ?? "$$",
+    medicalSpecialty: "IV Therapy",
+    availableService: enrichment?.specialties?.map((s) => ({
+      "@type": "MedicalTherapy",
+      name: s,
+    })),
     aggregateRating: clinic.rating
-      ? { "@type": "AggregateRating", ratingValue: clinic.rating, reviewCount: clinic.reviewCount }
+      ? {
+          "@type": "AggregateRating",
+          ratingValue: clinic.rating,
+          reviewCount: clinic.reviewCount,
+          bestRating: 5,
+          worstRating: 1,
+        }
       : undefined,
+    review: reviews.slice(0, 3).map((r) => ({
+      "@type": "Review",
+      author: { "@type": "Person", name: r.authorName },
+      reviewRating: { "@type": "Rating", ratingValue: r.rating, bestRating: 5 },
+      reviewBody: r.text,
+    })),
   };
 
   return (
