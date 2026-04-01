@@ -2325,5 +2325,41 @@
       "Aesthetic Services"
     ],
     "priceNote": "IV pricing not publicly listed. Membership-based model. Free initial consultation. No insurance accepted; HSA accepted."
+  },
+  "rejuvenationmd-bothell": {
+    "sessionDuration": "Duration not publicly listed; customized per treatment",
+    "whatIsIncluded": "IV therapy offered as part of broader med spa services. Specific drip formulations are not published online but sessions include physician-supervised infusions administered by ARNPs and RNs.",
+    "firstVisitInfo": "New patients receive a $300 credit at the Bothell location. Treatments are performed by physicians, ARNPs, and RNs under medical supervision.",
+    "frequency": "Customized per patient; not publicly specified.",
+    "specialties": [
+      "IV Therapy",
+      "Injectables (Botox, Juvederm)",
+      "Laser Treatments",
+      "Body Contouring",
+      "Hormone Therapy",
+      "PRP Therapies",
+      "Sexual Wellness",
+      "Hair Restoration"
+    ],
+    "priceNote": "IV therapy pricing not published. New patients receive a $300 credit. Best Self Club membership offers exclusive pricing. Financing available."
+  },
+  "vitafusion-doctors-lounge-and-wellness-vienna": {
+    "sessionDuration": "~30 minutes for standard IV infusions; 2\u20134 hours for NAD+; 5\u201310 minutes for IM shots",
+    "whatIsIncluded": "IV infusions administered by a registered nurse under physician supervision with 100% direct bloodstream absorption. Menu includes Snow Bright, Alleviate (PMS relief), Myers Cocktail, Immunity Boost, Radiant Glow, Hangover, Sports Recovery, and Pure Detox IV. NAD+ IV therapy and IM shots (glutathione, Skinny Shot, Fatigue Buster) also available. Lounge setting with complimentary beverages.",
+    "firstVisitInfo": "No physician's order required. Complimentary consultation with nursing team offered to determine best IV or IM regimen.",
+    "frequency": "Multiple sessions recommended for lasting results. Packages of 4 or 8 IVs available at 10\u201315% discounts, suggesting bi-weekly to monthly cadence.",
+    "specialties": [
+      "Myers Cocktail",
+      "NAD+ Therapy",
+      "Immunity Boost",
+      "Hangover Recovery",
+      "Sports Recovery",
+      "PMS Relief",
+      "Skin Brightening",
+      "Pure Detox IV",
+      "IM Shots",
+      "Private Wellness Lounge Events"
+    ],
+    "priceNote": "Single IV: $250. 4-pack: $900 (10% off). 8-pack: $1,700 (15% off). Pure Detox IV: $150. NAD+ 250mg (2hr): $400; 500mg (4hr): $650. IM shots: $70 single, $378/6-pack."
   }
 }
