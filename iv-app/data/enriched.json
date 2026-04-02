@@ -2502,5 +2502,35 @@
       "Hormone Replacement Therapy"
     ],
     "priceNote": "Pricing not publicly listed; accepts CareCredit; Groupon deals available with up to 30% off select IV bags; book at savvyrejuvenation.janeapp.com"
+  },
+  "infusion-solutions-everett": {
+    "sessionDuration": "Varies by therapy; typically 1\u20134 hours (IVIG and specialty biologics 2\u20134 hours; hydration sessions shorter)",
+    "whatIsIncluded": "IV administration of prescribed therapies by a licensed infusion nurse in private treatment suites; clinical pharmacist medication review; allergy and drug interaction screening; 24/7 on-call support; home infusion includes weekly RN visits and lab draws",
+    "firstVisitInfo": "Physician referral and prescription required before scheduling; clinical pharmacist completes full medication and allergy history; insurance verification and cost estimate provided before therapy begins",
+    "frequency": "Varies by therapy and physician order; specialty infusions (e.g., IVIG, Tysabri, Ocrevus) follow physician-prescribed intervals, often monthly or as indicated",
+    "specialties": [
+      "IVIG / Immune Globulin Therapy",
+      "IV Antibiotics, Antifungals & Antivirals",
+      "Total Parenteral Nutrition (TPN)",
+      "Home Chemotherapy",
+      "Hydration & Electrolyte Replacement",
+      "Specialty Biologics for MS, RA & Autoimmune Conditions"
+    ],
+    "priceNote": "Billed through insurance; contracted with all Washington state insurers including Medicare Advantage and Medicaid; out-of-pocket costs disclosed before therapy begins; financial assistance available"
+  },
+  "radiant-beauty-med-spa-and-wellness-snohomish": {
+    "sessionDuration": "30\u201390 minutes depending on the specific nutrients administered and individual treatment plan",
+    "whatIsIncluded": "Custom IV drip of saline plus a personalized blend of vitamins, minerals, and electrolytes selected during a pre-treatment consultation; administered by a trained practitioner via a small IV line",
+    "firstVisitInfo": "Appointment required; initial consultation to assess health and wellness goals and recommend a customized IV drip formulation; no physician referral required for wellness drips",
+    "frequency": "Weekly for immune support or recovery; monthly for general wellness maintenance; individualized based on goals",
+    "specialties": [
+      "IV Hydration & Electrolyte Replenishment",
+      "Immune Support Drips",
+      "Energy & Vitality Drips",
+      "Beauty & Skin Enhancement Drips",
+      "Recovery & Performance Drips",
+      "Vitamin Injections (add-on)"
+    ],
+    "priceNote": "Pricing not publicly listed; industry-typical wellness IV drips in Washington state range from $99\u2013$250 per session; contact clinic directly for current menu and package pricing"
   }
 }
