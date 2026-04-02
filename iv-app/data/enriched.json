@@ -2532,5 +2532,20 @@
       "Vitamin Injections (add-on)"
     ],
     "priceNote": "Pricing not publicly listed; industry-typical wellness IV drips in Washington state range from $99\u2013$250 per session; contact clinic directly for current menu and package pricing"
+  },
+  "bellevue-skin-and-wellness-bellevue": {
+    "sessionDuration": "45\u201360 minutes",
+    "whatIsIncluded": "Physician-formulated IV infusion delivered by trained staff; customized blend of vitamins, minerals, and fluids (B-complex, Vitamin C, magnesium, calcium gluconate, amino acids) tailored to the selected drip; post-infusion monitoring included",
+    "firstVisitInfo": "New patients receive a brief wellness consultation to assess needs and select the appropriate drip; medical history review prior to infusion; new patient promotions available",
+    "frequency": "Weekly or bi-weekly for optimal results; monthly maintenance infusions common for general wellness",
+    "specialties": [
+      "Myers' Cocktail IV",
+      "Recovery & Performance Infusion",
+      "Immune Boost IV",
+      "Beauty & Skin Glow Drip",
+      "Hydration Therapy",
+      "High-Dose Vitamin C IV"
+    ],
+    "priceNote": "Pricing not publicly listed; individual drips typically range $150\u2013$350 in the Bellevue market; contact clinic directly for current menu rates"
   }
 }
