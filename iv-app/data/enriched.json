@@ -2442,5 +2442,35 @@
       "Regenerative Injection & Ozone Therapy"
     ],
     "priceNote": "Specific pricing not publicly listed; cost varies by IV type, nutrient concentration, and delivery mechanism; most insurance plans accepted \u2014 contact clinic at (425) 361-7945 for current pricing"
+  },
+  "heart-of-wellness-tumwater": {
+    "sessionDuration": "45\u201360 minutes (typical for naturopathic IV infusion sessions)",
+    "whatIsIncluded": "Customized IV nutrient infusion administered by a naturopathic physician; may include vitamins, minerals, antioxidants (e.g., Vitamin C, B-complex, magnesium, glutathione) tailored to individual health goals",
+    "firstVisitInfo": "New patients complete intake forms and undergo a consultation with a naturopathic physician before first infusion; appointment required",
+    "frequency": "Typically weekly or bi-weekly for acute needs, monthly for maintenance; determined by provider at consultation",
+    "specialties": [
+      "Naturopathic IV Nutrient Therapy",
+      "Vitamin C & Antioxidant Infusions",
+      "Immune Support Infusions",
+      "Energy & Adrenal Support",
+      "Functional & Integrative Medicine",
+      "Acupuncture & Massage"
+    ],
+    "priceNote": "Pricing not publicly listed; contact clinic at (360) 570-0401; membership (Optimal Health plan) may offer discounted rates"
+  },
+  "inspire-physical-and-hand-therapy-tumwater-tumwater": {
+    "sessionDuration": "60 minutes for initial evaluation; 45\u201360 minutes for follow-up sessions",
+    "whatIsIncluded": "Physical therapy and hand therapy including evaluation, manual therapy, therapeutic exercise, ASTYM soft tissue treatment, AlterG anti-gravity treadmill, and home exercise programming",
+    "firstVisitInfo": "New patients can self-refer (Washington is a direct-access state); first visit includes full evaluation covering injury history, daily activities, and functional goals",
+    "frequency": "Typically 2\u20133 sessions per week for 4\u20138 weeks depending on condition; determined by treating therapist after evaluation",
+    "specialties": [
+      "Orthopedic Physical Therapy",
+      "Certified Hand Therapy",
+      "ASTYM Soft Tissue Mobilization",
+      "AlterG Anti-Gravity Treadmill Rehabilitation",
+      "Women's Health Physical Therapy",
+      "Post-Operative & Sports Injury Rehab"
+    ],
+    "priceNote": "Accepts most major insurance plans including Medicare; contact clinic at (360) 819-4335 for self-pay rates"
   }
 }
