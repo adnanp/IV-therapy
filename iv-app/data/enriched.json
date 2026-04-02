@@ -2472,5 +2472,35 @@
       "Post-Operative & Sports Injury Rehab"
     ],
     "priceNote": "Accepts most major insurance plans including Medicare; contact clinic at (360) 819-4335 for self-pay rates"
+  },
+  "nearing-total-health-lacey": {
+    "sessionDuration": "45\u201360 minutes for standard drips; up to 2\u20133 hours for NAD+ or high-dose Vitamin C infusions",
+    "whatIsIncluded": "IV nutrient therapy including Myers Cocktail, hydration with electrolytes, high-dose Vitamin C, NAD+/Niagen IV, magnesium drips, and targeted formulas such as Stamina and Brain Builder blends; Peptide Therapy and Stem Cell Infusions also available",
+    "firstVisitInfo": "First visit includes a detailed intake, review of health history and goals, and naturopathic consultation to guide safe IV selection; labs may be recommended; clients leave with a clear wellness plan",
+    "frequency": "Commonly weekly or bi-weekly for acute needs, monthly for general maintenance; naturopathic physician provides personalized guidance",
+    "specialties": [
+      "Naturopathic IV Nutrient Therapy",
+      "NAD+/Niagen IV",
+      "High-Dose Vitamin C",
+      "Peptide Therapy",
+      "Hyperbaric Oxygen Therapy",
+      "Infrared Sauna & Red Light Therapy"
+    ],
+    "priceNote": "Pricing not publicly listed; clinic rated moderate (3216); contact (360) 972-2524 for current IV therapy menu and pricing"
+  },
+  "savvy-rejuvenation-and-iv-bar-stanwood": {
+    "sessionDuration": "Approximately 45\u201360 minutes for standard wellness, immunity, and beauty IV bags; NAD+ sessions 1\u20133 hours depending on dosage",
+    "whatIsIncluded": "IV hydration bags administered by Savannah Keith, ARNP; menu includes Wellness Bag, Immunity Bag, Beauty Bag (hair/skin/nails), Glutathione push, and NAD+ infusion; B12 injections available as add-on",
+    "firstVisitInfo": "New clients seen by ARNP for a brief intake and health screening before IV placement; no lengthy consultation required for standard drips; home visits and IV parties available",
+    "frequency": "As needed for hydration and immunity drips; monthly or bi-monthly for ongoing wellness and beauty goals; NAD+ may require a series of sessions",
+    "specialties": [
+      "IV Hydration (Wellness, Immunity, Beauty)",
+      "NAD+ IV Therapy",
+      "Glutathione IV Push",
+      "B12 Injections",
+      "Medical Weight Loss / GLP-1",
+      "Hormone Replacement Therapy"
+    ],
+    "priceNote": "Pricing not publicly listed; accepts CareCredit; Groupon deals available with up to 30% off select IV bags; book at savvyrejuvenation.janeapp.com"
   }
 }
