@@ -2562,5 +2562,20 @@
       "Addiction & Substance Use"
     ],
     "priceNote": "Maintenance infusions average ~27.50/session; financing via CareCredit from ~1/month; insurance typically does not cover ketamine but HSA/FSA accepted"
+  },
+  "ayurvedic-and-naturopathic-medical-clinic-bellevue": {
+    "sessionDuration": "45\u201360 minutes per IV infusion session",
+    "whatIsIncluded": "IV infusion of customized nutrient blend; options include Myers Cocktail (magnesium, calcium, B vitamins, vitamin C), high-dose vitamin C, glutathione, ozone therapy, and IV laser therapy; administered by a licensed naturopathic physician; vitals check included",
+    "firstVisitInfo": "New patients require an initial consultation with a naturopathic physician to review health history and determine the appropriate IV protocol before the first infusion; consultation is scheduled separately prior to treatment",
+    "frequency": "Weekly for acute concerns (fatigue, illness, headache); monthly maintenance for chronic disease support or general wellness; frequency personalized to each patient",
+    "specialties": [
+      "Myers Cocktail IV Therapy",
+      "High-Dose Vitamin C IV",
+      "Glutathione IV Therapy",
+      "IV Laser Therapy",
+      "Ozone IV Therapy",
+      "Integrative Oncology IV Support"
+    ],
+    "priceNote": "Pricing not publicly listed; individual sessions typically $150\u2013$350 depending on formula; contact clinic at (425) 453-8022 for current pricing"
   }
 }
