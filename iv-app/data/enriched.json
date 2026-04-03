@@ -2547,5 +2547,20 @@
       "High-Dose Vitamin C IV"
     ],
     "priceNote": "Pricing not publicly listed; individual drips typically range $150\u2013$350 in the Bellevue market; contact clinic directly for current menu rates"
+  },
+  "northwest-ketamine-clinics-bellevue-bellevue": {
+    "sessionDuration": "40\u201350 minutes for the IV infusion plus ~30 minutes of monitored recovery; pain infusions run approximately 4 hours",
+    "whatIsIncluded": "IV ketamine infusion administered by an RN in a private treatment room; monitoring throughout; post-infusion recovery; free 30-minute intake call and free NP medical consultation prior to first session; HSA/FSA accepted; Superbills provided for insurance reimbursement",
+    "firstVisitInfo": "New patients begin with a free 30-minute intake call with the care team, followed by a free medical consultation with a Nurse Practitioner to review health history and confirm candidacy before the first infusion",
+    "frequency": "Initial series of 6 infusions for mood disorders or 4 for chronic pain, completed over 2\u20133 weeks; maintenance every 6\u201312 weeks; over 86% of patients report 50%+ symptom reduction within 1\u20133 weeks",
+    "specialties": [
+      "Depression",
+      "Anxiety",
+      "PTSD & Trauma",
+      "Chronic Pain Management",
+      "Ketamine-Assisted Psychotherapy (KAP)",
+      "Addiction & Substance Use"
+    ],
+    "priceNote": "Maintenance infusions average ~27.50/session; financing via CareCredit from ~1/month; insurance typically does not cover ketamine but HSA/FSA accepted"
   }
 }
