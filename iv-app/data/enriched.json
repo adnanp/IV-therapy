@@ -2577,5 +2577,20 @@
       "Integrative Oncology IV Support"
     ],
     "priceNote": "Pricing not publicly listed; individual sessions typically $150\u2013$350 depending on formula; contact clinic at (425) 453-8022 for current pricing"
+  },
+  "northwest-medical-arts-university-place": {
+    "sessionDuration": "45\u201360 minutes",
+    "whatIsIncluded": "IV vitamin infusion with a blend of Vitamin C, B vitamins, calcium, magnesium, and potassium; options include glutathione, electrolytes, hydration fluids, and anti-nausea or recovery medications depending on the drip selected",
+    "firstVisitInfo": "New patients receive a consultation before treatment; staff reviews individual needs and ensures treatments are appropriate before recommending a plan",
+    "frequency": "Weekly or monthly depending on health goals; maintenance sessions recommended once established",
+    "specialties": [
+      "Immune Boost IV Drip",
+      "Beauty Boost with Glutathione",
+      "Hangover/Recovery IV",
+      "Hydration & Vitamin Infusion",
+      "Aesthetic Injectables",
+      "Microneedling & Facials"
+    ],
+    "priceNote": "IV drips range from approximately $199\u2013$250; discounted rates (~$175\u2013$225) available when added to another treatment"
   }
 }
