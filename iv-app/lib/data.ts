@@ -83,13 +83,69 @@ export function getFeaturedCities(limit = 8): { city: string; state: string; cou
     .slice(0, limit);
 }
 
+export function getCities(): { city: string; state: string; slug: string; count: number }[] {
+  const counts: Record<string, { city: string; state: string; slug: string; count: number }> = {};
+  for (const c of clinics) {
+    const key = `${c.city}|${c.state}`;
+    if (!counts[key]) {
+      const slug = `${c.city}-${c.state}`.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+      counts[key] = { city: c.city, state: c.state, slug, count: 0 };
+    }
+    counts[key].count++;
+  }
+  return Object.values(counts).sort((a, b) => b.count - a.count);
+}
+
+export function getClinicsByCity(city: string, state: string): Clinic[] {
+  return clinics
+    .filter((c) => c.city.toLowerCase() === city.toLowerCase() && c.state.toLowerCase() === state.toLowerCase())
+    .sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0) || (b.reviewCount ?? 0) - (a.reviewCount ?? 0));
+}
+
+export const TREATMENT_FILTERS = [
+  { label: "Myers Cocktail", value: "myers" },
+  { label: "NAD+", value: "nad" },
+  { label: "Immune Boost", value: "immune" },
+  { label: "Hangover Recovery", value: "hangover" },
+  { label: "Athletic Recovery", value: "athletic" },
+  { label: "Beauty & Glow", value: "beauty" },
+  { label: "Vitamin C", value: "vitamin-c" },
+  { label: "Glutathione", value: "glutathione" },
+];
+
+const TREATMENT_KEYWORDS: Record<string, string[]> = {
+  myers: ["myers", "myers cocktail", "myers'"],
+  nad: ["nad+", "nad ", "nad therapy", "niagen"],
+  immune: ["immune", "immunity", "vitamin c"],
+  hangover: ["hangover", "recovery", "after party", "rehydration"],
+  athletic: ["athletic", "sport", "performance", "muscle", "amino"],
+  beauty: ["beauty", "glow", "glutathione", "biotin", "skin", "hair"],
+  "vitamin-c": ["vitamin c", "high-dose c", "ascorbic"],
+  glutathione: ["glutathione"],
+};
+
+function clinicMatchesTreatment(slug: string, clinic: Clinic, treatmentValue: string): boolean {
+  const keywords = TREATMENT_KEYWORDS[treatmentValue] ?? [treatmentValue];
+  const e = enriched[slug];
+  const haystack = [
+    ...(e?.specialties ?? []),
+    e?.whatIsIncluded ?? "",
+    clinic.categories ?? "",
+    clinic.name,
+  ]
+    .join(" ")
+    .toLowerCase();
+  return keywords.some((kw) => haystack.includes(kw));
+}
+
 export function searchClinics(params: {
   q?: string;
   zip?: string;
   rating?: string;
   sort?: string;
+  specialty?: string;
 }): Clinic[] {
-  const { q, zip, rating, sort } = params;
+  const { q, zip, rating, sort, specialty } = params;
   const minRating = rating ? parseFloat(rating) : undefined;
 
   let results = clinics.filter((c) => {
@@ -112,6 +168,10 @@ export function searchClinics(params: {
     }
 
     if (minRating != null && (c.rating == null || c.rating < minRating)) return false;
+
+    if (specialty) {
+      if (!clinicMatchesTreatment(c.slug, c, specialty)) return false;
+    }
 
     return true;
   });

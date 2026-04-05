@@ -1,11 +1,14 @@
+"use client"
+
 import Link from "next/link"
-import { MapPin, Phone, Clock, Timer, ChevronRight } from "lucide-react"
+import { MapPin, Phone, Timer, ChevronRight, GitCompare } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { StarRating } from "@/components/StarRating"
 import { isOpenNow, formatPhone } from "@/lib/utils"
 import { getEnrichment } from "@/lib/data"
 import type { Clinic } from "@/lib/data"
+import { useCompare } from "@/components/CompareContext"
 
 interface ClinicCardProps {
   clinic: Clinic
@@ -32,9 +35,25 @@ export function ClinicCard({ clinic }: ClinicCardProps) {
   const ivTypes = enrichment?.specialties?.length
     ? enrichment.specialties.slice(0, 3)
     : inferIVTypes(clinic.categories)
+  const { toggle, isSelected } = useCompare()
+  const selected = isSelected(clinic.slug)
 
   return (
-    <Link href={`/clinic/${clinic.slug}`} className="block h-full group">
+    <div className="block h-full group relative">
+      {/* Compare toggle */}
+      <button
+        onClick={(e) => { e.preventDefault(); toggle(clinic.slug, clinic.name) }}
+        className={`absolute top-3 right-3 z-10 flex items-center gap-1 text-xs px-2 py-1 rounded-full border transition-all ${
+          selected
+            ? "bg-teal-600 text-white border-teal-600"
+            : "bg-white text-gray-400 border-gray-200 hover:border-teal-400 hover:text-teal-600"
+        }`}
+        title={selected ? "Remove from comparison" : "Add to comparison"}
+      >
+        <GitCompare className="w-3 h-3" />
+        {selected ? "Added" : "Compare"}
+      </button>
+      <Link href={`/clinic/${clinic.slug}`} className="block h-full">
       <Card className="h-full border-gray-200 group-hover:border-teal-300 group-hover:shadow-lg transition-all duration-200">
         <CardContent className="p-5 flex flex-col h-full">
           {/* Header */}
@@ -100,6 +119,7 @@ export function ClinicCard({ clinic }: ClinicCardProps) {
           </div>
         </CardContent>
       </Card>
-    </Link>
+      </Link>
+    </div>
   )
 }

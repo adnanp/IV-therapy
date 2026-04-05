@@ -1,4 +1,4 @@
-import { searchClinics } from "@/lib/data";
+import { searchClinics, TREATMENT_FILTERS } from "@/lib/data";
 import { ClinicCard } from "@/components/ClinicCard";
 import { SearchBar } from "@/components/SearchBar";
 import { SearchFilters } from "@/components/SearchFilters";
@@ -11,6 +11,7 @@ interface SearchPageProps {
     zip?: string;
     rating?: string;
     sort?: string;
+    specialty?: string;
   }>;
 }
 
@@ -31,7 +32,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   const params = await searchParams;
   const clinics = searchClinics(params);
   const query = params.q || params.zip || "";
-  const hasSearch = !!query;
+  const hasSearch = !!(query || params.specialty);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
@@ -46,6 +47,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
           variant="mobile"
           currentSort={params.sort}
           currentRating={params.rating}
+          currentSpecialty={params.specialty}
           query={query}
         />
       </div>
@@ -53,7 +55,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
       <div className="flex gap-8">
         {/* Desktop sidebar filters */}
         <aside className="hidden lg:block w-52 shrink-0 pt-1">
-          <SearchFilters currentSort={params.sort} currentRating={params.rating} query={query} />
+          <SearchFilters currentSort={params.sort} currentRating={params.rating} currentSpecialty={params.specialty} query={query} />
         </aside>
 
         {/* Results */}
@@ -61,7 +63,9 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
           <div className="flex items-center justify-between mb-5">
             <div>
               <h1 className="text-lg sm:text-xl font-bold text-gray-900">
-                {hasSearch
+                {params.specialty
+                  ? `${TREATMENT_FILTERS.find(t => t.value === params.specialty)?.label ?? params.specialty} Clinics${query ? ` near "${query}"` : ""}`
+                  : query
                   ? `IV Therapy Clinics near "${query}"`
                   : "All IV Therapy Clinics"}
               </h1>
