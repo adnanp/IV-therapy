@@ -1,1 +1,4 @@
 [Fri Apr  3 17:00:04 UTC 2026] Enriching: the-wellness-vault-cheney (http://wellnessvaultwa.com/)
+[Fri Apr  3 17:00:59 UTC 2026] ERROR parsing JSON for the-wellness-vault-cheney: ERROR: no json found
+[Fri Apr  3 17:00:59 UTC 2026] Raw result: I need permission to use WebFetch to visit the clinic's website. Please approve the WebFetch tool when prompted, then I can retrieve the data.
+[Fri Apr  3 17:00:59 UTC 2026] Waiting 20 minutes before retry...
