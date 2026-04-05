@@ -2412,5 +2412,185 @@
       "Medical Aesthetics"
     ],
     "priceNote": "Pricing not publicly listed. Contact adorne.org or call (360) 996-4322 for pricing."
+  },
+  "medical-massage-acupuncture-chehalis": {
+    "sessionDuration": "45\u201360 minutes per session; naturopathic IV infusions typically 30\u201360 minutes depending on the protocol",
+    "whatIsIncluded": "Naturopathic IV nutrient therapy with customized vitamins, minerals, and botanicals administered by a licensed naturopathic doctor; initial intake and physical assessment included on first visit",
+    "firstVisitInfo": "First visit includes a comprehensive health history intake and physical exam with a naturopathic doctor, who then designs a personalized treatment plan; clinic works closely with referring physicians",
+    "frequency": "Frequency is determined by the naturopathic doctor based on individual health goals; typical protocols range from weekly to monthly maintenance sessions",
+    "specialties": [
+      "Medical Massage",
+      "Acupuncture",
+      "Naturopathic Medicine",
+      "CranioSacral Therapy",
+      "Hypnotherapy",
+      "Sports Massage & Injury Treatment"
+    ],
+    "priceNote": "Clinic accepts insurance, L&I, and auto claims as well as private pay; specific IV therapy pricing not publicly listed \u2014 contact clinic at (360) 996-4778 for rates"
+  },
+  "interactive-health-clinic-lynnwood": {
+    "sessionDuration": "Fast Track IVs: 20\u201330 minutes; standard nutrient IV bags: 45\u201360 minutes; specialty/oncology infusions: 1\u20134 hours depending on dose and protocol",
+    "whatIsIncluded": "Choice of 15 customized IV bags with vitamins, minerals, amino acids, iron, and botanicals; options include Fast Track and Intravenous Full Support formulas; common blends feature B vitamins, magnesium, calcium, vitamin C, and glutathione; Happy Hour specials available Tuesdays and Wednesdays",
+    "firstVisitInfo": "First visit includes a detailed health history intake and physical exam with a licensed naturopathic doctor; lab results may be reviewed to create a customized IV therapy plan tailored to the patient's unique needs",
+    "frequency": "Varies by treatment goal; general wellness sessions can be scheduled as needed or weekly; oncology-related infusions typically 1\u20133 times per week; ongoing frequency is determined by the naturopathic doctor",
+    "specialties": [
+      "Nutrient IV Therapy",
+      "High-Dose Vitamin C IV",
+      "Glutathione IV",
+      "Integrative Oncology IV (Alpha Lipoic Acid, Curcumin, Artesunate)",
+      "Myers Cocktail",
+      "Regenerative Injection & Ozone Therapy"
+    ],
+    "priceNote": "Specific pricing not publicly listed; cost varies by IV type, nutrient concentration, and delivery mechanism; most insurance plans accepted \u2014 contact clinic at (425) 361-7945 for current pricing"
+  },
+  "heart-of-wellness-tumwater": {
+    "sessionDuration": "45\u201360 minutes (typical for naturopathic IV infusion sessions)",
+    "whatIsIncluded": "Customized IV nutrient infusion administered by a naturopathic physician; may include vitamins, minerals, antioxidants (e.g., Vitamin C, B-complex, magnesium, glutathione) tailored to individual health goals",
+    "firstVisitInfo": "New patients complete intake forms and undergo a consultation with a naturopathic physician before first infusion; appointment required",
+    "frequency": "Typically weekly or bi-weekly for acute needs, monthly for maintenance; determined by provider at consultation",
+    "specialties": [
+      "Naturopathic IV Nutrient Therapy",
+      "Vitamin C & Antioxidant Infusions",
+      "Immune Support Infusions",
+      "Energy & Adrenal Support",
+      "Functional & Integrative Medicine",
+      "Acupuncture & Massage"
+    ],
+    "priceNote": "Pricing not publicly listed; contact clinic at (360) 570-0401; membership (Optimal Health plan) may offer discounted rates"
+  },
+  "inspire-physical-and-hand-therapy-tumwater-tumwater": {
+    "sessionDuration": "60 minutes for initial evaluation; 45\u201360 minutes for follow-up sessions",
+    "whatIsIncluded": "Physical therapy and hand therapy including evaluation, manual therapy, therapeutic exercise, ASTYM soft tissue treatment, AlterG anti-gravity treadmill, and home exercise programming",
+    "firstVisitInfo": "New patients can self-refer (Washington is a direct-access state); first visit includes full evaluation covering injury history, daily activities, and functional goals",
+    "frequency": "Typically 2\u20133 sessions per week for 4\u20138 weeks depending on condition; determined by treating therapist after evaluation",
+    "specialties": [
+      "Orthopedic Physical Therapy",
+      "Certified Hand Therapy",
+      "ASTYM Soft Tissue Mobilization",
+      "AlterG Anti-Gravity Treadmill Rehabilitation",
+      "Women's Health Physical Therapy",
+      "Post-Operative & Sports Injury Rehab"
+    ],
+    "priceNote": "Accepts most major insurance plans including Medicare; contact clinic at (360) 819-4335 for self-pay rates"
+  },
+  "nearing-total-health-lacey": {
+    "sessionDuration": "45\u201360 minutes for standard drips; up to 2\u20133 hours for NAD+ or high-dose Vitamin C infusions",
+    "whatIsIncluded": "IV nutrient therapy including Myers Cocktail, hydration with electrolytes, high-dose Vitamin C, NAD+/Niagen IV, magnesium drips, and targeted formulas such as Stamina and Brain Builder blends; Peptide Therapy and Stem Cell Infusions also available",
+    "firstVisitInfo": "First visit includes a detailed intake, review of health history and goals, and naturopathic consultation to guide safe IV selection; labs may be recommended; clients leave with a clear wellness plan",
+    "frequency": "Commonly weekly or bi-weekly for acute needs, monthly for general maintenance; naturopathic physician provides personalized guidance",
+    "specialties": [
+      "Naturopathic IV Nutrient Therapy",
+      "NAD+/Niagen IV",
+      "High-Dose Vitamin C",
+      "Peptide Therapy",
+      "Hyperbaric Oxygen Therapy",
+      "Infrared Sauna & Red Light Therapy"
+    ],
+    "priceNote": "Pricing not publicly listed; clinic rated moderate (3216); contact (360) 972-2524 for current IV therapy menu and pricing"
+  },
+  "savvy-rejuvenation-and-iv-bar-stanwood": {
+    "sessionDuration": "Approximately 45\u201360 minutes for standard wellness, immunity, and beauty IV bags; NAD+ sessions 1\u20133 hours depending on dosage",
+    "whatIsIncluded": "IV hydration bags administered by Savannah Keith, ARNP; menu includes Wellness Bag, Immunity Bag, Beauty Bag (hair/skin/nails), Glutathione push, and NAD+ infusion; B12 injections available as add-on",
+    "firstVisitInfo": "New clients seen by ARNP for a brief intake and health screening before IV placement; no lengthy consultation required for standard drips; home visits and IV parties available",
+    "frequency": "As needed for hydration and immunity drips; monthly or bi-monthly for ongoing wellness and beauty goals; NAD+ may require a series of sessions",
+    "specialties": [
+      "IV Hydration (Wellness, Immunity, Beauty)",
+      "NAD+ IV Therapy",
+      "Glutathione IV Push",
+      "B12 Injections",
+      "Medical Weight Loss / GLP-1",
+      "Hormone Replacement Therapy"
+    ],
+    "priceNote": "Pricing not publicly listed; accepts CareCredit; Groupon deals available with up to 30% off select IV bags; book at savvyrejuvenation.janeapp.com"
+  },
+  "infusion-solutions-everett": {
+    "sessionDuration": "Varies by therapy; typically 1\u20134 hours (IVIG and specialty biologics 2\u20134 hours; hydration sessions shorter)",
+    "whatIsIncluded": "IV administration of prescribed therapies by a licensed infusion nurse in private treatment suites; clinical pharmacist medication review; allergy and drug interaction screening; 24/7 on-call support; home infusion includes weekly RN visits and lab draws",
+    "firstVisitInfo": "Physician referral and prescription required before scheduling; clinical pharmacist completes full medication and allergy history; insurance verification and cost estimate provided before therapy begins",
+    "frequency": "Varies by therapy and physician order; specialty infusions (e.g., IVIG, Tysabri, Ocrevus) follow physician-prescribed intervals, often monthly or as indicated",
+    "specialties": [
+      "IVIG / Immune Globulin Therapy",
+      "IV Antibiotics, Antifungals & Antivirals",
+      "Total Parenteral Nutrition (TPN)",
+      "Home Chemotherapy",
+      "Hydration & Electrolyte Replacement",
+      "Specialty Biologics for MS, RA & Autoimmune Conditions"
+    ],
+    "priceNote": "Billed through insurance; contracted with all Washington state insurers including Medicare Advantage and Medicaid; out-of-pocket costs disclosed before therapy begins; financial assistance available"
+  },
+  "radiant-beauty-med-spa-and-wellness-snohomish": {
+    "sessionDuration": "30\u201390 minutes depending on the specific nutrients administered and individual treatment plan",
+    "whatIsIncluded": "Custom IV drip of saline plus a personalized blend of vitamins, minerals, and electrolytes selected during a pre-treatment consultation; administered by a trained practitioner via a small IV line",
+    "firstVisitInfo": "Appointment required; initial consultation to assess health and wellness goals and recommend a customized IV drip formulation; no physician referral required for wellness drips",
+    "frequency": "Weekly for immune support or recovery; monthly for general wellness maintenance; individualized based on goals",
+    "specialties": [
+      "IV Hydration & Electrolyte Replenishment",
+      "Immune Support Drips",
+      "Energy & Vitality Drips",
+      "Beauty & Skin Enhancement Drips",
+      "Recovery & Performance Drips",
+      "Vitamin Injections (add-on)"
+    ],
+    "priceNote": "Pricing not publicly listed; industry-typical wellness IV drips in Washington state range from $99\u2013$250 per session; contact clinic directly for current menu and package pricing"
+  },
+  "bellevue-skin-and-wellness-bellevue": {
+    "sessionDuration": "45\u201360 minutes",
+    "whatIsIncluded": "Physician-formulated IV infusion delivered by trained staff; customized blend of vitamins, minerals, and fluids (B-complex, Vitamin C, magnesium, calcium gluconate, amino acids) tailored to the selected drip; post-infusion monitoring included",
+    "firstVisitInfo": "New patients receive a brief wellness consultation to assess needs and select the appropriate drip; medical history review prior to infusion; new patient promotions available",
+    "frequency": "Weekly or bi-weekly for optimal results; monthly maintenance infusions common for general wellness",
+    "specialties": [
+      "Myers' Cocktail IV",
+      "Recovery & Performance Infusion",
+      "Immune Boost IV",
+      "Beauty & Skin Glow Drip",
+      "Hydration Therapy",
+      "High-Dose Vitamin C IV"
+    ],
+    "priceNote": "Pricing not publicly listed; individual drips typically range $150\u2013$350 in the Bellevue market; contact clinic directly for current menu rates"
+  },
+  "northwest-ketamine-clinics-bellevue-bellevue": {
+    "sessionDuration": "40\u201350 minutes for the IV infusion plus ~30 minutes of monitored recovery; pain infusions run approximately 4 hours",
+    "whatIsIncluded": "IV ketamine infusion administered by an RN in a private treatment room; monitoring throughout; post-infusion recovery; free 30-minute intake call and free NP medical consultation prior to first session; HSA/FSA accepted; Superbills provided for insurance reimbursement",
+    "firstVisitInfo": "New patients begin with a free 30-minute intake call with the care team, followed by a free medical consultation with a Nurse Practitioner to review health history and confirm candidacy before the first infusion",
+    "frequency": "Initial series of 6 infusions for mood disorders or 4 for chronic pain, completed over 2\u20133 weeks; maintenance every 6\u201312 weeks; over 86% of patients report 50%+ symptom reduction within 1\u20133 weeks",
+    "specialties": [
+      "Depression",
+      "Anxiety",
+      "PTSD & Trauma",
+      "Chronic Pain Management",
+      "Ketamine-Assisted Psychotherapy (KAP)",
+      "Addiction & Substance Use"
+    ],
+    "priceNote": "Maintenance infusions average ~27.50/session; financing via CareCredit from ~1/month; insurance typically does not cover ketamine but HSA/FSA accepted"
+  },
+  "ayurvedic-and-naturopathic-medical-clinic-bellevue": {
+    "sessionDuration": "45\u201360 minutes per IV infusion session",
+    "whatIsIncluded": "IV infusion of customized nutrient blend; options include Myers Cocktail (magnesium, calcium, B vitamins, vitamin C), high-dose vitamin C, glutathione, ozone therapy, and IV laser therapy; administered by a licensed naturopathic physician; vitals check included",
+    "firstVisitInfo": "New patients require an initial consultation with a naturopathic physician to review health history and determine the appropriate IV protocol before the first infusion; consultation is scheduled separately prior to treatment",
+    "frequency": "Weekly for acute concerns (fatigue, illness, headache); monthly maintenance for chronic disease support or general wellness; frequency personalized to each patient",
+    "specialties": [
+      "Myers Cocktail IV Therapy",
+      "High-Dose Vitamin C IV",
+      "Glutathione IV Therapy",
+      "IV Laser Therapy",
+      "Ozone IV Therapy",
+      "Integrative Oncology IV Support"
+    ],
+    "priceNote": "Pricing not publicly listed; individual sessions typically $150\u2013$350 depending on formula; contact clinic at (425) 453-8022 for current pricing"
+  },
+  "northwest-medical-arts-university-place": {
+    "sessionDuration": "45\u201360 minutes",
+    "whatIsIncluded": "IV vitamin infusion with a blend of Vitamin C, B vitamins, calcium, magnesium, and potassium; options include glutathione, electrolytes, hydration fluids, and anti-nausea or recovery medications depending on the drip selected",
+    "firstVisitInfo": "New patients receive a consultation before treatment; staff reviews individual needs and ensures treatments are appropriate before recommending a plan",
+    "frequency": "Weekly or monthly depending on health goals; maintenance sessions recommended once established",
+    "specialties": [
+      "Immune Boost IV Drip",
+      "Beauty Boost with Glutathione",
+      "Hangover/Recovery IV",
+      "Hydration & Vitamin Infusion",
+      "Aesthetic Injectables",
+      "Microneedling & Facials"
+    ],
+    "priceNote": "IV drips range from approximately $199\u2013$250; discounted rates (~$175\u2013$225) available when added to another treatment"
   }
 }
