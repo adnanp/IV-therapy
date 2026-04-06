@@ -1,5 +1,244 @@
 #!/usr/bin/env python3
 """
+Google Places API (New) review collector for IV therapy clinics.
+
+Usage:
+  export GOOGLE_API_KEY="your_key_here"
+  python3 fetch_reviews.py
+
+Requires: Places API (New) enabled at:
+  https://console.cloud.google.com/apis/library/places.googleapis.com
+
+Cost model:
+  - Text Search (New):    $0.032 per call
+  - Place Details (New):  $0.017 per call
+  - Per clinic: ~$0.049 total
+  - 273 clinics:  ~$13.38 total
+  - Google free credit: $200/month → ALL WITHIN FREE TIER, $0 charged to card
+
+KILL SWITCH:
+  - Hard cap: MAX_SPEND_USD = $15.00 (stops script before any real charges)
+  - Any billing/permission error → immediate stop
+"""
+
+import json
+import os
+import sys
+import time
+import urllib.request
+import urllib.parse
+from pathlib import Path
+
+BASE = Path("/home/user/IV-therapy")
+CLINICS_FILE = BASE / "iv-app/data/clinics.json"
+REVIEWS_FILE = BASE / "iv-app/data/reviews.json"
+PROGRESS_FILE = BASE / "iv-app/data/review_fetch_progress.json"
+
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "")
+DELAY_BETWEEN_CLINICS = 2  # seconds
+
+# ─── KILL SWITCH ─────────────────────────────────────────────────────────────
+MAX_SPEND_USD = 15.00
+COST_PER_SEARCH = 0.032
+COST_PER_DETAILS = 0.017
+
+total_spent = 0.0
+api_calls = 0
+# ─────────────────────────────────────────────────────────────────────────────
+
+
+def check_kill_switch(additional_cost: float = 0.0):
+    global total_spent
+    if total_spent + additional_cost > MAX_SPEND_USD:
+        print()
+        print("=" * 60)
+        print("🛑 KILL SWITCH TRIGGERED")
+        print(f"   Estimated spend: ${total_spent:.4f}")
+        print(f"   Limit: ${MAX_SPEND_USD:.2f}")
+        print(f"   API calls made: {api_calls}")
+        print("   All progress saved. Run again to continue.")
+        print("=" * 60)
+        sys.exit(0)
+
+
+def api_post(url: str, headers: dict, body: dict, cost: float) -> dict:
+    global total_spent, api_calls
+    check_kill_switch(additional_cost=cost)
+
+    data = json.dumps(body).encode()
+    req = urllib.request.Request(url, data=data, headers=headers, method="POST")
+    with urllib.request.urlopen(req, timeout=10) as resp:
+        result = json.loads(resp.read())
+
+    if "error" in result:
+        err = result["error"]
+        status = err.get("status", "")
+        if status in ("PERMISSION_DENIED", "RESOURCE_EXHAUSTED", "UNAUTHENTICATED"):
+            print()
+            print("=" * 60)
+            print(f"🛑 API ERROR: {status}")
+            print(f"   {err.get('message','')[:200]}")
+            print(f"   Spent so far: ${total_spent:.4f} ({api_calls} calls)")
+            print("   Stopping immediately.")
+            print("=" * 60)
+            sys.exit(1)
+
+    total_spent += cost
+    api_calls += 1
+    return result
+
+
+def api_get(url: str, headers: dict, cost: float) -> dict:
+    global total_spent, api_calls
+    check_kill_switch(additional_cost=cost)
+
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req, timeout=10) as resp:
+        result = json.loads(resp.read())
+
+    if "error" in result:
+        err = result["error"]
+        status = err.get("status", "")
+        if status in ("PERMISSION_DENIED", "RESOURCE_EXHAUSTED", "UNAUTHENTICATED"):
+            print()
+            print("=" * 60)
+            print(f"🛑 API ERROR: {status}")
+            print(f"   {err.get('message','')[:200]}")
+            print(f"   Stopped. Spent: ${total_spent:.4f} ({api_calls} calls)")
+            print("=" * 60)
+            sys.exit(1)
+
+    total_spent += cost
+    api_calls += 1
+    return result
+
+
+def find_place_id(clinic: dict) -> str | None:
+    """Use Places API (New) Text Search to find Place ID."""
+    headers = {
+        "Content-Type": "application/json",
+        "X-Goog-Api-Key": GOOGLE_API_KEY,
+        "X-Goog-FieldMask": "places.id,places.displayName",
+    }
+    body = {"textQuery": f"{clinic['name']} {clinic['city']} {clinic['state']}"}
+    data = api_post(
+        "https://places.googleapis.com/v1/places:searchText",
+        headers, body,
+        cost=COST_PER_SEARCH,
+    )
+
+    places = data.get("places", [])
+    return places[0]["id"] if places else None
+
+
+def fetch_reviews(place_id: str) -> list:
+    """Fetch reviews for a Place using Place Details (New)."""
+    headers = {
+        "X-Goog-Api-Key": GOOGLE_API_KEY,
+        "X-Goog-FieldMask": "reviews,rating,userRatingCount",
+    }
+    url = f"https://places.googleapis.com/v1/{place_id}?languageCode=en"
+    data = api_get(url, headers, cost=COST_PER_DETAILS)
+
+    raw = data.get("reviews", [])
+    reviews = []
+    for r in raw:
+        text = r.get("text", {}).get("text", "") or r.get("originalText", {}).get("text", "")
+        if not text:
+            continue
+        author = r.get("authorAttribution", {})
+        reviews.append({
+            "authorName": author.get("displayName", "Anonymous"),
+            "authorPhotoUrl": author.get("photoUri", None),
+            "rating": r.get("rating", 5),
+            "text": text,
+            "time": 0,
+            "relativeTimeDescription": r.get("relativePublishTimeDescription", ""),
+            "source": "google",
+        })
+    return reviews
+
+
+def load_progress() -> set:
+    if PROGRESS_FILE.exists():
+        return set(json.loads(PROGRESS_FILE.read_text()).get("done", []))
+    return set()
+
+
+def save_progress(done: set):
+    PROGRESS_FILE.write_text(json.dumps({"done": list(done)}, indent=2))
+
+
+def main():
+    if not GOOGLE_API_KEY:
+        print("ERROR: Set GOOGLE_API_KEY first:")
+        print("  export GOOGLE_API_KEY='your_key_here'")
+        sys.exit(1)
+
+    clinics = json.loads(CLINICS_FILE.read_text())
+    reviews = json.loads(REVIEWS_FILE.read_text())
+    done = load_progress()
+
+    pending = [
+        c for c in clinics
+        if c["slug"] not in done and not reviews.get(c["slug"])
+    ]
+
+    estimated_cost = len(pending) * (COST_PER_SEARCH + COST_PER_DETAILS)
+    print("=" * 60)
+    print("Google Places (New) Review Collector")
+    print(f"  Clinics to process:  {len(pending)}")
+    print(f"  Already done:        {len(done)}")
+    print(f"  Estimated cost:      ${estimated_cost:.2f}")
+    print(f"  Google free credit:  $200.00/month")
+    print(f"  Expected charge:     $0.00  ✅")
+    print(f"  Kill switch at:      ${MAX_SPEND_USD:.2f}")
+    print("=" * 60)
+    print()
+
+    if not pending:
+        print("All clinics already processed!")
+        return
+
+    for i, clinic in enumerate(pending):
+        slug = clinic["slug"]
+        print(f"[{i+1}/{len(pending)}] {clinic['name']} | ${total_spent:.3f} spent")
+
+        try:
+            place_id = find_place_id(clinic)
+            if not place_id:
+                print(f"    → No match found, skipping")
+                done.add(slug)
+                save_progress(done)
+                time.sleep(DELAY_BETWEEN_CLINICS)
+                continue
+
+            clinic_reviews = fetch_reviews(place_id)
+            print(f"    → {len(clinic_reviews)} reviews saved")
+
+            if clinic_reviews:
+                reviews[slug] = clinic_reviews
+                REVIEWS_FILE.write_text(json.dumps(reviews, indent=2))
+
+            done.add(slug)
+            save_progress(done)
+
+        except SystemExit:
+            raise
+        except Exception as e:
+            print(f"    ERROR: {e}")
+
+        time.sleep(DELAY_BETWEEN_CLINICS)
+
+    print()
+    print(f"✅ Done! Total spent: ${total_spent:.4f} | Calls: {api_calls}")
+    print(f"   Clinics with reviews: {len([s for s in reviews if reviews[s]])}")
+
+
+if __name__ == "__main__":
+    main()
+
+"""
 Google Places API review collector for IV therapy clinics.
 
 Usage:
