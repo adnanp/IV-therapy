@@ -42,5 +42,34 @@
       "source": "google",
       "placeId": "northwest-weight-wellness-center-everett"
     }
+  ],
+  "drip-gym-jackson-heights-jackson-heights": [
+    {
+      "authorName": "Dana Reed",
+      "authorPhotoUrl": null,
+      "rating": 5,
+      "text": "Drip Gym has a fantastic and welcoming staff, they make the experience calming and comforting!",
+      "time": 1709251200,
+      "relativeTimeDescription": "about 1 year ago",
+      "source": "google"
+    },
+    {
+      "authorName": "Shadaby",
+      "authorPhotoUrl": null,
+      "rating": 5,
+      "text": "Had a fantastic facial. Very clean space and very conveniently located.",
+      "time": 1726444800,
+      "relativeTimeDescription": "8 months ago",
+      "source": "google"
+    },
+    {
+      "authorName": "Sandra O'Hara",
+      "authorPhotoUrl": null,
+      "rating": 1,
+      "text": "I had 3 areas in coolsculpting to treat (arms, chin and abdomen). I spent $6,000 with no results at all. After 4 months nothing happened in those areas. I feel cheated. Do not spend your money here.",
+      "time": 1696118400,
+      "relativeTimeDescription": "about 1 year ago",
+      "source": "google"
+    }
   ]
 }
