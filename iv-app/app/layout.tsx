@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
+import { CompareProvider } from "@/components/CompareContext";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://ivdirectory.com";
 
@@ -76,7 +77,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
 
-        <main className="flex-1">{children}</main>
+        <main className="flex-1">
+          <CompareProvider>{children}</CompareProvider>
+        </main>
 
         <footer className="bg-gray-900 text-gray-400 mt-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
@@ -110,11 +113,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div>
                 <h3 className="text-white font-semibold text-sm mb-4 uppercase tracking-wider">Treatments</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><Link href="/search" className="hover:text-white transition-colors">Myers Cocktail</Link></li>
-                  <li><Link href="/search" className="hover:text-white transition-colors">NAD+ Therapy</Link></li>
-                  <li><Link href="/search" className="hover:text-white transition-colors">Immune Boost IV</Link></li>
-                  <li><Link href="/search" className="hover:text-white transition-colors">Hangover Recovery</Link></li>
-                  <li><Link href="/search" className="hover:text-white transition-colors">Mobile IV Therapy</Link></li>
+                  <li><Link href="/search?specialty=myers" className="hover:text-white transition-colors">Myers Cocktail</Link></li>
+                  <li><Link href="/search?specialty=nad" className="hover:text-white transition-colors">NAD+ Therapy</Link></li>
+                  <li><Link href="/search?specialty=immune" className="hover:text-white transition-colors">Immune Boost IV</Link></li>
+                  <li><Link href="/search?specialty=hangover" className="hover:text-white transition-colors">Hangover Recovery</Link></li>
+                  <li><Link href="/search?specialty=athletic" className="hover:text-white transition-colors">Athletic Recovery</Link></li>
                 </ul>
               </div>
             </div>

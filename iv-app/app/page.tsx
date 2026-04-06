@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getTopClinics, getFeaturedCities, getAllClinics } from "@/lib/data";
+import { getTopClinics, getFeaturedCities, getAllClinics, getCities } from "@/lib/data";
 import { SearchBar } from "@/components/SearchBar";
 import { ClinicCard } from "@/components/ClinicCard";
+import { TreatmentQuiz } from "@/components/TreatmentQuiz";
+import { EmailCapture } from "@/components/EmailCapture";
 import { MapPin, Star, Zap, Shield, Droplets, Brain, Dumbbell, Sparkles } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -17,12 +19,12 @@ export const metadata: Metadata = {
 };
 
 const TREATMENTS = [
-  { icon: <Droplets className="w-5 h-5" />, label: "Myers Cocktail", desc: "The gold standard IV drip for energy, immunity, and overall wellness." },
-  { icon: <Brain className="w-5 h-5" />, label: "NAD+ Therapy", desc: "Cellular energy, anti-aging, and brain health — sessions from 2–4 hours." },
-  { icon: <Shield className="w-5 h-5" />, label: "Immune Boost", desc: "High-dose Vitamin C, Zinc, and antioxidants to fight off illness fast." },
-  { icon: <Zap className="w-5 h-5" />, label: "Hangover Recovery", desc: "Fluids, anti-nausea meds, and B-vitamins — feel human again in an hour." },
-  { icon: <Dumbbell className="w-5 h-5" />, label: "Athletic Recovery", desc: "Amino acids, Magnesium, and electrolytes to accelerate muscle repair." },
-  { icon: <Sparkles className="w-5 h-5" />, label: "Beauty & Glow", desc: "Glutathione, Biotin, and Vitamin C for radiant skin and healthy hair." },
+  { icon: <Droplets className="w-5 h-5" />, label: "Myers Cocktail", desc: "The gold standard IV drip for energy, immunity, and overall wellness.", specialty: "myers" },
+  { icon: <Brain className="w-5 h-5" />, label: "NAD+ Therapy", desc: "Cellular energy, anti-aging, and brain health — sessions from 2–4 hours.", specialty: "nad" },
+  { icon: <Shield className="w-5 h-5" />, label: "Immune Boost", desc: "High-dose Vitamin C, Zinc, and antioxidants to fight off illness fast.", specialty: "immune" },
+  { icon: <Zap className="w-5 h-5" />, label: "Hangover Recovery", desc: "Fluids, anti-nausea meds, and B-vitamins — feel human again in an hour.", specialty: "hangover" },
+  { icon: <Dumbbell className="w-5 h-5" />, label: "Athletic Recovery", desc: "Amino acids, Magnesium, and electrolytes to accelerate muscle repair.", specialty: "athletic" },
+  { icon: <Sparkles className="w-5 h-5" />, label: "Beauty & Glow", desc: "Glutathione, Biotin, and Vitamin C for radiant skin and healthy hair.", specialty: "beauty" },
 ];
 
 const FAQ = [
@@ -78,6 +80,7 @@ const websiteJsonLd = {
 export default function HomePage() {
   const topClinics = getTopClinics(6);
   const featuredCities = getFeaturedCities(8);
+  const allCities = getCities();
   const totalClinics = getAllClinics().length;
 
   return (
@@ -123,18 +126,19 @@ export default function HomePage() {
       {/* Browse by Treatment */}
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-10">
+          <div className="text-center mb-8">
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">What Are You Looking For?</h2>
             <p className="text-gray-500 mt-2">Browse clinics by treatment type</p>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-            {TREATMENTS.map(({ icon, label, desc }) => (
+          {/* Mobile: horizontal scroll. Desktop: 6-col grid */}
+          <div className="flex gap-3 overflow-x-auto pb-2 sm:pb-0 sm:grid sm:grid-cols-3 lg:grid-cols-6 scrollbar-hide -mx-4 px-4 sm:mx-0 sm:px-0">
+            {TREATMENTS.map(({ icon, label, desc, specialty }) => (
               <Link
                 key={label}
-                href="/search"
-                className="group flex flex-col items-center text-center p-5 rounded-2xl border border-gray-200 bg-white hover:border-teal-400 hover:shadow-md transition-all"
+                href={`/search?specialty=${specialty}`}
+                className="group flex flex-col items-center text-center p-4 sm:p-5 rounded-2xl border border-gray-200 bg-white hover:border-teal-400 hover:shadow-md transition-all shrink-0 w-36 sm:w-auto"
               >
-                <div className="w-12 h-12 rounded-xl bg-teal-50 group-hover:bg-teal-100 flex items-center justify-center text-teal-600 mb-3 transition-colors">
+                <div className="w-11 h-11 rounded-xl bg-teal-50 group-hover:bg-teal-100 flex items-center justify-center text-teal-600 mb-3 transition-colors">
                   {icon}
                 </div>
                 <span className="font-semibold text-gray-900 text-sm leading-snug">{label}</span>
@@ -145,8 +149,19 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Treatment Quiz */}
+      <section className="py-16 px-4 bg-gray-50">
+        <div className="max-w-2xl mx-auto">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Not Sure Which IV to Get?</h2>
+            <p className="text-gray-500 mt-2">Answer 3 quick questions and we&apos;ll match you to the right treatment.</p>
+          </div>
+          <TreatmentQuiz />
+        </div>
+      </section>
+
       {/* How it works */}
-      <section className="py-16 bg-gray-50 px-4">
+      <section className="py-16 bg-white px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-10">Book Your IV Session in 3 Steps</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
@@ -217,10 +232,12 @@ export default function HomePage() {
             <p className="text-gray-500 mt-1">Popular IV therapy locations across the country</p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-            {featuredCities.map((c) => (
+            {featuredCities.map((c) => {
+              const cityData = allCities.find((ac) => ac.city === c.city && ac.state === c.state);
+              return (
               <Link
                 key={`${c.city}-${c.state}`}
-                href={`/search?q=${encodeURIComponent(`${c.city}, ${c.state}`)}`}
+                href={cityData ? `/city/${cityData.slug}` : `/search?q=${encodeURIComponent(`${c.city}, ${c.state}`)}`}
                 className="flex items-center justify-between px-4 py-3 rounded-xl border border-gray-200 bg-white hover:border-teal-400 hover:shadow-sm transition-all group"
               >
                 <div>
@@ -229,7 +246,8 @@ export default function HomePage() {
                 </div>
                 <span className="text-xs font-medium text-teal-600 bg-teal-50 px-2 py-0.5 rounded-full">{c.count}</span>
               </Link>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
@@ -267,6 +285,9 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
+
+      {/* Email capture */}
+      <EmailCapture variant="banner" />
     </>
   );
 }
