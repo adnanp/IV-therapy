@@ -2592,5 +2592,20 @@
       "Microneedling & Facials"
     ],
     "priceNote": "IV drips range from approximately $199\u2013$250; discounted rates (~$175\u2013$225) available when added to another treatment"
+  },
+  "the-wellness-vault-cheney": {
+    "sessionDuration": "45\u201360 minutes for most IV drip sessions; some express treatments may take 20\u201330 minutes",
+    "whatIsIncluded": "Custom IV drip administered by a licensed nurse or medical professional, health intake consultation, vitals check, and post-session monitoring",
+    "firstVisitInfo": "First-time clients complete a brief health history and wellness assessment; a staff member reviews any contraindications before treatment begins",
+    "frequency": "Weekly or bi-weekly sessions recommended for ongoing wellness goals; monthly maintenance common for general health support",
+    "specialties": [
+      "Hydration therapy",
+      "Immune support",
+      "Energy and fatigue recovery",
+      "Hangover relief",
+      "Vitamin C high-dose infusions",
+      "NAD+ therapy"
+    ],
+    "priceNote": "Individual drips typically range from $100\u2013$250; NAD+ and specialty infusions may cost more; membership packages often available at a discount"
   }
 }
