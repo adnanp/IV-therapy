@@ -2,3 +2,4 @@ node_modules/
 iv-app/test-results/
 iv-app/playwright-report/
 enrich_loop.log
+reviews_fetch.log

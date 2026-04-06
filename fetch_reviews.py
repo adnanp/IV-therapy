@@ -137,7 +137,7 @@ def fetch_reviews(place_id: str) -> list:
         "X-Goog-Api-Key": GOOGLE_API_KEY,
         "X-Goog-FieldMask": "reviews,rating,userRatingCount",
     }
-    url = f"https://places.googleapis.com/v1/{place_id}?languageCode=en"
+    url = f"https://places.googleapis.com/v1/places/{place_id}?languageCode=en"
     data = api_get(url, headers, cost=COST_PER_DETAILS)
 
     raw = data.get("reviews", [])
