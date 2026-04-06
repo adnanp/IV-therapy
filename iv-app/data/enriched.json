@@ -2607,5 +2607,19 @@
       "NAD+ therapy"
     ],
     "priceNote": "Individual drips typically range from $100\u2013$250; NAD+ and specialty infusions may cost more; membership packages often available at a discount"
+  },
+  "hush-aesthetics-kent": {
+    "sessionDuration": "45\u201360 minutes",
+    "whatIsIncluded": "Pre-treatment health consultation, bespoke IV drip administered by a qualified nurse or paramedic, post-treatment monitoring, and aftercare advice.",
+    "firstVisitInfo": "First-time clients complete a health questionnaire and brief consultation before treatment to ensure suitability. Arrive 10\u201315 minutes early. A medical professional will review your history and recommend an appropriate drip.",
+    "frequency": "Sessions are typically recommended every 2\u20134 weeks for maintenance, or as a one-off boost for specific needs such as recovery, immunity, or energy.",
+    "specialties": [
+      "Hydration & Energy Boost",
+      "Immunity Support",
+      "Skin Brightening & Anti-Ageing",
+      "Hangover & Recovery",
+      "Weight Management"
+    ],
+    "priceNote": "Prices vary by drip formulation; sessions typically range from \u00a380\u2013\u00a3250. Packages and memberships may be available for regular clients. Contact the clinic for a personalised quote."
   }
 }
