@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { StarRating } from "@/components/StarRating"
 import { isOpenNow, formatPhone } from "@/lib/utils"
-import { getEnrichment } from "@/lib/data"
+import { getEnrichment, isFeatured } from "@/lib/data"
 import type { Clinic } from "@/lib/data"
 import { useCompare } from "@/components/CompareContext"
 
@@ -37,9 +37,18 @@ export function ClinicCard({ clinic }: ClinicCardProps) {
     : inferIVTypes(clinic.categories)
   const { toggle, isSelected } = useCompare()
   const selected = isSelected(clinic.slug)
+  const featured = isFeatured(clinic.slug)
 
   return (
     <div className="block h-full group relative">
+      {/* Featured badge */}
+      {featured && (
+        <div className="absolute -top-2 left-4 z-10">
+          <span className="bg-amber-400 text-amber-900 text-xs font-bold px-2.5 py-0.5 rounded-full shadow-sm">
+            ⭐ Featured
+          </span>
+        </div>
+      )}
       {/* Compare toggle */}
       <button
         onClick={(e) => { e.preventDefault(); toggle(clinic.slug, clinic.name) }}
@@ -54,7 +63,7 @@ export function ClinicCard({ clinic }: ClinicCardProps) {
         {selected ? "Added" : "Compare"}
       </button>
       <Link href={`/clinic/${clinic.slug}`} className="block h-full">
-      <Card className="h-full border-gray-200 group-hover:border-teal-300 group-hover:shadow-lg transition-all duration-200">
+      <Card className={`h-full transition-all duration-200 ${featured ? "border-amber-300 shadow-amber-100 shadow-md group-hover:border-amber-400 group-hover:shadow-lg" : "border-gray-200 group-hover:border-teal-300 group-hover:shadow-lg"}`}>
         <CardContent className="p-5 flex flex-col h-full">
           {/* Header */}
           <div className="flex justify-between items-start gap-3 mb-3">

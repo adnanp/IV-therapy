@@ -1,6 +1,7 @@
 import clinicsData from "@/data/clinics.json";
 import reviewsData from "@/data/reviews.json";
 import enrichedData from "@/data/enriched.json";
+import featuredData from "@/data/featured.json";
 
 export interface Clinic {
   id: number;
@@ -43,6 +44,11 @@ export interface ClinicEnrichment {
 const clinics: Clinic[] = clinicsData as Clinic[];
 const reviews = reviewsData as Record<string, Review[]>;
 const enriched = enrichedData as Record<string, ClinicEnrichment>;
+const featuredSlugs = new Set((featuredData as { featuredSlugs: string[] }).featuredSlugs);
+
+export function isFeatured(slug: string): boolean {
+  return featuredSlugs.has(slug);
+}
 
 export function getEnrichment(slug: string): ClinicEnrichment | null {
   return enriched[slug] ?? null;
@@ -184,5 +190,8 @@ export function searchClinics(params: {
     results = results.sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0) || (b.reviewCount ?? 0) - (a.reviewCount ?? 0));
   }
 
-  return results.slice(0, 100);
+  // Pin featured clinics to the top
+  const featured = results.filter((c) => featuredSlugs.has(c.slug));
+  const rest = results.filter((c) => !featuredSlugs.has(c.slug));
+  return [...featured, ...rest].slice(0, 100);
 }
