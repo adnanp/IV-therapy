@@ -292,7 +292,7 @@ export default async function ClinicDetailPage({ params }: PageProps) {
                 </h2>
                 <div className="space-y-4">
                   {reviews.slice(0, 5).map((review, i) => (
-                    <ReviewCard key={`${review.placeId}-${i}`} review={review} />
+                    <ReviewCard key={`${review.authorName}-${i}`} review={review} />
                   ))}
                 </div>
                 <p className="text-xs text-gray-400 mt-3 flex items-center gap-1">
