@@ -28,8 +28,8 @@ export interface Review {
   text: string;
   time: number;
   relativeTimeDescription: string;
-  source: "google" | "trustpilot";
-  placeId: string;
+  source: string;
+  placeId?: string;
 }
 
 export interface ClinicEnrichment {
