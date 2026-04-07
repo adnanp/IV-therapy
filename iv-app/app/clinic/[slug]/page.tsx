@@ -1,4 +1,6 @@
-import { getClinic, getAllSlugs, getReviews, getEnrichment } from "@/lib/data";
+import { getClinic, getAllSlugs, getReviews, getEnrichment, isFeatured, getClinicImage } from "@/lib/data";
+import Image from "next/image";
+import { TrackLink } from "@/components/TrackLink";
 import { ReviewCard } from "@/components/ReviewCard";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -61,6 +63,8 @@ export default async function ClinicDetailPage({ params }: PageProps) {
   const phone = formatPhone(clinic.phone);
   const reviews = getReviews(slug);
   const enrichment = getEnrichment(slug);
+  const featured = isFeatured(slug);
+  const clinicImage = getClinicImage(slug);
 
   // Use real specialties when available, otherwise show generic services
   const specialties = enrichment?.specialties ?? [];
@@ -107,18 +111,18 @@ export default async function ClinicDetailPage({ params }: PageProps) {
         <div className="lg:hidden sticky top-16 z-40 bg-white border-b border-gray-200 shadow-sm px-4 py-3">
           <div className="flex gap-2 max-w-lg mx-auto">
             {clinic.phone && (
-              <a href={`tel:${clinic.phone}`} className="flex-1">
+              <TrackLink href={`tel:${clinic.phone}`} slug={slug} type="call" className="flex-1">
                 <Button variant="outline" className="w-full gap-2 h-11 text-sm font-semibold">
                   <Phone className="w-4 h-4" /> Call Now
                 </Button>
-              </a>
+              </TrackLink>
             )}
             {clinic.website && (
-              <a href={clinic.website} target="_blank" rel="noopener noreferrer" className="flex-1">
+              <TrackLink href={clinic.website} slug={slug} type="book" target="_blank" rel="noopener noreferrer" className="flex-1">
                 <Button className="w-full h-11 text-sm font-semibold bg-teal-600 hover:bg-teal-700">
                   Book Online
                 </Button>
-              </a>
+              </TrackLink>
             )}
           </div>
         </div>
@@ -140,6 +144,13 @@ export default async function ClinicDetailPage({ params }: PageProps) {
 
             {/* Header */}
             <div>
+              {featured && (
+                <div className="mb-3">
+                  <span className="inline-flex items-center gap-1.5 bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold px-3 py-1 rounded-full">
+                    ⭐ Featured Partner Clinic
+                  </span>
+                </div>
+              )}
               <div className="flex items-start justify-between gap-4 flex-wrap">
                 <div className="flex-1 min-w-0">
                   <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 leading-tight">{clinic.name}</h1>
@@ -171,6 +182,23 @@ export default async function ClinicDetailPage({ params }: PageProps) {
                 </div>
               )}
             </div>
+
+            {/* AI-generated clinic image */}
+            {clinicImage && (
+              <div className="rounded-2xl overflow-hidden border border-gray-200 h-56 sm:h-72 bg-gray-100 relative">
+                <Image
+                  src={clinicImage.path}
+                  alt={`Interior of ${clinic.name} IV therapy clinic in ${clinic.city}, ${clinic.state}`}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 66vw"
+                  priority
+                />
+                <div className="absolute bottom-2 right-3 bg-black/50 text-white text-[10px] px-2 py-0.5 rounded-full backdrop-blur-sm">
+                  AI-generated representation
+                </div>
+              </div>
+            )}
 
             {/* Map */}
             <div className="rounded-2xl overflow-hidden border border-gray-200 h-56 sm:h-72 bg-gray-100">
@@ -304,16 +332,16 @@ export default async function ClinicDetailPage({ params }: PageProps) {
                   Reach out to {clinic.name} to schedule your session — same-day appointments often available.
                 </p>
                 {clinic.website && (
-                  <a href={clinic.website} target="_blank" rel="noopener noreferrer" className="block">
+                  <TrackLink href={clinic.website} slug={slug} type="book" target="_blank" rel="noopener noreferrer" className="block">
                     <Button className="w-full bg-teal-600 hover:bg-teal-700 h-11">Book Online</Button>
-                  </a>
+                  </TrackLink>
                 )}
                 {clinic.phone && (
-                  <a href={`tel:${clinic.phone}`} className="block">
+                  <TrackLink href={`tel:${clinic.phone}`} slug={slug} type="call" className="block">
                     <Button variant="outline" className="w-full gap-2 h-11">
                       <Phone className="w-4 h-4" /> Call {phone}
                     </Button>
-                  </a>
+                  </TrackLink>
                 )}
               </CardContent>
             </Card>
@@ -384,8 +412,24 @@ export default async function ClinicDetailPage({ params }: PageProps) {
           </aside>
         </div>
 
+        {/* Claim your listing banner */}
+        <div className="mt-10 mb-4 bg-gradient-to-r from-teal-50 to-teal-100 border border-teal-200 rounded-2xl px-6 py-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div>
+            <p className="font-semibold text-teal-900 text-sm">Is this your clinic?</p>
+            <p className="text-teal-700 text-xs mt-0.5">
+              Claim your free listing to update details, add photos, respond to reviews, and unlock featured placement.
+            </p>
+          </div>
+          <Link
+            href={`/pricing?clinic=${encodeURIComponent(clinic.name)}&slug=${slug}`}
+            className="shrink-0 bg-teal-600 hover:bg-teal-700 text-white text-xs font-bold px-5 py-2.5 rounded-xl transition-colors whitespace-nowrap"
+          >
+            Claim & Upgrade →
+          </Link>
+        </div>
+
         {/* Back link */}
-        <div className="mt-10 pb-6">
+        <div className="pb-6">
           <Link href="/search">
             <Button variant="ghost" className="gap-2 text-gray-400 hover:text-gray-700 -ml-3">
               <ArrowLeft className="w-4 h-4" /> Back to clinics

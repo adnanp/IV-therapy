@@ -1,6 +1,8 @@
 import clinicsData from "@/data/clinics.json";
 import reviewsData from "@/data/reviews.json";
 import enrichedData from "@/data/enriched.json";
+import featuredData from "@/data/featured.json";
+import clinicImagesData from "@/data/clinic_images.json";
 
 export interface Clinic {
   id: number;
@@ -27,8 +29,8 @@ export interface Review {
   text: string;
   time: number;
   relativeTimeDescription: string;
-  source: "google" | "trustpilot";
-  placeId: string;
+  source: string;
+  placeId?: string;
 }
 
 export interface ClinicEnrichment {
@@ -40,9 +42,21 @@ export interface ClinicEnrichment {
   priceNote: string | null;
 }
 
+export interface ClinicImage {
+  path: string;
+  generatedAt: string;
+  prompt: string;
+}
+
 const clinics: Clinic[] = clinicsData as Clinic[];
 const reviews = reviewsData as Record<string, Review[]>;
 const enriched = enrichedData as Record<string, ClinicEnrichment>;
+const featuredSlugs = new Set((featuredData as { featuredSlugs: string[] }).featuredSlugs);
+const clinicImages = clinicImagesData as Record<string, ClinicImage>;
+
+export function isFeatured(slug: string): boolean {
+  return featuredSlugs.has(slug);
+}
 
 export function getEnrichment(slug: string): ClinicEnrichment | null {
   return enriched[slug] ?? null;
@@ -50,6 +64,10 @@ export function getEnrichment(slug: string): ClinicEnrichment | null {
 
 export function getReviews(slug: string): Review[] {
   return reviews[slug] ?? [];
+}
+
+export function getClinicImage(slug: string): ClinicImage | null {
+  return clinicImages[slug] ?? null;
 }
 
 export function getAllClinics(): Clinic[] {
