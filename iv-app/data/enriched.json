@@ -2621,5 +2621,19 @@
       "Weight Management"
     ],
     "priceNote": "Prices vary by drip formulation; sessions typically range from \u00a380\u2013\u00a3250. Packages and memberships may be available for regular clients. Contact the clinic for a personalised quote."
+  },
+  "osira-vitality-and-wellness-kalama": {
+    "sessionDuration": "45\u201360 minutes for most IV drip sessions; some express treatments as short as 20\u201330 minutes",
+    "whatIsIncluded": "Nurse or practitioner intake and health assessment, custom IV drip formulation, sterile insertion and monitoring throughout the session, post-session wellness consultation",
+    "firstVisitInfo": "New clients complete a health history form and brief consultation before treatment; a licensed medical professional reviews the intake to ensure safe and appropriate therapy",
+    "frequency": "Weekly sessions for acute wellness goals; bi-weekly or monthly maintenance for general health and prevention",
+    "specialties": [
+      "Hydration and recovery",
+      "Immune support",
+      "Energy and fatigue relief",
+      "Vitamin C high-dose therapy",
+      "NAD+ anti-aging infusions"
+    ],
+    "priceNote": "Individual IV drip sessions typically range from $100\u2013$300 depending on formulation; packages and memberships available for reduced per-session pricing"
   }
 }
