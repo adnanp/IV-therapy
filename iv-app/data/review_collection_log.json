@@ -1,0 +1,42 @@
+{
+  "notes": "Tracking which clinics have had Google review collection attempted. Google Maps reviews require Places API for full access — web scraping only gets snippets without reviewer names.",
+  "attempted": [
+    {
+      "slug": "drip-gym-jackson-heights-jackson-heights",
+      "name": "Drip Gym - Jackson Heights",
+      "date": "2026-04-06",
+      "found": 3,
+      "notes": "3 real reviews found via indexed Google Maps URL and search snippets"
+    },
+    {
+      "slug": "faces-in-bloom-vancouver",
+      "name": "Faces in Bloom",
+      "date": "2026-04-06",
+      "found": 0,
+      "notes": "500+ reviews on Google but names not indexed. Snippets only. Needs Places API."
+    },
+    {
+      "slug": "pnw-hydration-wellness-puyallup",
+      "name": "PNW Hydration & Wellness",
+      "date": "2026-04-06",
+      "found": 0,
+      "notes": "~10 reviews on Google/Yelp but names not crawlable. Needs Places API."
+    },
+    {
+      "slug": "pure-skiin-spokane-valley",
+      "name": "PURE SKIIN",
+      "date": "2026-04-06",
+      "found": 0,
+      "notes": "420+ reviews on Google but behind auth wall. Needs Places API."
+    },
+    {
+      "slug": "manhattan-iv-therapy-new-york",
+      "name": "Manhattan IV Therapy",
+      "date": "2026-04-06",
+      "found": 0,
+      "notes": "Reviews exist but names not indexed. Needs Places API."
+    }
+  ],
+  "pending": [],
+  "recommendation": "To get real Google reviews at scale, set up Google Places API (free tier: 200 req/day). Each clinic needs its Google Place ID, then call the Place Details API to get reviews."
+}

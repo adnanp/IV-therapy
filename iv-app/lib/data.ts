@@ -202,5 +202,8 @@ export function searchClinics(params: {
     results = results.sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0) || (b.reviewCount ?? 0) - (a.reviewCount ?? 0));
   }
 
-  return results.slice(0, 100);
+  // Pin featured clinics to the top
+  const featured = results.filter((c) => featuredSlugs.has(c.slug));
+  const rest = results.filter((c) => !featuredSlugs.has(c.slug));
+  return [...featured, ...rest].slice(0, 100);
 }

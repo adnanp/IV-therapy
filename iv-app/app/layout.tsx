@@ -63,9 +63,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 Directory
               </span>
             </Link>
-            <nav className="flex items-center gap-6 text-sm">
-              <Link href="/search" className="text-gray-600 hover:text-teal-700 font-medium transition-colors">
+            <nav className="flex items-center gap-5 text-sm">
+              <Link href="/search" className="text-gray-600 hover:text-teal-700 font-medium transition-colors hidden sm:block">
                 Browse Clinics
+              </Link>
+              <Link href="/pricing" className="text-gray-600 hover:text-teal-700 font-medium transition-colors hidden sm:block">
+                For Clinics
               </Link>
               <Link
                 href="/search"
@@ -102,10 +105,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <h3 className="text-white font-semibold text-sm mb-4 uppercase tracking-wider">Browse</h3>
                 <ul className="space-y-2 text-sm">
                   <li><Link href="/search" className="hover:text-white transition-colors">All Clinics</Link></li>
-                  <li><Link href="/search?q=Seattle%2C+WA" className="hover:text-white transition-colors">Seattle, WA</Link></li>
-                  <li><Link href="/search?q=Spokane%2C+WA" className="hover:text-white transition-colors">Spokane, WA</Link></li>
-                  <li><Link href="/search?q=New+York%2C+NY" className="hover:text-white transition-colors">New York, NY</Link></li>
-                  <li><Link href="/search?q=Los+Angeles%2C+CA" className="hover:text-white transition-colors">Los Angeles, CA</Link></li>
+                  <li><Link href="/city/seattle-wa" className="hover:text-white transition-colors">Seattle, WA</Link></li>
+                  <li><Link href="/city/spokane-wa" className="hover:text-white transition-colors">Spokane, WA</Link></li>
+                  <li><Link href="/city/new-york-ny" className="hover:text-white transition-colors">New York, NY</Link></li>
+                  <li><Link href="/pricing" className="hover:text-white transition-colors text-amber-400">⭐ For Clinic Owners</Link></li>
                 </ul>
               </div>
 
