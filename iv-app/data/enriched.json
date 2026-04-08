@@ -2635,5 +2635,20 @@
       "NAD+ anti-aging infusions"
     ],
     "priceNote": "Individual IV drip sessions typically range from $100\u2013$300 depending on formulation; packages and memberships available for reduced per-session pricing"
+  },
+  "soundlife-wellness-gig-harbor": {
+    "sessionDuration": "45\u201360 minutes depending on the infusion selected",
+    "whatIsIncluded": "IV vitamin and mineral infusion administered by a licensed nurse, intake health assessment, saline base solution, and post-session monitoring",
+    "firstVisitInfo": "First-time clients complete a health history intake form and brief wellness consultation before treatment begins",
+    "frequency": "Weekly or bi-weekly sessions recommended for optimal results; monthly maintenance common for general wellness",
+    "specialties": [
+      "Hydration therapy",
+      "Immune support infusions",
+      "Energy and B-vitamin drips",
+      "Myers' Cocktail",
+      "NAD+ therapy",
+      "Hangover recovery"
+    ],
+    "priceNote": "Individual drips typically range from $125\u2013$250; packages and memberships available at reduced per-session rates"
   }
 }
