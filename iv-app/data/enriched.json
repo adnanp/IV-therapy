@@ -2650,5 +2650,24 @@
       "Hangover recovery"
     ],
     "priceNote": "Individual drips typically range from $125\u2013$250; packages and memberships available at reduced per-session rates"
+  },
+  "iv-party-mobile-iv-therapy-providing-wellness-drips-directly-to-your-location-en": {
+    "sessionDuration": "45\u201360 minutes on-site, including setup, infusion, and breakdown. Total appointment window is typically 60\u201390 minutes depending on location and drip selected.",
+    "whatIsIncluded": "In-home or on-location visit by a licensed registered nurse or medical professional, health intake assessment, IV placement, full wellness drip infusion of your choice, all supplies and equipment, and post-session monitoring before departure.",
+    "firstVisitInfo": "No clinic visit required \u2014 a medical professional comes directly to your home, hotel, office, or event. First-time clients complete a brief health history and consent form prior to or at the time of service. A quick vitals check is performed before the IV is started. Booking is done online or by phone.",
+    "frequency": "As needed for acute needs such as hangover recovery or illness; weekly or bi-weekly for ongoing wellness, immune support, or athletic recovery; monthly for general maintenance and preventive health.",
+    "specialties": [
+      "Hangover & hydration recovery",
+      "Immune boost & illness recovery",
+      "Athletic performance & muscle recovery",
+      "Energy & fatigue relief",
+      "Beauty & anti-aging (glutathione, biotin)",
+      "Myers' Cocktail",
+      "Vitamin C high-dose infusion",
+      "NAD+ therapy",
+      "Migraine & headache relief",
+      "Group & event IV party packages"
+    ],
+    "priceNote": "Drips typically range from $100 to $275 per session depending on formulation. Premium therapies such as NAD+ are priced higher, often $350\u2013$600. Add-on boosters (B12, glutathione, anti-nausea medication) are available for an additional fee. Group or party bookings may offer package pricing. A travel or mobile service fee may apply depending on distance."
   }
 }
