@@ -1,0 +1,39 @@
+name: Daily Blog Post
+
+on:
+  schedule:
+    - cron: '0 10 * * *'  # 10am UTC daily (6am ET / 3am PT)
+  workflow_dispatch:       # manual trigger from GitHub UI anytime
+
+jobs:
+  write-blog-post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Write blog post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/generate-blog-post.py
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add iv-app/data/blog-posts.json scripts/blog-topics.json
+          if git diff --staged --quiet; then
+            echo "No new post generated"
+          else
+            TITLE=$(python3 -c "import json; posts=json.load(open('iv-app/data/blog-posts.json')); print(posts[0]['title'])" 2>/dev/null || echo "new article")
+            git commit -m "Blog: $TITLE"
+            git push
+          fi
