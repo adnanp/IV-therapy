@@ -227,13 +227,14 @@ def main():
     })
     save_json(LOG_FILE, log)
 
-    # Auto-commit and push
-    os.system(f"""
-        cd '{BASE}' && \
-        git add iv-app/data/clinic_images.json iv-app/data/image_generation_log.json 'iv-app/public/clinic-images/{slug}.jpg' && \
-        git commit -m "Add AI image: {clinic['name']} ({city})" && \
-        git push origin main
-    """)
+    # Auto-commit and push (skip if running inside GitHub Actions — workflow handles it)
+    if not os.environ.get("GITHUB_ACTIONS"):
+        os.system(f"""
+            cd '{BASE}' && \
+            git add iv-app/data/clinic_images.json iv-app/data/image_generation_log.json 'iv-app/public/clinic-images/{slug}.jpg' && \
+            git commit -m "Add AI image: {clinic['name']} ({city})" && \
+            git push origin main
+        """)
 
     print(f"  Done! {len(log['completed'])}/273 complete.")
 
