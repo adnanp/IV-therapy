@@ -67,6 +67,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/search" className="text-gray-600 hover:text-teal-700 font-medium transition-colors hidden sm:block">
                 Browse Clinics
               </Link>
+              <Link href="/blog" className="text-gray-600 hover:text-teal-700 font-medium transition-colors hidden sm:block">
+                Guides
+              </Link>
               <Link href="/pricing" className="text-gray-600 hover:text-teal-700 font-medium transition-colors hidden sm:block">
                 For Clinics
               </Link>

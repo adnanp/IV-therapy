@@ -67,6 +67,40 @@ export default async function ClinicDetailPage({ params }: PageProps) {
   // Use real specialties when available, otherwise show generic services
   const specialties = enrichment?.specialties ?? [];
 
+  const faqItems = [
+    {
+      q: `How much does IV therapy cost at ${clinic.name}?`,
+      a: enrichment?.priceNote ??
+        `IV therapy at ${clinic.name} typically ranges from $99 for basic hydration to $300+ for premium drips. NAD+ sessions may cost $400–$650. Contact the clinic for current pricing.`,
+    },
+    {
+      q: `How long does an IV therapy session take at ${clinic.name}?`,
+      a: enrichment?.sessionDuration ??
+        `Most IV therapy sessions at ${clinic.name} take 30–60 minutes. NAD+ infusions may take 2–4 hours. You can relax in a comfortable chair during your treatment.`,
+    },
+    {
+      q: `What should I expect on my first visit to ${clinic.name}?`,
+      a: enrichment?.firstVisitInfo ??
+        `On your first visit, you'll complete a brief health intake form and consult with a licensed nurse or medical professional. They'll recommend the best IV formula for your goals. Most sessions begin within 15 minutes.`,
+    },
+    {
+      q: `What IV treatments does ${clinic.name} offer?`,
+      a: specialties.length > 0
+        ? `${clinic.name} offers ${specialties.slice(0, 5).join(", ")} and more. Ask about their full menu when you call or book online.`
+        : `${clinic.name} offers a range of IV therapy treatments including hydration drips, Myers Cocktail, immune boost, vitamin C infusions, and wellness packages.`,
+    },
+  ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqItems.map(({ q, a }) => ({
+      "@type": "Question",
+      name: q,
+      acceptedAnswer: { "@type": "Answer", text: a },
+    })),
+  };
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "MedicalClinic",
@@ -103,6 +137,7 @@ export default async function ClinicDetailPage({ params }: PageProps) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* Mobile sticky CTA bar */}
       {(clinic.phone || clinic.website) && (
@@ -392,6 +427,24 @@ export default async function ClinicDetailPage({ params }: PageProps) {
             </Card>
           </aside>
         </div>
+
+        {/* FAQ Section */}
+        <section className="mt-10">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+          <div className="space-y-3">
+            {faqItems.map(({ q, a }) => (
+              <details key={q} className="group border border-gray-200 rounded-xl overflow-hidden">
+                <summary className="flex items-center justify-between gap-4 px-5 py-4 cursor-pointer font-medium text-gray-900 text-sm hover:bg-gray-50 transition-colors list-none">
+                  {q}
+                  <span className="shrink-0 text-teal-600 text-lg group-open:rotate-45 transition-transform">+</span>
+                </summary>
+                <div className="px-5 pb-4 pt-1 text-sm text-gray-600 leading-relaxed border-t border-gray-100">
+                  {a}
+                </div>
+              </details>
+            ))}
+          </div>
+        </section>
 
         {/* Claim your listing banner */}
         <div className="mt-10 mb-4 bg-gradient-to-r from-teal-50 to-teal-100 border border-teal-200 rounded-2xl px-6 py-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">

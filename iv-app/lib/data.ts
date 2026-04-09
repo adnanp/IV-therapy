@@ -102,6 +102,50 @@ export function getCities(): { city: string; state: string; slug: string; count:
   return Object.values(counts).sort((a, b) => b.count - a.count);
 }
 
+const STATE_NAMES: Record<string, string> = {
+  AL: "Alabama", AK: "Alaska", AZ: "Arizona", AR: "Arkansas", CA: "California",
+  CO: "Colorado", CT: "Connecticut", DE: "Delaware", FL: "Florida", GA: "Georgia",
+  HI: "Hawaii", ID: "Idaho", IL: "Illinois", IN: "Indiana", IA: "Iowa",
+  KS: "Kansas", KY: "Kentucky", LA: "Louisiana", ME: "Maine", MD: "Maryland",
+  MA: "Massachusetts", MI: "Michigan", MN: "Minnesota", MS: "Mississippi", MO: "Missouri",
+  MT: "Montana", NE: "Nebraska", NV: "Nevada", NH: "New Hampshire", NJ: "New Jersey",
+  NM: "New Mexico", NY: "New York", NC: "North Carolina", ND: "North Dakota", OH: "Ohio",
+  OK: "Oklahoma", OR: "Oregon", PA: "Pennsylvania", RI: "Rhode Island", SC: "South Carolina",
+  SD: "South Dakota", TN: "Tennessee", TX: "Texas", UT: "Utah", VT: "Vermont",
+  VA: "Virginia", WA: "Washington", WV: "West Virginia", WI: "Wisconsin", WY: "Wyoming",
+  DC: "Washington D.C.",
+};
+
+export function getStateName(abbr: string): string {
+  return STATE_NAMES[abbr.toUpperCase()] ?? abbr;
+}
+
+export function getStates(): { state: string; stateName: string; slug: string; count: number; cities: number }[] {
+  const counts: Record<string, { state: string; stateName: string; slug: string; count: number; citySet: Set<string> }> = {};
+  for (const c of clinics) {
+    if (!counts[c.state]) {
+      counts[c.state] = {
+        state: c.state,
+        stateName: getStateName(c.state),
+        slug: c.state.toLowerCase(),
+        count: 0,
+        citySet: new Set(),
+      };
+    }
+    counts[c.state].count++;
+    counts[c.state].citySet.add(c.city);
+  }
+  return Object.values(counts)
+    .map(({ citySet, ...rest }) => ({ ...rest, cities: citySet.size }))
+    .sort((a, b) => b.count - a.count);
+}
+
+export function getClinicsByState(stateAbbr: string): Clinic[] {
+  return clinics
+    .filter((c) => c.state.toLowerCase() === stateAbbr.toLowerCase())
+    .sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0) || (b.reviewCount ?? 0) - (a.reviewCount ?? 0));
+}
+
 export function getClinicsByCity(city: string, state: string): Clinic[] {
   return clinics
     .filter((c) => c.city.toLowerCase() === city.toLowerCase() && c.state.toLowerCase() === state.toLowerCase())
