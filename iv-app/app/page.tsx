@@ -5,7 +5,8 @@ import { SearchBar } from "@/components/SearchBar";
 import { ClinicCard } from "@/components/ClinicCard";
 import { TreatmentQuiz } from "@/components/TreatmentQuiz";
 import { EmailCapture } from "@/components/EmailCapture";
-import { MapPin, Star, Zap, Shield, Droplets, Brain, Dumbbell, Sparkles } from "lucide-react";
+import { MapPin, Star, Zap, Shield, Droplets, Brain, Dumbbell, Sparkles, BookOpen, Clock } from "lucide-react";
+import posts from "@/data/blog-posts.json";
 
 export const metadata: Metadata = {
   title: "IVDirectory – Find IV Therapy Clinics Near You",
@@ -265,6 +266,47 @@ export default function HomePage() {
                 <h3 className="font-semibold text-gray-900 mb-2">{q}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{a}</p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Blog Preview */}
+      <section className="py-16 px-4 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex items-end justify-between mb-8">
+            <div>
+              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">IV Therapy Guides &amp; Research</h2>
+              <p className="text-gray-500 mt-1">Evidence-based articles to help you make informed decisions</p>
+            </div>
+            <Link href="/blog" className="text-teal-600 hover:text-teal-800 font-semibold text-sm transition-colors whitespace-nowrap flex items-center gap-1">
+              <BookOpen className="w-4 h-4" />
+              View all guides →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+            {posts.slice(0, 3).map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="group bg-white rounded-2xl border border-gray-200 overflow-hidden hover:border-teal-400 hover:shadow-md transition-all"
+              >
+                <div className="p-6">
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="text-xs font-medium px-2 py-0.5 rounded-full bg-teal-50 text-teal-700">
+                      {post.category}
+                    </span>
+                    <span className="flex items-center gap-1 text-xs text-gray-400">
+                      <Clock className="w-3 h-3" />
+                      {post.readTime}
+                    </span>
+                  </div>
+                  <h3 className="font-semibold text-gray-900 text-sm leading-snug mb-2 group-hover:text-teal-700 transition-colors">
+                    {post.title}
+                  </h3>
+                  <p className="text-gray-500 text-xs leading-relaxed line-clamp-2">{post.excerpt}</p>
+                </div>
+              </Link>
             ))}
           </div>
         </div>
