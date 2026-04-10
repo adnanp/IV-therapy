@@ -1,4 +1,5 @@
 import posts from "@/data/blog-posts.json";
+import { getAllClinics } from "@/lib/data";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { BookOpen, Clock, Tag } from "lucide-react";
@@ -17,6 +18,7 @@ const CATEGORY_COLORS: Record<string, string> = {
 };
 
 export default function BlogPage() {
+  const totalClinics = getAllClinics().length;
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {/* Header */}
@@ -68,7 +70,7 @@ export default function BlogPage() {
       {/* CTA */}
       <div className="mt-12 bg-teal-50 border border-teal-200 rounded-2xl p-8 text-center">
         <h2 className="text-xl font-bold text-teal-900 mb-2">Ready to find a clinic near you?</h2>
-        <p className="text-teal-700 text-sm mb-5">Browse 273 verified IV therapy clinics with real reviews and pricing.</p>
+        <p className="text-teal-700 text-sm mb-5">Browse {totalClinics}+ verified IV therapy clinics with real reviews and pricing.</p>
         <Link
           href="/search"
           className="inline-block bg-teal-600 hover:bg-teal-700 text-white font-bold px-6 py-3 rounded-xl transition-colors"

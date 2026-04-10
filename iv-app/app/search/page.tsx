@@ -36,9 +36,9 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
-      {/* Search bar */}
+      {/* Search bar — key forces remount when query changes so internal state stays in sync */}
       <div className="mb-4 max-w-xl">
-        <SearchBar defaultValue={query} />
+        <SearchBar key={query} defaultValue={query} />
       </div>
 
       {/* Mobile filter pills — visible only below lg */}

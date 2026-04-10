@@ -1,4 +1,5 @@
 import posts from "@/data/blog-posts.json";
+import { getAllClinics } from "@/lib/data";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -39,6 +40,7 @@ export default async function BlogPostPage({ params }: BlogPostProps) {
   if (!post) notFound();
 
   const otherPosts = posts.filter((p) => p.slug !== slug).slice(0, 3);
+  const totalClinics = getAllClinics().length;
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -92,7 +94,7 @@ export default async function BlogPostPage({ params }: BlogPostProps) {
         {/* CTA */}
         <div className="mt-12 bg-teal-50 border border-teal-200 rounded-2xl p-7 text-center">
           <h2 className="text-lg font-bold text-teal-900 mb-2">Find an IV Therapy Clinic Near You</h2>
-          <p className="text-teal-700 text-sm mb-4">Browse 273 verified clinics with real reviews, hours, and pricing.</p>
+          <p className="text-teal-700 text-sm mb-4">Browse {totalClinics}+ verified clinics with real reviews, hours, and pricing.</p>
           <Link
             href="/search"
             className="inline-block bg-teal-600 hover:bg-teal-700 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm"

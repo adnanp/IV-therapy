@@ -1,6 +1,6 @@
 import { getClinic, getEnrichment } from "@/lib/data";
 import Link from "next/link";
-import { Star, MapPin, Phone, Clock, Timer, CheckCircle, XCircle, ExternalLink } from "lucide-react";
+import { Star, MapPin, Phone, Timer, CheckCircle, ExternalLink } from "lucide-react";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
@@ -110,7 +110,8 @@ export default async function ComparePage({ searchParams }: ComparePageProps) {
     }
   }
 
-  const colWidth = clinics.length === 2 ? "w-1/2" : "w-1/3";
+  const headerGridClass = clinics.length === 2 ? "grid-cols-2" : "grid-cols-3";
+  const rowGridClass = clinics.length === 2 ? "grid-cols-3" : "grid-cols-4";
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
@@ -126,7 +127,7 @@ export default async function ComparePage({ searchParams }: ComparePageProps) {
       <p className="text-gray-500 text-sm mb-8">Side-by-side comparison of IV therapy clinics</p>
 
       {/* Clinic header cards */}
-      <div className={`grid grid-cols-${clinics.length} gap-4 mb-8`}>
+      <div className={`grid ${headerGridClass} gap-4 mb-8`}>
         {clinics.map(({ clinic }) => (
           <div key={clinic.slug} className="bg-white rounded-xl border border-gray-200 p-5">
             <h2 className="font-bold text-gray-900 text-base leading-snug mb-2">{clinic.name}</h2>
@@ -168,7 +169,7 @@ export default async function ComparePage({ searchParams }: ComparePageProps) {
         {ROWS.map((row, i) => (
           <div
             key={row.key}
-            className={`grid grid-cols-${clinics.length + 1} ${i % 2 === 0 ? "bg-white" : "bg-gray-50"}`}
+            className={`grid ${rowGridClass} ${i % 2 === 0 ? "bg-white" : "bg-gray-50"}`}
           >
             {/* Row label */}
             <div className="px-4 py-4 border-r border-gray-100">

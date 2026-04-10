@@ -26,9 +26,15 @@ export async function POST(req: NextRequest) {
     const { slug, type } = body;
     if (!slug || !type) return NextResponse.json({ ok: false }, { status: 400 });
 
-    const clicks = loadClicks();
-    clicks.push({ slug, type, ts: Date.now(), date: new Date().toISOString() });
-    writeFileSync(CLICKS_FILE, JSON.stringify(clicks, null, 2));
+    // Best-effort write — filesystem is read-only on serverless (Vercel).
+    // Silently skip if write fails so the client always gets a 200.
+    try {
+      const clicks = loadClicks();
+      clicks.push({ slug, type, ts: Date.now(), date: new Date().toISOString() });
+      writeFileSync(CLICKS_FILE, JSON.stringify(clicks, null, 2));
+    } catch {
+      // Filesystem not writable (serverless) — skip silently
+    }
 
     return NextResponse.json({ ok: true });
   } catch {

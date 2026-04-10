@@ -1,6 +1,7 @@
 import { getClinic, getAllSlugs, getReviews, getEnrichment, isFeatured } from "@/lib/data";
 import { TrackLink } from "@/components/TrackLink";
 import { ReviewCard } from "@/components/ReviewCard";
+import { OpenNowBadge, OpenNowText } from "@/components/OpenNowBadge";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -12,7 +13,7 @@ import { StarRating } from "@/components/StarRating";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { formatPhone, isOpenNow, getHoursDisplay } from "@/lib/utils";
+import { formatPhone, getHoursDisplay } from "@/lib/utils";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -57,7 +58,6 @@ export default async function ClinicDetailPage({ params }: PageProps) {
   const clinic = getClinic(slug);
   if (!clinic) notFound();
 
-  const openStatus = isOpenNow(clinic.hours);
   const hoursDisplay = getHoursDisplay(clinic.hours);
   const phone = formatPhone(clinic.phone);
   const reviews = getReviews(slug);
@@ -189,16 +189,10 @@ export default async function ClinicDetailPage({ params }: PageProps) {
                   <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 leading-tight">{clinic.name}</h1>
                   <div className="flex items-start gap-1.5 mt-2 text-gray-500 text-sm">
                     <MapPin className="w-4 h-4 shrink-0 mt-0.5 text-teal-500" />
-                    <span>{clinic.streetAddress}, {clinic.city}, {clinic.state} {clinic.zip}</span>
+                    <span>{[clinic.streetAddress, clinic.city, `${clinic.state}${clinic.zip ? " " + clinic.zip : ""}`].filter(Boolean).join(", ")}</span>
                   </div>
                 </div>
-                {openStatus !== null && (
-                  <span className={`shrink-0 text-sm font-semibold px-3 py-1.5 rounded-full ${
-                    openStatus ? "bg-green-50 text-green-700 border border-green-200" : "bg-red-50 text-red-600 border border-red-200"
-                  }`}>
-                    {openStatus ? "● Open Now" : "○ Closed"}
-                  </span>
-                )}
+                <OpenNowBadge hours={clinic.hours} />
               </div>
 
               {clinic.rating != null && (
@@ -225,7 +219,7 @@ export default async function ClinicDetailPage({ params }: PageProps) {
                 frameBorder="0"
                 style={{ border: 0 }}
                 src={`https://maps.google.com/maps?q=${encodeURIComponent(
-                  `${clinic.streetAddress}, ${clinic.city}, ${clinic.state} ${clinic.zip}`
+                  [clinic.streetAddress, clinic.city, `${clinic.state}${clinic.zip ? " " + clinic.zip : ""}`].filter(Boolean).join(", ")
                 )}&output=embed`}
                 allowFullScreen
                 loading="lazy"
@@ -368,7 +362,10 @@ export default async function ClinicDetailPage({ params }: PageProps) {
                 <h3 className="font-semibold text-gray-900">Contact & Info</h3>
                 <div className="flex items-start gap-3 text-sm">
                   <MapPin className="w-4 h-4 text-teal-500 mt-0.5 shrink-0" />
-                  <span className="text-gray-600 leading-relaxed">{clinic.streetAddress}<br />{clinic.city}, {clinic.state} {clinic.zip}</span>
+                  <span className="text-gray-600 leading-relaxed">
+                    {clinic.streetAddress && <>{clinic.streetAddress}<br /></>}
+                    {clinic.city}, {clinic.state}{clinic.zip ? ` ${clinic.zip}` : ""}
+                  </span>
                 </div>
                 {clinic.phone && (
                   <div className="flex items-center gap-3 text-sm">
@@ -395,11 +392,7 @@ export default async function ClinicDetailPage({ params }: PageProps) {
                     <h3 className="font-semibold text-gray-900 flex items-center gap-2">
                       <Clock className="w-4 h-4 text-teal-500" /> Hours
                     </h3>
-                    {openStatus !== null && (
-                      <span className={`text-xs font-semibold ${openStatus ? "text-green-600" : "text-red-500"}`}>
-                        {openStatus ? "Open Now" : "Closed Now"}
-                      </span>
-                    )}
+                    <OpenNowText hours={clinic.hours} />
                   </div>
                   <div className="space-y-2">
                     {DAYS.map((day) => {
