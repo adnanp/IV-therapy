@@ -1,5 +1,21 @@
 {
   "notes": "Tracks which clinic websites have been visited and had AI images generated. 5 clinics per day, spaced throughout the day.",
-  "completed": [],
+  "completed": [
+    {
+      "slug": "lifted-beauty-wellness-seattle",
+      "name": "Lifted Beauty & Wellness",
+      "date": "2026-04-10"
+    },
+    {
+      "slug": "prime-iv-hydration-wellness-appleton-appleton",
+      "name": "Prime IV Hydration & Wellness - Appleton",
+      "date": "2026-04-10"
+    },
+    {
+      "slug": "best-you-healthcare-solutions-iv-therapy-trt-weight-loss-dot-certifications-sand",
+      "name": "Best You Healthcare Solutions - IV Therapy, TRT, Weight Loss, DOT Certifications",
+      "date": "2026-04-10"
+    }
+  ],
   "pending": []
 }
