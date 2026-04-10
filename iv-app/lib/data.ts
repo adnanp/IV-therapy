@@ -200,7 +200,8 @@ export function searchClinics(params: {
 
   let results = clinics.filter((c) => {
     if (zip) {
-      if (!c.zip || !c.zip.includes(zip.trim())) return false;
+      const zipTrimmed = zip.trim();
+      if (!c.zip || c.zip.trim() !== zipTrimmed) return false;
     } else if (q) {
       const term = q.trim().toLowerCase();
       const parts = term.split(",").map((s) => s.trim());

@@ -28,7 +28,7 @@ export function ReviewCard({ review }: ReviewCardProps) {
           )}
           <div>
             <p className="text-sm font-semibold text-gray-900">{review.authorName}</p>
-            <p className="text-xs text-gray-400">{review.relativeTimeDescription}</p>
+            {review.relativeTimeDescription && <p className="text-xs text-gray-400">{review.relativeTimeDescription}</p>}
           </div>
         </div>
         <div className="flex items-center shrink-0">

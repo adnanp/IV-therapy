@@ -62,7 +62,8 @@ export function EmailCapture({ variant = "banner", city }: EmailCaptureProps) {
               onChange={(e) => setEmail(e.target.value)}
               placeholder="your@email.com"
               required
-              className="flex-1 text-xs px-3 py-2 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent"
+              disabled={status === "loading"}
+              className="flex-1 text-xs px-3 py-2 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent disabled:opacity-50"
             />
             <button
               type="submit"
@@ -105,7 +106,8 @@ export function EmailCapture({ variant = "banner", city }: EmailCaptureProps) {
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email address"
               required
-              className="flex-1 px-4 py-3 rounded-xl border-0 text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-teal-300 placeholder-gray-400"
+              disabled={status === "loading"}
+              className="flex-1 px-4 py-3 rounded-xl border-0 text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-teal-300 placeholder-gray-400 disabled:opacity-60"
             />
             <button
               type="submit"
