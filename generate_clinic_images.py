@@ -1,24 +1,13 @@
 #!/usr/bin/env python3
 """
-Clinic Image Generator — generates realistic AI photos for clinic pages using
-Google Imagen 3 via the Gemini API (free tier: 150 images/day).
+Clinic Image Generator — generates AI photos for clinic pages using
+Pollinations.ai (completely free, no API key, no IP restrictions).
 
-Run from your LOCAL machine (Google blocks this API from cloud server IPs):
-
-  GEMINI_API_KEY="AIza..." python3 generate_clinic_images.py
-
-Or set it once:
-  export GEMINI_API_KEY="AIza..."
-  python3 generate_clinic_images.py   # generates 1 image per run
-
-Cron (5/day on your local machine):
-  0 8,10,13,16,18 * * * cd /path/to/IV-therapy && GEMINI_API_KEY="AIza..." python3 generate_clinic_images.py >> image_gen.log 2>&1
+Runs automatically via GitHub Actions 5x/day.
 """
 
-import base64
 import json
 import os
-import sys
 import urllib.request
 import urllib.parse
 import re
@@ -32,31 +21,7 @@ IMAGES_FILE = BASE / "iv-app/data/clinic_images.json"
 LOG_FILE = BASE / "iv-app/data/image_generation_log.json"
 IMAGE_DIR = BASE / "iv-app/public/clinic-images"
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 IMAGE_DIR.mkdir(exist_ok=True)
-
-
-# ─── WEBSITE SCRAPER ──────────────────────────────────────────────────────────
-
-def scrape_website(url: str) -> str:
-    if not url:
-        return ""
-    url = re.sub(r'%3F.*', '', url).split('?')[0]
-    if not url.startswith('http'):
-        url = 'http://' + url
-    try:
-        req = urllib.request.Request(
-            url,
-            headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'}
-        )
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            html = resp.read().decode('utf-8', errors='replace')
-        html = re.sub(r'<(script|style)[^>]*>.*?</\1>', '', html, flags=re.DOTALL | re.IGNORECASE)
-        text = re.sub(r'<[^>]+>', ' ', html)
-        text = re.sub(r'\s+', ' ', text).strip()
-        return text[:3000]
-    except Exception:
-        return ""
 
 
 # ─── PROMPT BUILDER ───────────────────────────────────────────────────────────
@@ -97,62 +62,35 @@ def build_image_prompt(clinic: dict, enrichment: dict | None, website_text: str)
         f"A nurse in scrubs attending to a relaxed smiling patient. "
         f"Clean modern inviting healthcare environment. "
         f"Shot on Canon EOS R5 with 24-70mm f/2.8 lens, shallow depth of field. "
-        f"Photorealistic DSLR photo, 8K resolution, editorial healthcare photography. "
+        f"Photorealistic DSLR photo, editorial healthcare photography. "
         f"No text overlays, no watermarks, no cartoon style, fully realistic."
     )
 
 
-# ─── IMAGE GENERATION via Google Imagen 3 (Gemini API, free) ─────────────────
+# ─── IMAGE GENERATION via Pollinations.ai (free, no key needed) ──────────────
 
 def generate_image(prompt: str, slug: str) -> str | None:
-    url = (
-        f"https://generativelanguage.googleapis.com/v1beta/models/"
-        f"imagen-3.0-fast-generate-001:predict?key={GEMINI_API_KEY}"
-    )
+    encoded = urllib.parse.quote(prompt)
+    # Use slug as seed for consistency (same clinic always gets same image)
+    seed = abs(hash(slug)) % 999999
+    url = f"https://image.pollinations.ai/prompt/{encoded}?width=1200&height=800&seed={seed}&nologo=true&model=flux-realism"
 
-    payload = json.dumps({
-        "instances": [{"prompt": prompt}],
-        "parameters": {
-            "sampleCount": 1,
-            "aspectRatio": "16:9",
-            "personGeneration": "allow_adult",
-            "safetyFilterLevel": "block_few",
-        }
-    }).encode()
-
-    req = urllib.request.Request(
-        url,
-        data=payload,
-        headers={"Content-Type": "application/json"}
-    )
-
-    print(f"  Calling Google Imagen 3 Fast (free)...")
+    print(f"  Calling Pollinations.ai (free, no key)...")
     try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            result = json.loads(resp.read())
-    except urllib.error.HTTPError as e:
-        body = e.read().decode()
-        try:
-            err = json.loads(body)
-            print(f"  API error {e.code}: {err.get('error', {}).get('message', body[:200])}")
-        except Exception:
-            print(f"  HTTP {e.code}: {body[:200]}")
-        return None
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; IVDirectory/1.0)"}
+        )
+        with urllib.request.urlopen(req, timeout=90) as resp:
+            image_bytes = resp.read()
     except Exception as e:
         print(f"  Error: {e}")
         return None
 
-    predictions = result.get("predictions", [])
-    if not predictions:
-        print(f"  No image in response: {str(result)[:200]}")
+    if len(image_bytes) < 5000:
+        print(f"  Response too small ({len(image_bytes)} bytes) — likely an error")
         return None
 
-    image_b64 = predictions[0].get("bytesBase64Encoded", "")
-    if not image_b64:
-        print(f"  Empty image data in response")
-        return None
-
-    image_bytes = base64.b64decode(image_b64)
     image_path = IMAGE_DIR / f"{slug}.jpg"
     image_path.write_bytes(image_bytes)
     print(f"  Saved: {image_path.name} ({len(image_bytes) // 1024}KB)")
@@ -160,6 +98,27 @@ def generate_image(prompt: str, slug: str) -> str | None:
 
 
 # ─── HELPERS ──────────────────────────────────────────────────────────────────
+
+def scrape_website(url: str) -> str:
+    if not url:
+        return ""
+    url = re.sub(r'%3F.*', '', url).split('?')[0]
+    if not url.startswith('http'):
+        url = 'http://' + url
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'}
+        )
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            html = resp.read().decode('utf-8', errors='replace')
+        html = re.sub(r'<(script|style)[^>]*>.*?</\1>', '', html, flags=re.DOTALL | re.IGNORECASE)
+        text = re.sub(r'<[^>]+>', ' ', html)
+        text = re.sub(r'\s+', ' ', text).strip()
+        return text[:3000]
+    except Exception:
+        return ""
+
 
 def load_json(path: Path) -> dict:
     return json.loads(path.read_text()) if path.exists() else {}
@@ -172,12 +131,6 @@ def save_json(path: Path, data: dict):
 # ─── MAIN ─────────────────────────────────────────────────────────────────────
 
 def main():
-    if not GEMINI_API_KEY:
-        print("ERROR: Set your Gemini API key:")
-        print("  export GEMINI_API_KEY='AIza...'")
-        print("  python3 generate_clinic_images.py")
-        sys.exit(1)
-
     clinics = json.loads(CLINICS_FILE.read_text())
     enriched = load_json(ENRICHED_FILE)
     images = load_json(IMAGES_FILE)
@@ -188,7 +141,6 @@ def main():
     pending = [
         c for c in clinics
         if c["slug"] not in completed_slugs
-        and c.get("website")
         and c["slug"] not in images
     ]
 
@@ -196,47 +148,41 @@ def main():
         print("All clinics processed!")
         return
 
-    clinic = pending[0]
-    slug = clinic["slug"]
-    city = clinic["city"]
-    print(f"\nProcessing ({len(pending)} left): {clinic['name']} — {city}, {clinic['state']}")
+    # Process up to 5 clinics per run
+    batch = pending[:5]
+    print(f"{len(pending)} clinics remaining. Processing {len(batch)} this run...")
 
-    website_text = scrape_website(clinic.get("website", ""))
-    print(f"  Scraped {len(website_text)} chars from website")
+    for clinic in batch:
+        slug = clinic["slug"]
+        city = clinic["city"]
+        print(f"\n  [{clinic['name']} — {city}, {clinic['state']}]")
 
-    enrichment = enriched.get(slug)
-    prompt = build_image_prompt(clinic, enrichment, website_text)
-    print(f"  Prompt: {prompt[:100]}...")
+        website_text = scrape_website(clinic.get("website", ""))
+        enrichment = enriched.get(slug)
+        prompt = build_image_prompt(clinic, enrichment, website_text)
+        print(f"  Prompt: {prompt[:80]}...")
 
-    image_path = generate_image(prompt, slug)
-    if not image_path:
-        print("  Failed — will retry next run")
-        return
+        image_path = generate_image(prompt, slug)
+        if not image_path:
+            print("  Failed — will retry next run")
+            continue
 
-    images[slug] = {
-        "path": image_path,
-        "generatedAt": date.today().isoformat(),
-        "prompt": prompt[:300],
-    }
-    save_json(IMAGES_FILE, images)
+        images[slug] = {
+            "path": image_path,
+            "generatedAt": date.today().isoformat(),
+        }
+        save_json(IMAGES_FILE, images)
 
-    log.setdefault("completed", []).append({
-        "slug": slug,
-        "name": clinic["name"],
-        "date": date.today().isoformat(),
-    })
-    save_json(LOG_FILE, log)
+        log.setdefault("completed", []).append({
+            "slug": slug,
+            "name": clinic["name"],
+            "date": date.today().isoformat(),
+        })
+        save_json(LOG_FILE, log)
 
-    # Auto-commit and push (skip if running inside GitHub Actions — workflow handles it)
-    if not os.environ.get("GITHUB_ACTIONS"):
-        os.system(f"""
-            cd '{BASE}' && \
-            git add iv-app/data/clinic_images.json iv-app/data/image_generation_log.json 'iv-app/public/clinic-images/{slug}.jpg' && \
-            git commit -m "Add AI image: {clinic['name']} ({city})" && \
-            git push origin main
-        """)
+        print(f"  Done! {len(log['completed'])}/{len(clinics)} complete.")
 
-    print(f"  Done! {len(log['completed'])}/273 complete.")
+    print(f"\nBatch complete. {len(pending) - len(batch)} clinics still pending.")
 
 
 if __name__ == "__main__":
