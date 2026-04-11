@@ -45,6 +45,26 @@
       "slug": "ethereal-aesthetics-vancouver",
       "name": "Ethereal Aesthetics",
       "date": "2026-04-11"
+    },
+    {
+      "slug": "medivee-live-well-aesthetics-ferndale",
+      "name": "Medivee & Live Well Aesthetics",
+      "date": "2026-04-11"
+    },
+    {
+      "slug": "root-infusions-and-wellness-south-easton",
+      "name": "root infusions and wellness",
+      "date": "2026-04-11"
+    },
+    {
+      "slug": "inshapemd-clinic-redmond",
+      "name": "InShapeMD Clinic",
+      "date": "2026-04-11"
+    },
+    {
+      "slug": "vio-med-spa-redmond",
+      "name": "VIO Med Spa",
+      "date": "2026-04-11"
     }
   ],
   "pending": []

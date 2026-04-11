@@ -34,5 +34,21 @@
   "ethereal-aesthetics-vancouver": {
     "path": "/clinic-images/ethereal-aesthetics-vancouver.jpg",
     "generatedAt": "2026-04-11"
+  },
+  "medivee-live-well-aesthetics-ferndale": {
+    "path": "/clinic-images/medivee-live-well-aesthetics-ferndale.jpg",
+    "generatedAt": "2026-04-11"
+  },
+  "root-infusions-and-wellness-south-easton": {
+    "path": "/clinic-images/root-infusions-and-wellness-south-easton.jpg",
+    "generatedAt": "2026-04-11"
+  },
+  "inshapemd-clinic-redmond": {
+    "path": "/clinic-images/inshapemd-clinic-redmond.jpg",
+    "generatedAt": "2026-04-11"
+  },
+  "vio-med-spa-redmond": {
+    "path": "/clinic-images/vio-med-spa-redmond.jpg",
+    "generatedAt": "2026-04-11"
   }
 }
