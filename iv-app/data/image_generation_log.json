@@ -30,6 +30,21 @@
       "slug": "fresh-iv-drips-fresh-meadows",
       "name": "Fresh IV Drips",
       "date": "2026-04-11"
+    },
+    {
+      "slug": "zyra-clinic-redmond",
+      "name": "Zyra Clinic",
+      "date": "2026-04-11"
+    },
+    {
+      "slug": "the-dripbar-fairfield-iv-therapy-fairfield",
+      "name": "The DRIPBaR Fairfield - IV Therapy",
+      "date": "2026-04-11"
+    },
+    {
+      "slug": "ethereal-aesthetics-vancouver",
+      "name": "Ethereal Aesthetics",
+      "date": "2026-04-11"
     }
   ],
   "pending": []

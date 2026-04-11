@@ -22,5 +22,17 @@
   "fresh-iv-drips-fresh-meadows": {
     "path": "/clinic-images/fresh-iv-drips-fresh-meadows.jpg",
     "generatedAt": "2026-04-11"
+  },
+  "zyra-clinic-redmond": {
+    "path": "/clinic-images/zyra-clinic-redmond.jpg",
+    "generatedAt": "2026-04-11"
+  },
+  "the-dripbar-fairfield-iv-therapy-fairfield": {
+    "path": "/clinic-images/the-dripbar-fairfield-iv-therapy-fairfield.jpg",
+    "generatedAt": "2026-04-11"
+  },
+  "ethereal-aesthetics-vancouver": {
+    "path": "/clinic-images/ethereal-aesthetics-vancouver.jpg",
+    "generatedAt": "2026-04-11"
   }
 }
