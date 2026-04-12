@@ -90,6 +90,31 @@
       "slug": "drip-wellness-pllc-mill-creek",
       "name": "Drip Wellness, PLLC",
       "date": "2026-04-12"
+    },
+    {
+      "slug": "prime-iv-hydration-wellness-north-spokane-spokane",
+      "name": "Prime IV Hydration & Wellness - North Spokane",
+      "date": "2026-04-12"
+    },
+    {
+      "slug": "intravene-mobile-iv-therapy-spokane-spokane",
+      "name": "Intravene Mobile IV Therapy - Spokane",
+      "date": "2026-04-12"
+    },
+    {
+      "slug": "prime-iv-hydration-wellness-mill-creek-gateway-mill-creek",
+      "name": "Prime IV Hydration & Wellness - Mill Creek - Gateway",
+      "date": "2026-04-12"
+    },
+    {
+      "slug": "prime-iv-hydration-wellness-kennewick-kennewick",
+      "name": "Prime IV Hydration & Wellness - Kennewick",
+      "date": "2026-04-12"
+    },
+    {
+      "slug": "blue-iv-hydration-and-spa-richland",
+      "name": "Blue IV Hydration and Spa",
+      "date": "2026-04-12"
     }
   ],
   "pending": []
