@@ -50,5 +50,25 @@
   "vio-med-spa-redmond": {
     "path": "/clinic-images/vio-med-spa-redmond.jpg",
     "generatedAt": "2026-04-11"
+  },
+  "alpine-integrated-medicine-redmond": {
+    "path": "/clinic-images/alpine-integrated-medicine-redmond.jpg",
+    "generatedAt": "2026-04-12"
+  },
+  "tri-cities-ketamine-infusion-and-wellness-clinic-kennewick-wa-kennewick": {
+    "path": "/clinic-images/tri-cities-ketamine-infusion-and-wellness-clinic-kennewick-wa-kennewick.jpg",
+    "generatedAt": "2026-04-12"
+  },
+  "prime-iv-hydration-wellness-spokane-spokane": {
+    "path": "/clinic-images/prime-iv-hydration-wellness-spokane-spokane.jpg",
+    "generatedAt": "2026-04-12"
+  },
+  "optimized-health-iv-bar-kennewick": {
+    "path": "/clinic-images/optimized-health-iv-bar-kennewick.jpg",
+    "generatedAt": "2026-04-12"
+  },
+  "drip-wellness-pllc-mill-creek": {
+    "path": "/clinic-images/drip-wellness-pllc-mill-creek.jpg",
+    "generatedAt": "2026-04-12"
   }
 }
