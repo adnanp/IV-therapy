@@ -155,6 +155,31 @@
       "slug": "revive-drip-gig-harbor",
       "name": "Revive Drip",
       "date": "2026-04-12"
+    },
+    {
+      "slug": "nouveau-medspas-gig-harbor",
+      "name": "Nouveau MedSpas",
+      "date": "2026-04-12"
+    },
+    {
+      "slug": "empowered-med-spa-tacoma",
+      "name": "Empowered Med Spa",
+      "date": "2026-04-12"
+    },
+    {
+      "slug": "pinnacle-health-and-spa-tacoma",
+      "name": "Pinnacle Health and Spa",
+      "date": "2026-04-12"
+    },
+    {
+      "slug": "i-iv-hydration-wellness-bentonville",
+      "name": "I IV Hydration & Wellness",
+      "date": "2026-04-12"
+    },
+    {
+      "slug": "outbound-wellness-hood-river",
+      "name": "Outbound Wellness",
+      "date": "2026-04-12"
     }
   ],
   "pending": []

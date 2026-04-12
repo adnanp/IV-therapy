@@ -122,5 +122,25 @@
   "revive-drip-gig-harbor": {
     "path": "/clinic-images/revive-drip-gig-harbor.jpg",
     "generatedAt": "2026-04-12"
+  },
+  "nouveau-medspas-gig-harbor": {
+    "path": "/clinic-images/nouveau-medspas-gig-harbor.jpg",
+    "generatedAt": "2026-04-12"
+  },
+  "empowered-med-spa-tacoma": {
+    "path": "/clinic-images/empowered-med-spa-tacoma.jpg",
+    "generatedAt": "2026-04-12"
+  },
+  "pinnacle-health-and-spa-tacoma": {
+    "path": "/clinic-images/pinnacle-health-and-spa-tacoma.jpg",
+    "generatedAt": "2026-04-12"
+  },
+  "i-iv-hydration-wellness-bentonville": {
+    "path": "/clinic-images/i-iv-hydration-wellness-bentonville.jpg",
+    "generatedAt": "2026-04-12"
+  },
+  "outbound-wellness-hood-river": {
+    "path": "/clinic-images/outbound-wellness-hood-river.jpg",
+    "generatedAt": "2026-04-12"
   }
 }
