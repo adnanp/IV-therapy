@@ -1,4 +1,4 @@
-import { getClinic, getAllSlugs, getReviews, getEnrichment, isFeatured } from "@/lib/data";
+import { getClinic, getAllSlugs, getReviews, getEnrichment, isFeatured, getClinicImage } from "@/lib/data";
 import { TrackLink } from "@/components/TrackLink";
 import { ReviewCard } from "@/components/ReviewCard";
 import { OpenNowBadge, OpenNowText } from "@/components/OpenNowBadge";
@@ -59,6 +59,7 @@ export default async function ClinicDetailPage({ params }: PageProps) {
   if (!clinic) notFound();
 
   const hoursDisplay = getHoursDisplay(clinic.hours);
+  const clinicImage = getClinicImage(slug);
   const phone = formatPhone(clinic.phone);
   const reviews = getReviews(slug);
   const enrichment = getEnrichment(slug);
@@ -209,6 +210,17 @@ export default async function ClinicDetailPage({ params }: PageProps) {
                 </div>
               )}
             </div>
+
+            {/* AI clinic photo */}
+            {clinicImage && (
+              <div className="rounded-2xl overflow-hidden border border-gray-200 h-56 sm:h-72 bg-gray-100">
+                <img
+                  src={clinicImage}
+                  alt={`${clinic.name} interior`}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            )}
 
             {/* Map */}
             <div className="rounded-2xl overflow-hidden border border-gray-200 h-56 sm:h-72 bg-gray-100">

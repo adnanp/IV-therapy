@@ -2,6 +2,7 @@ import clinicsData from "@/data/clinics.json";
 import reviewsData from "@/data/reviews.json";
 import enrichedData from "@/data/enriched.json";
 import featuredData from "@/data/featured.json";
+import clinicImagesData from "@/data/clinic_images.json";
 
 export interface Clinic {
   id: number;
@@ -144,6 +145,12 @@ export function getClinicsByState(stateAbbr: string): Clinic[] {
   return clinics
     .filter((c) => c.state.toLowerCase() === stateAbbr.toLowerCase())
     .sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0) || (b.reviewCount ?? 0) - (a.reviewCount ?? 0));
+}
+
+const clinicImages = clinicImagesData as Record<string, { path: string; generatedAt: string }>;
+
+export function getClinicImage(slug: string): string | null {
+  return clinicImages[slug]?.path ?? null;
 }
 
 export function getClinicsByCity(city: string, state: string): Clinic[] {
