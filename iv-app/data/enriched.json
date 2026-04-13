@@ -2669,5 +2669,20 @@
       "Group & event IV party packages"
     ],
     "priceNote": "Drips typically range from $100 to $275 per session depending on formulation. Premium therapies such as NAD+ are priced higher, often $350\u2013$600. Add-on boosters (B12, glutathione, anti-nausea medication) are available for an additional fee. Group or party bookings may offer package pricing. A travel or mobile service fee may apply depending on distance."
+  },
+  "thrivewell-infusion-holbrook-holbrook": {
+    "sessionDuration": "45\u201360 minutes depending on drip selected",
+    "whatIsIncluded": "IV bag with customized blend of vitamins, minerals, and fluids administered by a licensed nurse or medical professional; vitals check before infusion; optional booster add-ons such as glutathione or B12 injection",
+    "firstVisitInfo": "First visit includes a brief health intake and wellness consultation, vitals assessment, and review of any medications or conditions; walk-ins welcome but appointments recommended",
+    "frequency": "Sessions can be done weekly for active recovery or immune support, bi-weekly for general wellness maintenance, or as needed for acute needs such as hydration or hangover relief",
+    "specialties": [
+      "Hydration & Recovery",
+      "Immune Support",
+      "Energy & B-Vitamin Drips",
+      "NAD+ Therapy",
+      "Hangover Relief",
+      "Vitamin C High-Dose Infusions"
+    ],
+    "priceNote": "Drips typically range from $100\u2013$275 per session based on formula complexity; membership and package pricing generally available for reduced per-session rates"
   }
 }
