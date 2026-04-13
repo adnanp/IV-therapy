@@ -142,5 +142,25 @@
   "outbound-wellness-hood-river": {
     "path": "/clinic-images/outbound-wellness-hood-river.jpg",
     "generatedAt": "2026-04-12"
+  },
+  "prime-iv-hydration-wellness-east-vancouver-camas-camas": {
+    "path": "/clinic-images/prime-iv-hydration-wellness-east-vancouver-camas-camas.jpg",
+    "generatedAt": "2026-04-13"
+  },
+  "elevate-wellness-chelan": {
+    "path": "/clinic-images/elevate-wellness-chelan.jpg",
+    "generatedAt": "2026-04-13"
+  },
+  "iv-elements-hoboken": {
+    "path": "/clinic-images/iv-elements-hoboken.jpg",
+    "generatedAt": "2026-04-13"
+  },
+  "integrated-wellness-psychiatry-tacoma": {
+    "path": "/clinic-images/integrated-wellness-psychiatry-tacoma.jpg",
+    "generatedAt": "2026-04-13"
+  },
+  "okojie-wellness-iv-infusion-therapy-vancouver-washington-vancouver": {
+    "path": "/clinic-images/okojie-wellness-iv-infusion-therapy-vancouver-washington-vancouver.jpg",
+    "generatedAt": "2026-04-13"
   }
 }

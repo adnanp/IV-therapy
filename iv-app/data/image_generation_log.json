@@ -180,6 +180,31 @@
       "slug": "outbound-wellness-hood-river",
       "name": "Outbound Wellness",
       "date": "2026-04-12"
+    },
+    {
+      "slug": "prime-iv-hydration-wellness-east-vancouver-camas-camas",
+      "name": "Prime IV Hydration & Wellness (East Vancouver-Camas)",
+      "date": "2026-04-13"
+    },
+    {
+      "slug": "elevate-wellness-chelan",
+      "name": "Elevate Wellness",
+      "date": "2026-04-13"
+    },
+    {
+      "slug": "iv-elements-hoboken",
+      "name": "IV Elements",
+      "date": "2026-04-13"
+    },
+    {
+      "slug": "integrated-wellness-psychiatry-tacoma",
+      "name": "Integrated Wellness & Psychiatry",
+      "date": "2026-04-13"
+    },
+    {
+      "slug": "okojie-wellness-iv-infusion-therapy-vancouver-washington-vancouver",
+      "name": "Okojie Wellness - IV Infusion Therapy Vancouver Washington",
+      "date": "2026-04-13"
     }
   ],
   "pending": []
