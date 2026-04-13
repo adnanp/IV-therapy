@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
 import { CompareProvider } from "@/components/CompareContext";
+import { MobileMenu } from "@/components/MobileMenu";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://ivdirectory.com";
 
@@ -53,7 +54,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className="h-full">
       <body className="min-h-full flex flex-col bg-white antialiased">
-        <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+        <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm relative">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
             <Link href="/" className="flex items-center gap-2 group">
               <div className="w-8 h-8 rounded-lg bg-teal-600 flex items-center justify-center">
@@ -73,6 +74,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/pricing" className="text-gray-600 hover:text-teal-700 font-medium transition-colors hidden sm:block">
                 For Clinics
               </Link>
+              <MobileMenu />
               <Link
                 href="/search"
                 className="bg-teal-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-teal-700 transition-colors"

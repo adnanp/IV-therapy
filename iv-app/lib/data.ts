@@ -3,6 +3,7 @@ import reviewsData from "@/data/reviews.json";
 import enrichedData from "@/data/enriched.json";
 import featuredData from "@/data/featured.json";
 import clinicImagesData from "@/data/clinic_images.json";
+import { isOpenNow } from "@/lib/utils";
 
 export interface Clinic {
   id: number;
@@ -168,6 +169,7 @@ export const TREATMENT_FILTERS = [
   { label: "Beauty & Glow", value: "beauty" },
   { label: "Vitamin C", value: "vitamin-c" },
   { label: "Glutathione", value: "glutathione" },
+  { label: "Mobile IV", value: "mobile" },
 ];
 
 const TREATMENT_KEYWORDS: Record<string, string[]> = {
@@ -179,6 +181,7 @@ const TREATMENT_KEYWORDS: Record<string, string[]> = {
   beauty: ["beauty", "glow", "glutathione", "biotin", "skin", "hair"],
   "vitamin-c": ["vitamin c", "high-dose c", "ascorbic"],
   glutathione: ["glutathione"],
+  mobile: ["mobile iv", "mobile", "concierge iv", "housecall", "house call", "at-home", "at home", "in-home"],
 };
 
 function clinicMatchesTreatment(slug: string, clinic: Clinic, treatmentValue: string): boolean {
@@ -201,8 +204,9 @@ export function searchClinics(params: {
   rating?: string;
   sort?: string;
   specialty?: string;
+  openNow?: string;
 }): Clinic[] {
-  const { q, zip, rating, sort, specialty } = params;
+  const { q, zip, rating, sort, specialty, openNow } = params;
   const minRating = rating ? parseFloat(rating) : undefined;
 
   let results = clinics.filter((c) => {
@@ -229,6 +233,10 @@ export function searchClinics(params: {
 
     if (specialty) {
       if (!clinicMatchesTreatment(c.slug, c, specialty)) return false;
+    }
+
+    if (openNow === "1") {
+      if (!isOpenNow(c.hours)) return false;
     }
 
     return true;

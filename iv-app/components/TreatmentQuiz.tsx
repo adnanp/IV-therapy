@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { useRouter } from "next/navigation"
-import { ChevronRight, RotateCcw, Sparkles } from "lucide-react"
+import { RotateCcw, Sparkles } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 const STEPS = [
@@ -143,7 +143,7 @@ export function TreatmentQuiz() {
             onClick={() => router.push(`/search?specialty=${result.specialty}`)}
             className="flex-1 bg-teal-600 hover:bg-teal-700 text-white font-semibold px-5 py-3 rounded-xl text-sm transition-colors flex items-center justify-center gap-2"
           >
-            Find {result.treatment} Clinics <ChevronRight className="w-4 h-4" />
+            Find {result.treatment} Clinics Near Me →
           </button>
           <button
             onClick={reset}
@@ -152,6 +152,7 @@ export function TreatmentQuiz() {
             <RotateCcw className="w-3.5 h-3.5" /> Retake
           </button>
         </div>
+        <p className="text-xs text-gray-400 mt-3 text-center pb-6">No account needed — browse instantly</p>
       </div>
     )
   }

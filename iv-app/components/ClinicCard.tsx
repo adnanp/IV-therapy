@@ -114,14 +114,20 @@ export function ClinicCard({ clinic }: ClinicCardProps) {
 
           {/* Footer */}
           <div className="flex items-center justify-between pt-3 border-t border-gray-100 mt-3">
-            {clinic.phone ? (
-              <div className="flex items-center gap-1 text-xs text-gray-500">
-                <Phone className="w-3.5 h-3.5" />
-                <span>{formatPhone(clinic.phone)}</span>
-              </div>
-            ) : (
-              <span />
-            )}
+            <div className="flex items-center gap-2 flex-wrap">
+              {clinic.phone ? (
+                <div className="flex items-center gap-1 text-xs text-gray-500">
+                  <Phone className="w-3.5 h-3.5" />
+                  <span>{formatPhone(clinic.phone)}</span>
+                </div>
+              ) : null}
+              {!featured && clinic.rating != null && clinic.rating >= 4.5 && (clinic.reviewCount ?? 0) >= 20 && (
+                <span className="text-xs text-teal-600 font-medium">✓ Verified</span>
+              )}
+              {clinic.priceRange && (
+                <span className="text-xs text-gray-500 font-medium">{clinic.priceRange}</span>
+              )}
+            </div>
             <span className="text-xs text-teal-600 font-semibold flex items-center gap-0.5 group-hover:gap-1.5 transition-all">
               View profile <ChevronRight className="w-3.5 h-3.5" />
             </span>

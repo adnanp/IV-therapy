@@ -5,6 +5,7 @@ import { SearchBar } from "@/components/SearchBar";
 import { ClinicCard } from "@/components/ClinicCard";
 import { TreatmentQuiz } from "@/components/TreatmentQuiz";
 import { EmailCapture } from "@/components/EmailCapture";
+import { NearMeButton } from "@/components/NearMeButton";
 import { MapPin, Star, Zap, Shield, Droplets, Brain, Dumbbell, Sparkles, BookOpen, Clock } from "lucide-react";
 import posts from "@/data/blog-posts.json";
 
@@ -26,6 +27,7 @@ const TREATMENTS = [
   { icon: <Zap className="w-5 h-5" />, label: "Hangover Recovery", desc: "Fluids, anti-nausea meds, and B-vitamins — feel human again in an hour.", specialty: "hangover" },
   { icon: <Dumbbell className="w-5 h-5" />, label: "Athletic Recovery", desc: "Amino acids, Magnesium, and electrolytes to accelerate muscle repair.", specialty: "athletic" },
   { icon: <Sparkles className="w-5 h-5" />, label: "Beauty & Glow", desc: "Glutathione, Biotin, and Vitamin C for radiant skin and healthy hair.", specialty: "beauty" },
+  { icon: <Zap className="w-5 h-5" />, label: "Mobile IV", desc: "We come to you — at home, office, or hotel. No clinic needed.", specialty: "mobile" },
 ];
 
 const FAQ = [
@@ -108,6 +110,7 @@ export default function HomePage() {
           <div className="max-w-xl mx-auto">
             <SearchBar size="lg" placeholder="City, state, or zip code..." />
           </div>
+          <NearMeButton className="mt-3" />
           <p className="text-teal-400 text-xs mt-4">
             Try: &quot;Seattle, WA&quot; · &quot;New York, NY&quot; · &quot;98101&quot;
           </p>
@@ -160,6 +163,9 @@ export default function HomePage() {
           <TreatmentQuiz />
         </div>
       </section>
+
+      {/* Email capture — after quiz */}
+      <EmailCapture variant="banner" />
 
       {/* How it works */}
       <section className="py-16 bg-white px-4">
@@ -327,9 +333,6 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
-
-      {/* Email capture */}
-      <EmailCapture variant="banner" />
     </>
   );
 }

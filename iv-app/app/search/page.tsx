@@ -12,6 +12,7 @@ interface SearchPageProps {
     rating?: string;
     sort?: string;
     specialty?: string;
+    openNow?: string;
   }>;
 }
 
@@ -48,6 +49,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
           currentSort={params.sort}
           currentRating={params.rating}
           currentSpecialty={params.specialty}
+          currentOpenNow={params.openNow}
           query={query}
         />
       </div>
@@ -55,7 +57,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
       <div className="flex gap-8">
         {/* Desktop sidebar filters */}
         <aside className="hidden lg:block w-52 shrink-0 pt-1">
-          <SearchFilters currentSort={params.sort} currentRating={params.rating} currentSpecialty={params.specialty} query={query} />
+          <SearchFilters currentSort={params.sort} currentRating={params.rating} currentSpecialty={params.specialty} currentOpenNow={params.openNow} query={query} />
         </aside>
 
         {/* Results */}

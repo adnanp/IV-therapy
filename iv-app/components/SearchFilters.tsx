@@ -9,11 +9,12 @@ interface SearchFiltersProps {
   currentSort?: string
   currentRating?: string
   currentSpecialty?: string
+  currentOpenNow?: string
   query: string
   variant?: "sidebar" | "mobile"
 }
 
-export function SearchFilters({ currentSort, currentRating, currentSpecialty, query, variant = "sidebar" }: SearchFiltersProps) {
+export function SearchFilters({ currentSort, currentRating, currentSpecialty, currentOpenNow, query, variant = "sidebar" }: SearchFiltersProps) {
   const router = useRouter()
   const pathname = usePathname()
 
@@ -23,7 +24,7 @@ export function SearchFilters({ currentSort, currentRating, currentSpecialty, qu
       if (/^\d{5}$/.test(query)) params.set("zip", query)
       else params.set("q", query)
     }
-    const merged = { sort: currentSort, rating: currentRating, specialty: currentSpecialty, ...overrides }
+    const merged = { sort: currentSort, rating: currentRating, specialty: currentSpecialty, openNow: currentOpenNow, ...overrides }
     for (const [k, v] of Object.entries(merged)) {
       if (v) params.set(k, v)
     }
@@ -94,6 +95,18 @@ export function SearchFilters({ currentSort, currentRating, currentSpecialty, qu
             {opt.label}
           </button>
         ))}
+        <div className="w-px h-4 bg-gray-200 shrink-0" />
+        <button
+          onClick={() => router.push(buildUrl({ openNow: currentOpenNow === "1" ? undefined : "1" }))}
+          className={cn(
+            "shrink-0 text-xs px-3 py-1.5 rounded-full border transition-colors whitespace-nowrap",
+            currentOpenNow === "1"
+              ? "bg-teal-600 text-white border-teal-600 font-semibold"
+              : "bg-white text-gray-600 border-gray-200 hover:border-teal-400"
+          )}
+        >
+          🟢 Open Now
+        </button>
       </div>
     )
   }
@@ -158,6 +171,19 @@ export function SearchFilters({ currentSort, currentRating, currentSpecialty, qu
             </button>
           ))}
         </div>
+      </div>
+
+      <div>
+        <h3 className="text-xs font-bold text-gray-500 mb-3 uppercase tracking-widest">Availability</h3>
+        <button
+          onClick={() => router.push(buildUrl({ openNow: currentOpenNow === "1" ? undefined : "1" }))}
+          className={cn(
+            "w-full text-left px-3 py-2 rounded-lg text-sm transition-colors",
+            currentOpenNow === "1" ? "bg-teal-50 text-teal-700 font-semibold" : "text-gray-600 hover:bg-gray-100"
+          )}
+        >
+          🟢 Open Now
+        </button>
       </div>
     </div>
   )
