@@ -294,5 +294,17 @@
   "source-of-life-iv-and-wellness-union": {
     "path": "/clinic-images/source-of-life-iv-and-wellness-union.jpg",
     "generatedAt": "2026-04-14"
+  },
+  "pnw-hydration-wellness-puyallup": {
+    "path": "/clinic-images/pnw-hydration-wellness-puyallup.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "true-heal-wellness-morristown": {
+    "path": "/clinic-images/true-heal-wellness-morristown.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "liquid-life-iv-south-hill": {
+    "path": "/clinic-images/liquid-life-iv-south-hill.jpg",
+    "generatedAt": "2026-04-14"
   }
 }
