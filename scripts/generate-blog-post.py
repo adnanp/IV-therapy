@@ -167,7 +167,7 @@ Return a JSON object with this exact structure:
 Return ONLY the JSON, no markdown code blocks, no other text."""
 
     payload = json.dumps({
-        "model": "claude-3-5-haiku-20241022",
+        "model": "claude-haiku-4-5-20251001",
         "max_tokens": 4000,
         "system": system_prompt,
         "messages": [{"role": "user", "content": user_prompt}],
