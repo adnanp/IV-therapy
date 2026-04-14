@@ -274,5 +274,25 @@
   "bella-md-health-and-wellness-shoreline": {
     "path": "/clinic-images/bella-md-health-and-wellness-shoreline.jpg",
     "generatedAt": "2026-04-14"
+  },
+  "hello-nurse-llc-bothell": {
+    "path": "/clinic-images/hello-nurse-llc-bothell.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "ivitality-bellevue-bellevue": {
+    "path": "/clinic-images/ivitality-bellevue-bellevue.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "ivfusionmd-bellevue": {
+    "path": "/clinic-images/ivfusionmd-bellevue.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "apex-health-wellness-bellevue": {
+    "path": "/clinic-images/apex-health-wellness-bellevue.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "source-of-life-iv-and-wellness-union": {
+    "path": "/clinic-images/source-of-life-iv-and-wellness-union.jpg",
+    "generatedAt": "2026-04-14"
   }
 }
