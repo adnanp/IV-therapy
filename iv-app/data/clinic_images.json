@@ -234,5 +234,25 @@
   "vancouver-ketamine-infusions-vancouver": {
     "path": "/clinic-images/vancouver-ketamine-infusions-vancouver.jpg",
     "generatedAt": "2026-04-13"
+  },
+  "new-u-womens-clinic-aesthetics-kennewick": {
+    "path": "/clinic-images/new-u-womens-clinic-aesthetics-kennewick.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "restore-hyper-wellness-issaquah": {
+    "path": "/clinic-images/restore-hyper-wellness-issaquah.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "access-iv-vitamin-lounge-boonton": {
+    "path": "/clinic-images/access-iv-vitamin-lounge-boonton.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "manhattan-iv-therapy-new-york": {
+    "path": "/clinic-images/manhattan-iv-therapy-new-york.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "mobile-iv-drip-new-york": {
+    "path": "/clinic-images/mobile-iv-drip-new-york.jpg",
+    "generatedAt": "2026-04-14"
   }
 }
