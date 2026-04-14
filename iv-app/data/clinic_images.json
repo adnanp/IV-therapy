@@ -254,5 +254,25 @@
   "mobile-iv-drip-new-york": {
     "path": "/clinic-images/mobile-iv-drip-new-york.jpg",
     "generatedAt": "2026-04-14"
+  },
+  "lifedripsiv-jersey-city": {
+    "path": "/clinic-images/lifedripsiv-jersey-city.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "revive-wellness-kennewick": {
+    "path": "/clinic-images/revive-wellness-kennewick.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "honey-glow-health-bonney-lake": {
+    "path": "/clinic-images/honey-glow-health-bonney-lake.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "lavie-skinthetics-wellness-spa-federal-way": {
+    "path": "/clinic-images/lavie-skinthetics-wellness-spa-federal-way.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "bella-md-health-and-wellness-shoreline": {
+    "path": "/clinic-images/bella-md-health-and-wellness-shoreline.jpg",
+    "generatedAt": "2026-04-14"
   }
 }

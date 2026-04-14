@@ -320,6 +320,31 @@
       "slug": "mobile-iv-drip-new-york",
       "name": "Mobile IV Drip",
       "date": "2026-04-14"
+    },
+    {
+      "slug": "lifedripsiv-jersey-city",
+      "name": "LIFEDRIPS.IV",
+      "date": "2026-04-14"
+    },
+    {
+      "slug": "revive-wellness-kennewick",
+      "name": "Revive Wellness",
+      "date": "2026-04-14"
+    },
+    {
+      "slug": "honey-glow-health-bonney-lake",
+      "name": "Honey Glow Health",
+      "date": "2026-04-14"
+    },
+    {
+      "slug": "lavie-skinthetics-wellness-spa-federal-way",
+      "name": "LaVie Skinthetics Wellness Spa",
+      "date": "2026-04-14"
+    },
+    {
+      "slug": "bella-md-health-and-wellness-shoreline",
+      "name": "Bella MD Health and Wellness",
+      "date": "2026-04-14"
     }
   ],
   "pending": []
