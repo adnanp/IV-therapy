@@ -306,5 +306,25 @@
   "liquid-life-iv-south-hill": {
     "path": "/clinic-images/liquid-life-iv-south-hill.jpg",
     "generatedAt": "2026-04-14"
+  },
+  "island-revive-chester": {
+    "path": "/clinic-images/island-revive-chester.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "new-wave-functional-aesthetic-medicine-renton": {
+    "path": "/clinic-images/new-wave-functional-aesthetic-medicine-renton.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "arctic-elevation-renton": {
+    "path": "/clinic-images/arctic-elevation-renton.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "iv-league-hydration-and-wellness-llc-camp-hill": {
+    "path": "/clinic-images/iv-league-hydration-and-wellness-llc-camp-hill.jpg",
+    "generatedAt": "2026-04-14"
+  },
+  "elevate-wellness-nw-woodland": {
+    "path": "/clinic-images/elevate-wellness-nw-woodland.jpg",
+    "generatedAt": "2026-04-14"
   }
 }

@@ -385,6 +385,31 @@
       "slug": "liquid-life-iv-south-hill",
       "name": "Liquid Life IV",
       "date": "2026-04-14"
+    },
+    {
+      "slug": "island-revive-chester",
+      "name": "Island RevIVe",
+      "date": "2026-04-14"
+    },
+    {
+      "slug": "new-wave-functional-aesthetic-medicine-renton",
+      "name": "New Wave Functional & Aesthetic Medicine",
+      "date": "2026-04-14"
+    },
+    {
+      "slug": "arctic-elevation-renton",
+      "name": "Arctic Elevation",
+      "date": "2026-04-14"
+    },
+    {
+      "slug": "iv-league-hydration-and-wellness-llc-camp-hill",
+      "name": "IV League Hydration and Wellness LLC",
+      "date": "2026-04-14"
+    },
+    {
+      "slug": "elevate-wellness-nw-woodland",
+      "name": "Elevate Wellness NW",
+      "date": "2026-04-14"
     }
   ],
   "pending": []
