@@ -435,6 +435,31 @@
       "slug": "illuminateme-silverdale",
       "name": "Illuminate.Me",
       "date": "2026-04-15"
+    },
+    {
+      "slug": "remedy-health-and-wellness-richland",
+      "name": "Remedy Health and Wellness",
+      "date": "2026-04-15"
+    },
+    {
+      "slug": "revel-medspa-richland",
+      "name": "Revel Medspa",
+      "date": "2026-04-15"
+    },
+    {
+      "slug": "pure-skiin-spokane-valley",
+      "name": "PURE SKIIN",
+      "date": "2026-04-15"
+    },
+    {
+      "slug": "the-lab-aesthetics-wellness-spokane-valley",
+      "name": "The LAB Aesthetics & Wellness",
+      "date": "2026-04-15"
+    },
+    {
+      "slug": "cor-institute-spokane",
+      "name": "COR Institute",
+      "date": "2026-04-15"
     }
   ],
   "pending": []

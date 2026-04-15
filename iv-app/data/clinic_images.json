@@ -346,5 +346,25 @@
   "illuminateme-silverdale": {
     "path": "/clinic-images/illuminateme-silverdale.jpg",
     "generatedAt": "2026-04-15"
+  },
+  "remedy-health-and-wellness-richland": {
+    "path": "/clinic-images/remedy-health-and-wellness-richland.jpg",
+    "generatedAt": "2026-04-15"
+  },
+  "revel-medspa-richland": {
+    "path": "/clinic-images/revel-medspa-richland.jpg",
+    "generatedAt": "2026-04-15"
+  },
+  "pure-skiin-spokane-valley": {
+    "path": "/clinic-images/pure-skiin-spokane-valley.jpg",
+    "generatedAt": "2026-04-15"
+  },
+  "the-lab-aesthetics-wellness-spokane-valley": {
+    "path": "/clinic-images/the-lab-aesthetics-wellness-spokane-valley.jpg",
+    "generatedAt": "2026-04-15"
+  },
+  "cor-institute-spokane": {
+    "path": "/clinic-images/cor-institute-spokane.jpg",
+    "generatedAt": "2026-04-15"
   }
 }
