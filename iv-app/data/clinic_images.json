@@ -394,5 +394,17 @@
   "the-iv-method-spokane": {
     "path": "/clinic-images/the-iv-method-spokane.jpg",
     "generatedAt": "2026-04-15"
+  },
+  "the-regenerative-institute-spokane": {
+    "path": "/clinic-images/the-regenerative-institute-spokane.jpg",
+    "generatedAt": "2026-04-15"
+  },
+  "skin-addiction-medspa-health-clinic-mill-creek": {
+    "path": "/clinic-images/skin-addiction-medspa-health-clinic-mill-creek.jpg",
+    "generatedAt": "2026-04-15"
+  },
+  "radiance-aesthetics-wellness-bonners-ferry": {
+    "path": "/clinic-images/radiance-aesthetics-wellness-bonners-ferry.jpg",
+    "generatedAt": "2026-04-15"
   }
 }
