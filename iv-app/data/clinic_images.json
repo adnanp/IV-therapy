@@ -366,5 +366,17 @@
   "cor-institute-spokane": {
     "path": "/clinic-images/cor-institute-spokane.jpg",
     "generatedAt": "2026-04-15"
+  },
+  "clinic-5c-functional-medicine-spokane": {
+    "path": "/clinic-images/clinic-5c-functional-medicine-spokane.jpg",
+    "generatedAt": "2026-04-15"
+  },
+  "the-metabolic-institute-spokane": {
+    "path": "/clinic-images/the-metabolic-institute-spokane.jpg",
+    "generatedAt": "2026-04-15"
+  },
+  "luminess-lounge-spokane-valley": {
+    "path": "/clinic-images/luminess-lounge-spokane-valley.jpg",
+    "generatedAt": "2026-04-15"
   }
 }

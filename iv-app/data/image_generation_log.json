@@ -460,6 +460,21 @@
       "slug": "cor-institute-spokane",
       "name": "COR Institute",
       "date": "2026-04-15"
+    },
+    {
+      "slug": "clinic-5c-functional-medicine-spokane",
+      "name": "Clinic 5C | Functional Medicine",
+      "date": "2026-04-15"
+    },
+    {
+      "slug": "the-metabolic-institute-spokane",
+      "name": "The Metabolic Institute",
+      "date": "2026-04-15"
+    },
+    {
+      "slug": "luminess-lounge-spokane-valley",
+      "name": "Luminess Lounge",
+      "date": "2026-04-15"
     }
   ],
   "pending": []
