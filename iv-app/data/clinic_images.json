@@ -326,5 +326,25 @@
   "elevate-wellness-nw-woodland": {
     "path": "/clinic-images/elevate-wellness-nw-woodland.jpg",
     "generatedAt": "2026-04-14"
+  },
+  "sculpt-wellness-pasco": {
+    "path": "/clinic-images/sculpt-wellness-pasco.jpg",
+    "generatedAt": "2026-04-15"
+  },
+  "moses-lake-aesthetics-and-wellness-moses-lake": {
+    "path": "/clinic-images/moses-lake-aesthetics-and-wellness-moses-lake.jpg",
+    "generatedAt": "2026-04-15"
+  },
+  "vancouver-wellness-studio-waterfront-spa-vancouver": {
+    "path": "/clinic-images/vancouver-wellness-studio-waterfront-spa-vancouver.jpg",
+    "generatedAt": "2026-04-15"
+  },
+  "driptherapy-flagler-beach": {
+    "path": "/clinic-images/driptherapy-flagler-beach.jpg",
+    "generatedAt": "2026-04-15"
+  },
+  "illuminateme-silverdale": {
+    "path": "/clinic-images/illuminateme-silverdale.jpg",
+    "generatedAt": "2026-04-15"
   }
 }

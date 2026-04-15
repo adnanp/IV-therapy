@@ -410,6 +410,31 @@
       "slug": "elevate-wellness-nw-woodland",
       "name": "Elevate Wellness NW",
       "date": "2026-04-14"
+    },
+    {
+      "slug": "sculpt-wellness-pasco",
+      "name": "Sculpt Wellness",
+      "date": "2026-04-15"
+    },
+    {
+      "slug": "moses-lake-aesthetics-and-wellness-moses-lake",
+      "name": "Moses Lake Aesthetics and Wellness",
+      "date": "2026-04-15"
+    },
+    {
+      "slug": "vancouver-wellness-studio-waterfront-spa-vancouver",
+      "name": "Vancouver Wellness Studio: Waterfront Spa",
+      "date": "2026-04-15"
+    },
+    {
+      "slug": "driptherapy-flagler-beach",
+      "name": "DripTherapy",
+      "date": "2026-04-15"
+    },
+    {
+      "slug": "illuminateme-silverdale",
+      "name": "Illuminate.Me",
+      "date": "2026-04-15"
     }
   ],
   "pending": []
