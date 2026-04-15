@@ -475,6 +475,26 @@
       "slug": "luminess-lounge-spokane-valley",
       "name": "Luminess Lounge",
       "date": "2026-04-15"
+    },
+    {
+      "slug": "evo-med-spa-spokane",
+      "name": "Evo Med Spa",
+      "date": "2026-04-15"
+    },
+    {
+      "slug": "wholebody-wellness-aesthetics-spokane-valley",
+      "name": "WholeBody Wellness Aesthetics",
+      "date": "2026-04-15"
+    },
+    {
+      "slug": "r-r-beauty-med-spa-kent",
+      "name": "R & R Beauty Med Spa",
+      "date": "2026-04-15"
+    },
+    {
+      "slug": "the-iv-method-spokane",
+      "name": "The IV Method",
+      "date": "2026-04-15"
     }
   ],
   "pending": []
