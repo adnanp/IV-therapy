@@ -406,5 +406,25 @@
   "radiance-aesthetics-wellness-bonners-ferry": {
     "path": "/clinic-images/radiance-aesthetics-wellness-bonners-ferry.jpg",
     "generatedAt": "2026-04-15"
+  },
+  "restore-hyper-wellness-kirkland": {
+    "path": "/clinic-images/restore-hyper-wellness-kirkland.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  "divine-aesthetic-lounge-mill-creek": {
+    "path": "/clinic-images/divine-aesthetic-lounge-mill-creek.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  "well-iv-hydration-stafford-township": {
+    "path": "/clinic-images/well-iv-hydration-stafford-township.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  "iv-nutrition-nashville": {
+    "path": "/clinic-images/iv-nutrition-nashville.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  "ivitality-issaquah-issaquah": {
+    "path": "/clinic-images/ivitality-issaquah-issaquah.jpg",
+    "generatedAt": "2026-04-16"
   }
 }

@@ -510,6 +510,31 @@
       "slug": "radiance-aesthetics-wellness-bonners-ferry",
       "name": "Radiance Aesthetics & Wellness",
       "date": "2026-04-15"
+    },
+    {
+      "slug": "restore-hyper-wellness-kirkland",
+      "name": "Restore Hyper Wellness",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "divine-aesthetic-lounge-mill-creek",
+      "name": "Divine Aesthetic Lounge",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "well-iv-hydration-stafford-township",
+      "name": "well iv hydration",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "iv-nutrition-nashville",
+      "name": "IV Nutrition",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "ivitality-issaquah-issaquah",
+      "name": "IVitality Issaquah",
+      "date": "2026-04-16"
     }
   ],
   "pending": []
