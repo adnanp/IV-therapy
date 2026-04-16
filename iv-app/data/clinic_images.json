@@ -486,5 +486,25 @@
   "odara-medical-spa-spokane": {
     "path": "/clinic-images/odara-medical-spa-spokane.jpg",
     "generatedAt": "2026-04-16"
+  },
+  "cor-regenerate-spokane": {
+    "path": "/clinic-images/cor-regenerate-spokane.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  "ivnv-wellness-coeur-dalene": {
+    "path": "/clinic-images/ivnv-wellness-coeur-dalene.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  "thrive-iv-hydration-mobile-spa-tulsa": {
+    "path": "/clinic-images/thrive-iv-hydration-mobile-spa-tulsa.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  "iv-hydrate-cafe-bronx": {
+    "path": "/clinic-images/iv-hydrate-cafe-bronx.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  "iv-wellness-lounge-long-beach": {
+    "path": "/clinic-images/iv-wellness-lounge-long-beach.jpg",
+    "generatedAt": "2026-04-16"
   }
 }

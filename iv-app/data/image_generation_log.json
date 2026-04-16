@@ -610,6 +610,31 @@
       "slug": "odara-medical-spa-spokane",
       "name": "Odara Medical Spa",
       "date": "2026-04-16"
+    },
+    {
+      "slug": "cor-regenerate-spokane",
+      "name": "COR Regenerate",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "ivnv-wellness-coeur-dalene",
+      "name": "IVNV Wellness",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "thrive-iv-hydration-mobile-spa-tulsa",
+      "name": "Thrive IV Hydration Mobile & Spa",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "iv-hydrate-cafe-bronx",
+      "name": "IV Hydrate Cafe",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "iv-wellness-lounge-long-beach",
+      "name": "IV & Wellness Lounge",
+      "date": "2026-04-16"
     }
   ],
   "pending": []
