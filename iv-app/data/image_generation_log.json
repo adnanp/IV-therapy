@@ -585,6 +585,31 @@
       "slug": "pacific-northwest-wellness-center-pllc-east-wenatchee",
       "name": "Pacific Northwest Wellness Center, PLLC",
       "date": "2026-04-16"
+    },
+    {
+      "slug": "funk-regenerative-med-clinic-wenatchee",
+      "name": "Funk Regenerative Med Clinic",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "elite-med-spa-wenatchee",
+      "name": "Elite Med Spa",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "valley-laser-skin-wenatchee-wenatchee",
+      "name": "Valley Laser & Skin Wenatchee",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "skinwell-co-spokane",
+      "name": "SkinWell + Co.",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "odara-medical-spa-spokane",
+      "name": "Odara Medical Spa",
+      "date": "2026-04-16"
     }
   ],
   "pending": []

@@ -466,5 +466,25 @@
   "pacific-northwest-wellness-center-pllc-east-wenatchee": {
     "path": "/clinic-images/pacific-northwest-wellness-center-pllc-east-wenatchee.jpg",
     "generatedAt": "2026-04-16"
+  },
+  "funk-regenerative-med-clinic-wenatchee": {
+    "path": "/clinic-images/funk-regenerative-med-clinic-wenatchee.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  "elite-med-spa-wenatchee": {
+    "path": "/clinic-images/elite-med-spa-wenatchee.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  "valley-laser-skin-wenatchee-wenatchee": {
+    "path": "/clinic-images/valley-laser-skin-wenatchee-wenatchee.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  "skinwell-co-spokane": {
+    "path": "/clinic-images/skinwell-co-spokane.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  "odara-medical-spa-spokane": {
+    "path": "/clinic-images/odara-medical-spa-spokane.jpg",
+    "generatedAt": "2026-04-16"
   }
 }
