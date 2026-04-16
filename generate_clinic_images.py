@@ -27,43 +27,40 @@ IMAGE_DIR.mkdir(exist_ok=True)
 # ─── PROMPT BUILDER ───────────────────────────────────────────────────────────
 
 def build_image_prompt(clinic: dict, enrichment: dict | None, website_text: str) -> str:
-    name = clinic['name']
     city = clinic['city']
     state = clinic['state']
     specialties = enrichment.get('specialties', []) if enrichment else []
 
-    text_lower = (website_text + name).lower()
+    text_lower = (website_text + clinic['name']).lower()
     is_luxury = any(w in text_lower for w in ['luxury', 'premium', 'elite', 'upscale', 'boutique', 'spa'])
     is_medical = any(w in text_lower for w in ['naturopathic', 'physician', 'md ', 'doctor', 'clinical', 'medical', 'infusion center'])
 
     if is_luxury:
-        style = "upscale luxury wellness spa"
-        lighting = "warm amber accent lighting, elegant decor with gold fixtures"
-        setting = "plush reclining treatment chairs in a beautifully designed room with marble accents and soft lighting"
+        style = "upscale luxury wellness spa interior"
+        lighting = "warm amber accent lighting, soft diffused glow, elegant gold fixtures"
+        setting = "empty plush reclining treatment chairs arranged elegantly, marble accent walls, decorative botanicals, IV drip stands with clear bags"
     elif is_medical:
-        style = "professional medical infusion center"
-        lighting = "bright clean clinical lighting with warm undertones"
-        setting = "clinical treatment chairs arranged in private bays with IV stands and medical-grade equipment"
+        style = "professional medical wellness clinic interior"
+        lighting = "bright airy clinical lighting with warm undertones, clean white walls"
+        setting = "empty treatment bays with padded clinical chairs, neatly arranged IV stands, organized medical equipment on counters"
     else:
-        style = "modern hydration wellness clinic"
-        lighting = "bright natural light flooding through large windows, clean minimalist design"
-        setting = "comfortable padded reclining chairs in a clean, inviting open room"
+        style = "modern hydration wellness clinic interior"
+        lighting = "bright natural light through large windows, airy minimalist atmosphere"
+        setting = "empty comfortable reclining chairs in a clean open room, IV drip stands with clear bags, fresh greenery accents"
 
     treatment_context = ""
     if specialties:
         top = specialties[:2]
-        treatment_context = f"Clinic specializes in {' and '.join(top)}. "
+        treatment_context = f"Space designed for {' and '.join(top)} treatments. "
 
     return (
-        f"Professional interior photography of a {style} in {city}, {state}. "
+        f"Architectural interior design photography of an empty {style} in {city}, {state}. "
         f"{setting}. {treatment_context}"
-        f"IV drip bags hanging from polished stainless steel poles with clear medical tubing. "
         f"{lighting}. "
-        f"A nurse in scrubs attending to a relaxed smiling patient. "
-        f"Clean modern inviting healthcare environment. "
-        f"Shot on Canon EOS R5 with 24-70mm f/2.8 lens, shallow depth of field. "
-        f"Photorealistic DSLR photo, editorial healthcare photography. "
-        f"No text overlays, no watermarks, no cartoon style, fully realistic."
+        f"No people, no faces, no staff, no patients. Empty serene wellness space. "
+        f"Shot on Canon EOS R5 with 24-70mm f/2.8 lens, architectural photography style. "
+        f"Aspirational spa and wellness interior design, editorial lifestyle photography. "
+        f"Clean, bright, inviting. No text overlays, no watermarks."
     )
 
 
