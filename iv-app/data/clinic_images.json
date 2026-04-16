@@ -446,5 +446,25 @@
   "ivtology-staten-island": {
     "path": "/clinic-images/ivtology-staten-island.jpg",
     "generatedAt": "2026-04-16"
+  },
+  "vitality-wenatchee-wenatchee": {
+    "path": "/clinic-images/vitality-wenatchee-wenatchee.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  "rebel-med-nw-seattle": {
+    "path": "/clinic-images/rebel-med-nw-seattle.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  "village-medicine-seattle-seattle": {
+    "path": "/clinic-images/village-medicine-seattle-seattle.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  "exhala-wellness-wenatchee": {
+    "path": "/clinic-images/exhala-wellness-wenatchee.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  "pacific-northwest-wellness-center-pllc-east-wenatchee": {
+    "path": "/clinic-images/pacific-northwest-wellness-center-pllc-east-wenatchee.jpg",
+    "generatedAt": "2026-04-16"
   }
 }

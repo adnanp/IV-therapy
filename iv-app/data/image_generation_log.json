@@ -560,6 +560,31 @@
       "slug": "ivtology-staten-island",
       "name": "IVTOLOGY",
       "date": "2026-04-16"
+    },
+    {
+      "slug": "vitality-wenatchee-wenatchee",
+      "name": "Vitality Wenatchee",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "rebel-med-nw-seattle",
+      "name": "Rebel Med NW",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "village-medicine-seattle-seattle",
+      "name": "Village Medicine Seattle",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "exhala-wellness-wenatchee",
+      "name": "Exhala Wellness",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "pacific-northwest-wellness-center-pllc-east-wenatchee",
+      "name": "Pacific Northwest Wellness Center, PLLC",
+      "date": "2026-04-16"
     }
   ],
   "pending": []
