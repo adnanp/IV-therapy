@@ -56,6 +56,21 @@ DEFAULT_TOPICS = [
     "hydrogen peroxide IV therapy alternative cancer treatment",
     "IV therapy frequency how often should you go",
     "IV therapy side effects risks what to watch for",
+    "best IV therapy clinics Seattle Washington what to know",
+    "IV therapy Vancouver WA top clinics guide 2025",
+    "best IV therapy Spokane Washington clinics review",
+    "IV therapy Los Angeles Beverly Hills top clinics guide",
+    "best NAD+ IV therapy clinics near me how to find",
+    "IV therapy for women hormones energy skin benefits",
+    "IV therapy before after surgery recovery benefits",
+    "best IV therapy clinics Phoenix Arizona guide",
+    "IV therapy Denver Colorado altitude sickness cure guide",
+    "IV therapy Austin Texas top clinics wellness scene",
+    "IV therapy Miami Florida beach wellness guide",
+    "IV therapy New York City Manhattan top clinics guide",
+    "IV therapy vs ER hydration costs speed comparison",
+    "IV therapy fertility IVF support reproductive health",
+    "IV therapy concierge luxury home hotel service guide",
 ]
 
 

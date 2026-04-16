@@ -255,3 +255,19 @@ export function searchClinics(params: {
   const rest = results.filter((c) => !featuredSlugs.has(c.slug));
   return [...featured, ...rest].slice(0, 100);
 }
+
+export function getCitySpecialties(city: string, state: string): string[] {
+  const cityClinics = getClinicsByCity(city, state);
+  const counts: Record<string, number> = {};
+  for (const clinic of cityClinics) {
+    const e = enriched[clinic.slug];
+    for (const s of e?.specialties ?? []) {
+      const key = s.toLowerCase().trim();
+      counts[key] = (counts[key] ?? 0) + 1;
+    }
+  }
+  return Object.entries(counts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 8)
+    .map(([s]) => s.replace(/\b\w/g, (c) => c.toUpperCase()));
+}

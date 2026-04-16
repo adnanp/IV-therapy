@@ -1,8 +1,8 @@
-import { getCities, getClinicsByCity } from "@/lib/data";
+import { getCities, getClinicsByCity, getCitySpecialties, getEnrichment, TREATMENT_FILTERS } from "@/lib/data";
 import { ClinicCard } from "@/components/ClinicCard";
 import { SearchBar } from "@/components/SearchBar";
 import { EmailCapture } from "@/components/EmailCapture";
-import { MapPin, Star, Clock } from "lucide-react";
+import { MapPin, Star, Clock, Droplets } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -49,20 +49,67 @@ export default async function CityPage({ params }: CityPageProps) {
     clinics.filter((c) => c.rating).reduce((sum, c) => sum + (c.rating ?? 0), 0) /
     (clinics.filter((c) => c.rating).length || 1);
   const topRated = clinics.filter((c) => (c.rating ?? 0) >= 4.5);
+  const topClinic = clinics[0];
+  const popularTreatments = getCitySpecialties(city, state);
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: `IV Therapy Clinics in ${city}, ${state}`,
-    description: `Top-rated IV therapy and hydration clinics in ${city}, ${state}`,
-    numberOfItems: clinics.length,
-    itemListElement: clinics.slice(0, 10).map((c, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: c.name,
-      url: `https://ivdirectory.com/clinic/${c.slug}`,
-    })),
-  };
+  // Check if any clinics offer mobile IV
+  const hasMobile = clinics.some((c) => {
+    const e = getEnrichment(c.slug);
+    return (e?.specialties ?? []).some((s) => s.toLowerCase().includes("mobile")) ||
+      (c.categories ?? "").toLowerCase().includes("mobile");
+  });
+
+  const faqs = [
+    {
+      q: `How many IV therapy clinics are in ${city}, ${state}?`,
+      a: `There are currently ${clinics.length} IV therapy clinic${clinics.length !== 1 ? "s" : ""} listed in ${city}, ${state}. Browse all locations above to compare ratings, hours, and services.`,
+    },
+    {
+      q: `How much does IV therapy cost in ${city}?`,
+      a: `IV therapy prices in ${city} typically range from $99–$199 for basic hydration drips to $300–$650+ for premium treatments like NAD+ infusions. Many clinics offer packages or membership pricing for regular clients.`,
+    },
+    ...(topClinic ? [{
+      q: `What is the top-rated IV therapy clinic in ${city}?`,
+      a: `${topClinic.name} is one of the highest-rated IV therapy clinics in ${city}${topClinic.rating ? ` with a ${topClinic.rating}-star rating` : ""}${topClinic.reviewCount ? ` from ${topClinic.reviewCount} reviews` : ""}. View their full profile for services, hours, and pricing.`,
+    }] : []),
+    {
+      q: `Do I need an appointment for IV therapy in ${city}?`,
+      a: `Most IV therapy clinics in ${city} offer walk-in appointments or same-day bookings. It's recommended to call ahead during peak hours, especially on weekends. Many clinics also offer online booking.`,
+    },
+    ...(hasMobile ? [{
+      q: `Is mobile IV therapy available in ${city}?`,
+      a: `Yes, some IV therapy providers in ${city} offer mobile or concierge IV services that come directly to your home, hotel, or office. Filter by "Mobile IV" above to find providers in your area.`,
+    }] : []),
+    {
+      q: `What IV treatments are most popular in ${city}?`,
+      a: `Popular IV treatments in ${city} include Myers Cocktail (a blend of vitamins and minerals), NAD+ therapy for energy and anti-aging, immune boost drips, hangover recovery, and glutathione infusions for skin health.`,
+    },
+  ];
+
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name: `IV Therapy Clinics in ${city}, ${state}`,
+      description: `Top-rated IV therapy and hydration clinics in ${city}, ${state}`,
+      numberOfItems: clinics.length,
+      itemListElement: clinics.slice(0, 10).map((c, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: c.name,
+        url: `https://ivdirectory.com/clinic/${c.slug}`,
+      })),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.q,
+        acceptedAnswer: { "@type": "Answer", text: faq.a },
+      })),
+    },
+  ];
 
   return (
     <>
@@ -116,6 +163,25 @@ export default async function CityPage({ params }: CityPageProps) {
         </div>
       </div>
 
+      {/* Popular treatments */}
+      {popularTreatments.length > 0 && (
+        <div className="bg-white border-b border-gray-100 px-4 py-4">
+          <div className="max-w-7xl mx-auto">
+            <p className="text-xs text-gray-500 font-medium uppercase tracking-wide mb-2.5 flex items-center gap-1.5">
+              <Droplets className="w-3.5 h-3.5" />
+              Popular treatments in {city}
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {popularTreatments.map((t) => (
+                <span key={t} className="text-xs px-3 py-1.5 rounded-full bg-teal-50 text-teal-700 border border-teal-100 font-medium">
+                  {t}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Clinic list */}
       <section className="py-12 px-4">
         <div className="max-w-7xl mx-auto">
@@ -152,6 +218,23 @@ export default async function CityPage({ params }: CityPageProps) {
           <EmailCapture variant="inline" city={city} />
         </div>
       </div>
+
+      {/* FAQ */}
+      <section className="py-12 px-4 bg-white border-t border-gray-100">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-xl font-bold text-gray-900 mb-6">
+            Frequently Asked Questions — IV Therapy in {city}
+          </h2>
+          <div className="space-y-5">
+            {faqs.map((faq, i) => (
+              <div key={i} className="border-b border-gray-100 pb-5 last:border-0 last:pb-0">
+                <h3 className="font-semibold text-gray-900 mb-1.5 text-sm sm:text-base">{faq.q}</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">{faq.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* SEO content block */}
       <section className="py-12 px-4 bg-gray-50 border-t border-gray-200">
