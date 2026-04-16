@@ -535,6 +535,31 @@
       "slug": "ivitality-issaquah-issaquah",
       "name": "IVitality Issaquah",
       "date": "2026-04-16"
+    },
+    {
+      "slug": "iv-drip-booth-burlington",
+      "name": "IV Drip Booth",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "peak-by-md-jersey-city",
+      "name": "Peak By MD",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "wellness-for-life-anacortes",
+      "name": "Wellness for Life",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "forever-young-aesthetics-seattle",
+      "name": "Forever Young Aesthetics",
+      "date": "2026-04-16"
+    },
+    {
+      "slug": "ivtology-staten-island",
+      "name": "IVTOLOGY",
+      "date": "2026-04-16"
     }
   ],
   "pending": []
