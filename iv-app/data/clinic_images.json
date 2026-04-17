@@ -502,5 +502,25 @@
   "iv-wellness-lounge-long-beach": {
     "path": "/clinic-images/iv-wellness-lounge-long-beach.jpg",
     "generatedAt": "2026-04-16"
+  },
+  "intravene-mobile-iv-therapy-seattle": {
+    "path": "/clinic-images/intravene-mobile-iv-therapy-seattle.jpg",
+    "generatedAt": "2026-04-17"
+  },
+  "next-health-in-bellevue-bellevue": {
+    "path": "/clinic-images/next-health-in-bellevue-bellevue.jpg",
+    "generatedAt": "2026-04-17"
+  },
+  "medical-spa-at-pro-club-bellevue": {
+    "path": "/clinic-images/medical-spa-at-pro-club-bellevue.jpg",
+    "generatedAt": "2026-04-17"
+  },
+  "iv-glow-bar-los-angeles": {
+    "path": "/clinic-images/iv-glow-bar-los-angeles.jpg",
+    "generatedAt": "2026-04-17"
+  },
+  "the-dripbar-beverly-beverly": {
+    "path": "/clinic-images/the-dripbar-beverly-beverly.jpg",
+    "generatedAt": "2026-04-17"
   }
 }

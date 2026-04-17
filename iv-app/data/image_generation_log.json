@@ -630,6 +630,31 @@
       "slug": "iv-wellness-lounge-long-beach",
       "name": "IV & Wellness Lounge",
       "date": "2026-04-16"
+    },
+    {
+      "slug": "intravene-mobile-iv-therapy-seattle",
+      "name": "Intravene Mobile IV Therapy",
+      "date": "2026-04-17"
+    },
+    {
+      "slug": "next-health-in-bellevue-bellevue",
+      "name": "Next Health in Bellevue",
+      "date": "2026-04-17"
+    },
+    {
+      "slug": "medical-spa-at-pro-club-bellevue",
+      "name": "Medical Spa at PRO Club",
+      "date": "2026-04-17"
+    },
+    {
+      "slug": "iv-glow-bar-los-angeles",
+      "name": "Iv Glow Bar",
+      "date": "2026-04-17"
+    },
+    {
+      "slug": "the-dripbar-beverly-beverly",
+      "name": "The DRIPBaR Beverly",
+      "date": "2026-04-17"
     }
   ],
   "pending": []
