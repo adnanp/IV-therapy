@@ -2684,5 +2684,20 @@
       "Vitamin C High-Dose Infusions"
     ],
     "priceNote": "Drips typically range from $100\u2013$275 per session based on formula complexity; membership and package pricing generally available for reduced per-session rates"
+  },
+  "bioiv-therapy-jamaica": {
+    "sessionDuration": "45\u201360 minutes",
+    "whatIsIncluded": "IV bag with customized vitamin and mineral blend, saline or lactated Ringer's base, nurse-administered infusion, pre-treatment health screening, and post-treatment monitoring",
+    "firstVisitInfo": "New clients complete a health intake form and brief medical consultation before treatment; arrive 10\u201315 minutes early; bring a list of current medications and any known allergies",
+    "frequency": "Once weekly for wellness maintenance; 2\u20133 times per week during illness recovery or intense training; monthly for general health optimization",
+    "specialties": [
+      "Hydration & Electrolyte Replenishment",
+      "Immune Boost (High-Dose Vitamin C & Zinc)",
+      "Energy & B-Vitamin Infusions",
+      "Hangover & Recovery Drips",
+      "Myers' Cocktail",
+      "NAD+ Anti-Aging Therapy"
+    ],
+    "priceNote": "Prices typically range from USD $100\u2013$250 per session depending on drip type; NAD+ and specialty add-ons may be priced higher; package bundles often available at a discount"
   }
 }
