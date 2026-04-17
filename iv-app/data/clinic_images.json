@@ -578,5 +578,25 @@
   "interactive-health-clinic-lynnwood": {
     "path": "/clinic-images/interactive-health-clinic-lynnwood.jpg",
     "generatedAt": "2026-04-17"
+  },
+  "heart-of-wellness-tumwater": {
+    "path": "/clinic-images/heart-of-wellness-tumwater.jpg",
+    "generatedAt": "2026-04-17"
+  },
+  "inspire-physical-and-hand-therapy-tumwater-tumwater": {
+    "path": "/clinic-images/inspire-physical-and-hand-therapy-tumwater-tumwater.jpg",
+    "generatedAt": "2026-04-17"
+  },
+  "nearing-total-health-lacey": {
+    "path": "/clinic-images/nearing-total-health-lacey.jpg",
+    "generatedAt": "2026-04-17"
+  },
+  "savvy-rejuvenation-and-iv-bar-stanwood": {
+    "path": "/clinic-images/savvy-rejuvenation-and-iv-bar-stanwood.jpg",
+    "generatedAt": "2026-04-17"
+  },
+  "infusion-solutions-everett": {
+    "path": "/clinic-images/infusion-solutions-everett.jpg",
+    "generatedAt": "2026-04-17"
   }
 }

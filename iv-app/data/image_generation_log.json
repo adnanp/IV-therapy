@@ -725,6 +725,31 @@
       "slug": "interactive-health-clinic-lynnwood",
       "name": "Interactive Health Clinic",
       "date": "2026-04-17"
+    },
+    {
+      "slug": "heart-of-wellness-tumwater",
+      "name": "Heart of Wellness",
+      "date": "2026-04-17"
+    },
+    {
+      "slug": "inspire-physical-and-hand-therapy-tumwater-tumwater",
+      "name": "Inspire Physical and Hand Therapy - Tumwater",
+      "date": "2026-04-17"
+    },
+    {
+      "slug": "nearing-total-health-lacey",
+      "name": "Nearing Total Health",
+      "date": "2026-04-17"
+    },
+    {
+      "slug": "savvy-rejuvenation-and-iv-bar-stanwood",
+      "name": "Savvy Rejuvenation and IV Bar",
+      "date": "2026-04-17"
+    },
+    {
+      "slug": "infusion-solutions-everett",
+      "name": "Infusion Solutions",
+      "date": "2026-04-17"
     }
   ],
   "pending": []
