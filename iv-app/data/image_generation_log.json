@@ -655,6 +655,31 @@
       "slug": "the-dripbar-beverly-beverly",
       "name": "The DRIPBaR Beverly",
       "date": "2026-04-17"
+    },
+    {
+      "slug": "symmetria-integrative-medical-marysville-marysville",
+      "name": "Symmetria Integrative Medical Marysville",
+      "date": "2026-04-17"
+    },
+    {
+      "slug": "jubilee-clinic-dpc-marysville",
+      "name": "Jubilee Clinic DPC",
+      "date": "2026-04-17"
+    },
+    {
+      "slug": "ism-health-integrative-naturopathic-clinic-bothell",
+      "name": "ISM Health - Integrative Naturopathic Clinic",
+      "date": "2026-04-17"
+    },
+    {
+      "slug": "specialty-natural-medicine-lynnwood",
+      "name": "Specialty Natural Medicine",
+      "date": "2026-04-17"
+    },
+    {
+      "slug": "better-body-healing-aesthetics-centralia",
+      "name": "Better Body Healing & Aesthetics",
+      "date": "2026-04-17"
     }
   ],
   "pending": []
