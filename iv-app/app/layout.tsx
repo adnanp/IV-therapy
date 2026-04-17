@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     "hangover IV drip",
   ],
   authors: [{ name: "IVDirectory" }],
+  verification: {
+    google: "NqZwogiUvfpwVdXygPNwTTKOAE7WcyG98ybs_1S0qMI",
+  },
   openGraph: {
     type: "website",
     siteName: "IVDirectory",
