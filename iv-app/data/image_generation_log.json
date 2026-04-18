@@ -850,6 +850,31 @@
       "slug": "thrive-iv-wellness-solutions-wilmington",
       "name": "Thrive IV Wellness Solutions",
       "date": "2026-04-18"
+    },
+    {
+      "slug": "eazy-iv-hydration-wellness-clinic-centerville",
+      "name": "Eazy iV Hydration & Wellness Clinic",
+      "date": "2026-04-18"
+    },
+    {
+      "slug": "renewd-med-spa-everett-wa-everett",
+      "name": "RENEWD | Med Spa | Everett, WA",
+      "date": "2026-04-18"
+    },
+    {
+      "slug": "option-care-health-everett",
+      "name": "Option Care Health",
+      "date": "2026-04-18"
+    },
+    {
+      "slug": "purity-integrative-health-wellness-center-pllc-everett",
+      "name": "Purity Integrative Health & Wellness Center PLLC",
+      "date": "2026-04-18"
+    },
+    {
+      "slug": "wellness-institute-for-sleep-and-health-camas",
+      "name": "Wellness Institute for Sleep and Health",
+      "date": "2026-04-18"
     }
   ],
   "pending": []
