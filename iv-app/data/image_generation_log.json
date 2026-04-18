@@ -750,6 +750,31 @@
       "slug": "infusion-solutions-everett",
       "name": "Infusion Solutions",
       "date": "2026-04-17"
+    },
+    {
+      "slug": "radiant-beauty-med-spa-and-wellness-snohomish",
+      "name": "Radiant Beauty Med Spa and Wellness",
+      "date": "2026-04-18"
+    },
+    {
+      "slug": "bellevue-skin-and-wellness-bellevue",
+      "name": "Bellevue Skin and Wellness",
+      "date": "2026-04-18"
+    },
+    {
+      "slug": "northwest-ketamine-clinics-bellevue-bellevue",
+      "name": "Northwest Ketamine Clinics- Bellevue",
+      "date": "2026-04-18"
+    },
+    {
+      "slug": "ayurvedic-and-naturopathic-medical-clinic-bellevue",
+      "name": "Ayurvedic and Naturopathic Medical Clinic",
+      "date": "2026-04-18"
+    },
+    {
+      "slug": "northwest-medical-arts-university-place",
+      "name": "Northwest Medical Arts",
+      "date": "2026-04-18"
     }
   ],
   "pending": []
