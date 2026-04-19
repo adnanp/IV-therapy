@@ -975,6 +975,31 @@
       "slug": "pure-skin-wellness-spa-mount-vernon",
       "name": "Pure Skin Wellness Spa",
       "date": "2026-04-19"
+    },
+    {
+      "slug": "bouncebackiv-medspa-mt-vernon",
+      "name": "BouncebackIV Medspa",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "renew-nd-medspa-everett",
+      "name": "Renew ND Medspa",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "hyper-health-wellness-center-medina",
+      "name": "Hyper Health Wellness Center",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "fluid-revival-mobile-iv-therapy-austin",
+      "name": "Fluid Revival Mobile IV Therapy",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "fir-lane-care-shelton",
+      "name": "Fir Lane Care",
+      "date": "2026-04-19"
     }
   ],
   "pending": []
