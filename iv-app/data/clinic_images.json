@@ -698,5 +698,25 @@
   "wellness-institute-for-sleep-and-health-camas": {
     "path": "/clinic-images/wellness-institute-for-sleep-and-health-camas.jpg",
     "generatedAt": "2026-04-18"
+  },
+  "pnw-rejuvenation-enumclaw": {
+    "path": "/clinic-images/pnw-rejuvenation-enumclaw.jpg",
+    "generatedAt": "2026-04-19"
+  },
+  "coastal-health-port-angeles": {
+    "path": "/clinic-images/coastal-health-port-angeles.jpg",
+    "generatedAt": "2026-04-19"
+  },
+  "petal-and-thorn-naturopathic-wellness-and-apothecary-camas": {
+    "path": "/clinic-images/petal-and-thorn-naturopathic-wellness-and-apothecary-camas.jpg",
+    "generatedAt": "2026-04-19"
+  },
+  "renewed-skin-wellness-camas": {
+    "path": "/clinic-images/renewed-skin-wellness-camas.jpg",
+    "generatedAt": "2026-04-19"
+  },
+  "prime-iv-hydration-wellness-valparaiso-valparaiso": {
+    "path": "/clinic-images/prime-iv-hydration-wellness-valparaiso-valparaiso.jpg",
+    "generatedAt": "2026-04-19"
   }
 }

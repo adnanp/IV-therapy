@@ -875,6 +875,31 @@
       "slug": "wellness-institute-for-sleep-and-health-camas",
       "name": "Wellness Institute for Sleep and Health",
       "date": "2026-04-18"
+    },
+    {
+      "slug": "pnw-rejuvenation-enumclaw",
+      "name": "PNW Rejuvenation",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "coastal-health-port-angeles",
+      "name": "Coastal Health",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "petal-and-thorn-naturopathic-wellness-and-apothecary-camas",
+      "name": "Petal and Thorn Naturopathic Wellness and Apothecary",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "renewed-skin-wellness-camas",
+      "name": "Renewed Skin & Wellness",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "prime-iv-hydration-wellness-valparaiso-valparaiso",
+      "name": "Prime IV Hydration & Wellness - Valparaiso",
+      "date": "2026-04-19"
     }
   ],
   "pending": []
