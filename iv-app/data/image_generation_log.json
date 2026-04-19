@@ -900,6 +900,31 @@
       "slug": "prime-iv-hydration-wellness-valparaiso-valparaiso",
       "name": "Prime IV Hydration & Wellness - Valparaiso",
       "date": "2026-04-19"
+    },
+    {
+      "slug": "skin-therapy-gig-harbor-gig-harbor",
+      "name": "Skin Therapy Gig Harbor",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "alchemy-aesthetics-and-wellness-gig-harbor",
+      "name": "Alchemy Aesthetics and Wellness",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "sanctuary-skin-brush-prairie",
+      "name": "Sanctuary Skin",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "cosmetiq-medicine-vancouver-botox-filler-laser-vancouver",
+      "name": "Cosmetiq Medicine - Vancouver Botox, Filler & Laser",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "hey-sister-medical-spa-vancouver",
+      "name": "Hey Sister Medical Spa",
+      "date": "2026-04-19"
     }
   ],
   "pending": []
