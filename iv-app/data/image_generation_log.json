@@ -925,6 +925,31 @@
       "slug": "hey-sister-medical-spa-vancouver",
       "name": "Hey Sister Medical Spa",
       "date": "2026-04-19"
+    },
+    {
+      "slug": "vibrant-u-med-spa-vancouver",
+      "name": "Vibrant U Med Spa",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "tite-medical-aesthetics-vancouver",
+      "name": "TITE Medical Aesthetics",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "boost-iv-wellness-portland",
+      "name": "Boost IV & Wellness",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "best-self-aesthetics-and-wellness-pllc-battle-ground",
+      "name": "Best Self Aesthetics and Wellness, PLLC",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "good-iv-lake-oswego",
+      "name": "Good IV",
+      "date": "2026-04-19"
     }
   ],
   "pending": []

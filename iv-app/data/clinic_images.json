@@ -738,5 +738,25 @@
   "hey-sister-medical-spa-vancouver": {
     "path": "/clinic-images/hey-sister-medical-spa-vancouver.jpg",
     "generatedAt": "2026-04-19"
+  },
+  "vibrant-u-med-spa-vancouver": {
+    "path": "/clinic-images/vibrant-u-med-spa-vancouver.jpg",
+    "generatedAt": "2026-04-19"
+  },
+  "tite-medical-aesthetics-vancouver": {
+    "path": "/clinic-images/tite-medical-aesthetics-vancouver.jpg",
+    "generatedAt": "2026-04-19"
+  },
+  "boost-iv-wellness-portland": {
+    "path": "/clinic-images/boost-iv-wellness-portland.jpg",
+    "generatedAt": "2026-04-19"
+  },
+  "best-self-aesthetics-and-wellness-pllc-battle-ground": {
+    "path": "/clinic-images/best-self-aesthetics-and-wellness-pllc-battle-ground.jpg",
+    "generatedAt": "2026-04-19"
+  },
+  "good-iv-lake-oswego": {
+    "path": "/clinic-images/good-iv-lake-oswego.jpg",
+    "generatedAt": "2026-04-19"
   }
 }
