@@ -758,5 +758,25 @@
   "good-iv-lake-oswego": {
     "path": "/clinic-images/good-iv-lake-oswego.jpg",
     "generatedAt": "2026-04-19"
+  },
+  "md-medspa-wellness-centers-birch-bay-blaine": {
+    "path": "/clinic-images/md-medspa-wellness-centers-birch-bay-blaine.jpg",
+    "generatedAt": "2026-04-19"
+  },
+  "aleris-aesthetics-woodinville": {
+    "path": "/clinic-images/aleris-aesthetics-woodinville.jpg",
+    "generatedAt": "2026-04-19"
+  },
+  "koco-medical-aesthetics-woodinville": {
+    "path": "/clinic-images/koco-medical-aesthetics-woodinville.jpg",
+    "generatedAt": "2026-04-19"
+  },
+  "salt-co-aesthetics-and-wellness-mount-vernon": {
+    "path": "/clinic-images/salt-co-aesthetics-and-wellness-mount-vernon.jpg",
+    "generatedAt": "2026-04-19"
+  },
+  "pure-skin-wellness-spa-mount-vernon": {
+    "path": "/clinic-images/pure-skin-wellness-spa-mount-vernon.jpg",
+    "generatedAt": "2026-04-19"
   }
 }

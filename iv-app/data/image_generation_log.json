@@ -950,6 +950,31 @@
       "slug": "good-iv-lake-oswego",
       "name": "Good IV",
       "date": "2026-04-19"
+    },
+    {
+      "slug": "md-medspa-wellness-centers-birch-bay-blaine",
+      "name": "M.D. MedSpa & Wellness Centers - Birch Bay",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "aleris-aesthetics-woodinville",
+      "name": "Aleris Aesthetics",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "koco-medical-aesthetics-woodinville",
+      "name": "KOCO Medical Aesthetics",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "salt-co-aesthetics-and-wellness-mount-vernon",
+      "name": "Salt & Co Aesthetics and Wellness",
+      "date": "2026-04-19"
+    },
+    {
+      "slug": "pure-skin-wellness-spa-mount-vernon",
+      "name": "Pure Skin Wellness Spa",
+      "date": "2026-04-19"
     }
   ],
   "pending": []
