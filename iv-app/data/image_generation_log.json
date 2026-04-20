@@ -1065,6 +1065,31 @@
       "slug": "therapeutic-health-services-snohomisheverett-branch-everett",
       "name": "Therapeutic Health Services - Snohomish/Everett Branch",
       "date": "2026-04-20"
+    },
+    {
+      "slug": "gl-aesthetics-wellness-battle-ground",
+      "name": "Gl\u014d Aesthetics + Wellness",
+      "date": "2026-04-20"
+    },
+    {
+      "slug": "prime-iv-hydration-wellness-tualatin-or-tualatin",
+      "name": "Prime IV Hydration & Wellness - Tualatin, OR",
+      "date": "2026-04-20"
+    },
+    {
+      "slug": "ageless-beauty-rx-vancouver",
+      "name": "Ageless Beauty Rx",
+      "date": "2026-04-20"
+    },
+    {
+      "slug": "cohesive-therapy-healing-rejuvenation-center-vancouver",
+      "name": "Cohesive Therapy Healing & Rejuvenation Center",
+      "date": "2026-04-20"
+    },
+    {
+      "slug": "peak-performance-prevention-puyallup",
+      "name": "Peak Performance & Prevention",
+      "date": "2026-04-20"
     }
   ],
   "pending": []
