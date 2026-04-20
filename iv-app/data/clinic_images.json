@@ -830,5 +830,25 @@
   "ocean-beach-health-ilwaco-clinic-ilwaco": {
     "path": "/clinic-images/ocean-beach-health-ilwaco-clinic-ilwaco.jpg",
     "generatedAt": "2026-04-20"
+  },
+  "ocean-beach-health-ilwaco": {
+    "path": "/clinic-images/ocean-beach-health-ilwaco.jpg",
+    "generatedAt": "2026-04-20"
+  },
+  "naturomedica-issaquah": {
+    "path": "/clinic-images/naturomedica-issaquah.jpg",
+    "generatedAt": "2026-04-20"
+  },
+  "elevated-natural-health-seattle": {
+    "path": "/clinic-images/elevated-natural-health-seattle.jpg",
+    "generatedAt": "2026-04-20"
+  },
+  "in-light-hyperbarics-llc-vancouver": {
+    "path": "/clinic-images/in-light-hyperbarics-llc-vancouver.jpg",
+    "generatedAt": "2026-04-20"
+  },
+  "therapeutic-health-services-snohomisheverett-branch-everett": {
+    "path": "/clinic-images/therapeutic-health-services-snohomisheverett-branch-everett.jpg",
+    "generatedAt": "2026-04-20"
   }
 }

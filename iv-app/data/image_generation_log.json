@@ -1040,6 +1040,31 @@
       "slug": "ocean-beach-health-ilwaco-clinic-ilwaco",
       "name": "Ocean Beach Health - Ilwaco Clinic",
       "date": "2026-04-20"
+    },
+    {
+      "slug": "ocean-beach-health-ilwaco",
+      "name": "Ocean Beach Health",
+      "date": "2026-04-20"
+    },
+    {
+      "slug": "naturomedica-issaquah",
+      "name": "Naturomedica",
+      "date": "2026-04-20"
+    },
+    {
+      "slug": "elevated-natural-health-seattle",
+      "name": "Elevated Natural Health",
+      "date": "2026-04-20"
+    },
+    {
+      "slug": "in-light-hyperbarics-llc-vancouver",
+      "name": "In Light Hyperbarics LLC.",
+      "date": "2026-04-20"
+    },
+    {
+      "slug": "therapeutic-health-services-snohomisheverett-branch-everett",
+      "name": "Therapeutic Health Services - Snohomish/Everett Branch",
+      "date": "2026-04-20"
     }
   ],
   "pending": []
