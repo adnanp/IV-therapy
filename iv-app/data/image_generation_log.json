@@ -1140,6 +1140,31 @@
       "slug": "olalla-recovery-centers-olalla-guest-lodge-olalla",
       "name": "Olalla Recovery Centers - Olalla Guest Lodge",
       "date": "2026-04-21"
+    },
+    {
+      "slug": "living-medical-arts-friday-harbor",
+      "name": "Living Medical Arts",
+      "date": "2026-04-21"
+    },
+    {
+      "slug": "vitality-seattle",
+      "name": "Vitality",
+      "date": "2026-04-21"
+    },
+    {
+      "slug": "siren-curves-body-sculpting-federal-way",
+      "name": "Siren Curves Body Sculpting",
+      "date": "2026-04-21"
+    },
+    {
+      "slug": "simply-health-dp3-federal-way",
+      "name": "Simply Health DP3",
+      "date": "2026-04-21"
+    },
+    {
+      "slug": "skin-unfiltered-medical-aesthetics-zillah",
+      "name": "Skin Unfiltered Medical Aesthetics",
+      "date": "2026-04-21"
     }
   ],
   "pending": []
