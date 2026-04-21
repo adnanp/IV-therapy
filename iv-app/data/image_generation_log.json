@@ -1215,6 +1215,31 @@
       "slug": "infusions-and-injections-st-helens",
       "name": "Infusions and Injections",
       "date": "2026-04-21"
+    },
+    {
+      "slug": "prime-iv-hydration-wellness-shadow-lake-papillion",
+      "name": "Prime IV Hydration & Wellness - Shadow Lake",
+      "date": "2026-04-21"
+    },
+    {
+      "slug": "reviv-new-york-iv-therapy-nad-glutathione-b12-new-york",
+      "name": "REVIV New York - IV Therapy | NAD+ | Glutathione | B12",
+      "date": "2026-04-21"
+    },
+    {
+      "slug": "drip-gym-jackson-heights-jackson-heights",
+      "name": "Drip Gym - Jackson Heights",
+      "date": "2026-04-21"
+    },
+    {
+      "slug": "stanwood-integrative-medicine-stanwood",
+      "name": "Stanwood Integrative Medicine",
+      "date": "2026-04-21"
+    },
+    {
+      "slug": "stanwood-wellness-clinic-stanwood",
+      "name": "Stanwood Wellness Clinic",
+      "date": "2026-04-21"
     }
   ],
   "pending": []
