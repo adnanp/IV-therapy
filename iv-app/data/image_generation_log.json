@@ -1115,6 +1115,31 @@
       "slug": "the-spa-by-horizon-view-puyallup",
       "name": "The Spa by Horizon View",
       "date": "2026-04-20"
+    },
+    {
+      "slug": "purity-medical-spa-puyallup",
+      "name": "Purity Medical Spa",
+      "date": "2026-04-21"
+    },
+    {
+      "slug": "renew-aesthetics-and-regenerative-medicine-puyallup",
+      "name": "Renew Aesthetics and Regenerative Medicine",
+      "date": "2026-04-21"
+    },
+    {
+      "slug": "ember-medical-services-puyallup",
+      "name": "Ember Medical Services",
+      "date": "2026-04-21"
+    },
+    {
+      "slug": "natural-life-medicine-puyallup",
+      "name": "Natural Life Medicine",
+      "date": "2026-04-21"
+    },
+    {
+      "slug": "olalla-recovery-centers-olalla-guest-lodge-olalla",
+      "name": "Olalla Recovery Centers - Olalla Guest Lodge",
+      "date": "2026-04-21"
     }
   ],
   "pending": []
