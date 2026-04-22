@@ -1310,6 +1310,31 @@
       "slug": "flow-iv-seattle",
       "name": "flow iv",
       "date": "2026-04-22"
+    },
+    {
+      "slug": "drip-lounge-iv-bar-seattle",
+      "name": "Drip Lounge IV Bar",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "zen-flow-seattle",
+      "name": "Zen Flow",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "neuroveda-health-seattle",
+      "name": "Neuroveda Health",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "infusion-vibes-silverdale",
+      "name": "Infusion Vibes",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "vns-aesthetics-nataliya-stavkovy-rn-renton",
+      "name": "VNS Aesthetics, Nataliya Stavkovy, RN",
+      "date": "2026-04-22"
     }
   ],
   "pending": []

@@ -1046,5 +1046,25 @@
   "flow-iv-seattle": {
     "path": "/clinic-images/flow-iv-seattle.jpg",
     "generatedAt": "2026-04-22"
+  },
+  "drip-lounge-iv-bar-seattle": {
+    "path": "/clinic-images/drip-lounge-iv-bar-seattle.jpg",
+    "generatedAt": "2026-04-22"
+  },
+  "zen-flow-seattle": {
+    "path": "/clinic-images/zen-flow-seattle.jpg",
+    "generatedAt": "2026-04-22"
+  },
+  "neuroveda-health-seattle": {
+    "path": "/clinic-images/neuroveda-health-seattle.jpg",
+    "generatedAt": "2026-04-22"
+  },
+  "infusion-vibes-silverdale": {
+    "path": "/clinic-images/infusion-vibes-silverdale.jpg",
+    "generatedAt": "2026-04-22"
+  },
+  "vns-aesthetics-nataliya-stavkovy-rn-renton": {
+    "path": "/clinic-images/vns-aesthetics-nataliya-stavkovy-rn-renton.jpg",
+    "generatedAt": "2026-04-22"
   }
 }
