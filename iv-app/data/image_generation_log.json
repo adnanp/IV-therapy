@@ -1335,6 +1335,31 @@
       "slug": "vns-aesthetics-nataliya-stavkovy-rn-renton",
       "name": "VNS Aesthetics, Nataliya Stavkovy, RN",
       "date": "2026-04-22"
+    },
+    {
+      "slug": "integrated-wellness-aesthetics-vancouver",
+      "name": "Integrated Wellness & Aesthetics",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "evia-medical-spa-edgewood",
+      "name": "Evia Medical Spa",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "vibrant-rejuvenation-aesthetics-cheney",
+      "name": "Vibrant Rejuvenation Aesthetics",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "iv-drip-dynamics-clarksville",
+      "name": "IV Drip Dynamics",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "nuhydration-iv-wellness-red-hook",
+      "name": "NuHydration IV Wellness",
+      "date": "2026-04-22"
     }
   ],
   "pending": []
