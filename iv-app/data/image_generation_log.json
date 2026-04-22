@@ -1265,6 +1265,31 @@
       "slug": "moore-family-clinic-spokane",
       "name": "Moore Family Clinic",
       "date": "2026-04-22"
+    },
+    {
+      "slug": "pura-vida-hydration-aesthetics-woodinville",
+      "name": "Pura Vida Hydration & Aesthetics",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "infusion-solutions-bellingham",
+      "name": "Infusion Solutions",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "ivitality-bellingham-bellingham",
+      "name": "IVitality Bellingham",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "sound-mind-body-integrative-therapies-bellingham",
+      "name": "Sound Mind & Body Integrative Therapies",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "artistry-medical-aesthetics-bellingham",
+      "name": "Artistry Medical Aesthetics",
+      "date": "2026-04-22"
     }
   ],
   "pending": []

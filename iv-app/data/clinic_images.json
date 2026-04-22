@@ -1010,5 +1010,25 @@
   "moore-family-clinic-spokane": {
     "path": "/clinic-images/moore-family-clinic-spokane.jpg",
     "generatedAt": "2026-04-22"
+  },
+  "pura-vida-hydration-aesthetics-woodinville": {
+    "path": "/clinic-images/pura-vida-hydration-aesthetics-woodinville.jpg",
+    "generatedAt": "2026-04-22"
+  },
+  "infusion-solutions-bellingham": {
+    "path": "/clinic-images/infusion-solutions-bellingham.jpg",
+    "generatedAt": "2026-04-22"
+  },
+  "ivitality-bellingham-bellingham": {
+    "path": "/clinic-images/ivitality-bellingham-bellingham.jpg",
+    "generatedAt": "2026-04-22"
+  },
+  "sound-mind-body-integrative-therapies-bellingham": {
+    "path": "/clinic-images/sound-mind-body-integrative-therapies-bellingham.jpg",
+    "generatedAt": "2026-04-22"
+  },
+  "artistry-medical-aesthetics-bellingham": {
+    "path": "/clinic-images/artistry-medical-aesthetics-bellingham.jpg",
+    "generatedAt": "2026-04-22"
   }
 }
