@@ -1030,5 +1030,21 @@
   "artistry-medical-aesthetics-bellingham": {
     "path": "/clinic-images/artistry-medical-aesthetics-bellingham.jpg",
     "generatedAt": "2026-04-22"
+  },
+  "hydravibe-wellness-puyallup": {
+    "path": "/clinic-images/hydravibe-wellness-puyallup.jpg",
+    "generatedAt": "2026-04-22"
+  },
+  "celsius-seattle": {
+    "path": "/clinic-images/celsius-seattle.jpg",
+    "generatedAt": "2026-04-22"
+  },
+  "peak-hydration-bellingham": {
+    "path": "/clinic-images/peak-hydration-bellingham.jpg",
+    "generatedAt": "2026-04-22"
+  },
+  "flow-iv-seattle": {
+    "path": "/clinic-images/flow-iv-seattle.jpg",
+    "generatedAt": "2026-04-22"
   }
 }

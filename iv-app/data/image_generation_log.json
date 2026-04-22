@@ -1290,6 +1290,26 @@
       "slug": "artistry-medical-aesthetics-bellingham",
       "name": "Artistry Medical Aesthetics",
       "date": "2026-04-22"
+    },
+    {
+      "slug": "hydravibe-wellness-puyallup",
+      "name": "HydraVibe Wellness",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "celsius-seattle",
+      "name": "Celsius",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "peak-hydration-bellingham",
+      "name": "Peak Hydration",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "flow-iv-seattle",
+      "name": "flow iv",
+      "date": "2026-04-22"
     }
   ],
   "pending": []
