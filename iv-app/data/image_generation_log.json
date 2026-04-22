@@ -1240,6 +1240,31 @@
       "slug": "stanwood-wellness-clinic-stanwood",
       "name": "Stanwood Wellness Clinic",
       "date": "2026-04-21"
+    },
+    {
+      "slug": "restore-hyper-wellness-bellingham",
+      "name": "Restore Hyper Wellness",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "performance-iv-hydration-federal-way",
+      "name": "Performance IV Hydration",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "magnolia-steel-medi-spa-and-wellness-clinic-graham",
+      "name": "Magnolia & Steel Medi Spa and Wellness Clinic",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "iv-therapy-wa-renton",
+      "name": "IV Therapy WA",
+      "date": "2026-04-22"
+    },
+    {
+      "slug": "moore-family-clinic-spokane",
+      "name": "Moore Family Clinic",
+      "date": "2026-04-22"
     }
   ],
   "pending": []

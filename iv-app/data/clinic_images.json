@@ -990,5 +990,25 @@
   "stanwood-wellness-clinic-stanwood": {
     "path": "/clinic-images/stanwood-wellness-clinic-stanwood.jpg",
     "generatedAt": "2026-04-21"
+  },
+  "restore-hyper-wellness-bellingham": {
+    "path": "/clinic-images/restore-hyper-wellness-bellingham.jpg",
+    "generatedAt": "2026-04-22"
+  },
+  "performance-iv-hydration-federal-way": {
+    "path": "/clinic-images/performance-iv-hydration-federal-way.jpg",
+    "generatedAt": "2026-04-22"
+  },
+  "magnolia-steel-medi-spa-and-wellness-clinic-graham": {
+    "path": "/clinic-images/magnolia-steel-medi-spa-and-wellness-clinic-graham.jpg",
+    "generatedAt": "2026-04-22"
+  },
+  "iv-therapy-wa-renton": {
+    "path": "/clinic-images/iv-therapy-wa-renton.jpg",
+    "generatedAt": "2026-04-22"
+  },
+  "moore-family-clinic-spokane": {
+    "path": "/clinic-images/moore-family-clinic-spokane.jpg",
+    "generatedAt": "2026-04-22"
   }
 }
