@@ -1086,5 +1086,17 @@
   "nuhydration-iv-wellness-red-hook": {
     "path": "/clinic-images/nuhydration-iv-wellness-red-hook.jpg",
     "generatedAt": "2026-04-22"
+  },
+  "nu-revive-llc-lakewood": {
+    "path": "/clinic-images/nu-revive-llc-lakewood.jpg",
+    "generatedAt": "2026-04-23"
+  },
+  "hydro-flow-glow-easton": {
+    "path": "/clinic-images/hydro-flow-glow-easton.jpg",
+    "generatedAt": "2026-04-23"
+  },
+  "medical-seattle": {
+    "path": "/clinic-images/medical-seattle.jpg",
+    "generatedAt": "2026-04-23"
   }
 }
